@@ -1,0 +1,88 @@
+/*
+  ========================================
+  Grid
+  ========================================
+*/
+
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.chap-header {
+  font-size: 2.5em;
+  border-bottom-style: solid;
+}
+
+.chap-sidebar {
+  float: left;
+  padding: 0 20px 20px 20px;
+  width: 30%;
+}
+
+.chap-sidebar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.chap-sidebar li.topic {
+  font-size: 1.5em;
+  padding-top: 20px;
+}
+
+.chap-sidebar li.sub-topic {
+  font-size: 1em;
+  padding-left: 20px;
+}
+
+.chap-content {
+  float: right;
+  width: 70%;
+  padding: 10px;
+  border-left-style: solid;
+}
+
+.chap-content-topic {
+  font-size: 3em;
+  text-align: center;
+}
+
+word {
+  display: inline-block;
+  word-wrap: break-word;
+}
+
+.kanji-entry {
+  border-bottom: solid 1px;
+}
+
+word.kanji {
+  font-size: 2em;
+  width: 40%;
+}
+
+word.reading { 
+  width: 20%;
+}
+
+word.meaning {
+  width: 30%;
+  word-wrap: break-word;
+}
+
+
+
+
+
+
+
+
+
