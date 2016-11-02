@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <link rel="shortcut icon" href="">
+    <link rel="stylesheet" href="chapter.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <title>日本語３００</title>
+  </head>
+  <body>
+    <header class="chap-header">
+      <nav id="chap-header-nav">
+        何々
+      </nav>
+    </header>
+    
+    <section class="chap-sidebar">
+      <nav>
+        <ul>
+          <li class="topic"><a href="#chap-content-grammar">文法</a></li>
+          <ul id="chap-nav-grammar-topic"></ul>
+          <li class="topic"><a href="#chap-content-misc">大事な点</a></li>
+          <ul id="chap-nav-misc-topic">
+            <li class="sub-topic"><a href="#chap-content-misc-1">point 1</a></li>
+          </ul>
+          <li class="topic"><a href="#chap-content-kanji">漢字と単語</a></li>
+        </ul>
+      </nav>
+    </section>
+    
+    <section class="chap-content">
+      <section id="chap-content-grammar">
+        <div class="chap-content-topic">文法</div>
+      
+      </section>
+      <section id="chap-content-misc">
+        <div class="chap-content-topic">大事な点</div>
+        <div class="misc-point" id="chap-content-misc-1">
+        asdf
+        </div>
+        
+      </section>
+      <section id="chap-content-kanji">
+        <div class="chap-content-topic">漢字と単語</div>
+        <button type="button" id="show-kanji">show kanji</button>
+        <button type="button" id="hide-kanji">hide kanji</button>
+        <button type="button" id="show-reading">show reading</button>
+        <button type="button" id="hide-reading">hide reading</button>
+        <button type="button" id="show-meaning">show meaning</button>
+        <button type="button" id="hide-meaning">hide meaning</button>
+      </section>
+    </section>
+    
+    <script src="jquery-csv.js"></script>
+    <script src="build.js"></script>
+    <script src="L1.js"></script>
+    
+  </body>
+</html>
