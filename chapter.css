@@ -24,28 +24,32 @@ body {
 .chap-sidebar {
   float: left;
   padding: 0 20px 20px 20px;
-  width: 30%;
+  width: 20%;
 }
 
 .chap-sidebar ul {
-  list-style-type: none;
   margin: 0;
   padding: 0;
 }
 
 .chap-sidebar li.topic {
+  list-style-type: none;
   font-size: 1.5em;
   padding-top: 20px;
 }
 
 .chap-sidebar li.sub-topic {
   font-size: 1em;
+}
+
+#chap-nav-grammar-topic, #chap-nav-misc-topic {
+  list-style-type: square;
   padding-left: 20px;
 }
 
 .chap-content {
   float: right;
-  width: 70%;
+  width: 80%;
   padding: 10px;
   border-left-style: solid;
 }
@@ -55,28 +59,60 @@ body {
   text-align: center;
 }
 
-word {
-  display: inline-block;
-  word-wrap: break-word;
-}
-
 .kanji-entry {
   border-bottom: solid 1px;
 }
 
-word.kanji {
+kanji {
+  display: inline-block;
+  word-wrap: break-word;
+}
+
+kanji.kanji {
   font-size: 2em;
   width: 40%;
 }
 
-word.reading { 
+kanji.reading { 
   width: 20%;
 }
 
-word.meaning {
+kanji.meaning {
   width: 30%;
-  word-wrap: break-word;
 }
+
+.grammar-entry {
+  padding: 10px 0 10px 0;
+}
+
+.grammar-entry section {
+  padding: 2px 0 2px 0;
+}
+
+grammar {
+  word-wrap: break-word;
+  display: inline-block;
+}
+
+grammar.prepend {
+  font-size: 0.8em;
+  width: 5em;
+  color: red;
+}
+
+grammar.grammar-point {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.grammar-entry-t1 {
+  background-color: #F3F3F3;
+}
+
+.grammar-entry-t2 {
+  background-color: #E5E5E5;
+}
+
 
 
 

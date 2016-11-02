@@ -1,304 +1,56 @@
 "use strict";
 
-var L1_300_kanji_list = {
-  '1': {
-    kanji: '・',
-    reading: 'おじぎ',
-    meaning: 'bow'
-  },
-  '2': {
-    kanji: '敬語',
-    reading: 'けいご',
-    meaning: 'honorific expression'
-  },
-  '3': {
-    kanji: '初めて',
-    reading: 'はじめて',
-    meaning: 'for the first time'
-  },
-  '4': {
-    kanji: '留学する',
-    reading: 'りゅうがく（する）',
-    meaning: 'to study abroad'
-  },
-  '5': {
-    kanji: '高校',
-    reading: 'こうこう',
-    meaning: 'high school'
-  },
-  '6': {
-    kanji: '宿題',
-    reading: 'しゅくだい',
-    meaning: 'homework'
-  },
-  '7': {
-    kanji: '教える',
-    reading: 'おし（える）',
-    meaning: 'to teach, to tell'
-  },
-  '8': {
-    kanji: '友達',
-    reading: 'ともだち',
-    meaning: 'friend'
-  },
-  '9': {
-    kanji: '大学院',
-    reading: 'だいがくいん',
-    meaning: 'graduate school'
-  },
-  '10': {
-    kanji: '電気工学',
-    reading: 'でんきこうがく',
-    meaning: 'electrical engineering'
-  },
-  '11': {
-    kanji: '専攻',
-    reading: 'せんこう',
-    meaning: 'major （する：to major)'
-  },
-  '12': {
-    kanji: '学部',
-    reading: 'がくぶ',
-    meaning: 'department'
-  },
-  '13': {
-    kanji: '好き',
-    reading: 'す（き）',
-    meaning: 'a liking, a fondness'
-  },
-  '14': {
-    kanji: '趣味',
-    reading: 'しゅみ',
-    meaning: 'hobby'
-  },
-  '15': {
-    kanji: '一度',
-    reading: 'いちど',
-    meaning: 'once'
-  },
-  '16': {
-    kanji: '〜に興味を持つ',
-    reading: '〜にきょうみをもつ',
-    meaning: 'to have an interest in ~'
-  },
-  '17': {
-    kanji: '中学',
-    reading: 'ちゅうがく',
-    meaning: 'middle school (junior high)'
-  },
-  '18': {
-    kanji: '家族',
-    reading: 'かぞく',
-    meaning: 'family, family members'
-  },
-  '19': {
-    kanji: '遊ぶ',
-    reading: 'あそ（ぶ）',
-    meaning: 'to play, to have fun'
-  },
-  '20': {
-    kanji: '文化',
-    reading: 'ぶんか',
-    meaning: 'culture'
-  },
-  '21': {
-    kanji: '知識',
-    reading: 'ちしき',
-    meaning: 'knowledge'
-  },
-  '22': {
-    kanji: '豊富（な）',
-    reading: 'ほうふ（な）',
-    meaning: 'plenty'
-  },
-  '23': {
-    kanji: '卒業する',
-    reading: 'そつぎょう（する）',
-    meaning: 'to graduate'
-  },
-  '24': {
-    kanji: '勤める',
-    reading: 'つと（める）',
-    meaning: 'to work (for), to be employed (at)'
-  },
-  '25': {
-    kanji: '休暇',
-    reading: 'きゅうか',
-    meaning: 'vacation'
-  },
-  '26': {
-    kanji: '取る',
-    reading: 'と（る）',
-    meaning: 'to take (ie: a class, different from 撮る to take a picture)'
-  },
-  '27': {
-    kanji: '生まれる',
-    reading: 'う（まれる）',
-    meaning: 'to be born'
-  },
-  '28': {
-    kanji: '育つ',
-    reading: 'そだ（つ）',
-    meaning: 'to grow up'
-  },
-  '29': {
-    kanji: '名刺',
-    reading: 'めいし',
-    meaning: 'business card'
-  },
-  '30': {
-    kanji: '所',
-    reading: 'ところ',
-    meaning: 'place'
-  },
-  '31': {
-    kanji: '泊まる',
-    reading: 'と（まる）',
-    meaning: 'to stay at (ie: hotel, 旅館)'
-  },
-  '32': {
-    kanji: '・',
-    reading: 'ていねい（な）',
-    meaning: 'polite'
-  },
-  '33': {
-    kanji: '迎えに来る',
-    reading: 'むか（えに）く（る）',
-    meaning: 'to go and get (ie: to pick up)'
-  },
-  '34': {
-    kanji: '見つかる',
-    reading: 'み（つかる）',
-    meaning: 'to be found (intransitive)'
-  },
-  '35': {
-    kanji: '見つける',
-    reading: 'み（つける）',
-    meaning: 'to find (transitive)'
-  },
-  '36': {
-    kanji: '呼ぶ',
-    reading: 'よ（ぶ）',
-    meaning: 'to call out to, to summon?, to invoke?'
-  },
-  '37': {
-    kanji: '自分',
-    reading: 'じぶん',
-    meaning: 'onself'
-  },
-  '38': {
-    kanji: '年上',
-    reading: 'としうえ',
-    meaning: 'older'
-  },
-  '39': {
-    kanji: '年下',
-    reading: 'としした',
-    meaning: 'younger'
-  },
-  '40': {
-    kanji: '時差ぼけ',
-    reading: 'じさ（ぼけ）',
-    meaning: 'jet lag'
-  },
-  '41': {
-    kanji: '眠る',
-    reading: 'ねむ（る）',
-    meaning: 'to sleep, to be asleep (vs 寝る merely go to bed)'
-  },
-  '42': {
-    kanji: '連れて行く',
-    reading: 'つ（れて）い（く）',
-    meaning: 'to take someone'
-  },
-  '43': {
-    kanji: '結局',
-    reading: 'けっきょく',
-    meaning: 'in the end'
-  },
-  '44': {
-    kanji: '適当（な）',
-    reading: 'てきとう（な）',
-    meaning: 'appropriate'
-  },
-  '45': {
-    kanji: '引っ越す',
-    reading: 'ひっこ（す）',
-    meaning: 'to move'
-  },
-  '46': {
-    kanji: '知人',
-    reading: 'ちじん',
-    meaning: 'acquaintance'
-  },
-  '47': {
-    kanji: '若い',
-    reading: 'わかい',
-    meaning: 'young'
-  },
-  '48': {
-    kanji: '男性',
-    reading: 'だんせい',
-    meaning: 'man'
-  },
-  '49': {
-    kanji: '自己紹介',
-    reading: 'じこしょうかい',
-    meaning: 'self-introduction'
-  },
-  '50': {
-    kanji: '仕方',
-    reading: 'しかた',
-    meaning: 'way of doing (something)'
-  },
-  '51': {
-    kanji: '習う',
-    reading: 'なら（う）',
-    meaning: 'to learn'
-  },
-  '52': {
-    kanji: '中年',
-    reading: 'ちゅうねん',
-    meaning: 'middle-aged'
-  },
-  '53': {
-    kanji: '女性',
-    reading: 'じょせい',
-    meaning: 'woman'
-  },
-  '54': {
-    kanji: 'お互いの',
-    reading: '（お）たが（いの）',
-    meaning: 'each other'
-  },
-  '55': {
-    kanji: '美しい',
-    reading: 'うつく（しい）',
-    meaning: 'beautiful'
-  },
-  '56': {
-    kanji: '娘',
-    reading: 'むすめ',
-    meaning: 'daughter'
-  },
-  '57': {
-    kanji: '考える',
-    reading: 'かんが（える）',
-    meaning: 'to think about, to consider'
-  },
-  '58': {
-    kanji: '違う',
-    reading: 'ちが（う）',
-    meaning: 'to differ'
-  },
-  '59': {
-    kanji: '文法',
-    reading: 'ぶんぽう',
-    meaning: 'grammar'
-  },
-  '60': {
-    kanji: '両親',
-    reading: 'りょうしん',
-    meaning: 'parents'
-  }
-};
+var chap_num = '１';
+
+var chap_kanji_str = 'kanji,reading,meaning\n・,おじぎ,bow\n敬語,けいご,honorific expression\n初めて,はじ（めて）,for the first time\n留学する,りゅうがく（する）,to study abroad\n高校,こうこう,high school\n宿題,しゅくだい,homework\n教える,おし（える）,"to teach, to tell"\n友達,ともだち,friend\n大学院,だいがくいん,graduate school\n電気工学,でんきこうがく,electrical engineering\n専攻,せんこう,major (する：to major)\n学部,がくぶ,department (education)\n好き,す（き）,"a fondness, a liking"\n趣味,しゅみ,hobby\n一度,いちど,once\n〜に興味を持つ,（〜に）きょうみ（を）も（つ）,to have an interest in ~\n中学,ちゅうがく,middle school (junior high)\n家族,かぞく,"family, family members"\n遊ぶ,あそ（ぶ）,"to play, to have fun"\n文化,ぶんか,culture\n知識,ちしき,knowledge\n豊富（な）,ほうふ（な）,plenty\n卒業する,そつぎょう（する）,to graduage\n勤める,つと（める）,"to work (for), be employed (at)"\n休暇,きゅうか,vacation\n取る,と（る）,to take (ie: a class) (撮る：to take a picture)\n生まれる,う（まれる）,to be born\n育つ,そだ（つ）,to grow up\n名刺,めいし,business card\n所,ところ,place\n泊まる,と（まる）,"to stay (ie: a hotel, 旅館)"\n・,ていねい（な）,polite\n迎えに来る,むか（えに）く（る）,to go and get (ie: to pick up)\n見つかる,みつかる,to be found (intransitive)\n見つける,みつける,to find (transitive)\n呼ぶ,よ（ぶ）,to call (ie: call by name)\n自分,じぶん,oneself\n年上,としうえ,older\n年下,としした,younger\n時差ぼけ,じさ（ぼけ）,jet lag\n眠る,ねむ（る）,"to sleep, to be asleep (vs 寝る：go to bed)"\n連れて行く,つ（れて）い（く）,to take someone (along)\n結局,けっきょく,in the end\n適当（な）,てきとう（な）,appropriate\n引っ越す,ひっこ（す）,to move\n知人,ちじん,acquaintance\n若い,わかい,younger\n男性,だんせい,man\n自己紹介,じこしょうかい,self-introduction\n仕方,しかた,way of doing (something)\n習う,なら（う）,to learn\n中年,ちゅうねん,middle-aged\n女性,じょせい,woman\nお互いの,（お）たが（いの）,each other\n美しい,うつく（しい）,beautiful\n娘,むすめ,daughter\n考える,かんが（える）,"to think about, to consider"\n違う,ちが（う）,to differ (ie: is different)\n文法,ぶんぽう,grammar\n両親,りょうしん,parents';
+
+var chap_grammar_list = [
+{
+  grammar_point: 'verb(plain past)ばかり',
+  spec: 'verb(plain past)ばかり',
+  meaning: 'Have just (verb)ed, have just finished (verb)ing.',
+  use: 'ばかり can end a sentence (ばかり（だ・です)） and preceed conjunctions (ばかりだから) and other nouns (ばかりのｎｏｕｎ). [ie: nounal?]',
+  example: '『勉強したばかりです。』I have just finished my homework.',
+  other: '...'
+},
+{
+  grammar_point: 'あの',
+  spec: 'あの',
+  meaning: 'あの refers to a noun that is not in sight.  あの is used when both the speaker and listener are familiar with the person or thing.',
+  use: 'あの preceeds a noun.',
+  example: '『あの人』that person',
+  other: 'あの differs from その in that その refers to a noun with which only one person is familiar.'
+},
+{
+  grammar_point: 'verb(plain)ようになる (ie: using なる with verbs)',
+  spec: 'verb(plain)ようになる',
+  meaning: 'Such (verb)ing has become [past] or will become [present] (or take place, etc.).',
+  use: 'Conjugate なる in the [past] for verbing that has become.  Conjugate なる in the [present] for verbing that will become.',
+  example: '『漢字を読めるようになりました。』I became able to read kanji.',
+  other: 'Use dictionary, potential, 「〜ている」, etc. AND their negative forms.  It is useful to use this construction with verb(potential) ("I became able").'
+},
+{
+  grammar_point: '(sentence)なあ',
+  spec: '(sentence)なあ',
+  meaning: 'Emphatic exclaimation of one\'s feeling or wish.  Implies self dialogue.',
+  use: 'Sentence final particle.  Can be used to elicit response (id. 〜ね), which tends to be masculine.',
+  example: '『食べたいなあ。』I want to eat!',
+  other: '...'
+},
+{
+  grammar_point: 'verb(plain, progressive, past)ところ',
+  spec: 'verb(plain)ところ',
+  meaning: 'Is about to verb [present], is currently (verb)ing [ている], has just (verb)ed [past].',
+  use: 'Based on tense of verb(plain), meaning changes slightly.  ところ usually written with kana alone.  ところ declines as a noun.',
+  example: '『食べるところです』I am just about to eat.\n『食べているところです』I am in the middle of eating.\n『食べたところです』I just ate.',
+  other: '... [to look up: differenc between ばかり　ａｎｄ　ところ？]'
+},
+{
+  grammar_point: 'verb(plain)ことに（なっている・なった）',
+  spec: 'verb(plain)ことに（なってる・なった）',
+  meaning: 'Expresses that a decision has been made for the speaker outside of their control.',
+  use: 'Using なった reports that such decisions have been made.  Using なっている reports that future plans have been decided.  なっている is also used to describe rules, regulations, and social customs.',
+  example: '『教室では日本語で話すことになっています。』You are expected to speak Japanese in the classroom.',
+  other: '...'
+}
+];

@@ -18,9 +18,7 @@
       <nav>
         <ul>
           <li class="topic"><a href="#chap-content-grammar">文法</a></li>
-          <ul id="chap-nav-grammar-topic">
-            <li class="sub-topic"><a href="#chap-content-grammar-1">point 1</a></li>
-          </ul>
+          <ul id="chap-nav-grammar-topic"></ul>
           <li class="topic"><a href="#chap-content-misc">大事な点</a></li>
           <ul id="chap-nav-misc-topic">
             <li class="sub-topic"><a href="#chap-content-misc-1">point 1</a></li>
@@ -31,20 +29,19 @@
     </section>
     
     <section class="chap-content">
-      <div class="chap-content-topic">文法</div>
       <section id="chap-content-grammar">
-        <div class="grammar-point" id="chap-content-grammar-1">
-        asdf
-        </div>
+        <div class="chap-content-topic">文法</div>
+      
       </section>
-      <div class="chap-content-topic">大事な点</div>
       <section id="chap-content-misc">
+        <div class="chap-content-topic">大事な点</div>
         <div class="misc-point" id="chap-content-misc-1">
         asdf
         </div>
+        
       </section>
-      <div class="chap-content-topic">漢字と単語</div>
       <section id="chap-content-kanji">
+        <div class="chap-content-topic">漢字と単語</div>
         <button type="button" id="show-kanji">show kanji</button>
         <button type="button" id="hide-kanji">hide kanji</button>
         <button type="button" id="show-reading">show reading</button>
@@ -54,6 +51,7 @@
       </section>
     </section>
     
+    <script src="jquery-csv.js"></script>
     <script src="build.js"></script>
     <script src="L1.js"></script>
     
