@@ -1,19 +1,20 @@
 "use strict";
 
-var header_id = "#chap-header-nav";
+const header_id = "#chap-header-nav";
 
-var grammar_id = "#chap-content-grammar";
-var grammar_nav_id = "#chap-nav-grammar-topic"
-var misc_id = "#chap-content-misc";
-var kanji_id = "#chap-content-kanji";
+const grammar_id = "#chap-content-grammar";
+const grammar_nav_id = "#chap-nav-grammar-topic"
+const misc_id = "#chap-content-misc";
+const kanji_id = "#chap-content-kanji";
 
 
 $(window).on('load', function() {
-  var lesson_num = chap_num;
+  var course_name = local_course_name;
+  var chap_name = local_chap_name;
   var kanji_list = $.csv.toObjects(chap_kanji_str);
   var grammar_list = chap_grammar_list;
 
-  $(header_id).text("日本語３００／第" + lesson_num + "課");
+  $(header_id).append('<a href="../../nihongo.html">日本語</a>／<a href="../course.html">' + local_course_name + '</a>／' + chap_name);
 
   for (var i=0; i<kanji_list.length; i++) {
     var kl_kanji = kanji_list[i].kanji;

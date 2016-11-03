@@ -14,35 +14,50 @@
 
 body {
   margin: 0;
+  font-family: sans-serif;
+  font-size: 13px;
 }
 
-.chap-header {
+b.eg-highlight {
+  font-weigth: bold;
+}
+
+.course-header {
   font-size: 2.5em;
   border-bottom-style: solid;
+  padding: 5px;
 }
 
-.chap-sidebar {
+a:link {
+  text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.course-sidebar {
   float: left;
   padding: 0 20px 20px 20px;
   width: 20%;
 }
 
-.chap-sidebar ul {
+.course-sidebar ul {
   margin: 0;
   padding: 0;
 }
 
-.chap-sidebar li.topic {
+.course-sidebar li.topic {
   list-style-type: none;
   font-size: 1.5em;
   padding-top: 20px;
 }
 
-.chap-sidebar li.sub-topic {
+.course-sidebar li.sub-topic {
   font-size: 1em;
 }
 
-#chap-nav-grammar-topic, #chap-nav-misc-topic {
+#course-nav-chap-topic {
   list-style-type: square;
   padding-left: 20px;
 }
@@ -54,65 +69,22 @@ body {
   border-left-style: solid;
 }
 
-.chap-content-topic {
+.course-content-topic {
   font-size: 3em;
   text-align: center;
 }
 
-.kanji-entry {
-  border-bottom: solid 1px;
-}
-
-kanji {
-  display: inline-block;
-  word-wrap: break-word;
-}
-
-kanji.kanji {
-  font-size: 2em;
-  width: 40%;
-}
-
-kanji.reading { 
-  width: 20%;
-}
-
-kanji.meaning {
-  width: 30%;
-}
-
-.grammar-entry {
+.chapter-entry {
   padding: 10px 0 10px 0;
 }
 
-.grammar-entry section {
-  padding: 2px 0 2px 0;
-}
-
-grammar {
-  word-wrap: break-word;
-  display: inline-block;
-}
-
-grammar.prepend {
-  font-size: 0.8em;
-  width: 5em;
-  color: red;
-}
-
-grammar.grammar-point {
+chapter {
   font-size: 1.5em;
   font-weight: bold;
+  word-wrap: break-word;
+  overflow: hidden;
+  display: block;
 }
-
-.grammar-entry-t1 {
-  background-color: #F3F3F3;
-}
-
-.grammar-entry-t2 {
-  background-color: #E5E5E5;
-}
-
 
 
 
