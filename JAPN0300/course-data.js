@@ -4,5 +4,9 @@ const local_chap_list = [
 {
   name: '第１課',
   path: 'L1'
+},
+{
+  name: '第６課',
+  path: 'L6'
 }
 ];
