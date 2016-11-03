@@ -16,7 +16,7 @@ $(window).on('load', function() {
 
     var chapter_entry = [
     '<div class="chapter-entry" id="course-chap-' + i + '">',
-    '  <chapter><a href="./' + cl_chap_path + '/chapter.html">' + cl_chap_name + '</a></chapter>',
+    '  <chapter><a href="./' + cl_chap_path + '/">' + cl_chap_name + '</a></chapter>',
     '</div>'
     ].join('\n');
     var chapter_nav_entry = [
@@ -27,7 +27,7 @@ $(window).on('load', function() {
     $(chapter_id).append(chapter_entry);
   }
 
-  $(header_id).append('<a href="../nihongo.html">日本語</a>／' + local_course_name);
+  $(header_id).append('<a href="../">日本語</a>／' + local_course_name);
   
 });
 

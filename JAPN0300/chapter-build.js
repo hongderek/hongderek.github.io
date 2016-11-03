@@ -14,7 +14,7 @@ $(window).on('load', function() {
   var kanji_list = $.csv.toObjects(chap_kanji_str);
   var grammar_list = chap_grammar_list;
 
-  $(header_id).append('<a href="../../nihongo.html">日本語</a>／<a href="../course.html">' + local_course_name + '</a>／' + chap_name);
+  $(header_id).append('<a href="../../">日本語</a>／<a href="../">' + local_course_name + '</a>／' + chap_name);
 
   for (var i=0; i<kanji_list.length; i++) {
     var kl_kanji = kanji_list[i].kanji;
