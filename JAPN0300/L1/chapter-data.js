@@ -26,9 +26,9 @@ const chap_grammar_list = [
 {
   grammar_point: 'verb(plain)ようになる',
   spec: 'verb(plain)ようになる',
-  meaning: 'Such (verb)ing has become [past] or will become [present] (or take place, etc.).  (ie: using なる with verbs)',
+  meaning: 'Such (verb)ing has become (or came to be) [past] or will become (or will be) [present] (or take place, etc.).  (ie: using なる with verbs)',
   use: 'Conjugate なる in the [past] for verbing that has become.  Conjugate なる in the [present] for verbing that will become.',
-  example: '『漢字を<b class="eg-highlight">読めるようになりました</b>。』I became able to read kanji.',
+  example: '『漢字を<b class="eg-highlight">読めるようになりました</b>。』I became able to read kanji.<br>『日本に興味を<b class="eg-highlight">持つようになった</b>。』I came to have an interest in Japan.',
   other: 'It is useful to use this construction with verb(potential) ("I became able").  Further, verb(potential)なりたい ("I want to become able").'
 },
 {
@@ -121,7 +121,7 @@ const chap_grammar_list = [
 },
 {
   grammar_point: '(verb A(て))初めて(verb B)',
-  spec: 'verb(て)初めてのnoun',
+  spec: '(verb A(て))初めて(verb B)',
   meaning: 'The first (verb phrase B) when/after (verb phrase A);  When (verb A) happened, (verb B) occured for the first time.',
   use: 'I think て implies sequence.  ie: When (verb phrase A), then for the first time (verb phrase B)',
   example: '『アメリカに<b class="eg-highlight">着いて初めてハンバーガーを食べた</b>。』When I arrived in America, I ate a hamburger for the first time.',
@@ -140,6 +140,24 @@ const chap_grammar_list = [
 }
 */
 
+
+/**
+{
+  grammar_point: '',
+  spec: '',
+  meaning: '',
+  use: '',
+  example: {
+    sentence: {
+      ante: '',
+      highlight: '',
+      post''
+    },
+    translation: ''
+  },
+  other: ''
+}
+*/
 
 
 
