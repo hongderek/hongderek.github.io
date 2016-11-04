@@ -1,0 +1,66 @@
+.kanji-entry {
+  border-bottom: solid 1px;
+  padding-left: 10px;
+}
+
+.kanji-entry.kaku {
+  background-color: #FFFFCC;
+}
+
+kanji {
+  display: inline-block;
+  word-wrap: break-word;
+}
+
+kanji.kanji {
+  font-size: 2em;
+  width: 40%;
+}
+
+kanji.reading { 
+  width: 20%;
+}
+
+kanji.meaning {
+  width: 30%;
+}
+
+.grammar-entry {
+  padding: 10px;
+}
+
+.grammar-entry section {
+  padding: 3px 0 3px 0;
+}
+
+.grammar-point {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+/*.grammar-meaning,use,example,other*/
+
+grammar {
+  word-wrap: break-word;
+  overflow: hidden;
+  display: block;
+}
+
+grammar.prepend {
+  font-size: 0.8em;
+  width: 5em;
+  color: red;
+  vertical-align: top;
+  float: left;
+  padding-left: 5px;
+}
+
+
+
+
+
+
+
+
+
+

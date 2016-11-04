@@ -18,11 +18,16 @@ body {
   font-size: 13px;
 }
 
+ul {
+  margin: 0;
+  padding: 0;
+}
+
 b.eg-highlight {
   font-weigth: bold;
 }
 
-.course-header {
+.page-header {
   font-size: 2.5em;
   border-bottom-style: solid;
   padding: 5px;
@@ -36,61 +41,51 @@ a:hover {
     text-decoration: underline;
 }
 
-.course-sidebar {
+.sidebar {
   float: left;
-  padding: 0 20px 20px 20px;
+  padding: 10px;
   width: 20%;
 }
 
-.course-sidebar ul {
-  margin: 0;
-  padding: 0;
-}
-
-.course-sidebar li.topic {
+.sidebar-topic {
   list-style-type: none;
-  font-size: 1.5em;
-  padding-top: 20px;
+  font-size: 1.7em;
+  padding-bottom: 5px;
 }
 
-.course-sidebar li.sub-topic {
+.sidebar-subtopic {
   font-size: 1em;
 }
 
-#course-nav-chap-topic {
+.sidebar-subtopic-list {
   list-style-type: square;
-  padding-left: 20px;
+  padding: 0 0 10px 20px;
 }
 
-.chap-content {
+.content {
   float: right;
   width: 80%;
-  padding: 10px;
   border-left-style: solid;
 }
 
-.course-content-topic {
+.content-topic {
   font-size: 3em;
   text-align: center;
 }
 
-.chapter-entry {
-  padding: 10px 0 10px 0;
+.content-topic.eng {
+  padding: 10px;
 }
 
-chapter {
-  font-size: 1.5em;
-  font-weight: bold;
-  word-wrap: break-word;
-  overflow: hidden;
-  display: block;
+/* default is jap */
+.content-topic.jap {
+  padding: 0;
 }
 
+.bg-grey-light {
+  background-color: #F3F3F3;
+}
 
-
-
-
-
-
-
-
+.bg-grey-dark {
+  background-color: #E5E5E5;
+}

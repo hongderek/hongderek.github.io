@@ -2,33 +2,47 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
+
+    <link rel="stylesheet" href="/Users/derekhong/ngix%20websites/hongderek.github.io/style/page.css">
+    <link rel="stylesheet" href="/Users/derekhong/ngix%20websites/hongderek.github.io/style/nihongo.css">
+    <link rel="shortcut icon" href="/Users/derekhong/ngix%20websites/hongderek.github.io/favicon.ico">
+    
     <link rel="shortcut icon" href="/favicon.ico">
-    <link rel="stylesheet" href="nihongo.css">
+    <link rel="stylesheet" href="/style/page.css">
+    <link rel="stylesheet" href="/style/nihongo.css">
+    
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <title>日本語</title>
   </head>
   <body>
-    <header class="course-header">
-      <nav id="course-header-nav">日本語／</nav>
+    <header class="page-header">
+      <nav id="page-header-nav">／日本語／</nav>
     </header>
     
-    <section class="course-sidebar">
+    <section class="sidebar">
       <nav>
         <ul>
-          <li class="topic"><a href="#chap-content-grammar">文法</a></li>
-          <ul id="course-nav-chap-topic"></ul>
+          <li class="sidebar-topic"><a href="#chap-content-grammar">Courses</a></li>
+            <ul class="sidebar-subtopic-list" id="sidebar-course-list"></ul>
         </ul>
       </nav>
     </section>
     
-    <section class="chap-content">
+    <section class="content">
       <section id="course-content-chaps">
-        <div class="course-content-topic">文法</div>
-        <div class="chapter-entry">
-          <chapter><a href="./JAPN0300/">日本語３００</a></chapter>
+        <div class="content-topic eng">Courses</div>
+        <div class="course-entry">
+          <course><a href="./JAPN0300/">日本語３００</a></course>
         </div>
       </section>
     </section>
+    
+    <script src="/Users/derekhong/ngix%20websites/hongderek.github.io/js/jquery-csv.js"></script>
+    <script src="/Users/derekhong/ngix%20websites/hongderek.github.io/js/nihongo-build.js"></script>
+    
+    <script src="/js/jquery-csv.js"></script>
+    <script src="/js/course-build.js"></script>
+    <script src="nihongo-data.js"></script>
     
   </body>
 </html>

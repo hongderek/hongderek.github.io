@@ -1,9 +1,9 @@
 "use strict";
 
-const header_id = "#course-header-nav";
+const header_id = "#page-header-nav";
 
-const chapter_id = "#course-content-chaps";
-const chapter_nav_id = '#course-nav-chap-topic'
+const chapter_id = "#content-chapter";
+const chapter_nav_id = '#sidebar-chapter-list'
 
 
 $(window).on('load', function() {
@@ -20,14 +20,14 @@ $(window).on('load', function() {
     '</div>'
     ].join('\n');
     var chapter_nav_entry = [
-    '  <li class="sub-topic"><a href="#course-chap-' + i + '">' + cl_chap_name + '</a></li>'
+    '  <li class="sidebar-subtopic"><a href="#course-chap-' + i + '">' + cl_chap_name + '</a></li>'
     ].join('\n');
 
     $(chapter_nav_id).append(chapter_nav_entry);
     $(chapter_id).append(chapter_entry);
   }
 
-  $(header_id).append('<a href="../">日本語</a>／' + local_course_name);
+  $(header_id).append('／<a href="../">日本語</a>／' + local_course_name);
   
 });
 

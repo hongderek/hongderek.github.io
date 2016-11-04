@@ -1,0 +1,56 @@
+"use strict";
+
+const header_id = "#page-header-nav";
+
+const course_id = "#content-course";
+const course_nav_id = '#sidebar-course-list'
+
+
+$(window).on('load', function() {
+  var course_list = local_course_list;
+
+  for(var i=0; i<course_list.length; i++) {
+    var cl_course_name = course_list[i].name;
+    var cl_course_path = course_list[i].path;
+
+    var course_entry = [
+    '<div class="course-entry" id="nihongo-course-' + i + '">',
+    '  <course><a href="./' + cl_course_path + '/">' + cl_course_name + '</a></course>',
+    '</div>'
+    ].join('\n');
+    var course_nav_entry = [
+    '  <li class="sidebar-subtopic"><a href="#nihongo-course-' + i + '">' + cl_course_name + '</a></li>'
+    ].join('\n');
+
+    $(course_nav_id).append(course_nav_entry);
+    $(course_id).append(course_entry);
+  }
+  
+});
+
+
+$( "#show-kanji" ).on( "click", function() {
+  $("kanji.kanji").show();
+});
+$( "#hide-kanji" ).on( "click", function() {
+  $("kanji.kanji").hide();
+});
+$( "#show-reading" ).on( "click", function() {
+  $("kanji.reading").show();
+});
+$( "#hide-reading" ).on( "click", function() {
+  $("kanji.reading").hide();
+});
+$( "#show-meaning" ).on( "click", function() {
+  $("kanji.meaning").show();
+});
+$( "#hide-meaning" ).on( "click", function() {
+  $("kanji.meaning").hide();
+});
+
+// $( "#foo" ).on( "click", function() {
+//   alert( $( this ).text() );
+// });
+// $( "#foo" ).trigger( "click" );
+
+
