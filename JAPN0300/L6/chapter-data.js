@@ -12,13 +12,13 @@ const chap_grammar_list = [
     spec: '〜って',
     meaning: 'They say, ~.  ~, so I hear.',
     use: {
-      text: 'A sentence ending in plain form is put before って。　Use to qualify information obtained through secondary sources (vs what is known firsthand).  Such distinction is immortant in Japanese.',
+      text: 'A sentence ending in plain form is put before って。　Used to qualify information obtained through secondary sources (vs what is known firsthand).  Such distinction is important in Japanese.',
       species: []
     },
     example: [
       {
         sentence: {
-          ante: '『東京の冬はあまりさむくないんだ',
+          ante: '『東京の冬はあまり寒くないんだ',
           highlight: 'って',
           post: 'ねえ。』'
         },
@@ -61,11 +61,31 @@ const chap_grammar_list = [
     other: '([present]ことは[present])・([past]ことは[past]) note that the tense on either side of ことは should match.'
   },
   {
+    grammar_point: '(noun)でいいです／(noun)でけっこうです',
+    spec: 'nounでいいです／nounでけっこうです',
+    meaning: '(noun) will do; (noun) will suffice',
+    use: {
+      text: 'けっこう means "sufficient, enough".',
+      species: []
+    },
+    example: [
+      {
+        sentence: {
+          ante: '『',
+          highlight: 'お茶でけっこうです',
+          post: '。』'
+        },
+        translation: 'Green tea is fine.'
+      }
+    ],
+    other: '...'
+  },
+  {
     grammar_point: '〜とは限る[neg]（漢字：「かぎ」る）',
     spec: '〜とは限る[neg]',
     meaning: 'It is not necessarily the case that ~(sentence).  It does not mean that ~(sentence).',
     use: {
-      text: '限る[neg] is 限らない／限りません。 The preceeding statement should end in plain form.  The expression is octen used with 必ずしも（also expresses "not always; not necessarily").',
+      text: '限る[neg] is 限らない／限りません。 The preceeding statement should end in plain form.  The expression is often used with 必ずしも（also expresses "not always; not necessarily").',
       species: [
         {
           jap: '〜とは（限らない・限りません）',
