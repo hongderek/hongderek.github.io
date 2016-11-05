@@ -281,7 +281,7 @@ const chap_grammar_list = [
         translation: 'It is impossible for me to speak Japanese.'
       },
     ],
-    other: 'cf: 「(verb phrase A)[past]ら、(verb phrase B)[present]」is the /conditional/ use of [past]ら (ie: 〜たら).  It means "IF A, then B".  Note in difference of tense.'
+    other: '...'
   },
   {
     grammar_point: 'verb(stem)方',
@@ -402,17 +402,6 @@ const chap_grammar_list = [
     other: 'This construction seems to imply "first time ever" or "first time in my life".'
   }
 ];
-
-/**
-{
-  grammar_point: '',
-  spec: '',
-  meaning: '',
-  use: '',
-  example: '',
-  other: ''
-}
-*/
 
 
 /**
