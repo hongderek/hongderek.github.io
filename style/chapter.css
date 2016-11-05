@@ -57,8 +57,17 @@ grammar.prepend {
 
 species {
   display: block;
+}
+
+species.jap {
+  float: left;
   background-color: #bedfe2;
 }
+
+species.eng {
+  
+}
+
 
 
 
