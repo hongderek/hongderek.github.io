@@ -56,7 +56,6 @@ grammar.prepend {
 }
 
 species {
-  display: inline-block;
   overflow: hidden;
 }
 
