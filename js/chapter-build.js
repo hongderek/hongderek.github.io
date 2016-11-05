@@ -58,7 +58,7 @@ $(window).on('load', function() {
     for(var j=0; j<gl_use_species_list.length; j++) {
       var jap = gl_use_species_list[j].jap;
       var eng = gl_use_species_list[j].eng;
-      gl_use += '<species>' + jap + eng + '</species>';
+      gl_use += '<species>' + jap + '</species>' + eng;
     }
 
     /*example: [
