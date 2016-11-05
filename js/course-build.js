@@ -31,29 +31,3 @@ $(window).on('load', function() {
   
 });
 
-
-$( "#show-kanji" ).on( "click", function() {
-  $("kanji.kanji").show();
-});
-$( "#hide-kanji" ).on( "click", function() {
-  $("kanji.kanji").hide();
-});
-$( "#show-reading" ).on( "click", function() {
-  $("kanji.reading").show();
-});
-$( "#hide-reading" ).on( "click", function() {
-  $("kanji.reading").hide();
-});
-$( "#show-meaning" ).on( "click", function() {
-  $("kanji.meaning").show();
-});
-$( "#hide-meaning" ).on( "click", function() {
-  $("kanji.meaning").hide();
-});
-
-// $( "#foo" ).on( "click", function() {
-//   alert( $( this ).text() );
-// });
-// $( "#foo" ).trigger( "click" );
-
-
