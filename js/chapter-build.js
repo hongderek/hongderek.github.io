@@ -76,7 +76,7 @@ $(window).on('load', function() {
     var sent_post = gl_example_list[0].sentence.post;
     var sent_translation = gl_example_list[0].translation;
     var gl_example = sent_ante + sent_highlight + sent_post + sent_translation;
-    for(var j=1; var j<gl_example_list.length; j++) {
+    for(var j=1; j<gl_example_list.length; j++) {
       sent_ante = gl_example_list[j].sentence.ante;
       sent_highlight = gl_example_list[j].sentence.highlight;
       sent_post = gl_example_list[j].sentence.post;
