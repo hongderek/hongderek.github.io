@@ -56,11 +56,14 @@ grammar.prepend {
 }
 
 species {
+  display: inline-block;
+}
+
+species.combo {
   display: block;
 }
 
 species.jap {
-  float: left;
   background-color: #bedfe2;
 }
 
