@@ -39,16 +39,58 @@ $(window).on('load', function() {
     var gl_grammar_point = grammar_list[i].grammar_point;
     var gl_spec = grammar_list[i].spec;
     var gl_meaning = grammar_list[i].meaning;
-    var gl_use = grammar_list[i].use;
-    var gl_example = grammar_list[i].example;
+    var gl_use_obj = grammar_list[i].use;
+    var gl_example_list = grammar_list[i].example;
     var gl_other = grammar_list[i].other;
+
+    /*use: {
+      text: '',
+      species: [
+        {
+          jap: '',
+          eng: ''
+        }
+      ],
+    }*/
+
+    var gl_use = gl_use_obj.text;
+    var gl_use_species_list = gl_use_obj.species;
+    for(var i=0; i<gl_use_species_list.length; i++) {
+      var jap = gl_use_species_list[i].jap;
+      var eng = gl_use_species_list[i].eng;
+      gl_use += '<br>' + jap + eng;
+    }
+
+    /*example: [
+      {
+        sentence: {
+          ante: '',
+          highlight: '',
+          post: ''
+        },
+        translation: ''
+      },
+    ]*/
+    var sent_ante = gl_example_list[0].sentence.ante;
+    var sent_highlight = gl_example_list[0].sentence.highlight;
+    var sent_post = gl_example_list[0].sentence.post;
+    var sent_translation = gl_example_list[0].translation;
+    var gl_example = sent_ante + sent_highlight + sent_post + sent_translation;
+    for(var i=1; var i<gl_example_list.length; i++) {
+      sent_ante = gl_example_list[i].sentence.ante;
+      sent_highlight = gl_example_list[i].sentence.highlight;
+      sent_post = gl_example_list[i].sentence.post;
+      sent_translation = gl_example_list[i].translation;
+      gl_example += '<br>' + sent_ante + '<b class="eg-highlight">' + sent_highlight + '</b>' + sent_post + sent_translation;
+    }
+
     var grammar_entry = [ 
     '<div class="grammar-entry" id="content-grammar-point-' + i + '">',
     '  <section class="grammar-point">' + gl_grammar_point + '</section>',
-    '  <section class="grammar-meaning bg-grey-light"><grammar class="prepend">Meaning: </grammar>' + gl_meaning + '</section>',
-    '  <section class="grammar-use bg-grey-dark"><grammar class="prepend">Use: </grammar>' + gl_use + '</section>',
-    '  <section class="grammar-example bg-grey-light"><grammar class="prepend">Example: </grammar>' + gl_example + '</section>',
-    '  <section class="grammar-other bg-grey-dark"><grammar class="prepend">Notes: </grammar>' + gl_other + '</section>',
+    '  <section class="grammar-meaning bg-grey-light"><grammar class="prepend">Meaning: </grammar><grammar>' + gl_meaning + '</grammar></section>',
+    '  <section class="grammar-use bg-grey-dark"><grammar class="prepend">Use: </grammar><grammar>' + gl_use + '</grammar></section>',
+    '  <section class="grammar-example bg-grey-light"><grammar class="prepend">Example: </grammar><grammar>' + gl_example + '</grammar></section>',
+    '  <section class="grammar-other bg-grey-dark"><grammar class="prepend">Notes: </grammar><grammar>' + gl_other + '</grammar></section>',
     '</div>'
     ].join('\n');
     var grammar_nav_entry = [
