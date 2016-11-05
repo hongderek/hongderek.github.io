@@ -8,13 +8,25 @@ const chap_kanji_str = 'kanji,reading,meaning,kaku\n店,みせ,shop; store; rest
 
 const chap_grammar_list = [
 {
-  grammar_point: 'asdf',
-  spec: 'asdf',
-  meaning: 'asdf',
-  use: 'asdf',
-  example: 'asdf',
-  other: 'asdf'
-}
+    grammar_point: 'asdf',
+    spec: 'asdf',
+    meaning: 'asdf',
+    use: {
+      text: 'asdf',
+      species: []
+    },
+    example: [
+      {
+        sentence: {
+          ante: 'asdf',
+          highlight: 'asdf',
+          post: 'asdf'
+        },
+        translation: 'asdf'
+      }
+    ],
+    other: 'asdf'
+  }
 ];
 
 /**
