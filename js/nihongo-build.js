@@ -19,7 +19,7 @@ $(window).on('load', function() {
     '</div>'
     ].join('\n');
     var course_nav_entry = [
-    '  <li class="sidebar-subtopic"><a href="#nihongo-course' + i + '">' + cl_course_name + '</a></li>'
+    '  <li class="sidebar-subtopic"><a href="#nihongo-course-' + i + '">' + cl_course_name + '</a></li>'
     ].join('\n');
 
     $(course_nav_id).append(course_nav_entry);
