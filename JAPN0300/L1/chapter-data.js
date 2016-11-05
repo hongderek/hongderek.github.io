@@ -121,7 +121,7 @@ const chap_grammar_list = [
       species: [
         {
           jap: '『verb[present]ところ』',
-          eng: 'Just about to verb'.
+          eng: 'Just about to verb.'
         },
         {
           jap: '『verb[ている]ところ』',

@@ -55,9 +55,9 @@ $(window).on('load', function() {
 
     var gl_use = gl_use_obj.text;
     var gl_use_species_list = gl_use_obj.species;
-    for(var i=0; i<gl_use_species_list.length; i++) {
-      var jap = gl_use_species_list[i].jap;
-      var eng = gl_use_species_list[i].eng;
+    for(var j=0; j<gl_use_species_list.length; j++) {
+      var jap = gl_use_species_list[j].jap;
+      var eng = gl_use_species_list[j].eng;
       gl_use += '<br>' + jap + eng;
     }
 
@@ -76,11 +76,11 @@ $(window).on('load', function() {
     var sent_post = gl_example_list[0].sentence.post;
     var sent_translation = gl_example_list[0].translation;
     var gl_example = sent_ante + sent_highlight + sent_post + sent_translation;
-    for(var i=1; var i<gl_example_list.length; i++) {
-      sent_ante = gl_example_list[i].sentence.ante;
-      sent_highlight = gl_example_list[i].sentence.highlight;
-      sent_post = gl_example_list[i].sentence.post;
-      sent_translation = gl_example_list[i].translation;
+    for(var j=1; var j<gl_example_list.length; j++) {
+      sent_ante = gl_example_list[j].sentence.ante;
+      sent_highlight = gl_example_list[j].sentence.highlight;
+      sent_post = gl_example_list[j].sentence.post;
+      sent_translation = gl_example_list[j].translation;
       gl_example += '<br>' + sent_ante + '<b class="eg-highlight">' + sent_highlight + '</b>' + sent_post + sent_translation;
     }
 
