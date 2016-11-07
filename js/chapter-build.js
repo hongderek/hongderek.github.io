@@ -10,12 +10,52 @@ const kanji_id = "#content-kanji";
 
 
 $(window).on('load', function() {
+
   var course_name = local_course_name;
   var chap_name = local_chap_name;
   var kanji_list = $.csv.toObjects(chap_kanji_str);
   var grammar_list = chap_grammar_list;
+  var note_list = chap_note_list;
 
   $(header_id).append('／<a href="../../">日本語</a>／<a href="../">' + local_course_name + '</a>／' + chap_name);
+
+
+  /**
+    {
+      topic: '',
+      spec: '',
+      subtopic_list: [
+        {
+          subtopic: '',
+          desc: ''
+        }
+      ]
+    }
+  */
+  for (var i=0; i<chap_note_list.length; i++) {
+    var nl_topic = note_list[i].topic;
+    var nl_spec = note_list[i].spec;
+    var nl_subtopic_list = note_list[i].subtopic_list;
+
+    var note_expo = '';
+    for(var j=0; j<nl_subtopic_list.length; j++) {
+      var subtopic_name = nl_subtopic_list[j].subtopic;
+      var subtopic_desc = nl_subtopic_list[j].desc;
+      note_expo += '<note class="subtopic">' + subtopic_name + '</note><note class="desc">' + subtopic_desc + '</note>';
+    }
+
+
+    var note_entry = [
+    '<div class="note-entry">',
+    '  <section class="note-topic">' + nl_topic + '</section>',
+    '  <section class="note-expo">',
+         note_expo,
+    '  </section>',
+    '</div>'
+    ].join('\n');
+
+    $(misc_id).append(note_entry);
+  }
 
   for (var i=0; i<kanji_list.length; i++) {
     var kl_kanji = kanji_list[i].kanji;
@@ -93,6 +133,7 @@ $(window).on('load', function() {
     '  <section class="grammar-other bg-grey-dark"><grammar class="prepend">Notes: </grammar><grammar>' + gl_other + '</grammar></section>',
     '</div>'
     ].join('\n');
+
     var grammar_nav_entry = [
     '  <li class="sidebar-subtopic"><a href="#content-grammar-point-' + i + '">' + gl_spec + '</a></li>'
     ].join('\n');

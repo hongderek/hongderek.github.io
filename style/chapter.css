@@ -73,6 +73,37 @@ species.eng {
 }
 
 
+.note-entry {
+  padding: 10px;
+}
+
+.note-entry section {
+  padding: 3px 0 3px 0;
+}
+
+.note-topic {
+  font-size: 1.5em;
+  font-weigth: bold;
+}
+
+.note-expo {
+  border-left: 5px;
+  border-color: red;
+}
+
+note {
+  display: block;
+}
+
+note.subtopic {
+  
+}
+
+note.desc {
+  
+}
+
+
 
 
 
