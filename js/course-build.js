@@ -27,7 +27,7 @@ $(window).on('load', function() {
     $(chapter_id).append(chapter_entry);
   }
 
-  $(header_id).append('／<a href="../">日本語</a>／' + local_course_name);
+  $(header_id).append('／<a href="/">日本語</a>／' + local_course_name);
   
 });
 

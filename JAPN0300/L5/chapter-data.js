@@ -1,7 +1,7 @@
 "use strict";
 
 const local_course_name = '日本語３００';
-
+const local_course_path = 'JAPN0300'
 const local_chap_name = '第５課';
 
 /**

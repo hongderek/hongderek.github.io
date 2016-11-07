@@ -12,12 +12,13 @@ const kanji_id = "#content-kanji";
 $(window).on('load', function() {
 
   var course_name = local_course_name;
+  var course_path = local_course_path;
   var chap_name = local_chap_name;
   var kanji_list = $.csv.toObjects(chap_kanji_str);
   var grammar_list = chap_grammar_list;
   var note_list = chap_note_list;
 
-  $(header_id).append('／<a href="../../">日本語</a>／<a href="../">' + local_course_name + '</a>／' + chap_name);
+  $(header_id).append('／<a href="/">日本語</a>／<a href="/' + local_course_path + '">' + local_course_name + '</a>／' + chap_name);
 
 
   /**
