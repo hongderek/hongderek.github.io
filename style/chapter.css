@@ -83,15 +83,15 @@ species.eng {
 
 .note-topic {
   font-size: 1.5em;
-  font-weigth: bold;
+  font-weight: bold;
 }
 
 .note-expo {
-  border-left: 5px;
-  border-color: red;
+  border-bottom: solid 5px red;
 }
 
 note {
+  padding-left: 5px;
   display: block;
 }
 
