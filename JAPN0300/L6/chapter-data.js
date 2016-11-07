@@ -25,7 +25,7 @@ const chap_note_list = [
     spec: '（〜から）です。',
     subtopic_list: [
       {
-        subtopic: '',
+        subtopic: 'asdf',
         desc: '〜から：because.  Is full sentence to give answer to question (ie: 〜ですか)。'
       }
     ]
