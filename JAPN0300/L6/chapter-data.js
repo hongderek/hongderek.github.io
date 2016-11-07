@@ -27,6 +27,24 @@ const chap_note_list = [
       {
         subtopic: 'asdf',
         desc: '〜から：because.  Is full sentence to give answer to question (ie: 〜ですか)。'
+      },
+      {
+        subtopic: 'asdf',
+        desc: '〜から：because.  Is full sentence to give answer to question (ie: 〜ですか)。'
+      }
+    ]
+  },
+  {
+    topic: '（〜から）です。',
+    spec: '（〜から）です。',
+    subtopic_list: [
+      {
+        subtopic: 'asdf',
+        desc: '〜から：because.  Is full sentence to give answer to question (ie: 〜ですか)。'
+      },
+      {
+        subtopic: 'asdf',
+        desc: '〜から：because.  Is full sentence to give answer to question (ie: 〜ですか)。'
       }
     ]
   }
