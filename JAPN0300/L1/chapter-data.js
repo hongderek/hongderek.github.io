@@ -16,12 +16,12 @@ const chap_kanji_str = 'kanji,reading,meaning,kaku\n・,おじぎ,bow,\n敬語,�
 
 const chap_note_list = [
   {
-    topic: '',
-    spec: '',
+    topic: 'asdf',
+    spec: 'asdf',
     subtopic_list: [
       {
-        subtopic: '',
-        desc: ''
+        subtopic: 'asdf',
+        desc: 'asdf'
       }
     ]
   }

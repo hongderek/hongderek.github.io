@@ -16,12 +16,12 @@ const chap_kanji_str = 'kanji,reading,meaning,kaku\n求める,もと（める）
 
 const chap_note_list = [
   {
-    topic: '',
-    spec: '',
+    topic: 'asdf',
+    spec: 'asdf',
     subtopic_list: [
       {
-        subtopic: '',
-        desc: ''
+        subtopic: 'asdf',
+        desc: 'asdf'
       }
     ]
   }
@@ -29,24 +29,24 @@ const chap_note_list = [
 
 const chap_grammar_list = [
   {
-    grammar_point: 'verb(plain past)ばかり',
-    spec: 'verb(plain past)ばかり',
-    meaning: 'Have just (verb)ed, have just finished (verb)ing.',
+    grammar_point: 'asdf',
+    spec: 'asdf',
+    meaning: 'asdf',
     use: {
-      text: 'ばかり can end a sentence (ばかり（だ・です)） and preceed conjunctions (ばかりだから) and other nouns (ばかりのｎｏｕｎ).',
+      text: 'asdf',
       species: []
     },
     example: [
       {
         sentence: {
-          ante: '『勉強',
-          highlight: 'したばかり',
-          post: 'です。』'
+          ante: 'asdf',
+          highlight: 'asdf',
+          post: 'asdf'
         },
-        translation: 'I have just finished my homework.'
+        translation: 'asdf'
       }
     ],
-    other: 'Grammatically, ばかり is technically a particle, but it seems to be like a noun?  (cf. Vところ for differences)'
+    other: 'asdf'
   }
 ];
 
