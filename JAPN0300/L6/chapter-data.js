@@ -25,26 +25,62 @@ const chap_note_list = [
     spec: '（〜から）です。',
     subtopic_list: [
       {
-        subtopic: 'asdf',
-        desc: '〜から：because.  Is full sentence to give answer to question (ie: 〜ですか)。'
-      },
-      {
-        subtopic: 'asdf',
+        subtopic: '',
         desc: '〜から：because.  Is full sentence to give answer to question (ie: 〜ですか)。'
       }
     ]
   },
   {
-    topic: '（〜から）です。',
-    spec: '（〜から）です。',
+    topic: 'Please explain ~',
+    spec: 'Please explain ~',
     subtopic_list: [
       {
-        subtopic: 'asdf',
-        desc: '〜から：because.  Is full sentence to give answer to question (ie: 〜ですか)。'
+        subtopic: 'I want an explaination for this graph',
+        desc: 'このグラフは説明してもらいたい。'
+      }
+    ]
+  },
+  {
+    topic: 'Motion verbs （に）',
+    spec: 'Motion verbs （に）',
+    subtopic_list: [
+      {
+        subtopic: 'These verbs take 〜に',
+        desc: '行く、来る、帰る、入る、乗る、留学する、移る、引っ越す、参加する'
+      }
+    ]
+  },
+  {
+    topic: 'Expressing similarity',
+    spec: 'Expressing similarity',
+    subtopic_list: [
+      {
+        subtopic: '似ている：to be the same/similar',
+        desc: '似る（漢字：に（る））：to be similar.  Usually used in ている form ie: 似ている。'
+      }
+    ]
+  },
+  {
+    topic: 'verb(plain, non-past)ことがある',
+    spec: 'verb(plain, non-past)ことがある',
+    subtopic_list: [
+      {
+        subtopic: '〜ある',
+        desc: 'There are times/cases when 〜.  ie: sometimes, from time to time'
       },
       {
-        subtopic: 'asdf',
-        desc: '〜から：because.  Is full sentence to give answer to question (ie: 〜ですか)。'
+        subtopic: '〜ない',
+        desc: 'There are no occasions when 〜.  ie: almost never'
+      }
+    ]
+  },
+  {
+    topic: 'verb(volitional)とする',
+    spec: 'verb(volitional)とする',
+    subtopic_list: [
+      {
+        subtopic: 'Try to do ___',
+        desc: 'と seems to function as it does in と思う、と考える、etc.'
       }
     ]
   }
