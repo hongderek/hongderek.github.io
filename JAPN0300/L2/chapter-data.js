@@ -86,7 +86,7 @@ const chap_grammar_list = [
         {
           jap: '『それから』',
           eng: 'And.  Specifically implies a sequence of events, so some sequences are ungrammatical.'
-        }
+        },
         {
           jap: '『それで』　',
           eng: 'Therefore; so.  Implies a causal relationship between two sentences.'
