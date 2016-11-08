@@ -93,6 +93,32 @@ const chap_note_list = [
         desc: 'literally wat'
       }
     ]
+  },
+  {
+    topic: '覚えるセンテンス',
+    spec: '覚えるセンテンス',
+    subtopic_list: [
+      {
+        subtopic: 'Sentences to remember:',
+        desc: '丼の作り方が必ずしも簡単とは限らない。'
+      },
+      {
+        subtopic: '',
+        desc: '日本に行った時に高級な旅館に泊まります。'
+      },
+      {
+        subtopic: '',
+        desc: '日本に行く時に五十代の友達に会いました。'
+      },
+      {
+        subtopic: '',
+        desc: 'トムは日本の習慣に慣(な)れたことは慣(な)れたらしいです。'
+      },
+      {
+        subtopic: '',
+        desc: 'やはり、外国に比べると日本の物価は高いのではないかと思う。'
+      }
+    ]
   }
 ];
 
@@ -208,7 +234,7 @@ const chap_grammar_list = [
       species: [
         {
           jap: '「verb[present]前に(clause[present/past])」　　 ',
-          eng: '"Before verb, clause.".  The verb which preceeds 前に must be [present].'
+          eng: '"Before verb, clause.".  The verb which preceeds 前に must be [present].  前 is read as 「まえ」。'
         },
         {
           jap: '「verb[past]後（で）(clause[present/past])」　 ',
@@ -216,7 +242,7 @@ const chap_grammar_list = [
         },
         {
           jap: '「verb[present]時（に）(clause[present/past])」',
-          eng: '"When verb, clause".  "When" here implies that the the preceeding action occurs DURING/BEFORE the main verb.'
+          eng: '"When verb, clause".  "When" here implies that the the preceeding action occurs DURING/BEFORE the main verb.  に is optional.  時 is read as 「とき」。'
         },
         {
           jap: '「verb[past]時（に）(clause[present/past])」　  ',
