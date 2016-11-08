@@ -16,13 +16,36 @@ const chap_kanji_str = 'kanji,reading,meaning,kaku\n・,おじぎ,bow,\n敬語,�
 
 const chap_note_list = [
   {
-    topic: 'asdf',
-    spec: 'asdf',
+    topic: 'Phrases',
+    spec: 'phrases',
     subtopic_list: [
       {
-        subtopic: 'asdf',
-        desc: 'asdf'
+        subtopic: '〜に興味を持っている',
+        desc: 'to have an interest in　〜'
+      },
+      {
+        subtopic: '〜に興味を持つようになる',
+        desc: 'to become interested in 〜'
       }
+    ]
+  },
+  {
+    topic: '〜のに　vs　〜ので',
+    spec: '〜のに　vs　〜ので',
+    subtopic_list: [
+      {
+        subtopic: '',
+        desc: '〜のに：Although (contrary to one\'s expectation) ; 〜ので：because'
+      }
+    ]
+  },
+  {
+    topic: 'verb(て)（もらう・あげる）',
+    spec: 'verb(て)（もらう・あげる）',
+    subtopic_list: [
+      {
+        subtopic: 'Receiving/giving favor',
+        desc: 'Only used for living things.'
     ]
   }
 ];
@@ -103,7 +126,7 @@ const chap_grammar_list = [
         translation: 'I came to have an interest in Japan.'
       }
     ],
-    other: 'It is useful to use this construction with verb(potential) ("I became able").  Further, verb(potential)なりたい ("I want to become able").'
+    other: 'It is useful to use this construction with verb(potential) ("I became able").  Note that verb(pot.) does not take を (rather, が).  Further, verb(potential)なりたい ("I want to become able").'
   },
   {
     grammar_point: '(sentence)なあ',

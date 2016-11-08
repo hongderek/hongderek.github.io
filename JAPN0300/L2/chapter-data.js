@@ -29,24 +29,195 @@ const chap_note_list = [
 
 const chap_grammar_list = [
   {
-    grammar_point: 'asdf',
-    spec: 'asdf',
-    meaning: 'asdf',
+    grammar_point: 'verb[neg]で',
+    spec: 'verb[neg]で',
+    meaning: 'Without verb(ing)...; Instead of verb(ing)...',
     use: {
-      text: 'asdf',
+      text: '(ie: verbないで).  A negative verb(て) form.  Usually followed by another verb and indicates a manner in which the action is carried out.  Often carries the connotation that one was expected to do the verb but did not.',
       species: []
     },
     example: [
       {
         sentence: {
-          ante: 'asdf',
-          highlight: 'asdf',
-          post: 'asdf'
+          ante: '『日本では、何も',
+          highlight: '言わないで',
+          post: '食事を始めるのは失礼だ。』'
         },
-        translation: 'asdf'
+        translation: 'In Japan, it is rude to begin a meal without saying anything.'
       }
     ],
-    other: 'asdf'
+    other: '...'
+  },
+  {
+    grammar_point: 'verb(ば)いいのに',
+    spec: 'verb(ば)いいのに',
+    meaning: 'You should verb.  (lit. It would be good if you verb)',
+    use: {
+      text: 'Casual.  Usually ends the sentence.  Usually used to suggest the opposite of what the other person is doing or not doing.',
+      species: []
+    },
+    example: [
+      {
+        sentence: {
+          ante: '『もっと早く',
+          highlight: '寝ればいいのに',
+          post: '。』'
+        },
+        translation: 'You should go to bed earlier.'
+      }
+    ],
+    other: '...'
+  },
+  {
+    grammar_point: 'それに（and other conjunctions)',
+    spec: 'それに',
+    meaning: 'moreover; besides',
+    use: {
+      text: 'A carnival of conjunctions: ',
+      species: [
+        {
+          jap: '『それに』　',
+          eng: 'Moreover; besides.'
+        },
+        {
+          jap: '『そして』　',
+          eng: 'And.  Used in general, does not necessarily imply a sequence of events'
+        }
+        {
+          jap: '『それから』',
+          eng: 'And.  Specifically implies a sequence of events, so some sequences are ungrammatical.'
+        }
+        {
+          jap: '『それで』　',
+          eng: 'Therefore; so.  Implies a causal relationship between two sentences.'
+        }
+      ]
+    },
+    example: [
+      {
+        sentence: {
+          ante: '『日本料理屋へ行った。',
+          highlight: 'そして',
+          post: 'お寿司をたべた。』'
+        },
+        translation: 'I went to a Japanese restaurant and ate sushi.  (NOTE: それから cannot be used here)'
+      },
+      {
+        sentence: {
+          ante: '『買い物に行きました。',
+          highlight: '（それから・そして）',
+          post: 'パーティーへ行った。』'
+        },
+        translation: 'I went shopping.  And (then) I went to a party.  (NOTE: because there is a sequence of events, それから may be used.)'
+      }
+    ],
+    other: '...'
+  },
+  {
+    grammar_point: 'なかなかverb[neg]',
+    spec: 'なかなかverb[neg]',
+    meaning: 'Not easily (verb).  Verb is not easily done.',
+    use: {
+      text: 'なかなか、when used with a verb[neg] means something is not easly done or it takes time to do verb.',
+      species: []
+    },
+    example: [
+      {
+        sentence: {
+          ante: '『漢字が',
+          highlight: 'なかなか覚えられる',
+          post: '。』'
+        },
+        translation: 'Kanji is not easily able to be remembered.  Kanji takes a long time to be able to be remembered.'
+      }
+    ],
+    other: 'You can do なかなかverb(potential)[neg] for "Not easily able to be done".'
+  },
+  {
+    grammar_point: '(Q word)(sentence plain)か分かる[neg]',
+    spec: '(Q word)(sentence)か分かる[neg]',
+    meaning: 'I don\'t know when/what/where/who/etc. (sentence).',
+    use: {
+      text: 'Used to embed a wh-question in another sentence.  End the embedded question in plain form plus か.  だ is optional.  かどうか embeds a yes-no question.',
+      species: [
+        {
+          jap: '(Q word)(sentence plain)かわからない',
+          eng: 'I don\'t know who/when/what/where/etc. (embedded question)'
+        },
+        {
+          jap: '(sentence plain)かどうかわからない',
+          eng: 'I don\'t know whether (embedded question)'
+        }
+      ]
+    },
+    example: [
+      {
+        sentence: {
+          ante: '『<b class="eg-highlight">いつ</b>日本へ行く',
+          highlight: 'か分かりません',
+          post: '。』'
+        },
+        translation: 'I don\'t know when I will go to Japan.'
+      },
+      {
+        sentence: {
+          ante: '『日本人',
+          highlight: '（だ）かどうか知りません',
+          post: '。』'
+        },
+        translation: 'I don\'t know whether he is Japanese.'
+      }
+    ],
+    other: 'The embedded question does not necessarily have to be followed by 分かる[neg].'
+  },
+  {
+    grammar_point: 'しかverb[neg]',
+    spec: 'しかverb[neg]',
+    meaning: 'Only; no more than',
+    use: {
+      text: 'Implies that the aforementioned amount/item is not enough or less than expected.  しか replaces は、が、を (like も), but other particles are retained as ＿しか (eg: nounにしか).',
+      species: [
+        {
+          jap: '(#, counter)しか（ない・ありません）',
+          eng: 'Only # of counter (such that it is not enough).'
+        },
+        {
+          jap: '(#, counter)しかverb[neg]',
+          eng: 'Only verb(ed) # of counter.'
+        },
+        {
+          jap: 'noun(を)しかverb[neg]',
+          eng: 'Only verb noun.'
+        }
+      ]
+    },
+    example: [
+      {
+        sentence: {
+          ante: '『五ドル',
+          highlight: 'しかない',
+          post: '。』'
+        },
+        translation: 'I only have five dollars.'
+      },
+      {
+        sentence: {
+          ante: '『五時間',
+          highlight: 'しか寝なかった',
+          post: '。』'
+        },
+        translation: 'I only slept five hours.'
+      },
+      {
+        sentence: {
+          ante: '『漫画を',
+          highlight: 'しか読めません。',
+          post: '。』'
+        },
+        translation: 'I only read manga.'
+      }
+    ],
+    other: 'In other words, しか ＋ ない carries the meaning of "only" in a negative way.'
   }
 ];
 
