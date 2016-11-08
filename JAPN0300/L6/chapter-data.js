@@ -188,6 +188,107 @@ const chap_grammar_list = [
       }
     ],
     other: '...'
+  },
+  {
+    grammar_point: 'verb(plain)（前に・〜後（で）・〜時（に））(clause)',
+    spec: 'verb(plain)前に、〜後（で）、〜時（に）',
+    meaning: 'Before〜; After〜; When([present, [past])〜',
+    use: {
+      text: 'Time particles indicate the temporal situation of the preceeding action to the following clause.  There are rules which govern whether to use [present] or [past] in the preceeding action, however, the main verb always governs the embeded verb\'s tense in translation.  It\'s quite fun to think about the sequence of actions.',
+      species: [
+        {
+          jap: '「verb[present]前に(clause[present/past])」　　 ',
+          eng: '"Before verb, clause.".  The verb which preceeds 前に must be [present].'
+        },
+        {
+          jap: '「verb[past]後（で）(clause[present/past])」　　',
+          eng: '"After verb, clause".  The verb which preceeds 後 must be [past].  で is optional.  後 is read as 「あと」。'
+        },
+        {
+          jap: '「verb[present]時（に）(clause[present/past])」',
+          eng: '"When verb, clause".  "When" here implies that the the preceeding action occurs DURING or BEFORE the main verb.'
+        },
+        {
+          jap: '「verb[past]時（に）(clause[present/past])」　 ',
+          eng: '"When verb, clause".  "When" here implies that the the preceeding action occured AFTER the main verb.'
+        }
+      ]
+    },
+    example: [
+    {
+        sentence: {
+          ante: '',
+          highlight: '',
+          post: ''
+        },
+        translation: 'Notice how the changes in verb tense will change translation slightly in the following examples:'
+      },
+      {
+        sentence: {
+          ante: '前に：『試験を',
+          highlight: '取る前に',
+          post: '食べる。』'
+        },
+        translation: 'I will eat before I take the test.'
+      },
+      {
+        sentence: {
+          ante: '　　：『試験を',
+          highlight: '取る前に',
+          post: '食べた。』'
+        },
+        translation: 'I ate before I took the test.  (note: how 取る is [present], but its tense in translation is dictated by the main clause)'
+      },
+      {
+        sentence: {
+          ante: '後で：『試験を',
+          highlight: '取る後で',
+          post: '食べる。』'
+        },
+        translation: 'I will eat after I take the test.'
+      },
+      {
+        sentence: {
+          ante: '　　：『試験を',
+          highlight: '取る後で',
+          post: '食べた。』'
+        },
+        translation: 'I ate after I took the test.  (note: tense change in translation)'
+      },
+      {
+        sentence: {
+          ante: '時に：『試験を',
+          highlight: '取る時に',
+          post: '食べる。』'
+        },
+        translation: 'I will eat when I take the test [before/during].  (ie: When I take the test, I\'ll eat beforehand/during)'
+      },
+      {
+        sentence: {
+          ante: '　　：『試験を',
+          highlight: '取った時に',
+          post: '食べる。』'
+        },
+        translation: 'I will eat when I take the test [after].  (ie: When I take the test, I\'ll eat afterwards)'
+      },
+      {
+        sentence: {
+          ante: '　　：『試験を',
+          highlight: '取る時に',
+          post: '食べた。』'
+        },
+        translation: 'I ate when I took the test [before/during].  (ie: When I took the test, I ate beforehand/during)'
+      },
+      {
+        sentence: {
+          ante: '　　：『試験を',
+          highlight: '取った時に',
+          post: '食べた。』'
+        },
+        translation: 'I ate when I took the test [after].  (ie: When I took the test, I ate afterwards)'
+      }
+    ],
+    other: 'In "After/before verb, (clause[present])" is useful to use verb(volitional) in the clause.  Such as, "Before/after verb, let\'s _____."  (eg: "After the test, let\'s party!")'
   }
 ];
 
