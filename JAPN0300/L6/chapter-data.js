@@ -242,7 +242,7 @@ const chap_grammar_list = [
       {
         sentence: {
           ante: '後で：『試験を',
-          highlight: '取る後で',
+          highlight: '取った後で',
           post: '食べる。』'
         },
         translation: 'I will eat after I take the test.'
@@ -250,7 +250,7 @@ const chap_grammar_list = [
       {
         sentence: {
           ante: '　　：『試験を',
-          highlight: '取る後で',
+          highlight: '取った後で',
           post: '食べた。』'
         },
         translation: 'I ate after I took the test.  (note: tense change in translation)'
@@ -289,6 +289,203 @@ const chap_grammar_list = [
       }
     ],
     other: 'In "After/before verb, (clause[present])" is useful to use verb(volitional) in the clause.  Such as, "Before/after verb, let\'s _____."  (eg: "After the test, let\'s party!")'
+  },
+  {
+    grammar_point: '何(counter)も',
+    spec: '何(counter)も',
+    meaning: '何(counter)も is a phrase which means "many of that which is counted by (counter)".',
+    use: {
+      text: '何(counter)も also has a negative analogue 「一(counter)も[neg]」',
+      species: [
+        {
+          jap: '「何(counter)も」',
+          eng: 'Many (counter)s (esp. 「何度も」 many times)'
+        },
+        {
+          jap: '「何十(counter)も」',
+          eng: 'Dozens of (counter)s (lit. "tens of (counter)s")'
+        },
+        {
+          jap: '「一(counter)も[neg]」　 ',
+          eng: 'Not even one (counter)'
+        }
+      ]
+    },
+    example: [
+      {
+        sentence: {
+          ante: '『日本へは',
+          highlight: '何度も',
+          post: '行ったことがあります。』'
+        },
+        translation: 'I\'ve been to Japan many times.'
+      },
+      {
+        sentence: {
+          ante: '『日本へは',
+          highlight: '何度も',
+          post: '行ったことがありません。』'
+        },
+        translation: 'I have not been to Japan even once.'
+      }
+    ],
+    other: '何(counter)も and it\'s negative analogue take no particles.'
+  },
+  {
+    grammar_point: '(verb A (volitional)）か（verb B (vol.)）かと（心配する・迷う・考える）',
+    spec: 'verb(volitional)かverb(vol.)かと',
+    meaning: 'Wondering whether to (verb A) or (verb B).',
+    use: {
+      text: 'Such construction is followed by 心配する、迷う、考える。  Such verbs can be [past] as well (wodered whether to...).  Indicates the subject is wondering which option to take.',
+      species: [
+        {
+          jap: '心配する',
+          eng: 'しんぱい（する）：Worried whether to A or B.'
+        },
+        {
+          jap: '迷う　　',
+          eng: 'まよ（う）：Lost, hesitating, puzzled whether to A or B.'
+        },
+        {
+          jap: '考える　',
+          eng: 'かんが（える）：Considering whether to A or B.'
+        }
+      ]
+    },
+    example: [
+      {
+        sentence: {
+          ante: '『お寿司に<b class="eg-highlight">しようか</b>天ぷらに',
+          highlight: 'しようかと迷った',
+          post: '。』'
+        },
+        translation: 'I had trouble deciding whether to have sushi or tempura.'
+      }
+    ],
+    other: '...'
+  },
+  {
+    grammar_point: '〜のではない（でしょうか・だろうか・か）',
+    spec: '〜のではない（でしょうか・だろうか・か）',
+    meaning: 'I think it might be the case that 〜。',
+    use: {
+      text: 'Yet another indirect way to express one\'s opinon.  「〜」is usually a sentence ending in plain form.  「〜ではないだろうか」can be followed by と plus verbs like 思う、心配する、etc.  There are several contractions and rules as follows:',
+      species: [
+        {
+          jap: 'verb(plain)のではない〜',
+          eng: ''
+        },
+        {
+          jap: '(adjい)[い]のではない〜',
+          eng: ''
+        },
+        {
+          jap: '(adjな)[な]のではない〜',
+          eng: 'Note that な is used.'
+        },
+        {
+          jap: '(noun)[な]のではない〜',
+          eng: 'Note that な is used.'
+        },
+        {
+          jap: '〜んじゃない（でしょうか・だろうか）',
+          eng: 'Contraction of 〜のではない in colloquial speech.'
+        },
+        {
+          jap: '〜のではないかと（思う・etc）',
+          eng: 'Contraction of 〜のではないだろうか when followed by と plus verbs like 思う、心配する、etc.'
+        }
+      ]
+    },
+    example: [
+      {
+        sentence: {
+          ante: '『チップを払わなくてもいい',
+          highlight: 'のではないでしょうか',
+          post: '。』'
+        },
+        translation: 'I think it is OK not to leave a tip.  (Might it not be the case that it\'s OK to not leave a tip?)'
+      },
+      {
+        sentence: {
+          ante: '『最近、日本語のできる外国人は増えてきている',
+          highlight: 'のではないかと思います',
+          post: '。』'
+        },
+        translation: 'Recently, I think (that I think it might be the case that) (the number of) foreigners who can speak Japanese has increased.'
+      }
+    ],
+    other: 'This is a soft way to suggest something.  A literal translation might be "Might it not be the case that 〜"?'
+  },
+  {
+    grammar_point: 'むしろ',
+    spec: 'むしろ',
+    meaning: 'Rather (than); more ___ than the other (more preferable, fits the description more, etc)',
+    use: {
+      text: 'むしろ is used when comparing two alternatives to say that one is more ___ than the other.  Usually preceeded by a より clause which describes what is lesser.  Translation is very contextual; think of むしろ as a "leaning towards" or describing preference.',
+      species: [
+        {
+          jap: '（eg）(clause A)よりむしろ(clause B)',
+          eng: '"Rather/more than" (clause A), (clause B)'
+        },
+        {
+          jap: 'structure: ',
+          eng: 'the first, lesser option --> the second, better option'
+        }
+      ]
+    },
+    example: [
+      {
+        sentence: {
+          ante: '『夏かぜは冬のかぜより',
+          highlight: 'むしろ',
+          post: '治りにくいです。』'
+        },
+        translation: 'A summer cold is even harder to get rid of than a winter cold.  (Summer colds, (compared to) winter colds, are rather more difficult to get rid of.)'
+      }
+    ],
+    other: 'Often, when むしろ is used there is a certain general or contextual expectation that the opposite is true.  (ie: "You may think that ..., but ____ is rather more _____")'
+  },
+  {
+    grammar_point: '意外に',
+    spec: '意外に',
+    meaning: 'More/less than expected; contrary to one\'s expectation.',
+    use: {
+      text: '意外に（漢字：いがい（に））is a phrase.  What comes after (usually adj) is what was contrary to expectation.  The adjectives are in plain form (the examples only use [past], but I\'m sure [present] also occurs?), but are comparative in translation thanks to 意外に。',
+      species: [
+        {
+          jap: '〜は「意外に」adj[past]',
+          eng: 'As for 〜、it was adj(er) than expected'
+        }
+      ]
+    },
+    example: [
+      {
+        sentence: {
+          ante: '『試験は',
+          highlight: '意外に',
+          post: '簡単だった。』'
+        },
+        translation: 'The test was easier than expected.'
+      },
+      {
+        sentence: {
+          ante: '『りんごは',
+          highlight: '意外に',
+          post: '安かった。』'
+        },
+        translation: 'The apples were cheaper than expected.  (ie: more cheap)'
+      },
+      {
+        sentence: {
+          ante: '『りんごは',
+          highlight: '意外に',
+          post: '安くなかった。』'
+        },
+        translation: 'The apples were not as cheap as I expected.  (ie: less cheap)'
+      }
+    ],
+    other: 'I actually don\'t know about the last example, notes on this online are scant.'
   }
 ];
 
