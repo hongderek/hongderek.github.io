@@ -82,7 +82,7 @@ const chap_grammar_list = [
         {
           jap: '『そして』　',
           eng: 'And.  Used in general, does not necessarily imply a sequence of events'
-        }
+        },
         {
           jap: '『それから』',
           eng: 'And.  Specifically implies a sequence of events, so some sequences are ungrammatical.'
