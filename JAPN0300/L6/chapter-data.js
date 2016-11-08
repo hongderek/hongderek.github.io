@@ -83,6 +83,16 @@ const chap_note_list = [
         desc: 'と seems to function as it does in と思う、と考える、etc.'
       }
     ]
+  },
+  {
+    topic: 'The suffering passive',
+    spec: 'The suffering passive',
+    subtopic_list: [
+      {
+        subtopic: 'wat',
+        desc: 'literally wat'
+      }
+    ]
   }
 ];
 
@@ -426,7 +436,7 @@ const chap_grammar_list = [
       species: [
         {
           jap: '（eg）(clause A)よりむしろ(clause B)',
-          eng: '"Rather/more than" (clause A), (clause B)'
+          eng: '"Rather/more than" (clause A) is so, (clause B) is such.'
         },
         {
           jap: 'structure: ',
@@ -441,7 +451,7 @@ const chap_grammar_list = [
           highlight: 'むしろ',
           post: '治りにくいです。』'
         },
-        translation: 'A summer cold is even harder to get rid of than a winter cold.  (Summer colds, (compared to) winter colds, are rather more difficult to get rid of.)'
+        translation: 'A summer cold is even harder to get rid of than a winter cold.  (Summer colds, than (compared to) winter colds, are rather more difficult to get rid of.)'
       }
     ],
     other: 'Often, when むしろ is used there is a certain general or contextual expectation that the opposite is true.  (ie: "You may think that ..., but ____ is rather more _____")'
@@ -451,10 +461,10 @@ const chap_grammar_list = [
     spec: '意外に',
     meaning: 'More/less than expected; contrary to one\'s expectation.',
     use: {
-      text: '意外に（漢字：いがい（に））is a phrase.  What comes after (usually adj) is what was contrary to expectation.  The adjectives are in plain form (the examples only use [past], but I\'m sure [present] also occurs?), but are comparative in translation thanks to 意外に。',
+      text: '意外に（漢字：いがい（に））is a phrase.  What comes after (ie: adj) is what was contrary to expectation.  The adjectives are in plain form (the examples only use [past], but I\'m sure [present] also occurs?), but are comparative in translation thanks to 意外に。',
       species: [
         {
-          jap: '〜は「意外に」adj[past]',
+          jap: '〜は「意外に」adj[past] ',
           eng: 'As for 〜、it was adj(er) than expected'
         }
       ]
