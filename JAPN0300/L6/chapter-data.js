@@ -201,15 +201,15 @@ const chap_grammar_list = [
           eng: '"Before verb, clause.".  The verb which preceeds 前に must be [present].'
         },
         {
-          jap: '「verb[past]後（で）(clause[present/past])」　　',
+          jap: '「verb[past]後（で）(clause[present/past])」　 ',
           eng: '"After verb, clause".  The verb which preceeds 後 must be [past].  で is optional.  後 is read as 「あと」。'
         },
         {
           jap: '「verb[present]時（に）(clause[present/past])」',
-          eng: '"When verb, clause".  "When" here implies that the the preceeding action occurs DURING or BEFORE the main verb.'
+          eng: '"When verb, clause".  "When" here implies that the the preceeding action occurs DURING/BEFORE the main verb.'
         },
         {
-          jap: '「verb[past]時（に）(clause[present/past])」　 ',
+          jap: '「verb[past]時（に）(clause[present/past])」　  ',
           eng: '"When verb, clause".  "When" here implies that the the preceeding action occured AFTER the main verb.'
         }
       ]
