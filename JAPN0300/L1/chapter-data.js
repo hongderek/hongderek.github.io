@@ -46,6 +46,7 @@ const chap_note_list = [
       {
         subtopic: 'Receiving/giving favor',
         desc: 'Only used for living things.'
+      }
     ]
   }
 ];
