@@ -17,7 +17,7 @@ const chap_kanji_str = 'kanji,reading,meaning,kaku\n・,おじぎ,bow,\n敬語,�
 const chap_note_list = [
   {
     topic: 'Phrases',
-    spec: 'phrases',
+    spec: 'Phrases',
     subtopic_list: [
       {
         subtopic: '〜に興味を持っている',
