@@ -359,7 +359,7 @@ const chap_grammar_list = [
       {
         sentence: {
           ante: '『日本へは',
-          highlight: '何度も',
+          highlight: '一度も',
           post: '行ったことがありません。』'
         },
         translation: 'I have not been to Japan even once.'
@@ -403,7 +403,7 @@ const chap_grammar_list = [
   {
     grammar_point: '〜のではない（でしょうか・だろうか・か）',
     spec: '〜のではない（でしょうか・だろうか・か）',
-    meaning: 'I think it might be the case that 〜。',
+    meaning: 'I think it might be the case that 〜。  (however, the focus here should be on the feeling, rather than literal translation)',
     use: {
       text: 'Yet another indirect way to express one\'s opinon.  「〜」is usually a sentence ending in plain form.  「〜ではないだろうか」can be followed by と plus verbs like 思う、心配する、etc.  There are several contractions and rules as follows:',
       species: [
