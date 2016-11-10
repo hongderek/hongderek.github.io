@@ -6,7 +6,7 @@ const local_chap_list = [
   path: 'L1'
 },
 {
-  name: '第２課(wip)',
+  name: '第２課',
   path: 'L2'
 },
 {
