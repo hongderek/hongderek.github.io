@@ -144,11 +144,11 @@ const chap_grammar_list = [
     other: 'cf. そうだ、といっていました、らしい'
   },
   {
-    grammar_point: '(verb/adj)ことは(verb/adj)が、(sentence)',
+    grammar_point: '(verb/adj)ことは(verb/adj)（が、〜）',
     spec: '〜ことは（〜が）',
-    meaning: 'It is[present] indeed the case that (verb/adj), but...; It was[past] indeed the case that (verb/adj), but...',
+    meaning: 'It is[present] indeed the case that (verb/adj)(, but...); It was[past] indeed the case that (verb/adj)(, but...)',
     use: {
-      text: 'This is another way to qualify one\'s statements.  The verb or adjective is repeated before and after ことは。 Both sides should match in tense.  〜が functions as a conjunction.',
+      text: 'This is another way to qualify one\'s statements.  The verb or adjective is repeated before and after ことは。 Both sides should match in tense.  〜が is optional.',
       species: [
         {
           jap: '（いadj）い・ことは（いadj）い',
@@ -487,7 +487,7 @@ const chap_grammar_list = [
     spec: '意外に',
     meaning: 'More/less than expected; contrary to one\'s expectation.',
     use: {
-      text: '意外に（漢字：いがい（に））is a phrase.  What comes after (ie: adj) is what was contrary to expectation.  The adjectives are in plain form (the examples only use [past], but I\'m sure [present] also occurs?), but are comparative in translation thanks to 意外に。',
+      text: '意外に（漢字：いがい（に））is a phrase.  意外と is a more colloquial form.  What comes after (ie: adj) is what was contrary to expectation.  The adjectives are in plain form (the examples only use [past], but I\'m sure [present] also occurs?), but are comparative in translation thanks to 意外に。',
       species: [
         {
           jap: '〜は「意外に」adj[past] ',
@@ -521,7 +521,7 @@ const chap_grammar_list = [
         translation: 'The apples were not as cheap as I expected.  (ie: less cheap)'
       }
     ],
-    other: 'I actually don\'t know about the last example, notes on this online are scant.'
+    other: '...'
   }
 ];
 
