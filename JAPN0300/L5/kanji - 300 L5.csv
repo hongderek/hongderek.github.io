@@ -1,12 +1,12 @@
 kanji,reading,meaning,kaku
 求める,もと（める）,to seek (ie: advice アドバイスを),hai
-与える,あた（える）,to give (ie: advice アドバイスを),hai
+与える,あた（える）,"to give, to bestow (ie: advice アドバイスを)",hai
 指導教授,しどうきょうじゅ,academic advisor,
 発表,はっぴょう,announcement (する：to announce),hai
 建物,たてもの,building,
 〜号室,〜ごうしつ,counter for room number,
 場所,ばしょ,place,
-相談,そうだん,"a consultation, discussion",
+相談,そうだん,"a consultation, discussion (する：to consult)",
 移る,うつ（る）,"to move, transfer (in general) (cf. 引っ越す：to move (residence))",hai
 成績,せいせき,grade,
 予習,よしゅう,to prepare for class,hai
@@ -21,7 +21,7 @@ kanji,reading,meaning,kaku
 居酒屋,いざかや,Japanese-style pub,
 歓迎会,かんげいかい,welcome party,
 一生けんめい,いっしょう（けんめい）,"very hard, with utmost effort, for dear life (一生懸命)",
-将来,しょうらい,future,
+将来,しょうらい,in the future,
 一流（の）,いちりゅう（の）,"first-rate, foremost (noun with gen. case particle の)",
 就職する,しゅうしょく（する）,to get a job,
 部活動,ぶかつどう,club activities,hai
@@ -51,7 +51,7 @@ kanji,reading,meaning,kaku
 強い,つよ（い）,strong,
 関して,かん（して）,about; concerning,hai
 一般的（に）,いっぱんてき（に）,generally,hai
-楽（な）,らく（な）,easy,
+楽（な）,らく（な）,"easy, comfortable",
 講義,こうぎ,lecture,
 点,てん,"point (mark, score, grade, point; also of an argument)",hai
 重要（な）,じゅうよう（な）,"important, principal, essential",hai
@@ -59,3 +59,13 @@ kanji,reading,meaning,kaku
 年々,ねんねん,every year,
 付き合い,つ（き）あ（い）,socialization; association,
 時代,じだい,age; period; era,hai
+伺う,うかが（う）,to ask (hum. 聞く),
+玄関,げんかん,entrance (to house or building),
+もう一歩,（もう）いっぽ,just one more step (ie: just a bit more improvement),
+島,しま,island,
+・,ため,"sake, purpose, objective",
+・,もちろん,"definitely, certainly, naturally",
+好く,す（く）,to like (transitive を),
+少ない,すく（ない）,"few, low in number",
+・,また,also,
+場合,ばあい,"case, situation",
