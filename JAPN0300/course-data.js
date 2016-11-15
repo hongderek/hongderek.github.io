@@ -20,7 +20,7 @@ const local_chap_list = [
   name: '第６課',
   path: 'L6'
 },{
-  name: '第７課',
-  path: 'L7(wip)'
+  name: '第７課(wip)',
+  path: 'L7'
 }
 ];
