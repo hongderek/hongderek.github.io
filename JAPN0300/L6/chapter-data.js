@@ -26,7 +26,7 @@ const chap_note_list = [
     subtopic_list: [
       {
         subtopic: '',
-        desc: '〜から：because.  Is full sentence to give answer to question (ie: 〜ですか)。'
+        desc: '〜から：because.  The preceeding sentence is the answer to question (ie: 〜ですか)。  A more colloquial form of 〜んです which is from 〜のです。'
       }
     ]
   },

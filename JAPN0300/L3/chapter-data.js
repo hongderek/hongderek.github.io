@@ -29,24 +29,104 @@ const chap_note_list = [
 
 const chap_grammar_list = [
   {
-    grammar_point: 'asdf',
-    spec: 'asdf',
-    meaning: 'asdf',
+    grammar_point: 'verb[neg]で',
+    spec: 'verb[neg]で',
+    meaning: 'Don\'t (verb).',
     use: {
-      text: 'asdf',
-      species: []
+      text: 'A contraction of a request using the negative て form of verbs: verb[neg]でください。',
+      species: [
+        {
+          jap: 'verbないで：',
+          eng: 'don\'t verb'
+        }
+      ]
     },
     example: [
       {
         sentence: {
-          ante: 'asdf',
-          highlight: 'asdf',
-          post: 'asdf'
+          ante: '『',
+          highlight: '遅れないで',
+          post: '。』'
         },
-        translation: 'asdf'
+        translation: 'Don\'t be late.'
       }
     ],
-    other: 'asdf'
+    other: '...'
+  },{
+    grammar_point: 'verb(causative, て)いただけないでしょうか',
+    spec: 'verb(causative, て)いただけないでしょうか',
+    meaning: 'May I do ___?  Lit. "Could I not receive the favor of your letting me do 〜?".',
+    use: {
+      text: 'A very indirect way of asking for permission to do something.  Not to be confused with verb(て)いただけないでしょうか which means "Could you do ___?".',
+      species: [
+        {
+          jap: 'verb(causative, て)いただけないでしょうか：',
+          eng: 'May I do verb?'
+        },{
+          jap: 'verb(て)いただけないでしょうか：　　　　　　　',
+          eng: 'Could you do verb?'
+        }
+      ]
+    },
+    example: [
+      {
+        sentence: {
+          ante: '『前の日に試験を',
+          highlight: '受けさせていただけないでしょうか',
+          post: '。』'
+        },
+        translation: 'May I take the test one day early?'
+      }
+    ],
+    other: '...'
+  },{
+    grammar_point: '〜中に',
+    spec: '〜中に',
+    meaning: 'Sometime during 〜。  By the end of 〜。',
+    use: {
+      text: 'Decribes a time frame (eg: by the end of this week, by the end of today, etc.).  The reading of 「中」 will be 「ちゅう」 or 「じゅう」 depending on the preceeding word.',
+      species: [
+        {
+          jap: '(time-frame)中に：',
+          eng: 'By the end of (time-frame).'
+        }
+      ]
+    },
+    example: [
+      {
+        sentence: {
+          ante: '『',
+          highlight: '今日中に',
+          post: 'メールをしてください。』'
+        },
+        translation: '（漢字：きょうじゅう）Please email me sometime today.'
+      }
+    ],
+    other: '...'
+  },{
+    grammar_point: '(〜[pos./neg.]ば)〜ほど(clause)',
+    spec: '(〜ば)〜ほど',
+    meaning: 'The more/less 〜、the more/less (clause)',
+    use: {
+      text: 'A verb, adj, or noun can be used.  The verb, adj, or nound is repeated in both 〜.  The verb, adj, or noun describes what is ',
+      species: [
+        {
+          jap: '(time-frame)中に：',
+          eng: 'By the end of (time-frame).'
+        }
+      ]
+    },
+    example: [
+      {
+        sentence: {
+          ante: '『',
+          highlight: '今日中に',
+          post: 'メールをしてください。』'
+        },
+        translation: '（漢字：きょうじゅう）Please email me sometime today.'
+      }
+    ],
+    other: '...'
   }
 ];
 
