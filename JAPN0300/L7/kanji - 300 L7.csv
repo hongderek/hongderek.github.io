@@ -22,7 +22,7 @@ kanji,reading,meaning,kaku
 侍,さむらい,Samurai,hai
 徹夜する,てつや（する）,to stay up all night,
 ・,きっと,"for sure, surely",
-盛ん,さか（ん）,popular (not for person),
+盛ん（な）,さか（ん）（な）,popular (not for person),
 人気がある,にんき（がある）,popular (ie: has popularity),hai
 紹介,しょうかい,introduction (する：to introduce),
 その他,（その）た,And others (also read as （その）ほか）,hai
@@ -37,7 +37,8 @@ kanji,reading,meaning,kaku
 負ける,ま（ける）,to lose,hai
 太平洋戦争,たいへいようせんそう,WWII,
 終わる,お（わる）,to end (intransitive が),hai
-始める,はじ（める）,to begin (transitive を),hai
+始める,はじ（める）,to begin (transitive を),
+始まる,はじ（まる）,to begin (intransitive が）,hai
 戦死する,せんし（する）,to die in battle,
 活躍する,かつやく（する）,to play an active part in,
 増える,ふ（える）,to increase,hai

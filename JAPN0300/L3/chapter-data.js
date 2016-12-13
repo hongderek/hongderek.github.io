@@ -104,29 +104,165 @@ const chap_grammar_list = [
     ],
     other: '...'
   },{
-    grammar_point: '(〜[pos./neg.]ば)〜ほど(clause)',
+    grammar_point: '（〜[pos./neg.]ば）〜ほど＿＿',
     spec: '(〜ば)〜ほど',
-    meaning: 'The more/less 〜、the more/less (clause)',
+    meaning: 'The more/less 〜、the more/less ＿＿',
     use: {
-      text: 'A verb, adj, or noun can be used.  The verb, adj, or nound is repeated in both 〜.  The verb, adj, or noun describes what is ',
+      text: 'The same verb/adj/noun is used for both 〜, first in 〜ば form and then in plain form + ぼど。For nouns and なadj., であれば／ある will be suffixed.  Pos. constructions give the "more" meaning, neg. constructions give the "less" meaning.  The 〜 may be positive and the ＿＿ may be negative, in which case the translation would be "the more, the less", and vice versa, etc.  For nouns/adjな、ある will be negated and not the noun/adj.  I kind of like the literal translations, as un-English as they are.',
       species: [
         {
-          jap: '(time-frame)中に：',
-          eng: 'By the end of (time-frame).'
+          jap: 'verb[pos.]ばverb[pos.]ほど＿＿：',
+          eng: 'The more verb, the more ＿＿。'
+        },{
+          jap: 'verb[neg.]ばverb[neg.]ほど＿＿：',
+          eng: 'The less verb, the less ＿＿。'
+        },{
+          jap: '（adjい）[pos.]ば（adjい）[pos.]ほど＿＿：',
+          eng: 'The more adj, the more ＿＿。'
+        },{
+          jap: '（adjい）[neg.]ば（adjい）[neg.]ほど＿＿：',
+          eng: 'The less adj, the less ＿＿。'
+        },{
+          jap: '（adjな）であればあるほど＿＿：',
+          eng: 'The more adj, the more ＿＿。'
+        },{
+          jap: '（adjな）でなければないほど＿＿：',
+          eng: 'The less adj, the less ＿＿。'
+        },{
+          jap: 'nounであればあるほど＿＿：',
+          eng: 'The more noun, the more ＿＿。'
+        },{
+          jap: 'nounでなければないほど＿＿：',
+          eng: 'The less noun, the less ＿＿。'
         }
       ]
     },
     example: [
       {
         sentence: {
-          ante: '『',
-          highlight: '今日中に',
-          post: 'メールをしてください。』'
+          ante: '『日本語は',
+          highlight: '勉強すれば勉強するほど',
+          post: '上手になります。』'
         },
-        translation: '（漢字：きょうじゅう）Please email me sometime today.'
+        translation: 'The more you study Japanese the better you will become.'
+      },{
+        sentence: {
+          ante: '『日本語は',
+          highlight: '勉強しなければ勉強しないほど',
+          post: '下手になります。』'
+        },
+        translation: 'The less you study Japanese the worse you will become.'
+      },{
+        sentence: {
+          ante: '『',
+          highlight: '寒ければ寒いほど',
+          post: 'いい。』'
+        },
+        translation: 'The colder it is the better.'
+      },{
+        sentence: {
+          ante: '『',
+          highlight: '寒かなければ寒くないほど',
+          post: 'いい。』'
+        },
+        translation: 'The less cold it is the better. (I think...)'
+      },{
+        sentence: {
+          ante: '『',
+          highlight: '寒かなければ寒くないほど',
+          post: 'よくない。』'
+        },
+        translation: 'The less cold it is the worse it is. (I think...)'
+      },{
+        sentence: {
+          ante: '『',
+          highlight: '寒ければ寒いほど',
+          post: 'よくない。』'
+        },
+        translation: 'The colder it is the worse it is. (I think...)'
+      },{
+        sentence: {
+          ante: '『説明は',
+          highlight: '簡単であればあるほど',
+          post: '分かられる。』'
+        },
+        translation: 'The simpler the explaination, the more it is able to be understood.'
+      },{
+        sentence: {
+          ante: '『',
+          highlight: 'いいレストランであればあるほど',
+          post: '高い。』'
+        },
+        translation: 'The better a restaurant is the more expensive it is.'
+      },{
+        sentence: {
+          ante: '／',
+          highlight: 'Literal translations:',
+          post: '／'
+        },
+        translation: ''
+      },{
+        sentence: {
+          ante: '『日本語は',
+          highlight: '勉強すれば勉強するほど',
+          post: '上手になります。』'
+        },
+        translation: 'lit. If you study Japanese（ば）, the extent of your study（ほど）is how much better you will become.'
+      },{
+        sentence: {
+          ante: '『日本語は',
+          highlight: '勉強しなければ勉強しないほど',
+          post: '下手になります。』'
+        },
+        translation: 'lit. If you do not study Japanese（ば）, the extent of your non-study（ほど）is how much worse you will become.'
+      },{
+        sentence: {
+          ante: '『',
+          highlight: '寒ければ寒いほど',
+          post: 'いい。』'
+        },
+        translation: 'lit. If it is cold（ば）, as much as it it is cold（ほど）it is that much good.'
+      },{
+        sentence: {
+          ante: '『',
+          highlight: '寒ければ寒いほど',
+          post: 'よくない。』'
+        },
+        translation: 'lit. If it is cold（ば）, as much as it it is cold（ほど）it is that much not good.'
       }
     ],
-    other: '...'
+    other: 'ほど means "degree, extent of".  The literal translation might be "If there is 〜, then to the extent of 〜 there is ＿＿。" like the literal examples.  Think of it like a linear relationship, where "as much as there is 〜, there is ＿＿".  Meaning, "as 〜 increases, ＿＿ also increases to that extent", which is where the "the more, the more" meaning comes from.'
+  },{
+    grammar_point: 'noun以外（に・の）',
+    spec: 'noun以外（の・に）',
+    meaning: '（漢字：いがい）Other than noun; besides noun.',
+    use: {
+      text: '以外 literally just means "besides" or "excepting".  Using 以外に creates an adverbial phrase, 以外の will preceed another noun and modify it.',
+      species: [
+        {
+          jap: '',
+          eng: ''
+        }
+      ]
+    },
+    example: [
+      {
+        sentence: {
+          ante: '『学期の初めは、',
+          highlight: '教科書以外に',
+          post: 'いろいろ買うものがある。』'
+        },
+        translation: 'At the beginning of the semester, there are varous things to buy besides textbooks (lit. textbook-exceptingly).'
+      },{
+        sentence: {
+          ante: '『',
+          highlight: '文部科学省以外の',
+          post: '奨学金もあります。』'
+        },
+        translation: 'There are scholarships other than those from the Ministry of Eduction, Culture, Sports, Science, and Technology. (lit. There are "other than MECSST"のscholarhsips)'
+      }
+    ],
+    other: 'I quite like literal translations.  Overthrow Western grammatical constructs!'
   }
 ];
 
