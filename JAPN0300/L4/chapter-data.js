@@ -16,12 +16,42 @@ const chap_kanji_str = 'kanji,reading,meaning,kaku\n家族,かぞく,family,hai\
 
 const chap_note_list = [
   {
-    topic: 'asdf',
-    spec: 'asdf',
+    topic: 'そう・らしい・よう',
+    spec: 'そう・らしい・よう',
     subtopic_list: [
       {
-        subtopic: 'asdf',
-        desc: 'asdf'
+        subtopic: '',
+        desc: 'そう：　hands to eyes'
+      },{
+        subtopic: '',
+        desc: 'らしい：hands to ears'
+      },{
+        subtopic: '',
+        desc: 'よう：　hands to read'
+      }
+    ]
+  },{
+    topic: 'らしい',
+    spec: 'らしい',
+    subtopic_list: [
+      {
+        subtopic: '',
+        desc: 'Can be used to express hearsay that one has heard.  But can also be followed by a noun to mean "A typical（＿らしい）noun".  ie: 雪らしい日：a typical winter day.  Compare:'
+      },{
+        subtopic: '夏らしい日です。',
+        desc: 'It is a summery day.  (ie: It is a typical summer day (and we\'re in summer.))'
+      },{
+        subtopic: '夏のような日です。',
+        desc: 'It is a summer-like day.  (ie: It is like a summer day (and it is not summer.))'
+      }
+    ]
+  },{
+    topic: '＿々',
+    spec: '＿々',
+    subtopic_list: [
+      {
+        subtopic: 'ｔｈｅ　ｔｗｉｃｅｎｅｒ。',
+        desc: ''
       }
     ]
   }
@@ -46,7 +76,7 @@ const chap_grammar_list = [
         translation: 'No, there is nothing particularly wrong.'
       },{
         sentence: {
-          ante: 'ううん、',
+          ante: '『ううん、',
           highlight: '別に',
           post: '。』'
         },
@@ -86,7 +116,7 @@ const chap_grammar_list = [
         translation: 'What is the population, I wonder...'
       },{
         sentence: {
-          ante: 'マディソンてどんな町',
+          ante: '『マディソンてどんな町',
           highlight: 'かなと思っていた',
           post: 'んです。』'
         },
@@ -159,10 +189,289 @@ const chap_grammar_list = [
       {
         sentence: {
           ante: '『私は',
-          highlight: 'すきやきにします。',
+          highlight: 'すきやきにします',
           post: '。』'
         },
         translation: 'I will have the sukiyaki.'
+      }
+    ],
+    other: '...'
+  },{
+    grammar_point: '〜ようだ',
+    spec: '〜ようだ',
+    meaning: 'It seems like 〜。 It looks like 〜。 (Based on physical evidence)',
+    use: {
+      text: 'Used when there is good evidence to support what seems.  Can be used with noun/adj/verb',
+      species: [
+        {
+          jap: 'nounのようだ',
+          eng: ''
+        },{
+          jap: '（adjい）いようだ',
+          eng: ''
+        },{
+          jap: '（adjな）なようだ',
+          eng: ''
+        },{
+          jap: 'verb(plain)ようだ',
+          eng: ''
+        }
+      ]
+    },
+    example: [
+      {
+        sentence: {
+          ante: '『日本人は白い車が',
+          highlight: '好きなようです',
+          post: '。』'
+        },
+        translation: 'It seems Japanese people like white cars.'
+      }
+    ],
+    other: 'よう is a noun, this helps with knowing how to conjugate preceeding words.  ようだ differs from そうだ in that そう is based on one\'s own conjecture, while よう is based on physical or more concrete evidence.'
+  },{
+    grammar_point: 'nounのように',
+    spec: 'nounのように',
+    meaning: 'Like, as if it were noun.',
+    use: {
+      text: 'An adverbial construction of よう。 lit. "noun likeningly".  ',
+      species: []
+    },
+    example: [
+      {
+        sentence: {
+          ante: '『時々',
+          highlight: '夏のように',
+          post: '暑い日があります。』'
+        },
+        translation: 'Sometimes there hot days as if it were summer.'
+      }
+    ],
+    other: '...'
+  },{
+    grammar_point: '（nounA）のような（nounB）',
+    spec: '（nounA）のような（nounB）',
+    meaning: 'Noun B looks/is like noun A.',
+    use: {
+      text: 'In this way, よう connects two nouns.  This is like らしい connecting two nouns.',
+      species: []
+    },
+    example: [
+      {
+        sentence: {
+          ante: '『夏',
+          highlight: 'のような',
+          post: '日です。』'
+        },
+        translation: 'It\'s a summer-like day. (ie: it\'s hot like summer although it is not summer)'
+      }
+    ],
+    other: '...'
+  },{
+    grammar_point: 'さえ',
+    spec: 'さえ',
+    meaning: 'Even',
+    use: {
+      text: 'Is a particle which emphasizes the case which is unexpected.  Acts with mostly the same meaning as in English.  Usually replaces the particle, but particles can remain as ＿さえ。  Conjugation as such:',
+      species: [
+        {
+          jap: 'nounさえ：',
+          eng: 'even noun'
+        },{
+          jap: 'verb（の・こと）さえ：',
+          eng: 'even nominalized-verb'
+        }
+      ]
+    },
+    example: [
+      {
+        sentence: {
+          ante: '『私は',
+          highlight: '寝る時間さえ',
+          post: 'ありません。』'
+        },
+        translation: 'I don\'t even have time to sleep.'
+      }
+    ],
+    other: 'Similar to nounでも which also means "even noun".  The difference is unclear, but it seems that merely でも highlights an example.'
+  },{
+    grammar_point: 'いつのまにか',
+    spec: 'いつのまにか',
+    meaning: 'Before one knows/realizes it',
+    use: {
+      text: 'A saying/phrasing.  Used before the phrase which is what is before one realizes.',
+      species: []
+    },
+    example: [
+      {
+        sentence: {
+          ante: '『お金は',
+          highlight: 'いつのまにか',
+          post: 'なくなってしまいます。』'
+        },
+        translation: 'Money is gone before you know it.'
+      }
+    ],
+    other: '...'
+  },{
+    grammar_point: '〜になれる',
+    spec: '〜になれる',
+    meaning: 'to be used to; to be accustomed to',
+    use: {
+      text: 'Follows a noun directly or a sentenceの。',
+      species: []
+    },
+    example: [
+      {
+        sentence: {
+          ante: '『日本の生活',
+          highlight: 'になれて',
+          post: 'きました。』'
+        },
+        translation: 'Money is gone before you know it.'
+      }
+    ],
+    other: '...'
+  },{
+    grammar_point: '（verbて）くる／いく',
+    spec: '（verbて）くる／いく',
+    meaning: 'A change/process/transition has been taking place up until now (くる）。  A change/process/transition will take place from now own （いく）。',
+    use: {
+      text: 'くる and いく are kana forms of 来る and 行く respectively.  In this form, the verbs are usually written with kana alone.',
+      species: [
+        {
+          jap: 'verbてくる：',
+          eng: 'a change has been taking place up until now.'
+        },{
+          jap: 'verbていく：',
+          eng: 'a change will take place from now on.'
+        }
+      ]
+    },
+    example: [
+      {
+        sentence: {
+          ante: '『私たちの生活は、どんどん',
+          highlight: '変わっていく',
+          post: 'でしょう。』'
+        },
+        translation: 'Our life style will continue to change rapidly.'
+      }
+    ],
+    other: 'Seems to usually be used with verbs of change or transition (変わる、減る、増える、なる、etc.)'
+  },{
+    grammar_point: '〜わけではない',
+    spec: '〜わけではない',
+    meaning: 'It does not necessarily mean that...; it does not follow that...',
+    use: {
+      text: 'This construction negates what one would conclude from previously mentioned statements or situations.  Is preceeded by words of the plain form.',
+      species: []
+    },
+    example: [
+      {
+        sentence: {
+          ante: '『あまり英語を話しませんが、英語ができない',
+          highlight: 'わけではありません',
+          post: '。』'
+        },
+        translation: 'I don\'t speak English much, but that does not mean that I am unable to speak it.'
+      }
+    ],
+    other: 'Similar in meaning and use as 必ずしも〜というわけではない of the previous chapter.'
+  },{
+    grammar_point: 'verbないで済む',
+    spec: 'verbないで済む',
+    meaning: '（漢字：す（む）：to finish）One manages to get by without doing verb.',
+    use: {
+      text: 'verbないで is the negative て form.',
+      species: []
+    },
+    example: [
+      {
+        sentence: {
+          ante: '『バスがすぐ来たので、あまり',
+          highlight: '待たないで済みました',
+          post: '。』'
+        },
+        translation: 'The bus came right away, so I did not have to wait long. (lit. I managed to not wait long)'
+      }
+    ],
+    other: '...'
+  },{
+    grammar_point: '〜ずつ',
+    spec: '〜ずつ',
+    meaning: 'Each; at a time.',
+    use: {
+      text: 'Follows a number or number + counter or limited quanitity (like 少し).  Indicates that a quanitity is equally distributed among two or more objects, time, etc.',
+      species: []
+    },
+    example: [
+      {
+        sentence: {
+          ante: '『一人一枚',
+          highlight: 'ずつ',
+          post: '取ってください。』'
+        },
+        translation: 'Please take one sheet each.'
+      },{
+        sentence: {
+          ante: '『毎日漢字を五つ',
+          highlight: 'ずつ',
+          post: '覚えることにしています。』'
+        },
+        translation: 'I memorize five kanji every day.'
+      }
+    ],
+    other: '...'
+  },{
+    grammar_point: '（verb/adj)（stem）すぎる',
+    spec: '（verb/adj)（stem）すぎる',
+    meaning: 'Too adj.  Do verb too much.',
+    use: {
+      text: 'Conjugation as such:',
+      species: [
+        {
+          jap: '食べすぎる',
+          eng: ''
+        },{
+          jap: '高すぎる',
+          eng: ''
+        },{
+          jap: '有名すぎる',
+          eng: ''
+        },{
+          jap: 'しすぎる',
+          eng: '　from する'
+        }
+      ]
+    },
+    example: [
+      {
+        sentence: {
+          ante: '『',
+          highlight: '飲みすぎる',
+          post: 'と、頭が痛くなります。』'
+        },
+        translation: 'If you drink too much, you will get a head ache.'
+      }
+    ],
+    other: '...'
+  },{
+    grammar_point: '〜以上',
+    spec: '〜以上',
+    meaning: '（漢字：いじょう）More than 〜。(some quanitity)',
+    use: {
+      text: 'Preceeded by some number and counter.  As a whole, the phrase indicates some quanitity of which there is more than.',
+      species: []
+    },
+    example: [
+      {
+        sentence: {
+          ante: '『',
+          highlight: '飲みすぎる',
+          post: 'と、頭が痛くなります。』'
+        },
+        translation: 'If you drink too much, you will get a head ache.'
       }
     ],
     other: '...'
