@@ -16,12 +16,33 @@ const chap_kanji_str = 'kanji,reading,meaning,kaku\n研究室,けんきゅうし
 
 const chap_note_list = [
   {
-    topic: 'asdf',
-    spec: 'asdf',
+    topic: 'Phrases',
+    spec: 'Phrases',
     subtopic_list: [
       {
-        subtopic: 'asdf',
-        desc: 'asdf'
+        subtopic: 'Meeting 先生 and asking for favors',
+        desc: 'ちょっとおじゃまします'
+      },{
+        subtopic: '',
+        desc: 'もう一つお願いします'
+      },{
+        subtopic: '',
+        desc: 'blahblahことなんですけど'
+      },{
+        subtopic: '',
+        desc: 'もう一つお願いがあるんですけど'
+      },{
+        subtopic: '',
+        desc: '二、三分よろしいでしょうか'
+      }
+    ]
+  },{
+    topic: 'Suggestion',
+    spec: 'Suggestion',
+    subtopic_list: [
+      {
+        subtopic: 'じゃ、えんぴつ使えば？',
+        desc: 'How about using a pencil?'
       }
     ]
   }
@@ -63,8 +84,11 @@ const chap_grammar_list = [
           jap: 'verb(causative, て)いただけないでしょうか：',
           eng: 'May I do verb?'
         },{
-          jap: 'verb(て)いただけないでしょうか：　　　　　　　',
+          jap: 'verb(て)いただけないでしょうか：　　　　　',
           eng: 'Could you do verb?'
+        },{
+          jap: '',
+          eng: 'This kind of construction (て + verb of giving/receiving) also works with くれる、あげる、もらう with expected results:'
         }
       ]
     },
@@ -78,7 +102,7 @@ const chap_grammar_list = [
         translation: 'May I take the test one day early?'
       }
     ],
-    other: '...'
+    other: 'Formed from 「verb(caus.) + いただく(pot.)[neg.] + でしょうか」。  でしょう is a more indirect form of です、thus making the question more polite.'
   },{
     grammar_point: '〜中に',
     spec: '〜中に',
@@ -237,7 +261,33 @@ const chap_grammar_list = [
     spec: 'noun以外（の・に）',
     meaning: '（漢字：いがい）Other than noun; besides noun.',
     use: {
-      text: '以外 literally just means "besides" or "excepting".  Using 以外に creates an adverbial phrase, 以外の will preceed another noun and modify it.',
+      text: '以外 literally just means "besides" or "excepting".  Using 以外に creates an adverbial phrase (try using noun-exceptingly, it\'s fun!), 以外の will preceed another noun and modify it.',
+      species: []
+    },
+    example: [
+      {
+        sentence: {
+          ante: '『学期の初めは、',
+          highlight: '教科書以外に',
+          post: 'いろいろ買うものがある。』'
+        },
+        translation: 'At the beginning of the semester, there are varous things to buy "besides textbooks" (lit. textbook-exceptingly).'
+      },{
+        sentence: {
+          ante: '『',
+          highlight: '文部科学省以外の',
+          post: '奨学金もあります。』'
+        },
+        translation: 'There are scholarships other than those from the Ministry of Eduction, Culture, Sports, Science, and Technology. (lit. "Other than MECSST"のscholarhsips exist)'
+      }
+    ],
+    other: 'I quite like literal translations.  Overthrow Western grammatical constructs!'
+  },{
+    grammar_point: '必ずしも（clause）というわけではない',
+    spec: '必ずしも〜というわけではない',
+    meaning: '（漢字：かなら（ずしも））It does not necessarily mean that 〜。',
+    use: {
+      text: 'What comes before という is a clause which gives detail to わけ。必ず means "always, without exception, invariably".  必ずしも is the negation of that: "not always, not necessarily" and acts adverbially.  わけ means "conclusion from reasioning".  The ではない is a double-negative in the sense of an intesifier, not in the sense of "not-not".',
       species: [
         {
           jap: '',
@@ -248,21 +298,108 @@ const chap_grammar_list = [
     example: [
       {
         sentence: {
-          ante: '『学期の初めは、',
-          highlight: '教科書以外に',
-          post: 'いろいろ買うものがある。』'
+          ante: '『<b>必ずしも</b>高いものがいい',
+          highlight: 'というわけではない',
+          post: '。』'
         },
-        translation: 'At the beginning of the semester, there are varous things to buy besides textbooks (lit. textbook-exceptingly).'
-      },{
-        sentence: {
-          ante: '『',
-          highlight: '文部科学省以外の',
-          post: '奨学金もあります。』'
-        },
-        translation: 'There are scholarships other than those from the Ministry of Eduction, Culture, Sports, Science, and Technology. (lit. There are "other than MECSST"のscholarhsips)'
+        translation: 'It is not necessarily the case that expensive things are good.'
       }
     ],
-    other: 'I quite like literal translations.  Overthrow Western grammatical constructs!'
+    other: 'A literal translation might be "The so called 〜 reasoning is not necessarily the case".'
+  },{
+    grammar_point: '(noun/verbて)ばかり',
+    spec: '(noun/verbて)ばかり',
+    meaning: 'Nothing but noun.  Do nothing but verb.',
+    use: {
+      text: 'Conveys a sense that there is so much X that it appears as if there is only X',
+      species: [
+        {
+          jap: 'nounばかり：',
+          eng: 'nothing but noun'
+        },{
+          jap: 'verbてばかりいる：',
+          eng: 'do nothing but verb.  NOTE: that ばかり is sandwiched between verbて and いる。'
+        }
+      ]
+    },
+    example: [
+      {
+        sentence: {
+          ante: '『テレビのニュースはいやな',
+          highlight: 'ニュースばかり',
+          post: 'です。』'
+        },
+        translation: 'TV news is nothing but bad news.'
+      },{
+        sentence: {
+          ante: '『テレビを',
+          highlight: '見てばかりいる',
+          post: 'と勉強できません。』'
+        },
+        translation: 'If you do nothing but watch TV, you won\'t be able to study.'
+      }
+    ],
+    other: '...'
+  },{
+    grammar_point: 'なるべく',
+    spec: 'なるべく',
+    meaning: 'as (much, fast, ＿＿) as possible; if at all possible',
+    use: {
+      text: 'Usually followed by a phrase or action which should be "___ as much as possible".',
+      species: []
+    },
+    example: [
+      {
+        sentence: {
+          ante: '『教室以の外に、',
+          highlight: 'なるべく',
+          post: '日本語を使った方がいいでしょう。』'
+        },
+        translation: 'It will be better if you speak Japanese as much as possible even outside the classroom.'
+      },{
+        sentence: {
+          ante: '『宿題は、',
+          highlight: 'なるべく',
+          post: '次の日出してください。』'
+        },
+        translation: 'If possible, please hand in homework the next day.'
+      }
+    ],
+    other: 'I\'ve seen なるべく described as "preferably".  Like, "be as quiet as possible" = "be quite preferably".  なるべく + adverb conveys the meaning "as adverbially as possible".'
+  },{
+    grammar_point: 'verb(plain)べき',
+    spec: 'verb(plain)べき',
+    meaning: 'One should/ought to verb.  I should verb.',
+    use: {
+      text: 'べき is conjugated like a noun (followed by だ・です・etc).  Negation of べき is べきではない。  するべき may be contracted to すべき、but both are used.  Is a strong suggestion, maybe too strong to use casually directly to others; keep it to "I should" or "one should".',
+      species: [
+        {
+          jap: 'verb(pl.)べきだ：',
+          eng: 'One should verb'
+        },{
+          jap: 'verb(pl.)べきではない：',
+          eng: 'One should not verb'
+        }
+      ]
+    },
+    example: [
+      {
+        sentence: {
+          ante: '『日本語の新聞が読みたかったら、漢字を',
+          highlight: '勉強するべきだ',
+          post: '。』'
+        },
+        translation: 'If one wants to read Japanese newspapers, one should study kanji.'
+      },{
+        sentence: {
+          ante: '『ほかの人の意見も',
+          highlight: '聞くべきだ',
+          post: '。』'
+        },
+        translation: 'One should listen to the opinions of others.'
+      }
+    ],
+    other: 'べき is derived from the classical auxilliary verb べし。'
   }
 ];
 
