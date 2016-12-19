@@ -90,7 +90,7 @@ const chap_note_list = [
     subtopic_list: [
       {
         subtopic: 'Formation: ',
-        desc: '／う／　＝　／え／れる'
+        desc: '／う／　＝　／あ／れる'
       },{
         subtopic: '',
         desc: '　　る　＝　られる'

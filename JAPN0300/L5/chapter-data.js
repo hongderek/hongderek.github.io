@@ -29,24 +29,111 @@ const chap_note_list = [
 
 const chap_grammar_list = [
   {
-    grammar_point: 'asdf',
-    spec: 'asdf',
-    meaning: 'asdf',
+    grammar_point: '（〜に）気がつく',
+    spec: '（〜に）気がつく',
+    meaning: 'To notice 〜。  〜 caught one\'s attention',
     use: {
-      text: 'asdf',
+      text: 'The kanji of つく is 付く。 つく is a verb and is conjugated as such.  The thing which is noticed can be a noun or a phrase (sentence + の・こと).',
       species: []
     },
     example: [
       {
         sentence: {
-          ante: 'asdf',
-          highlight: 'asdf',
-          post: 'asdf'
+          ante: '『間違い',
+          highlight: 'に気がつきませんでした',
+          post: '。』'
         },
-        translation: 'asdf'
+        translation: 'I wasn\'t aware of my mistake.'
       }
     ],
-    other: 'asdf'
+    other: '...'
+  },{
+    grammar_point: 'せっかく',
+    spec: 'せっかく',
+    meaning: 'Indicates that something has been done with a great deal of trouble.',
+    use: {
+      text: 'The true meaning and usage of せっかく is probably quite nuanced.  From what I have read, せっかく means that a positive opportunity has arisen or come about with effort (and, in certain scenarios, it would be/was a shame not to seize it or to have it go to waste).  There is a similar word わざわざ which means "someone has gone out of their way to do something".  Compare:',
+      species: [
+        {
+          jap: 'せっかく来たのに、るすだった。：',
+          eng: 'Even though I made a special trip (to see you), you were out.'
+        },{
+          jap: 'わざわざ来るにはおよばない。：',
+          eng: 'There is no need to make a special trip (go out of your way to come by).'
+        }
+      ]
+    },
+    example: [
+      {
+        sentence: {
+          ante: '『人が',
+          highlight: 'せっかく',
+          post: '作ってくれた料理を食べないのは失礼だ。』'
+        },
+        translation: 'It is impolite not to eat food which someone has taken the trouble of preparing for you.'
+      }
+    ],
+    other: 'The nuance is probably best learned through seeing its usage in the wild.'
+  },{
+    grammar_point: 'verb(plain)わけにはいく[neg.]',
+    spec: 'verb(plain)わけにはいく[neg.]',
+    meaning: 'Using verb(plain, pres., pos.) means "One cannot do certain things for social/moral/societal reasons.  Using verb(plain, pres. neg.) means "One can\'t help but to do verb"',
+    use: {
+      text: 'いく[neg.] is conjugated as いかない or いけません etc.  Meanings or using the [pos.] or [neg.] forms of verbs:',
+      species: [
+        {
+          jap: 'verb(plain, pres., POS.)わけにはいかない：',
+          eng: 'I cannot do verb for social/moral/societal reasons.'
+        },{
+          jap: 'verb(plain, pres., NEG.)わけにはいかない：',
+          eng: 'I can\'t help but to verb.'
+        }
+      ]
+    },
+    example: [
+      {
+        sentence: {
+          ante: '『これは先生の本だから、あなたに貸す',
+          highlight: '貸すわけにはいきません',
+          post: '。』'
+        },
+        translation: 'Because this is my teacher\'s book, I cannot lend it to you (for social/moral/societal reasons).'
+      },{
+        sentence: {
+          ante: '『明日試験がありるから、今晩',
+          highlight: '勉強しないわけにはいかない',
+          post: '。』'
+        },
+        translation: 'Because I have an exam tomorrow, I can\'t help but study tonight.'
+      }
+    ],
+    other: '...'
+  },{
+    grammar_point: 'そうかと言って',
+    spec: 'そうかと言って',
+    meaning: 'But.  And yet.  (lit. "Having said that, "',
+    use: {
+      text: 'Used to qualify a preceeding statement.  Usually used with 〜わけにはいかない or 〜わけではない etc.',
+      species: []
+    },
+    example: [
+      {
+        sentence: {
+          ante: '『アメリカの大学生はよく勉強するが、',
+          highlight: 'そうかと言って',
+          post: '勉強してばかりいるわけではない。。』'
+        },
+        translation: 'American university students study a lot, but having said that, they don\'t necessarily do nothing but study.'
+      },{
+        sentence: {
+          ante: '『背は高くもないが、',
+          highlight: 'そうかといって',
+          post: 'ひくくもない.。』'
+        },
+        translation: 'He\'s not tall, but he\'s not quite short either.  (lit. having said that, he\'s also not short.)'
+      }
+    ],
+    other: '...'
   }
 ];
 
