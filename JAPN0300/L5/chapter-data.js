@@ -346,8 +346,7 @@ const chap_grammar_list = [
         },{
           jap: '／in general／',
           eng: ''
-        }
-        {
+        },{
           jap: 'verb／あ／せられる：',
           eng: 'contracted to: verb／あ／される (unless it would duplicate a さ eg: 話させられる cannot become 話さされる)'
         }
