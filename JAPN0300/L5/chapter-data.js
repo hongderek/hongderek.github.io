@@ -111,7 +111,7 @@ const chap_grammar_list = [
   },{
     grammar_point: 'そうかと言って',
     spec: 'そうかと言って',
-    meaning: 'But.  And yet.  (lit. "Having said that, "',
+    meaning: 'But.  And yet.  (lit. "Having said that, ")',
     use: {
       text: 'Used to qualify a preceeding statement.  Usually used with 〜わけにはいかない or 〜わけではない etc.',
       species: []
@@ -121,19 +121,245 @@ const chap_grammar_list = [
         sentence: {
           ante: '『アメリカの大学生はよく勉強するが、',
           highlight: 'そうかと言って',
-          post: '勉強してばかりいるわけではない。。』'
+          post: '勉強してばかりいるわけではない。』'
         },
         translation: 'American university students study a lot, but having said that, they don\'t necessarily do nothing but study.'
       },{
         sentence: {
           ante: '『背は高くもないが、',
           highlight: 'そうかといって',
-          post: 'ひくくもない.。』'
+          post: 'ひくくもない。』'
         },
         translation: 'He\'s not tall, but he\'s not quite short either.  (lit. having said that, he\'s also not short.)'
       }
     ],
     other: '...'
+  },{
+    grammar_point: 'verb(plain, present)ために',
+    spec: 'verb(plain)ために',
+    meaning: 'In order to verb.',
+    use: {
+      text: 'ため means "purpose" or "sake".  Literally, you might translate verb(pl, pres)ために as "verb-purpose-ly".  Verbための will modify a following noun.  This translation is more difficult, but the literal translation is also fun (lit. "the for-the-purpose-of-verb noun").',
+      species: [
+        {
+          jap: 'verbために',
+          eng: 'In order to verb.  (lit. verb-pupose-ly)'
+        },{
+          jap: 'verbためのnoun',
+          eng: 'A noun to verb.  (lit. A for-the-purpose-of-verb noun)'
+        }
+      ]
+    },
+    example: [
+      {
+        sentence: {
+          ante: '『',
+          highlight: 'やせるために',
+          post: '毎日うんどうをしています。』'
+        },
+        translation: 'I am exercising every day in order to lose weight.'
+      },{
+        sentence: {
+          ante: '『辞書は、言葉の意味を',
+          highlight: '調べるためのもの',
+          post: 'です。』'
+        },
+        translation: 'A dictionary is something you use to look look up the meanings of words. (lit. is a "for the purpose of looking up meanings of words" thing)'
+      }
+    ],
+    other: 'LONG LIVE LITERAL MEANINGS!'
+  },{
+    grammar_point: '（〜て）も',
+    spec: '〜ても',
+    meaning: 'Even when/if 〜',
+    use: {
+      text: 'Verbs and adjectives in the て form with the particle も gives the meaning "even when/if 〜".  The main sentence is usually in the non-past, as in "Even if A, B is so".  な adjectives and nouns take the form 〜であっても which is usually contracted to でも。 Conjugation as follows:',
+      species: [
+        {
+          jap: 'verbても',
+          eng: ''
+        },{
+          jap: '（いadj）くても',
+          eng: '　Remember, 〜ない conjugates as an いadj'
+        },{
+          jap: '（なadj）であっても',
+          eng: '　(alternatively:（なadj)でも)'
+        },{
+          jap: '（noun）であっても',
+          eng: '　(alternatively:（noun)でも)'
+        }
+      ]
+    },
+    example: [
+      {
+        sentence: {
+          ante: '『チーズは、雪が',
+          highlight: '降っても',
+          post: '食べるそうです。』'
+        },
+        translation: 'I hear they eat cheese even when it snows.'
+      },{
+        sentence: {
+          ante: '『チーズは、',
+          highlight: '高くても',
+          post: '食べるそうです。』'
+        },
+        translation: 'I hear they eat cheese even if it is expensive.'
+      },{
+        sentence: {
+          ante: '『チーズは、',
+          highlight: '有名で（あって）も',
+          post: '食べるそうです。』'
+        },
+        translation: 'I hear they eat cheese even if it is famous.'
+      },{
+        sentence: {
+          ante: '『チーズは、',
+          highlight: 'チーズで（あって）も',
+          post: '食べるそうです。』'
+        },
+        translation: 'I hear they eat cheese even if it is cheese.'
+      }
+    ],
+    other: '...'
+  },{
+    grammar_point: 'verb[neg.](stem)ず（に）',
+    spec: 'verb[neg.](stem)ず（に）',
+    meaning: '〜ず connects sentences where the final verb would end as 〜なくて。 〜ずに is used in the same context as 〜ないで (ie: without doing).',
+    use: {
+      text: '〜ず is a negative form in classical Japanese.  The modern equivalent is 〜ない。 This helps a bit with figuring out the conjugation of 〜ず： Conjugate the verb as you would for ない but use ず instead.',
+      species: [
+        {
+          jap: '（うverb）：',
+          eng: '（うverb）／あ／ず'
+        },{
+          jap: '（るverb）：',
+          eng: '（るverb）ず'
+        },{
+          jap: '　　　くる：',
+          eng: 'こず（来る：来ず）'
+        },{
+          jap: '　　　する：',
+          eng: 'せず'
+        }
+      ]
+    },
+    example: [
+      {
+        sentence: {
+          ante: '『ひどいカルチャーショックは',
+          highlight: '受けず',
+          post: 'すぐ日本の生活になれました。』'
+        },
+        translation: 'I did not have a bad culture shock and quickly became accustomed to life in Japan.'
+      },{
+        sentence: {
+          ante: '『',
+          highlight: '寝ずに',
+          post: '勉強すると病気になるでしょう。』'
+        },
+        translation: 'If you study without sleeping, you will get sick.'
+      }
+    ],
+    other: 'Usually appears in contemporary Japanese, especially written style.'
+  },{
+    grammar_point: 'nounによると',
+    spec: 'nounによると',
+    meaning: 'According to 〜',
+    use: {
+      text: 'Used to indicate a source of information.  Usually followed by expressions to indicate hearsay (eg: そうだ).  よる is the verb here, meaning "based on" or "coming from" (compare to 〜によって：depending on 〜)',
+      species: []
+    },
+    example: [
+      {
+        sentence: {
+          ante: '『今日の新聞',
+          highlight: 'によると',
+          post: '、昨日じしんがあったそうだ。』'
+        },
+        translation: 'According to today\'s newspaper, there was an earthquake yesterday.'
+      }
+    ],
+    other: '...'
+  },{
+    grammar_point: 'noun化',
+    spec: 'noun化',
+    meaning: '〜ization.  Carries the meaning of 〜になる or 〜にする。',
+    use: {
+      text: 'Hard to translate or define.  Usually using the English suffix "〜ization" gets the point across.  Usually attached to kanji compounds.  Usually combined with する to mean "〜ize" or される "〜ized".  For example:',
+      species: [
+        {
+          jap: '兵器（へいき）：',
+          eng: 'weapon'
+        },{
+          jap: '兵器化：',
+          eng: 'weaponization'
+        },{
+          jap: '兵器化する：',
+          eng: 'to weaponize'
+        },{
+          jap: '兵器化される：',
+          eng: 'to be weaponized'
+        }
+      ]
+    },
+    example: [
+      {
+        sentence: {
+          ante: '『せんご日本はずいぶん',
+          highlight: '西洋化',
+          post: '（せいようか）した。』'
+        },
+        translation: 'Since the war, Japan has become quite Westernized. (did the Westernization, did Westernize)'
+      },{
+        sentence: {
+          ante: '『',
+          highlight: '映画化',
+          post: 'された小説（しょうせつ）は多い。』'
+        },
+        translation: 'There are many novels which have been made into movies (lit. The movie-ization-ed (movie-ized) novels are many.)'
+      }
+    ],
+    other: '...'
+  },{
+    grammar_point: 'Causative-Passive (verb(caus.))(pass.)',
+    spec: 'Causative-Passive (verb(caus.))(pass.)',
+    meaning: 'To be made to verb',
+    use: {
+      text: 'Formed by conjugating a verb in the causative and then taking the passive of that form.  This ultimately ends up as ／あ／せられる which can be contracted to ／あ／される UNLESS such contraction would duplicate the さ。 Conjugation of the causative, passive, caus-pass, and contractions:',
+      species: [
+        {
+          jap: 'causative（る）: ',
+          eng: 'verb[neg.](stem) + さ + せる (eg: 食べる：食べ：食べさせる）'
+        },{
+          jap: 'causative（う）: ',
+          eng: 'verb[neg.](stem) + せる (eg: 読む：読ま：読ませる）'
+        },{
+          jap: 'causative（する）: ',
+          eng: 'させる'
+        },{
+          jap: 'passive（る）: ',
+          eng: 'verb[neg.](stem) + ら + れる (eg: 食べる：食べ：食べられる）'
+        },{
+          jap: 'passive（う）: ',
+          eng: 'verb[neg.](stem) + れる (eg: 読む：読ま：読まれる）'
+        },{
+          jap: '／in general／：',
+          eng: 'verb／あ／せられる (contracted to: verb／あ／される unless it would duplicate a さ eg: 話させられる cannot become 話さされる）'
+        }
+      ]
+    },
+    example: [
+      {
+        sentence: {
+          ante: '『たいてい一学期に一つは論文を',
+          highlight: '書かされる',
+          post: '。』'
+        },
+        translation: 'In general, we are made to write at least one paper per semester.'
+      }
+    ],
+    other: 'LITERAL TRANSLATIONS YAY: "there is a causing done unto me".  Passive comes from the Latin "patior, pati, passus sum" meaning "to endure, to bear, to suffer".  Compare "Passion of the Christ" (the suffering of Christ) or a doctor\'s "patient" (one who undergoes).  In Japanese, there is a direct and an indirect passive.  The direct passive is as it is in English, ie: "to be done".  There is an subject to which the action is done by an agent.  The indirect passive means something more like "the action was done outside of the subject\'s control".  An agent may or may not be involved.  In this case, the verb is used quite like the active voice, but the focus is on the fact that the subject could do nothing about the verb.  Compare: 『寿司が先生に作られる：The sushi is made by sensei.』 with 『寿司を先生に作られる：There is sushi is made by sensei (the making of which I have no control over).』 The meanings are essentially the same, but using the particle が and を infers a different context.  I still don\'t really know how it exactly works.  BUT, this is all to clarify that the causative-passive has a meaning of "I am caused to verb outside of my control", and such.'
   }
 ];
 
