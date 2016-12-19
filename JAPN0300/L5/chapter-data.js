@@ -329,23 +329,27 @@ const chap_grammar_list = [
       text: 'Formed by conjugating a verb in the causative and then taking the passive of that form.  This ultimately ends up as ／あ／せられる which can be contracted to ／あ／される UNLESS such contraction would duplicate the さ。 Conjugation of the causative, passive, caus-pass, and contractions:',
       species: [
         {
-          jap: 'causative（る）: ',
+          jap: 'causative（る）：',
           eng: 'verb[neg.](stem) + さ + せる (eg: 食べる：食べ：食べさせる）'
         },{
-          jap: 'causative（う）: ',
+          jap: 'causative（う）：',
           eng: 'verb[neg.](stem) + せる (eg: 読む：読ま：読ませる）'
         },{
-          jap: 'causative（する）: ',
+          jap: 'causative（する）：',
           eng: 'させる'
         },{
-          jap: 'passive（る）: ',
+          jap: 'passive（る）：',
           eng: 'verb[neg.](stem) + ら + れる (eg: 食べる：食べ：食べられる）'
         },{
-          jap: 'passive（う）: ',
+          jap: 'passive（う）：',
           eng: 'verb[neg.](stem) + れる (eg: 読む：読ま：読まれる）'
         },{
-          jap: '／in general／：',
-          eng: 'verb／あ／せられる (contracted to: verb／あ／される unless it would duplicate a さ eg: 話させられる cannot become 話さされる）'
+          jap: '／in general／',
+          eng: ''
+        }
+        {
+          jap: 'verb／あ／せられる：',
+          eng: 'contracted to: verb／あ／される (unless it would duplicate a さ eg: 話させられる cannot become 話さされる)'
         }
       ]
     },
@@ -359,7 +363,7 @@ const chap_grammar_list = [
         translation: 'In general, we are made to write at least one paper per semester.'
       }
     ],
-    other: 'LITERAL TRANSLATIONS YAY: "there is a causing done unto me".  Passive comes from the Latin "patior, pati, passus sum" meaning "to endure, to bear, to suffer".  Compare "Passion of the Christ" (the suffering of Christ) or a doctor\'s "patient" (one who undergoes).  In Japanese, there is a direct and an indirect passive.  The direct passive is as it is in English, ie: "to be done".  There is an subject to which the action is done by an agent.  The indirect passive means something more like "the action was done outside of the subject\'s control".  An agent may or may not be involved.  In this case, the verb is used quite like the active voice, but the focus is on the fact that the subject could do nothing about the verb.  Compare: 『寿司が先生に作られる：The sushi is made by sensei.』 with 『寿司を先生に作られる：There is sushi is made by sensei (the making of which I have no control over).』 The meanings are essentially the same, but using the particle が and を infers a different context.  I still don\'t really know how it exactly works.  BUT, this is all to clarify that the causative-passive has a meaning of "I am caused to verb outside of my control", and such.'
+    other: 'LITERAL TRANSLATIONS YAY: "there is a causing done unto me".  Passive comes from the Latin "patior, pati, passus sum" meaning "to endure, to bear, to suffer".  Compare "Passion of the Christ" (the suffering of Christ) or a doctor\'s "patient" (one who undergoes).  In Japanese, there is a direct and an indirect passive.  The direct passive is as it is in English, ie: "to be done".  There is an subject to which the action is done by an agent.  The indirect passive means something more like "the action was done outside of the subject\'s control".  An agent is involved, but the subject isn\'t.  In this case, the verb is used quite like the active voice, but the focus is on the fact that the subject could do nothing about the verb.  Compare: 『寿司が先生に作られる：The sushi is made by sensei.』 with 『寿司を先生に作られる：There is sushi is made by sensei (the making of which I have no control over).』 The meanings are essentially the same, but using the particle が and を infers a different context.  I still don\'t really know how it exactly works.  BUT, this is all to clarify that the causative-passive has a meaning of "I am caused to verb outside of my control", and such.'
   }
 ];
 

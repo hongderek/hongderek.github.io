@@ -44,6 +44,7 @@ grammar {
   word-wrap: break-word;
   overflow: hidden;
   display: block;
+  padding: 0 5px 0 0;
 }
 
 grammar.prepend {
@@ -52,7 +53,7 @@ grammar.prepend {
   color: red;
   vertical-align: top;
   float: left;
-  padding-left: 5px;
+  padding: 0 0 0 5px;
 }
 
 species {
