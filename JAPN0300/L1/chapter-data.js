@@ -100,11 +100,11 @@ const chap_grammar_list = [
       text: 'Conjugate なる in the [past] for verbing that has become.  Conjugate なる in the [present] for verbing that will become.',
       species: [
         {
-          jap: '『verb[present]ようになる[present]』',
+          jap: 'verb(plain)ようになる：',
           eng: 'Such verb will become (or will be) (or take place, etc.)'
         },
         {
-          jap: '『verb[past]ようになる[past]』',
+          jap: 'verb(plain)ようになった：',
           eng: 'Such verb has become (or came to be) (or took place, etc.)'
         }
       ]
@@ -157,15 +157,15 @@ const chap_grammar_list = [
       text: 'The meaning changes based on tense of verb(plain).  ところ usually written with kana alone.  ところ declines as a noun.',
       species: [
         {
-          jap: '『verb[present]ところ』',
+          jap: 'verb(present)ところ：',
           eng: 'Just about to verb.'
         },
         {
-          jap: '『verb[ている]ところ』',
+          jap: 'verb(ている)ところ：',
           eng: 'Currently/in the middle of verb(ing).'
         },
         {
-          jap: '『verb[past]ところ』',
+          jap: 'verb(past)ところ：',
           eng: 'Just finished verb(ing).'
         }
       ]
@@ -190,11 +190,11 @@ const chap_grammar_list = [
       text: 'Using なった implies that such decisions have been made.  Using なっている reports that future plans have been decided.',
       species: [
         {
-          jap: '『verb(plain)ことになっている』',
+          jap: 'verb(plain)ことになっている：',
           eng: 'Such decision has been made (outside of one\'s control).  This construction is also used to convey rules, regulations, and social customs.'
         },
         {
-          jap: '『verb(plain)ことになった』',
+          jap: 'verb(plain)ことになった：',
           eng: 'Such future plans have been decided (outside of one\'s control).'
         }
       ]
@@ -239,11 +239,11 @@ const chap_grammar_list = [
       text: 'にくい・やすい are い auxilliary adjectives attached to verb(stem)s.  These conjugate as い adjectives.  Usually, the something is marked with ~は。',
       species: [
         {
-          jap: '『verb(stem)にくい』',
+          jap: 'verb(stem)にくい：',
           eng: '~ is difficult to do'
         },
         {
-          jap: '『verb(stem)やすい』',
+          jap: 'verb(stem)やすい：',
           eng: '~ is easy to do'
         }
       ]
@@ -281,11 +281,11 @@ const chap_grammar_list = [
     other: 'cf: 「nounにする」To decide on noun.<br>cf: 「verb(plain)ことに（なっている・なった）」It has been decided that...'
   },
   {
-    grammar_point: '(verb phrase A)[past]ら、(verb phrase B)[past]',
-    spec: '(verb phrase A)[past]ら、(verb phrase B)[past]',
+    grammar_point: '(verb A)[past]ら、(verb B)[past]',
+    spec: '(verbA)[past]ら、(verbB)[past]',
     meaning: 'When such A occured, then such B happened.  Expresses causal relationship between A and B.  It is implied that the event or outome in sentence B is unexpected.',
     use: {
-      text: 'Used to express causal relationship between events.  Also called「(sentence)たら、(sentence)」since verb(past) conjugations end in 〜た。',
+      text: 'Used to express causal relationship between events.',
       species: []
     },
     example: [
@@ -298,7 +298,7 @@ const chap_grammar_list = [
         translation: 'When I went to Starbucks, I met 先生。'
       },
     ],
-    other: 'cf: 「(verb phrase A)[past]ら、(verb phrase B)[present]」is the /conditional/ use of [past]ら (ie: 〜たら).  It means "IF A, then B".  Note in difference of tense.'
+    other: 'cf: 「(verb A)[past]ら、(verb B)[present]」is the /conditional/ use of [past]ら (ie: 〜たら).  It means "IF A, then B".  Note in difference of tense.'
   },
   {
     grammar_point: 'とてもverb(OR verb phrase)[neg]',
@@ -365,23 +365,23 @@ const chap_grammar_list = [
       text: 'らしい in this case is an auxilliary adjective that can be used after noun, adjective, or verb phrases.  らしい ends the sentence in casual speech, らしいです in formal speech.',
       species: [
         {
-          jap: '（noun）・らしい',
+          jap: 'nounらしい',
           eng: ''
         },
         {
-          jap: '（いadj）い・らしい',
+          jap: '（adjい）いらしい',
           eng: ''
         },
         {
-          jap: '（なadj）＿・らしい',
+          jap: '（adjな）らしい',
           eng: ''
         },
         {
-          jap: '（るverb）る・らしい',
+          jap: '（verbる)[plain]らしい',
           eng: ''
         },
         {
-          jap: '（うverb）う・らしい',
+          jap: '（verbう）[plain]らしい',
           eng: ''
         },
       ]

@@ -34,24 +34,120 @@ const chap_note_list = [
 
 const chap_grammar_list = [
   {
-    grammar_point: '〜って',
-    spec: '〜って',
-    meaning: 'They say, ~.  ~, so I hear.',
+    grammar_point: '何と言っても',
+    spec: '何と言っても',
+    meaning: 'Undeniably; no doubt; by any account.  (lit. No matter what you say, lit.lit. Even if you say what/that)',
     use: {
-      text: 'A sentence ending in plain form is put before って。　Used to qualify information obtained through secondary sources (vs what is known firsthand).  Such distinction is important in Japanese.',
+      text: 'Pretty self explanitory phrase.',
       species: []
     },
     example: [
       {
         sentence: {
-          ante: '『東京の冬はあまり寒くないんだ',
-          highlight: 'って',
-          post: 'ねえ。』'
+          ante: '『日本が経済たいこくになれたのは、',
+          highlight: '何と言っても',
+          post: 'アメリカのおかげだろう。』'
         },
-        translation: 'I hear winter in Tokyo is not very cold.'
+        translation: 'No doubt it was thanks to America that Japan became an economic power.'
       }
     ],
-    other: 'cf. そうだ、といっていました、らしい'
+    other: '...'
+  },{
+    grammar_point: '〜だっけ／〜だっけ',
+    spec: '〜だっけ／〜だっけ',
+    meaning: '〜、If I remember correctly; 〜、what was it; 〜、am I right?',
+    use: {
+      text: 'A phrase used to indicate that the speaker does not remember or is unsure about certain information that was known or told previously; trying to jog one\'s memory to remember again.  As opposed to asking a question to find out information for the first time.  This is why the past form is usually used.  Is only used in casual speech.  Usually used with the past（〜たっけ）but can also be used with the present where だ is used（だっけ）.  ですっけ cannot be used.',
+      species: [
+        {
+          jap: 'Present tense + っけ',
+          eng: ''
+        },{
+          jap: '',
+          eng: 'nounだっけ'
+        },{
+          jap: '',
+          eng: '（adjな）だっけ'
+        },{
+          jap: '',
+          eng: 'ーーー (use with（adjい）いんだっけ）'
+        },{
+          jap: '',
+          eng: 'ーーー (use with verb(plain, present)んだっけ）'
+        },{
+          jap: '',
+          eng: '〜んだっけ'
+        },{
+          jap: 'Plain past + っけ',
+          eng: ''
+        },{
+          jap: '',
+          eng: 'nounだったっけ'
+        },{
+          jap: '',
+          eng: '（adjな）だったっけ'
+        },{
+          jap: '',
+          eng: '（adjい）かったっけ'
+        },{
+          jap: '',
+          eng: 'verb(plain, past)っけ'
+        },{
+          jap: '',
+          eng: '〜んだったっけ'
+        },{
+          jap: 'Polite past + っけ',
+          eng: ''
+        },{
+          jap: '',
+          eng: 'nounでしたっけ'
+        },{
+          jap: '',
+          eng: '（adjな）でしたっけ'
+        },{
+          jap: '',
+          eng: 'ーーー (use with （adjい）いんでしたっけ)'
+        },{
+          jap: '',
+          eng: 'verb(stem)ましたっけ'
+        },{
+          jap: '',
+          eng: '〜んでしたっけ'
+        }
+      ]
+    },
+    example: [
+      {
+        sentence: {
+          ante: '『去年の夏も',
+          highlight: '暑かったっけ',
+          post: '。』'
+        },
+        translation: 'Last summer was also hot, if I remember correctly.'
+      },{
+        sentence: {
+          ante: '『試験は',
+          highlight: '来週だったっけ',
+          post: '。』'
+        },
+        translation: 'The exam is next week, right? (lit. it was next week that the exam is if I remember correctly)'
+      },{
+        sentence: {
+          ante: '『試験は',
+          highlight: 'いつだったっけ',
+          post: '。』'
+        },
+        translation: 'When was the exam, again?'
+      },{
+        sentence: {
+          ante: '『郵便局の前にコンビニが',
+          highlight: 'ありましたっけ',
+          post: '。』'
+        },
+        translation: 'Is there a konbini in front of the post-office (I don\'t recall seeing it). (The "don\'t recall seeing it" carries the implication that you knew about it before but are now having trouble remembering)'
+      }
+    ],
+    other: 'The usage of っけ to ask questions about the non-past (eg: Is there a konbini around here?; when is the test?) can be difficult to wrap your head around because a past form of the verb is used.  But, more precisely, when you use っけ you are asking about something that was known or mentioned in the past (eg: Was there a konbini around here?; When was the test, again?) as opposed to knowing about it for the first time.  You can see, it\'s not unheard of in English to use that.  If you really wanted to keep the past construction in translation, adding ", again?" makes it sound more natural and gets the "I heard it before but can\'t seem to remember it now" implication.'
   }
 ];
 

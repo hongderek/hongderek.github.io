@@ -374,10 +374,10 @@ const chap_grammar_list = [
       text: 'べき is conjugated like a noun (followed by だ・です・etc).  Negation of べき is べきではない。  するべき may be contracted to すべき、but both are used.  Is a strong suggestion, maybe too strong to use casually directly to others; keep it to "I should" or "one should".',
       species: [
         {
-          jap: 'verb(pl.)べきだ：',
+          jap: 'verb(plain)べきだ：',
           eng: 'One should verb'
         },{
-          jap: 'verb(pl.)べきではない：',
+          jap: 'verb(plain)べきではない：',
           eng: 'One should not verb'
         }
       ]

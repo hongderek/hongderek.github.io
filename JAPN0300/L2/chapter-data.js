@@ -316,18 +316,18 @@ const chap_grammar_list = [
     spec: '(sentence)わけです。',
     meaning: 'That is to say; it follows that; that means (sentence)',
     use: {
-      text: 'States a logical conclusion which can be drawn from previous statements.  The sentence ends in plain form.',
+      text: 'States a logical conclusion which can be drawn from previous statements.  The sentence ends in plain form, can be past or present.',
       species: [
         {
-          jap: '〜（なａｄｊ）（な・だった）わけです。 And such [neg] analogues of the plain form.',
+          jap: '〜（adjな）（な・だった）わけです。',
           eng: ''
         },
         {
-          jap: '〜（いａｄｊ）（い・かった）わけです。',
+          jap: '〜（adjい）（い・かった）わけです。',
           eng: ''
         },
         {
-          jap: '〜（ｖｅｒｂ）（[plain]・[neg]・[past]）わけです。',
+          jap: '〜（verb）わけです。',
           eng: ''
         }
       ]

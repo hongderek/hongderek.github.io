@@ -148,18 +148,18 @@ const chap_grammar_list = [
     spec: '〜ことは（〜が）',
     meaning: 'It is[present] indeed the case that (verb/adj)(, but...); It was[past] indeed the case that (verb/adj)(, but...)',
     use: {
-      text: 'This is another way to qualify one\'s statements.  The verb or adjective is repeated before and after ことは。 Both sides should match in tense.  〜が is optional.',
+      text: 'This is another way to qualify one\'s statements.  The verb or adjective is repeated before and after ことは。 Both sides should match in tense.  〜が is optional (ie: You don\'t need to say "Indeed ___, but", you can just say "Indeed ___."',
       species: [
         {
-          jap: '（いadj）い・ことは（いadj）い',
+          jap: '（adjい）い・ことは（adjい）〜',
           eng: ''
         },
         {
-          jap: '（なadj）な・ことは（なadj）な',
+          jap: '（adjな）な・ことは（adjな）〜',
           eng: ''
         },
         {
-          jap: 'verb(plain)・ことはverb(plain)',
+          jap: 'verb(plain)・ことはverb(plain)〜',
           eng: ''
         }
       ]
@@ -172,6 +172,13 @@ const chap_grammar_list = [
           post: '、間違いが多かっただろうと思います。』'
         },
         translation: 'While indeed I did write the report, I think there were probably many mistakes.'
+      },{
+        sentence: {
+          ante: '『この寿司は',
+          highlight: 'おいしいことはおいしいです',
+          post: '。』'
+        },
+        translation: 'This sushi is indeed delicious.'
       }
     ],
     other: '([present]ことは[present])・([past]ことは[past]) note that the tense on either side of ことは should match.'
@@ -197,9 +204,9 @@ const chap_grammar_list = [
     other: '...'
   },
   {
-    grammar_point: '〜とは限る[neg]（漢字：「かぎ」る）',
+    grammar_point: '〜とは限る[neg]',
     spec: '〜とは限る[neg]',
-    meaning: 'It is not necessarily the case that ~(sentence).  It does not mean that ~(sentence).',
+    meaning: '（漢字：「かぎ」る）It is not necessarily the case that ~(sentence).  It does not mean that ~(sentence).',
     use: {
       text: '限る[neg] is 限らない／限りません。 The preceeding statement should end in plain form.  The expression is often used with 必ずしも（also expresses "not always; not necessarily").',
       species: [
@@ -226,11 +233,11 @@ const chap_grammar_list = [
     other: '...'
   },
   {
-    grammar_point: 'verb(plain)（前に・〜後（で）・〜時（に））(clause)',
-    spec: 'verb(plain)前に、〜後（で）、〜時（に）',
-    meaning: 'Before〜; After〜; When([present, [past])〜',
+    grammar_point: 'verb(plain)（前に・〜後（で）・〜時（に））',
+    spec: 'verb(plain)（前に・〜後（で）・〜時（に））',
+    meaning: 'Before 〜; After 〜; When(present/past) 〜',
     use: {
-      text: 'Time particles indicate the temporal situation of the preceeding action to the following clause.  There are rules which govern whether to use [present] or [past] in the preceeding action, however, the main verb always governs the embeded verb\'s tense in translation.  It\'s quite fun to think about the sequence of actions.',
+      text: 'Time particles indicate the temporal situation of the preceeding action to the following clause.  There are rules which govern whether to use [present] or [past] in the preceeding action, however, the main verb always governs the embeded verb\'s tense in translation.  It\'s quite fun to think about the sequence of actions.  For 後 and 時 their particles are optional.',
       species: [
         {
           jap: '「verb[present]前に(clause[present/past])」　　 ',
@@ -375,16 +382,16 @@ const chap_grammar_list = [
       text: 'Such construction is followed by 心配する、迷う、考える。  Such verbs can be [past] as well (wodered whether to...).  Indicates the subject is wondering which option to take.',
       species: [
         {
-          jap: '心配する',
-          eng: 'しんぱい（する）：Worried whether to A or B.'
+          jap: '心配する：',
+          eng: '（しんぱい（する））：Worried whether to A or B.'
         },
         {
-          jap: '迷う　　',
-          eng: 'まよ（う）：Lost, hesitating, puzzled whether to A or B.'
+          jap: '迷う　　：',
+          eng: '（まよ（う））：Lost, hesitating, puzzled whether to A or B.'
         },
         {
-          jap: '考える　',
-          eng: 'かんが（える）：Considering whether to A or B.'
+          jap: '考える　：',
+          eng: '（かんが（える））：Considering whether to A or B.'
         }
       ]
     },
@@ -403,7 +410,7 @@ const chap_grammar_list = [
   {
     grammar_point: '〜のではない（でしょうか・だろうか・か）',
     spec: '〜のではない（でしょうか・だろうか・か）',
-    meaning: 'I think it might be the case that 〜。  (however, the focus here should be on the feeling, rather than literal translation)',
+    meaning: 'Might it not be the case that 〜。  (however, the focus here should be on the feeling, rather than literal translation)',
     use: {
       text: 'Yet another indirect way to express one\'s opinon.  「〜」is usually a sentence ending in plain form.  「〜ではないだろうか」can be followed by と plus verbs like 思う、心配する、etc.  There are several contractions and rules as follows:',
       species: [
@@ -412,16 +419,16 @@ const chap_grammar_list = [
           eng: ''
         },
         {
-          jap: '(adjい)[い]のではない〜',
+          jap: '(adjい)い・のではない〜',
           eng: ''
         },
         {
-          jap: '(adjな)[な]のではない〜',
-          eng: 'Note that な is used.'
+          jap: '(adjな)な・のではない〜',
+          eng: '　Note that な is used.'
         },
         {
-          jap: '(noun)[な]のではない〜',
-          eng: 'Note that な is used.'
+          jap: '(noun)な・のではない〜',
+          eng: '　Note that な is used.'
         },
         {
           jap: '〜んじゃない（でしょうか・だろうか）',
@@ -451,7 +458,7 @@ const chap_grammar_list = [
         translation: 'Recently, I think (that I think it might be the case that) (the number of) foreigners who can speak Japanese has increased.'
       }
     ],
-    other: 'This is a soft way to suggest something.  A literal translation might be "Might it not be the case that 〜"?'
+    other: '...'
   },
   {
     grammar_point: 'むしろ',
@@ -461,7 +468,7 @@ const chap_grammar_list = [
       text: 'むしろ is used when comparing two alternatives to say that one is more ___ than the other.  Usually preceeded by a より clause which describes what is lesser.  Translation is very contextual; think of むしろ as a "leaning towards" or describing preference.',
       species: [
         {
-          jap: '（eg）(clause A)よりむしろ(clause B)',
+          jap: '（eg）(clause A)よりむしろ(clause B)：',
           eng: '"Rather/more than" (clause A) is so, (clause B) is such.'
         },
         {
@@ -490,7 +497,7 @@ const chap_grammar_list = [
       text: '意外に（漢字：いがい（に））is a phrase.  意外と is a more colloquial form.  What comes after (ie: adj) is what was contrary to expectation.  The adjectives are in plain form (the examples only use [past], but I\'m sure [present] also occurs?), but are comparative in translation thanks to 意外に。',
       species: [
         {
-          jap: '〜は「意外に」adj[past] ',
+          jap: '〜は「意外に」adj[past]：',
           eng: 'As for 〜、it was adj(er) than expected'
         }
       ]

@@ -431,14 +431,14 @@ const chap_grammar_list = [
       text: 'Conjugation as such:',
       species: [
         {
-          jap: '食べすぎる',
-          eng: ''
+          jap: 'verb(stem)すぎる',
+          eng: '（eg: 食べすぎる)'
         },{
-          jap: '高すぎる',
-          eng: ''
+          jap: '（adjい）すぎる',
+          eng: '（eg: 高すぎる)'
         },{
-          jap: '有名すぎる',
-          eng: ''
+          jap: '（adjな）有名すぎる',
+          eng: '（eg: 有名すぎる)'
         },{
           jap: 'しすぎる',
           eng: '　from する'
