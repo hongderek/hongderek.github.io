@@ -170,23 +170,23 @@ const chap_grammar_list = [
     other: 'LONG LIVE LITERAL MEANINGS!'
   },{
     grammar_point: '（〜て）も',
-    spec: '〜ても',
+    spec: '（〜て）も',
     meaning: 'Even when/if 〜',
     use: {
       text: 'Verbs and adjectives in the て form with the particle も gives the meaning "even when/if 〜".  The main sentence is usually in the non-past, as in "Even if A, B is so".  な adjectives and nouns take the form 〜であっても which is usually contracted to でも。 Conjugation as follows:',
       species: [
         {
-          jap: 'verbても',
+          jap: 'verb(て）も',
           eng: ''
         },{
-          jap: '（いadj）くても',
-          eng: '　Remember, 〜ない conjugates as an いadj'
+          jap: '（adjい)(て）も',
+          eng: ''
         },{
-          jap: '（なadj）であっても',
-          eng: '　(alternatively:（なadj)でも)'
+          jap: '（adjな）であっても',
+          eng: '　(or:（adjな）でも)'
         },{
           jap: '（noun）であっても',
-          eng: '　(alternatively:（noun)でも)'
+          eng: '　(or:（noun）でも)'
         }
       ]
     },
@@ -362,7 +362,7 @@ const chap_grammar_list = [
         translation: 'In general, we are made to write at least one paper per semester.'
       }
     ],
-    other: 'LITERAL TRANSLATIONS YAY: "there is a causing done unto me".  Passive comes from the Latin "patior, pati, passus sum" meaning "to endure, to bear, to suffer".  Compare "Passion of the Christ" (the suffering of Christ) or a doctor\'s "patient" (one who undergoes).  In Japanese, there is a direct and an indirect passive.  The direct passive is as it is in English, ie: "to be done".  There is an subject to which the action is done by an agent.  The indirect passive means something more like "the action was done outside of the subject\'s control".  An agent is involved, but the subject isn\'t.  In this case, the verb is used quite like the active voice, but the focus is on the fact that the subject could do nothing about the verb.  Compare: 『寿司が先生に作られる：The sushi is made by sensei.』 with 『寿司を先生に作られる：There is sushi is made by sensei (the making of which I have no control over).』 The meanings are essentially the same, but using the particle が and を infers a different context.  I still don\'t really know how it exactly works.  BUT, this is all to clarify that the causative-passive has a meaning of "I am caused to verb outside of my control", and such.'
+    other: 'LITERAL TRANSLATIONS YAY: "there is a causing done unto me".  Passive comes from the Latin "patior, pati, passus sum" meaning "to endure, to bear, to suffer".  Compare to "Passion of the Christ" (the suffering of Christ) or a doctor\'s "patient" (one who undergoes).  In Japanese, there is a direct and an indirect passive.  The direct passive is as it is in English, eg: "to be done".  There is a subject to which the action is done by an agent.  The indirect passive means something more like "There is an action done by an agent over which the subject".  In this case, the verb is used quite like the active voice, but the focus is on the fact that the subject could do nothing about the verb.  Compare: 『寿司が先生に作られる：The sushi is made by sensei.』 with 『寿司を先生に作られる：There is sushi is made by sensei (over which I or the sushi have no control, which may or may not infer negative context).』 The meanings are essentially the same, but using the particle が and を infers a different context.  I still don\'t really know how it exactly works.  BUT, this is all to clarify that the causative-passive has a meaning of "I am caused to verb outside of my control", per se.'
   }
 ];
 

@@ -410,7 +410,7 @@ const chap_grammar_list = [
   {
     grammar_point: '〜のではない（でしょうか・だろうか・か）',
     spec: '〜のではない（でしょうか・だろうか・か）',
-    meaning: 'Might it not be the case that 〜。  (however, the focus here should be on the feeling, rather than literal translation)',
+    meaning: 'Might it not be the case that 〜。  Perhaps 〜。 (I kind of like just inserting "perhaps", it softens the claim without adding too much extra wording)',
     use: {
       text: 'Yet another indirect way to express one\'s opinon.  「〜」is usually a sentence ending in plain form.  「〜ではないだろうか」can be followed by と plus verbs like 思う、心配する、etc.  There are several contractions and rules as follows:',
       species: [

@@ -55,7 +55,7 @@ const chap_grammar_list = [
   },{
     grammar_point: '〜だっけ／〜だっけ',
     spec: '〜だっけ／〜だっけ',
-    meaning: '〜、If I remember correctly; 〜、what was it; 〜、am I right?',
+    meaning: '〜、if I remember correctly; 〜、what was it again?; 〜、if I am right',
     use: {
       text: 'A phrase used to indicate that the speaker does not remember or is unsure about certain information that was known or told previously; trying to jog one\'s memory to remember again.  As opposed to asking a question to find out information for the first time.  This is why the past form is usually used.  Is only used in casual speech.  Usually used with the past（〜たっけ）but can also be used with the present where だ is used（だっけ）.  ですっけ cannot be used.',
       species: [
@@ -147,7 +147,112 @@ const chap_grammar_list = [
         translation: 'Is there a konbini in front of the post-office (I don\'t recall seeing it). (The "don\'t recall seeing it" carries the implication that you knew about it before but are now having trouble remembering)'
       }
     ],
-    other: 'The usage of っけ to ask questions about the non-past (eg: Is there a konbini around here?; when is the test?) can be difficult to wrap your head around because a past form of the verb is used.  But, more precisely, when you use っけ you are asking about something that was known or mentioned in the past (eg: Was there a konbini around here?; When was the test, again?) as opposed to knowing about it for the first time.  You can see, it\'s not unheard of in English to use that.  If you really wanted to keep the past construction in translation, adding ", again?" makes it sound more natural and gets the "I heard it before but can\'t seem to remember it now" implication.'
+    other: 'The usage of っけ to ask questions about the non-past (eg: Is there a konbini around here?; when is the test?) can be difficult to wrap your head around because a past form of the verb is used.  But, more precisely, when you use っけ you are asking about something that was known or mentioned in the past (eg: Was there a konbini around here?; When was the test, again?) as opposed to knowing about it for the first time.  If you really wanted to keep the past construction in translation, adding ", again?" makes it sound more natural and gets the "I heard it before but can\'t seem to remember it now" implication.'
+  },{
+    grammar_point: 'verb(plain)ようにする',
+    spec: 'verb(plain)ようにする',
+    meaning: 'To make an effort to do verb.  To make it a point to do verb.',
+    use: {
+      text: 'yup',
+      species: []
+    },
+    example: [
+      {
+        sentence: {
+          ante: '『日本語は毎日',
+          highlight: '勉強するようにして',
+          post: 'ください。』'
+        },
+        translation: 'Please make an effort to study Japanese every day.'
+      }
+    ],
+    other: 'cf. verb(plain)ようになる'
+  },{
+    grammar_point: 'verb(stem)（始める・終わる）',
+    spec: 'verb(stem)始める',
+    meaning: '（始める：はじ（める））To begin verbing.  （終わる：おわ（る））To finish verbing.',
+    use: {
+      text: 'Using the past forms of 始めろ・終わる means began/finished verbing.',
+      species: [
+        {
+          jap: 'verb(stem)始める：',
+          eng: 'To begin verbing.'
+        },{
+          jap: 'verb(stem)終わる：',
+          eng: 'To finish verbing.'
+        }
+      ]
+    },
+    example: [
+      {
+        sentence: {
+          ante: '『私が日本語を',
+          highlight: '勉強し始めた',
+          post: 'のは一年前です。』'
+        },
+        translation: 'It was one year ago that I started studying Japanese.'
+      },{
+        sentence: {
+          ante: '『午前三時にやっと論文を',
+          highlight: '書き終わりました',
+          post: '。』'
+        },
+        translation: 'I finally finished writing the paper at 3am.'
+      }
+    ],
+    other: '...'
+  },{
+    grammar_point: '(sentence）verb(stem)（sentence)',
+    spec: '(sentence）verb(stem)（sentence)',
+    meaning: 'The verb(stem) can be used as verb(て) to connect two sentences.',
+    use: {
+      text: 'This is generally restricted to written style.',
+      species: []
+    },
+    example: [
+      {
+        sentence: {
+          ante: '『コンビニへ',
+          highlight: '行き',
+          post: '、チーズを買った。』'
+        },
+        translation: 'I went to the konbini and bought cheese.'
+      }
+    ],
+    other: '...'
+  },{
+    grammar_point: 'Q word + verb(て）も',
+    spec: 'Q word + verb(て）も',
+    meaning: 'No matter what/when/who/where/many times/etc. one verbs...',
+    use: {
+      text: 'Question words (eg: 何／いつ／だれ／どこ／何度／etc.) (with particles where needed) follwed by verb(て）も gives this meaning.',
+      species: []
+    },
+    example: [
+      {
+        sentence: {
+          ante: '『富士山は、',
+          highlight: 'いつ見ても',
+          post: 'きれいです。』'
+        },
+        translation: 'No matter when you look at it, Mt. Fuji is beautiful.'
+      },{
+        sentence: {
+          ante: '『',
+          highlight: '何を食べても',
+          post: 'ふとらない人がうらやましいです。』'
+        },
+        translation: 'I envy people who do not get fat no matter what they eat.'
+      },{
+        sentence: {
+          ante: '『東京の町は、',
+          highlight: 'どこへ行っても',
+          post: '人で込んでいます。』'
+        },
+        translation: 'Tōkyō is crowded with people no matter where you go.'
+      }
+    ],
+    other: '...'
   }
 ];
 
