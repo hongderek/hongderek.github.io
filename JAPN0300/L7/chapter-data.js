@@ -37,7 +37,7 @@ const chap_note_list = [
         subtopic: '>>>',
         desc: 'I\'ve seen 初めて be thought of as the kanji to mean "firstly" (in a temporal sense) (ie: the "first" something) whereas 始める is used to mean "to start" something (like an activity) (ie: the "beginning" of something).  For instance:'
       },{
-        subtopic: '初：',
+        subtopic: '>>> 初：',
         desc: '初（はつ）：first, new'
       },{
         subtopic: '',
@@ -49,7 +49,7 @@ const chap_note_list = [
         subtopic: '',
         desc: '初音（はつ・ね）：first warbling of the new year (初音ミク）'
       },{
-        subtopic: '始：',
+        subtopic: '>>> 始：',
         desc: '始める（はじ（める））：to begin something'
       },{
         subtopic: '',
