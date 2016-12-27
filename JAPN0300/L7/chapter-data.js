@@ -21,12 +21,45 @@ const chap_kanji_str = 'kanji,reading,meaning,kaku\n誘う,さそ（う）,to in
 */
 const chap_note_list = [
   {
-    topic: '（〜から）です。',
-    spec: '（〜から）です。',
+    topic: '初めて　vs　始める',
+    spec: '初めて　vs　始める',
     subtopic_list: [
       {
+        subtopic: '初めて and 始める are both read with「はじ」but they mean different things:',
+        desc: ''
+      },{
+        subtopic: '初めて：',
+        desc: '初めて means that "the first time doing something" (〜は初めてです）or "for the first time"（〜て初めて）(as in chapter 1).  初める also exists, but it is an auxilliary verb meaning "to begin to" and is read as 「そ（める）」.  初 is the correct kanji to use in はじめまして。'
+      },{
+        subtopic: '始める：',
+        desc: '始める is an ichidan transitive verb meaning "to begin (something)".  始め is the kanji used in this chapter,「〜を始め」meaning "starting with 〜".  始 would be used in something like「始めましょう！」"Let\'s begin!"'
+      },{
+        subtopic: '>>>',
+        desc: 'I\'ve seen 初めて be thought of as the kanji to mean "firstly" (in a temporal sense) (ie: the "first" something) whereas 始める is used to mean "to start" something (like an activity) (ie: the "beginning" of something).  For instance:'
+      },{
+        subtopic: '初：',
+        desc: '初（はつ）：first, new'
+      },{
         subtopic: '',
-        desc: '〜から：because.  Is full sentence to give answer to question (ie: 〜ですか)。'
+        desc: '最初（さい・しょ）：first, outset, beginning'
+      },{
+        subtopic: '',
+        desc: '初恋（はつ・こい）：first love'
+      },{
+        subtopic: '',
+        desc: '初音（はつ・ね）：first warbling of the new year (初音ミク）'
+      },{
+        subtopic: '始：',
+        desc: '始める（はじ（める））：to begin something'
+      },{
+        subtopic: '',
+        desc: '始まる（はじ（まる））：something begins'
+      },{
+        subtopic: '',
+        desc: '始まり（はじ（まり））：the origin, beginning'
+      },{
+        subtopic: '',
+        desc: '開始（かい・し）：the start, commencement, initiation'
       }
     ]
   }
@@ -170,7 +203,7 @@ const chap_grammar_list = [
   },{
     grammar_point: 'verb(stem)（始める・終わる）',
     spec: 'verb(stem)始める',
-    meaning: '（始める：はじ（める））To begin verbing.  （終わる：おわ（る））To finish verbing.',
+    meaning: '（始める：はじ（める））To begin verbing.  （終わる：お（わる））To finish verbing.',
     use: {
       text: 'Using the past forms of 始めろ・終わる means began/finished verbing.',
       species: [
@@ -253,6 +286,25 @@ const chap_grammar_list = [
       }
     ],
     other: '...'
+  },{
+    grammar_point: '〜を始め',
+    spec: '〜を始め',
+    meaning: '"Starting with 〜, "; "Including 〜, "',
+    use: {
+      text: 'When you want to give a list of items, this phrase will be used to introduce the most obvious example and is usually followed by more examples.',
+      species: []
+    },
+    example: [
+      {
+        sentence: {
+          ante: '『アメリカではフットボール、',
+          highlight: 'をはじめ、',
+          post: 'バスケット、アイスホッケーなどのスポーツも盛んです。』'
+        },
+        translation: 'In America, popular sports include football, basketball, ice hockey, and others.'
+      }
+    ],
+    other: '始め is different than 初めて、see notes for explaination.'
   }
 ];
 

@@ -251,7 +251,7 @@ const chap_grammar_list = [
       species: [
         {
           jap: '(#, counter)しか（ない・ありません）',
-          eng: 'Only # of counter (such that it is not enough).'
+          eng: 'Only have # of counter (such that it is not enough).'
         },
         {
           jap: '(#, counter)しかverb[neg]',
@@ -289,12 +289,12 @@ const chap_grammar_list = [
         translation: 'I only read manga.'
       }
     ],
-    other: 'In other words, しか ＋ ない carries the meaning of "only" in a negative way.'
+    other: 'In other words, しか + ない carries the meaning of "only" in a negative way.'
   },
   {
     grammar_point: '(sentence A)つまり(sentence B)',
     spec: 'つまり',
-    meaning: '(sentence A).  In other words; that is; namely; in short, (sentence B).',
+    meaning: '"Sentence A.  In other words/that is/namely/in short, sentence B."',
     use: {
       text: 'Used at the beginning of a sentence to summarize/expand the previous sentence.',
       species: []
@@ -373,9 +373,9 @@ const chap_grammar_list = [
     other: 'よる means "to depend on".  Therefore, よって is the て form of よる。'
   },
   {
-    grammar_point: 'nounに当たる（漢字：あ（たる））',
+    grammar_point: 'nounに当たる',
     spec: 'nounに当たる',
-    meaning: 'To correspond to; to be equal to (noun)',
+    meaning: '（漢字：あ（たる））To correspond to; to be equal to (noun)',
     use: {
       text: 'Compares an aforementioned noun to the nounに and states (or asks a question about) the equality of the two.',
       species: []

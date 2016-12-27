@@ -16,6 +16,48 @@ const chap_kanji_str = 'kanji,reading,meaning,kaku\n・,おじぎ,bow,\n敬語,�
 
 const chap_note_list = [
   {
+    topic: '初めて　vs　始める',
+    spec: '初めて　vs　始める',
+    subtopic_list: [
+      {
+        subtopic: '初めて and 始める are both read with「はじ」but they mean different things:',
+        desc: ''
+      },{
+        subtopic: '初めて：',
+        desc: '初めて means that "the first time doing something" (〜は初めてです）or "for the first time"（〜て初めて） (as in this chapter).  初める also exists, but it is an auxilliary verb meaning "to begin to" and is read as 「そ（める）」.  初 is the correct kanji to use in はじめまして。'
+      },{
+        subtopic: '始める：',
+        desc: '始める is an ichidan transitive verb meaning "to begin (something)".  始め is the kanji used in the grammar point in chapter 7「〜を始め」meaning "starting with 〜".  始 would be used in something like「始めましょう！」"Let\'s begin!"'
+      },{
+        subtopic: '>>>',
+        desc: 'I\'ve seen 初めて be thought of as the kanji to mean "firstly" (in a temporal sense) (ie: the "first" something) whereas 始める is used to mean "to start" something (like an activity) (ie: the "beginning" of something).  For instance:'
+      },{
+        subtopic: '初：',
+        desc: '初（はつ）：first, new'
+      },{
+        subtopic: '',
+        desc: '最初（さい・しょ）：first, outset, beginning'
+      },{
+        subtopic: '',
+        desc: '初恋（はつ・こい）：first love'
+      },{
+        subtopic: '',
+        desc: '初音（はつ・ね）：first warbling of the new year (初音ミク）'
+      },{
+        subtopic: '始：',
+        desc: '始める（はじ（める））：to begin something'
+      },{
+        subtopic: '',
+        desc: '始まる（はじ（まる））：something begins'
+      },{
+        subtopic: '',
+        desc: '始まり（はじ（まり））：the origin, beginning'
+      },{
+        subtopic: '',
+        desc: '開始（かい・し）：the start, commencement, initiation'
+      }
+    ]
+  },{
     topic: 'Phrases',
     spec: 'Phrases',
     subtopic_list: [
@@ -28,8 +70,7 @@ const chap_note_list = [
         desc: 'to become interested in 〜'
       }
     ]
-  },
-  {
+  },{
     topic: '〜のに　vs　〜ので',
     spec: '〜のに　vs　〜ので',
     subtopic_list: [
@@ -38,8 +79,7 @@ const chap_note_list = [
         desc: '〜のに：Although (contrary to one\'s expectation) ; 〜ので：because'
       }
     ]
-  },
-  {
+  },{
     topic: 'verb(て)（もらう・あげる）',
     spec: 'verb(て)（もらう・あげる）',
     subtopic_list: [
@@ -53,11 +93,11 @@ const chap_note_list = [
 
 const chap_grammar_list = [
   {
-    grammar_point: 'verb(plain past)ばかり',
-    spec: 'verb(plain past)ばかり',
+    grammar_point: 'verb(plain, past)ばかり',
+    spec: 'verb(plain, past)ばかり',
     meaning: 'Have just (verb)ed, have just finished (verb)ing.',
     use: {
-      text: 'ばかり can end a sentence (ばかり（だ・です)） and preceed conjunctions (ばかりだから) and other nouns (ばかりのｎｏｕｎ).',
+      text: 'ばかり can end a sentence (ばかり（だ・です)）and preceed conjunctions (ばかりだから) and other nouns (ばかりのnoun).',
       species: []
     },
     example: [
@@ -70,7 +110,7 @@ const chap_grammar_list = [
         translation: 'I have just finished my homework.'
       }
     ],
-    other: 'Grammatically, ばかり is technically a particle, but it seems to be like a noun?  (cf. Vところ for differences)'
+    other: '...'
   },
   {
     grammar_point: 'あの',
@@ -229,7 +269,7 @@ const chap_grammar_list = [
         translation: 'No, this is the first time.'
       },
     ],
-    other: '...'
+    other: 'NOTE: That 初め is different from 始める。 Both kanji are read as「はじ」but their usages are different.  More info in notes below.'
   },
   {
     grammar_point: 'verb(stem)（にくい・やすい）',

@@ -31,11 +31,11 @@ const chap_note_list = [
     ]
   },
   {
-    topic: 'Please explain ~',
-    spec: 'Please explain ~',
+    topic: 'Please explain 〜',
+    spec: 'Please explain 〜',
     subtopic_list: [
       {
-        subtopic: 'I want an explaination for this graph',
+        subtopic: 'I want an explaination for this graph (using verb(て)もらいたい)',
         desc: 'このグラフは説明してもらいたい。'
       }
     ]
@@ -55,7 +55,7 @@ const chap_note_list = [
     spec: 'Expressing similarity',
     subtopic_list: [
       {
-        subtopic: '似ている：to be the same/similar',
+        subtopic: '似ている：to be the same/similar (cf. 違う：to be different/differ)',
         desc: '似る（漢字：に（る））：to be similar.  Usually used in ている form ie: 似ている。'
       }
     ]
@@ -126,7 +126,7 @@ const chap_grammar_list = [
   {
     grammar_point: '〜って',
     spec: '〜って',
-    meaning: 'They say, ~.  ~, so I hear.',
+    meaning: '"They say, 〜"; "〜, so I hear."',
     use: {
       text: 'A sentence ending in plain form is put before って。　Used to qualify information obtained through secondary sources (vs what is known firsthand).  Such distinction is important in Japanese.',
       species: []

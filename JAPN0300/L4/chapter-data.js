@@ -337,7 +337,7 @@ const chap_grammar_list = [
     spec: '（verbて）くる／いく',
     meaning: 'A change/process/transition has been taking place up until now (くる）。  A change/process/transition will take place from now own （いく）。',
     use: {
-      text: 'くる and いく are kana forms of 来る and 行く respectively.  In this form, the verbs are usually written with kana alone.',
+      text: 'くる and いく are kana forms of 来る and 行く respectively.  In this form, the verbs are usually written with kana alone.  くる is usually conjugated in the past (to convey the meaning of "has come to be").',
       species: [
         {
           jap: 'verbてくる：',
@@ -345,6 +345,9 @@ const chap_grammar_list = [
         },{
           jap: 'verbていく：',
           eng: 'a change will take place from now on.'
+        },{
+          jap: 'verbてきた：',
+          eng: 'a change has taken place (has come).'
         }
       ]
     },

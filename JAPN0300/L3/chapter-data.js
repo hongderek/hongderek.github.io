@@ -113,6 +113,21 @@ const chap_grammar_list = [
         {
           jap: '(time-frame)中に：',
           eng: 'By the end of (time-frame).'
+        },{
+          jap: '今週中に reading: ',
+          eng: 'こんしゅう<b>ちゅう</b>に'
+        },{
+          jap: '今月中に reading: ',
+          eng: 'こんげつ<b>ちゅう</b>に'
+        },{
+          jap: '午前中に reading: ',
+          eng: 'ごぜん<b>ちゅう</b>に'
+        },{
+          jap: '今日中に reading: ',
+          eng: 'きょう<b>じゅう</b>に'
+        },{
+          jap: '今年中に reading: ',
+          eng: 'ことし<b>じゅう</b>に'
         }
       ]
     },
@@ -130,7 +145,7 @@ const chap_grammar_list = [
   },{
     grammar_point: '（〜[pos./neg.]ば）〜ほど＿＿',
     spec: '(〜ば)〜ほど',
-    meaning: 'The more/less 〜、the more/less ＿＿',
+    meaning: '"The more/less 〜 is so, the more/less ＿＿ is."',
     use: {
       text: 'The same verb/adj/noun is used for both 〜, first in 〜ば form and then in plain form + ぼど。For nouns and なadj., であれば／ある will be suffixed.  Pos. constructions give the "more" meaning, neg. constructions give the "less" meaning.  The 〜 may be positive and the ＿＿ may be negative, in which case the translation would be "the more, the less", and vice versa, etc.  For nouns/adjな、ある will be negated and not the noun/adj.  I kind of like the literal translations, as un-English as they are.',
       species: [
@@ -287,7 +302,7 @@ const chap_grammar_list = [
     spec: '必ずしも〜というわけではない',
     meaning: '（漢字：かなら（ずしも））It does not necessarily mean that 〜。',
     use: {
-      text: 'What comes before という is a clause which gives detail to わけ。必ず means "always, without exception, invariably".  必ずしも is the negation of that: "not always, not necessarily" and acts adverbially.  わけ means "conclusion from reasioning".  The ではない is a double-negative in the sense of an intesifier, not in the sense of "not-not".',
+      text: 'What comes before という is a clause which gives detail to わけ。必ず means "always, without exception, invariably".  必ずしも is the negation of that: "not always, not necessarily" and acts adverbially.  わけ means "conclusion from reasoning".  The ではない is a double-negative in the sense of an intesifier, not in the sense of "not-not".',
       species: [
         {
           jap: '',
@@ -307,8 +322,8 @@ const chap_grammar_list = [
     ],
     other: 'A literal translation might be "The so called 〜 reasoning is not necessarily the case".'
   },{
-    grammar_point: '(noun/verbて)ばかり',
-    spec: '(noun/verbて)ばかり',
+    grammar_point: '(noun/verbて)ばかり（だ）',
+    spec: '(noun/verbて)ばかり（だ）',
     meaning: 'Nothing but noun.  Do nothing but verb.',
     use: {
       text: 'Conveys a sense that there is so much X that it appears as if there is only X',
@@ -365,7 +380,7 @@ const chap_grammar_list = [
         translation: 'If possible, please hand in homework the next day.'
       }
     ],
-    other: 'I\'ve seen なるべく described as "preferably".  Like, "be as quiet as possible" = "be quite preferably".  なるべく + adverb conveys the meaning "as adverbially as possible".'
+    other: 'I\'ve seen なるべく described as "preferably".  Like, "be as quiet as possible" = "be quiet, preferably".  なるべく + adverb conveys the meaning "as adverbially as possible".'
   },{
     grammar_point: 'verb(plain)べき',
     spec: 'verb(plain)べき',
