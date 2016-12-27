@@ -287,6 +287,49 @@ const chap_grammar_list = [
     ],
     other: '...'
   },{
+    grammar_point: 'Q word + で（ある）も',
+    spec: 'Q word + で（ある）も',
+    meaning: '"Every/any - one, thing, time, where, etc."',
+    use: {
+      text: 'であるも is usually contracted to でも。 This construction can also be used as 「どのnounでも」to mean "every noun" or "any noun".  For example:'
+      species: [
+        {
+          jap: '何でも：',
+          eng: 'everything, anything'
+        },{
+          jap: 'いつでも：',
+          eng: 'every time, any time'
+        },{
+          jap: 'どこでも：',
+          eng: 'everywhere, anywhere'
+        },{
+          jap: 'どのnounでも：',
+          eng: 'every noun, any noun'
+        },{
+          jap: 'etc。',
+          eng: ''
+        }
+      ]
+    },
+    example: [
+      {
+        sentence: {
+          ante: '『',
+          highlight: '何でも',
+          post: 'いい。』'
+        },
+        translation: 'Anything is good.'
+      },{
+        sentence: {
+          ante: '『',
+          highlight: 'どの国でも',
+          post: '』'
+        },
+        translation: 'Every country'
+      }
+    ],
+    other: '...'
+  },{
     grammar_point: '〜を始め',
     spec: '〜を始め',
     meaning: '"Starting with 〜, "; "Including 〜, "',
@@ -305,6 +348,80 @@ const chap_grammar_list = [
       }
     ],
     other: '始め is different than 初めて、see notes for explaination.'
+  },{
+    grammar_point: 'nounにとって',
+    spec: 'nounにとって',
+    meaning: '"For noun"; "To noun"',
+    use: {
+      text: 'Also: "regarding noun, ", "concerning noun, ", "as far as noun is concerned".  Is usually used to mark a subject, thus は and も are usually used after 〜にとって。 とって comes from the verb 取る。',
+      species: []
+    },
+    example: [
+      {
+        sentence: {
+          ante: '『日本人',
+          highlight: 'にとって',
+          post: 'は普通のことでも、外国人<b>にとって</b>は変に見えることも多いだろう。』'
+        },
+        translation: 'There are probably many things which seem normal to the Japanese but strange to foreigners.'
+      },{
+        sentence: {
+          ante: '『多くのアメリカの大学生',
+          highlight: 'にとって',
+          post: '、成績は一番重要なことらしい。』'
+        },
+        translation: 'It seems like grades are the most important (じゅうよう) thing for many American college students.'
+      }
+    ],
+    other: '...'
+  },{
+    grammar_point: '〜的（な）',
+    spec: '〜的（な）',
+    meaning: '（漢字：てき）"〜type"; "〜ic"; "〜ical"',
+    use: {
+      text: 'Suffixing this to a noun makes it into an adjな and gives a meaning of "noun-ical".  Also gives a meaning of a "typical noun" or "noun-type".  Adding the particle に will adverbialize it, meaning "noun-ical-ly".',
+      species: [
+        {
+          jap: '〜的（な）：',
+          eng: '〜ical'
+        },{
+          jap: '〜的に：',
+          eng: '〜ically'
+        }
+      ]
+    },
+    example: [
+      {
+        sentence: {
+          ante: '『',
+          highlight: '日本的な',
+          post: 'おみやげと言うと、着物（きもの）とか扇子（せんす）などだろう。』'
+        },
+        translation: 'A typical-Japanese souvenir might be a kimono or a fan.'
+      },{
+        sentence: {
+          ante: '『「行くぞ」とか「行くぜ」と言うと、',
+          highlight: '男性的に',
+          post: '聞こえる。』'
+        },
+        translation: 'It sounds masculine (man-type-ly, manly) if you say "iku zo" or "iku ze".'
+      },{
+        sentence: {
+          ante: '『黒沢（くろさわ）は',
+          highlight: '世界的に',
+          post: '有名な監督（かんとく）である。』'
+        },
+        translation: 'Kurosawa is a world-famous (world-ical-ly, global-ly) movie director.'
+      },{
+        sentence: {
+          ante: '『最近では、どの国でもエネルギーを',
+          highlight: '経済的に',
+          post: '使おうとしてる。』'
+        },
+        translation: 'Recently, every country is making an attempt to use energy economically.'
+      }
+    ],
+    other: '...'
   }
 ];
 
