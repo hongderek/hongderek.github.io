@@ -291,7 +291,7 @@ const chap_grammar_list = [
     spec: 'Q word + で（ある）も',
     meaning: '"Every/any - one, thing, time, where, etc."',
     use: {
-      text: 'であるも is usually contracted to でも。 This construction can also be used as 「どのnounでも」to mean "every noun" or "any noun".  For example:'
+      text: 'であるも is usually contracted to でも。 This construction can also be used as 「どのnounでも」to mean "every noun" or "any noun".  For example:',
       species: [
         {
           jap: '何でも：',
