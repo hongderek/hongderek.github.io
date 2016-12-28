@@ -41,6 +41,9 @@ const chap_note_list = [
         subtopic: 'verb(ば）いいでしょう。',
         desc: 'giving advice'
       },{
+        subtopic: 'verb(ば）いいのに。',
+        desc: 'informal giving advice'
+      },{
         subtopic: '（eg）：どうすればいいですか。',
         desc: '"What should I do?"'
       }

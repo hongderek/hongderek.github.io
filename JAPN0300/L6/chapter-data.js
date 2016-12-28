@@ -4,7 +4,7 @@ const local_course_name = '日本語３００';
 const local_course_path = 'JAPN0300'
 const local_chap_name = '第６課';
 
-const chap_kanji_str = 'kanji,reading,meaning,kaku\n店,みせ,shop; store; restaurant,hai\n注文する,ちゅうもん（する）,to order,hai\n引用する,いんよう（する）,to quote,hai\n以上,いじょう,more than,hai\n勤める,つと（める）,to work for,\n同僚,どうりょう,colleague,hai\nご飯,（ご）はん,rice,\n丼,どんぶり,you know what it is boi,\n実物,じつぶつ,actual thing,\n卵,"\nたまご",egg,\n店員,てんいん,clerk; shop employee,hai\n親子,おやこ,parent and child,hai\n生む,う（む）,to lay (an egg); to give birth,\n昼食,ちゅうしょく,lunch (more polite),\n五十代,ごじゅうだい,In one\'s fifties (age wise),hai\n１９９０年代,（１９９０）ねんだい,Nineties (year wise ie: 1990s),\n込む,こ（む）,to be crowded,\n腰をかける,こし（をかける）,to sit (hum. of 座る）,\n座る,すわ（る）,to sit,\nお茶,（お）ちゃ,green tea,\n召し上がる,め（し）あ（がる）,to eat/drink (hon. of 食べる・飲む),\n参る,まい（る）,to come/go (hum. (courteous) of 行く・来る),\n請求書,せいきゅうしょ,bill; invoice,\n払う,はら（う）,to pay,\n全部,ぜんぶ,all; entire (NB: only for inanimate objects) (cf. 全員),hai\n席に着く,せき（に）つ（く）,"to seat oneself (lit. ""to arrive at a seat"")",\n辺り,あた（り）,vicinity,\n腹がへる,はら（がへる）,to be hungry,\nお腹がへる,（お）なか（がへる）,"to be hungry (more polite, note reading change)",\n売る,う（る）,to sell,\n外国,がいこく,foreign country,hai\n日本化する,にほんか（する）,"to Japanize (日本化 ""Japanization"")",\n旅行,りょこう,travel,hai\n習慣,しゅうかん,custom,hai\n面倒（な）,めんどう（な）,troublesome,\n（〜と）感じる,（〜と）かん（じる）,to feel (that ~),\n例,れい,example,hai\n運転手,うんてんしゅ,"driver, chauffeur",\n渡す,わた（す）,to hand to someone,\n荷物,にもつ,luggage; baggage,\n運ぶ,はこ（ぶ）,to carry,hai\n片付ける,かたづ（ける）,to clean; to tidy up,\n何度も,なんど（も）,many times,hai\n旅館,りょかん,Japanese-style inn,\n泊まる,と（まる）,"to stay (ie: hotel, 旅館 for a short time)",hai\n決まる,き（まる）,"to be decided, fixed, arraged",\n宿泊料,しゅくはくりょう,hotel charges,\n簡単,かんたん,simple; easy,\n（〜に）含まれる,（〜に）ふく（まれる）,to be include (in 〜) (pass. 含む),\n含む,ふく（む）,to include,\n計算する,けいさん（する）,to calculate,\n美容院,びよういん,beauty salon,\n床屋,とこや,barber shop,\n（〜と／に）比べる,（〜と／に）くら（べる）,to compare (with ~),hai\n高級（な）,こうきゅう（な）,high class; first rate,hai\n料理屋,りょうりや,Japanese-style restaurant,\n普通,るつう,normal; ordinary; usual,hai\n必要（な）,ひつよう（な）,necessary,hai\n必要ない,ひつよう（ない）,not necessary,\n物価,ぶっか,prices (of commodities),hai\n意外に,いがい（に）,expectedly; unexpectedly ,\n宣伝,せんでん,advertisement,\n・,なるほど,(phrase),\n・,やめる,"to refrain (from), stop (something) (transitive, 〜を)",\n・,おごる,to treat (someone to food/drink) (don\'t use to superiors),\n・,ごちそうになる,to be treated by someone,\n（〜を）降りる,（〜を）お（りる）,to get off 〜; to get out of (a vehicle),\n食堂,しょくどう,dining room,\n・,（〜が）いる,to need 〜,\n心配,しんぱい,worry (する：to worry),\n・,むしろ,rather,\nこの間,（この）あいだ,"the other day, recently",\n訪ねる,たず（ねる）,to visit,\n様,さま,hon. of さん,';
+const chap_kanji_str = 'kanji,reading,meaning,kaku\n店,みせ,shop; store; restaurant,hai\n注文する,ちゅうもん（する）,to order,hai\n引用する,いんよう（する）,to quote,hai\n以上,いじょう,more than,hai\n勤める,つと（める）,to work for,\n同僚,どうりょう,colleague,hai\nご飯,（ご）はん,rice,\n丼,どんぶり,you know what it is boi,\n実物,じつぶつ,actual thing,\n卵,"\nたまご",egg,\n店員,てんいん,clerk; shop employee,hai\n親子,おやこ,parent and child,hai\n生む,う（む）,to lay (an egg); to give birth,\n昼食,ちゅうしょく,lunch (more polite),\n五十代,ごじゅうだい,In one\'s fifties (age wise),hai\n１９９０年代,（１９９０）ねんだい,Nineties (year wise ie: 1990s),\n込む,こ（む）,to be crowded,\n腰をかける,こし（をかける）,to sit (hum. of 座る）,\n座る,すわ（る）,to sit,\nお茶,（お）ちゃ,green tea,\n召し上がる,め（し）あ（がる）,to eat/drink (hon. of 食べる・飲む),\n参る,まい（る）,to come/go (hum. (courteous) of 行く・来る),\n請求書,せいきゅうしょ,bill; invoice,\n払う,はら（う）,to pay,\n全部,ぜんぶ,all; entire (NB: only for inanimate objects) (cf. 全員),hai\n席に着く,せき（に）つ（く）,"to seat oneself (lit. ""to arrive at a seat"")",\n辺り,あた（り）,vicinity,\n腹がへる,はら（がへる）,to be hungry (usually 腹がへった）,\nお腹がすく,（お）なか（がすく）,"to be hungry (more polite, usually お腹がすいた)",\n売る,う（る）,to sell,\n外国,がいこく,foreign country,hai\n日本化する,にほんか（する）,"to Japanize (日本化 ""Japanization"")",\n旅行,りょこう,travel,hai\n習慣,しゅうかん,custom,hai\n面倒（な）,めんどう（な）,troublesome,\n（〜と）感じる,（〜と）かん（じる）,to feel (that ~),\n例,れい,example,hai\n運転手,うんてんしゅ,"driver, chauffeur",\n渡す,わた（す）,to hand to someone,\n荷物,にもつ,luggage; baggage,\n運ぶ,はこ（ぶ）,to carry,hai\n片付ける,かたづ（ける）,to clean; to tidy up,\n何度も,なんど（も）,many times,hai\n旅館,りょかん,Japanese-style inn,\n泊まる,と（まる）,"to stay (ie: hotel, 旅館 for a short time)",hai\n決まる,き（まる）,"to be decided, fixed, arraged",\n宿泊料,しゅくはくりょう,hotel charges,\n簡単,かんたん,simple; easy,\n（〜に）含まれる,（〜に）ふく（まれる）,to be include (in 〜) (pass. 含む),\n含む,ふく（む）,to include,\n計算する,けいさん（する）,to calculate,\n美容院,びよういん,beauty salon,\n床屋,とこや,barber shop,\n（〜と／に）比べる,（〜と／に）くら（べる）,to compare (with ~),hai\n高級（な）,こうきゅう（な）,high class; first rate,hai\n料理屋,りょうりや,Japanese-style restaurant,\n普通,るつう,normal; ordinary; usual,hai\n必要（な）,ひつよう（な）,necessary,hai\n必要ない,ひつよう（ない）,not necessary,\n物価,ぶっか,prices (of commodities),hai\n意外に,いがい（に）,expectedly; unexpectedly ,\n宣伝,せんでん,advertisement,\n・,なるほど,(phrase),\n・,やめる,"to refrain (from), stop (something) (transitive, 〜を)",\n・,おごる,to treat (someone to food/drink) (don\'t use to superiors),\n・,ごちそうになる,to be treated by someone,\n（〜を）降りる,（〜を）お（りる）,to get off 〜; to get out of (a vehicle),\n食堂,しょくどう,dining room,\n・,（〜が）いる,to need 〜,\n心配,しんぱい,worry (する：to worry),\n・,むしろ,rather,\nこの間,（この）あいだ,"the other day, recently",\n訪ねる,たず（ねる）,to visit,\n様,さま,hon. of さん,';
 
 
 /**
@@ -21,6 +21,21 @@ const chap_kanji_str = 'kanji,reading,meaning,kaku\n店,みせ,shop; store; rest
 */
 const chap_note_list = [
   {
+    topic: 'How to say I\'m hungry',
+    spec: 'How to say I\'m hungry',
+    subtopic_list: [
+      {
+        subtopic: '腹がへった',
+        desc: 'or'
+      },{
+        subtopic: 'お腹がすいた',
+        desc: 'but not one or the other, it sounds wierd otherwise.'
+      },{
+        subtopic: '',
+        desc: '(as a side note, お腹がいっぱい is to say "I am full")'
+      }
+    ]
+  },{
     topic: '（〜から）です。',
     spec: '（〜から）です。',
     subtopic_list: [
@@ -29,8 +44,7 @@ const chap_note_list = [
         desc: '〜から：because.  The preceeding sentence is the answer to question (ie: 〜ですか)。  A more colloquial form of 〜んです which is from 〜のです。'
       }
     ]
-  },
-  {
+  },{
     topic: 'Please explain 〜',
     spec: 'Please explain 〜',
     subtopic_list: [
@@ -39,8 +53,7 @@ const chap_note_list = [
         desc: 'このグラフは説明してもらいたい。'
       }
     ]
-  },
-  {
+  },{
     topic: 'Motion verbs （に）',
     spec: 'Motion verbs （に）',
     subtopic_list: [
@@ -49,8 +62,7 @@ const chap_note_list = [
         desc: '行く、来る、帰る、入る、乗る、留学する、移る、引っ越す、参加する'
       }
     ]
-  },
-  {
+  },{
     topic: 'Expressing similarity',
     spec: 'Expressing similarity',
     subtopic_list: [
@@ -59,8 +71,7 @@ const chap_note_list = [
         desc: '似る（漢字：に（る））：to be similar.  Usually used in ている form ie: 似ている。'
       }
     ]
-  },
-  {
+  },{
     topic: 'verb(plain, non-past)ことがある',
     spec: 'verb(plain, non-past)ことがある',
     subtopic_list: [
@@ -73,8 +84,7 @@ const chap_note_list = [
         desc: 'There are no occasions when 〜.  ie: almost never'
       }
     ]
-  },
-  {
+  },{
     topic: 'verb(volitional)とする',
     spec: 'verb(volitional)とする',
     subtopic_list: [
@@ -83,8 +93,7 @@ const chap_note_list = [
         desc: 'と seems to function as it does in と思う、と考える、etc.'
       }
     ]
-  },
-  {
+  },{
     topic: 'The suffering passive',
     spec: 'The suffering passive',
     subtopic_list: [
@@ -93,8 +102,7 @@ const chap_note_list = [
         desc: 'literally wat'
       }
     ]
-  },
-  {
+  },{
     topic: '覚えるセンテンス',
     spec: '覚えるセンテンス',
     subtopic_list: [
