@@ -21,19 +21,20 @@ const chap_note_list = [
     subtopic_list: [
       {
         subtopic: 'You cannot use 借りる(caus.て) and 貸す(て) forms to ask for monies.',
-        desc: '借りる：か（りる）to borrow'
-      },{
-        subtopic: '',
-        desc: '　貸す：か（す）　to lend'
+        desc: 
+        [
+          '借りる：か（りる）to borrow',
+          '　貸す：か（す）　to lend'
+        ]
       },{
         subtopic: 'Instead, use the「(て or caus.て)いただけないでしょうか。」construction (etc: もらう、くれる）',
-        desc: 'Also, don\'t do 借りて, that means "please let me lend"...'
+        desc: ['Also, don\'t do 借りて, that means "please let me lend"...']
       },{
         subtopic: '',
-        desc: 'eg: 「お金を<b>貸して</b>いただけないでしょうか」pls lend monies'
+        desc: ['eg: 「お金を<b>貸して</b>いただけないでしょうか」pls lend monies']
       },{
         subtopic: 'In response, you muse use 貸す (to lend)',
-        desc: 'eg: 「貸して上げます。」I give to you.'
+        desc: ['eg: 「貸して上げます。」I give to you.']
       }
     ]
   },{
@@ -42,19 +43,14 @@ const chap_note_list = [
     subtopic_list: [
       {
         subtopic: 'Meeting 先生 and asking for favors',
-        desc: 'ちょっとおじゃまします'
-      },{
-        subtopic: '',
-        desc: 'もう一つお願いします'
-      },{
-        subtopic: '',
-        desc: 'blahblahことなんですけど'
-      },{
-        subtopic: '',
-        desc: 'もう一つお願いがあるんですけど'
-      },{
-        subtopic: '',
-        desc: '二、三分よろしいでしょうか'
+        desc: 
+        [
+          'ちょっとおじゃまします',
+          'もう一つお願いします',
+          'blahblahことなんですけど',
+          'もう一つお願いがあるんですけど',
+          '二、三分よろしいでしょうか'
+        ]
       }
     ]
   },{
@@ -63,7 +59,7 @@ const chap_note_list = [
     subtopic_list: [
       {
         subtopic: 'じゃ、えんぴつ使えば？',
-        desc: 'How about using a pencil?'
+        desc: ['How about using a pencil?']
       }
     ]
   },{
@@ -71,11 +67,32 @@ const chap_note_list = [
     spec: '"To use" in writing and speech',
     subtopic_list: [
       {
-        subtopic: '利用する（りよう（する））：to use (when writing)',
-        desc: ''
+        subtopic: '利用する（りよう（する））："to use" (when writing)',
+        desc: ['']
       },{
-        subtopic: '使う（つか（う））：to use (when speaking)',
-        desc: ''
+        subtopic: '使う　　（つか（う））　　："to use" (when speaking)',
+        desc: ['']
+      }
+    ]
+  },{
+    topic: 'Asking Permission',
+    spec: 'Asking Permission',
+    subtopic_list: [
+      {
+        subtopic: '〜けど、いいでしょうか。',
+        desc: ['']
+      },{
+        subtopic: 'verb(て)もいいですか。',
+        desc: ['ie: as opposed to favours']
+      }
+    ]
+  },{
+    topic: 'Years older/younger',
+    spec: 'Years older/younger',
+    subtopic_list: [
+      {
+        subtopic: 'You can use either ＃つ or ＃さい for years older/younger (上／下）',
+        desc: ['eg: 僕の妹は　二つ／二さい　下です。']
       }
     ]
   },{
@@ -84,22 +101,15 @@ const chap_note_list = [
     subtopic_list: [
       {
         subtopic: 'Asking favours:',
-        desc: '１）あのう〜'
-      },{
-        subtopic: '',
-        desc: '２）ちょっと、おじゃまします〜 (excuse me...)'
-      },{
-        subtopic: '',
-        desc: '３）実は、〜んですけど (intro topic)'
-      },{
-        subtopic: '',
-        desc: '　　　　　〜のことなんですけど'
-      },{
-        subtopic: '',
-        desc: '　　verb(caus.て)いただけないでしょうか。 (ask favour)'
-      },{
-        subtopic: '',
-        desc: '４）よろしくお願いします。(k thx)'
+        desc: 
+        [
+          '１）あのう〜',
+          '２）ちょっと、おじゃまします〜 (excuse me...)',
+          '３）実は、〜んですけど (intro topic)',
+          '　　　　　〜のことなんですけど',
+          '　　verb(caus.て)いただけないでしょうか。 (ask favour)',
+          '４）よろしくお願いします。(k thx)'
+        ]
       }
     ]
   }

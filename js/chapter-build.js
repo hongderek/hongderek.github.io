@@ -42,7 +42,10 @@ $(window).on('load', function() {
     for(var j=0; j<nl_subtopic_list.length; j++) {
       var subtopic_name = nl_subtopic_list[j].subtopic;
       var subtopic_desc = nl_subtopic_list[j].desc;
-      note_expo += '<note class="subtopic">' + subtopic_name + '</note><note class="desc">' + subtopic_desc + '</note>';
+      note_expo += '<note class="subtopic">' + subtopic_name + '</note>';
+      for(var k=0; k<subtopic_desc.length; k++) {
+        note_expo += '<note class="desc">' + subtopic_desc[k] + '</note>';
+      }
     }
 
 
