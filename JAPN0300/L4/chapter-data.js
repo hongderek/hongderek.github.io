@@ -21,13 +21,12 @@ const chap_note_list = [
     subtopic_list: [
       {
         subtopic: '',
-        desc: 'そう：　hands to eyes'
-      },{
-        subtopic: '',
-        desc: 'らしい：hands to ears'
-      },{
-        subtopic: '',
-        desc: 'よう：　hands to read'
+        desc: 
+        [
+          'そう：　hands to eyes',
+          'らしい：hands to ears',
+          'よう：　hands to read'
+        ]
       }
     ]
   },{
@@ -36,13 +35,13 @@ const chap_note_list = [
     subtopic_list: [
       {
         subtopic: '',
-        desc: 'Can be used to express hearsay that one has heard.  But can also be followed by a noun to mean "A typical（＿らしい）noun".  ie: 冬らしい日：a typical winter day.  Compare:'
+        desc: ['Can be used to express hearsay that one has heard.  But can also be followed by a noun to mean "A typical（＿らしい）noun".  ie: 冬らしい日：a typical winter day.  Compare:']
       },{
         subtopic: '夏らしい日です。',
-        desc: 'It is a summery day.  (ie: It is a typical summer day (and we\'re in summer.))'
+        desc: ['It is a summery day.  (ie: It is a typical summer day (and we\'re in summer.))']
       },{
         subtopic: '夏のような日です。',
-        desc: 'It is a summer-like day.  (ie: It is like a summer day (and it is not summer.))'
+        desc: ['It is a summer-like day.  (ie: It is like a summer day (and it is not summer.))']
       }
     ]
   },{
@@ -51,7 +50,7 @@ const chap_note_list = [
     subtopic_list: [
       {
         subtopic: 'ｔｈｅ　ｔｗｉｃｅｎｅｒ。',
-        desc: ''
+        desc: ['']
       }
     ]
   }

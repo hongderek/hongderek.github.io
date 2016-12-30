@@ -21,40 +21,34 @@ const chap_note_list = [
     subtopic_list: [
       {
         subtopic: '初めて and 始める are both read with「はじ」but they mean different things:',
-        desc: ''
+        desc: ['']
       },{
         subtopic: '初めて：',
-        desc: '初めて means that "the first time doing something" (〜は初めてです）or "for the first time"（〜て初めて） (as in this chapter).  初める also exists, but it is an auxilliary verb meaning "to begin to" and is read as 「そ（める）」.  初 is the correct kanji to use in はじめまして。'
+        desc: ['初めて means that "the first time doing something" (〜は初めてです）or "for the first time"（〜て初めて） (as in this chapter).  初める also exists, but it is an auxilliary verb meaning "to begin to" and is read as 「そ（める）」.  初 is the correct kanji to use in はじめまして。']
       },{
         subtopic: '始める：',
-        desc: '始める is an ichidan transitive verb meaning "to begin (something)".  始め is the kanji used in the grammar point in chapter 7「〜を始め」meaning "starting with 〜".  始 would be used in something like「始めましょう！」"Let\'s begin!"'
+        desc: ['始める is an ichidan transitive verb meaning "to begin (something)".  始め is the kanji used in the grammar point in chapter 7「〜を始め」meaning "starting with 〜".  始 would be used in something like「始めましょう！」"Let\'s begin!"']
       },{
         subtopic: '>>>',
-        desc: 'I\'ve seen 初めて be thought of as the kanji to mean "firstly" (in a temporal sense) (ie: the "first" something) whereas 始める is used to mean "to start" something (like an activity) (ie: the "beginning" of something).  For instance:'
+        desc: ['I\'ve seen 初めて be thought of as the kanji to mean "firstly" (in a temporal sense) (ie: the "first" something) whereas 始める is used to mean "to start" something (like an activity) (ie: the "beginning" of something).  For instance:']
       },{
         subtopic: '>>> 初：',
-        desc: '初（はつ）：first, new'
-      },{
-        subtopic: '',
-        desc: '最初（さい・しょ）：first, outset, beginning'
-      },{
-        subtopic: '',
-        desc: '初恋（はつ・こい）：first love'
-      },{
-        subtopic: '',
-        desc: '初音（はつ・ね）：first warbling of the new year (初音ミク）'
+        desc: 
+        [
+          '初（はつ）：first, new',
+          '最初（さい・しょ）：first, outset, beginning',
+          '初恋（はつ・こい）：first love',
+          '初音（はつ・ね）：first warbling of the new year (初音ミク）'
+        ]
       },{
         subtopic: '>>> 始：',
-        desc: '始める（はじ（める））：to begin something'
-      },{
-        subtopic: '',
-        desc: '始まる（はじ（まる））：something begins'
-      },{
-        subtopic: '',
-        desc: '始まり（はじ（まり））：the origin, beginning'
-      },{
-        subtopic: '',
-        desc: '開始（かい・し）：the start, commencement, initiation'
+        desc: 
+        [
+          '始める（はじ（める））：to begin something',
+          '始まる（はじ（まる））：something begins',
+          '始まり（はじ（まり））：the origin, beginning',
+          '開始（かい・し）：the start, commencement, initiation'
+        ]
       }
     ]
   },{
@@ -63,11 +57,11 @@ const chap_note_list = [
     subtopic_list: [
       {
         subtopic: '〜に興味を持っている',
-        desc: 'to have an interest in　〜'
+        desc: ['to have an interest in　〜']
       },
       {
         subtopic: '〜に興味を持つようになる',
-        desc: 'to become interested in 〜'
+        desc: ['to become interested in 〜']
       }
     ]
   },{
@@ -75,8 +69,11 @@ const chap_note_list = [
     spec: '〜のに　vs　〜ので',
     subtopic_list: [
       {
-        subtopic: '',
-        desc: '〜のに：Although (contrary to one\'s expectation) ; 〜ので：because'
+        subtopic: '〜のに：Although (contrary to one\'s expectation) ',
+        desc: ['']
+      },{
+        subtopic: '〜ので：because',
+        desc: ['']
       }
     ]
   },{
@@ -85,7 +82,7 @@ const chap_note_list = [
     subtopic_list: [
       {
         subtopic: 'Receiving/giving favor',
-        desc: 'Only used for living things.'
+        desc: ['Only used for living things.']
       }
     ]
   }

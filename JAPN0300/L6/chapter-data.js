@@ -26,13 +26,17 @@ const chap_note_list = [
     subtopic_list: [
       {
         subtopic: '腹がへった',
-        desc: 'or'
+        desc: ['']
+      },{
+        subtopic: 'ＸＯＲ',
+        desc: ['']
       },{
         subtopic: 'お腹がすいた',
-        desc: 'but not one or the other, it sounds wierd otherwise.'
-      },{
-        subtopic: '',
-        desc: '(as a side note, お腹がいっぱい is to say "I am full")'
+        desc: 
+        [
+          'but not one or the other, it sounds wierd otherwise.',
+          '(お腹がいっぱい is to say "I am full")'
+        ]
       }
     ]
   },{
@@ -40,8 +44,8 @@ const chap_note_list = [
     spec: '（〜から）です。',
     subtopic_list: [
       {
-        subtopic: '',
-        desc: '〜から：because.  The preceeding sentence is the answer to question (ie: 〜ですか)。  A more colloquial form of 〜んです which is from 〜のです。'
+        subtopic: '〜から：because.  The preceeding sentence is the answer to question (ie: 〜ですか)。  A more colloquial form of 〜んです which is from 〜のです。',
+        desc: ['']
       }
     ]
   },{
@@ -50,7 +54,7 @@ const chap_note_list = [
     subtopic_list: [
       {
         subtopic: 'I want an explaination for this graph (using verb(て)もらいたい)',
-        desc: 'このグラフは説明してもらいたい。'
+        desc: ['このグラフは説明してもらいたい。']
       }
     ]
   },{
@@ -58,8 +62,8 @@ const chap_note_list = [
     spec: 'Motion verbs （に）',
     subtopic_list: [
       {
-        subtopic: 'These verbs take 〜に',
-        desc: '行く、来る、帰る、入る、乗る、留学する、移る、引っ越す、参加する'
+        subtopic: 'These verbs take 〜に：',
+        desc: ['行く、来る、帰る、入る、乗る、留学する、移る、引っ越す、参加する']
       }
     ]
   },{
@@ -68,7 +72,7 @@ const chap_note_list = [
     subtopic_list: [
       {
         subtopic: '似ている：to be the same/similar (cf. 違う：to be different/differ)',
-        desc: '似る（漢字：に（る））：to be similar.  Usually used in ている form ie: 似ている。'
+        desc: ['似る（漢字：に（る））：to be similar.  Usually used in ている form ie: 似ている。']
       }
     ]
   },{
@@ -77,11 +81,11 @@ const chap_note_list = [
     subtopic_list: [
       {
         subtopic: '〜ある',
-        desc: 'There are times/cases when 〜.  ie: sometimes, from time to time'
+        desc: ['There are times/cases when 〜.  ie: sometimes, from time to time']
       },
       {
         subtopic: '〜ない',
-        desc: 'There are no occasions when 〜.  ie: almost never'
+        desc: ['There are no occasions when 〜.  ie: almost never']
       }
     ]
   },{
@@ -90,7 +94,7 @@ const chap_note_list = [
     subtopic_list: [
       {
         subtopic: 'Try to do ___',
-        desc: 'と seems to function as it does in と思う、と考える、etc.'
+        desc: ['と seems to function as it does in と思う、と考える、etc.']
       }
     ]
   },{
@@ -99,7 +103,7 @@ const chap_note_list = [
     subtopic_list: [
       {
         subtopic: 'wat',
-        desc: 'literally wat'
+        desc: ['literally wat']
       }
     ]
   },{
@@ -108,23 +112,14 @@ const chap_note_list = [
     subtopic_list: [
       {
         subtopic: 'Sentences to remember:',
-        desc: '丼の作り方が必ずしも簡単とは限らない。'
-      },
-      {
-        subtopic: '',
-        desc: '日本に行った時に高級な旅館に泊まります。'
-      },
-      {
-        subtopic: '',
-        desc: '日本に行く時に五十代の友達に会いました。'
-      },
-      {
-        subtopic: '',
-        desc: 'トムは日本の習慣に慣(な)れたことは慣(な)れたらしいです。'
-      },
-      {
-        subtopic: '',
-        desc: 'やはり、外国に比べると日本の物価は高いのではないかと思う。'
+        desc: 
+        [
+          '丼の作り方が必ずしも簡単とは限らない。',
+          '日本に行った時に高級な旅館に泊まります。',
+          '日本に行く時に五十代の友達に会いました。',
+          'トムは日本の習慣に慣(な)れたことは慣(な)れたらしいです。',
+          'やはり、外国に比べると日本の物価は高いのではないかと思う。'
+        ]
       }
     ]
   }

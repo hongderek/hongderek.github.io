@@ -78,9 +78,11 @@ species.eng {
   padding: 10px;
 }
 
+/*
 .note-entry section {
   padding: 3px 0 3px 0;
 }
+*/
 
 .note-topic {
   font-size: 1.5em;
@@ -98,10 +100,11 @@ note {
 
 note.subtopic {
   font-size: 1.3em;
+  padding-top: 5px;
 }
 
 note.desc {
-  padding: 5px;
+  padding-left: 20px;
 }
 
 

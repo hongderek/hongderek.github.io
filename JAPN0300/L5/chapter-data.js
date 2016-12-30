@@ -21,7 +21,7 @@ const chap_note_list = [
     subtopic_list: [
       {
         subtopic: 'asdf',
-        desc: 'asdf'
+        desc: ['asdf']
       }
     ]
   }

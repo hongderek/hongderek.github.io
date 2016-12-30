@@ -21,13 +21,13 @@ const chap_note_list = [
     subtopic_list: [
       {
         subtopic: '〜（は何と・ってどう）言う意味ですか。',
-        desc: 'What is the meaning of 〜.  (ie: What does 〜 mean?)'
+        desc: ['What is the meaning of 〜.  (ie: What does 〜 mean?)']
       },{
         subtopic: '〜は「〜」と言う意味です。',
-        desc: '〜 is the meaning of 〜.  (ie: 〜 means 〜.)'
+        desc: ['〜 is the meaning of 〜.  (ie: 〜 means 〜.)']
       },{
         subtopic: 'それに対して',
-        desc: 'In response to that.（漢字：たい）'
+        desc: ['In response to that.（漢字：たい）']
       }
     ]
   },{
@@ -36,16 +36,16 @@ const chap_note_list = [
     subtopic_list: [
       {
         subtopic: 'verb(ば）いいですか。',
-        desc: 'asking for advice'
+        desc: ['asking for advice']
       },{
         subtopic: 'verb(ば）いいでしょう。',
-        desc: 'giving advice'
+        desc: ['giving advice']
       },{
         subtopic: 'verb(ば）いいのに。',
-        desc: 'informal giving advice'
+        desc: ['informal giving advice']
       },{
         subtopic: '（eg）：どうすればいいですか。',
-        desc: '"What should I do?"'
+        desc: ['"What should I do?"']
       }
     ]
   },{
@@ -54,10 +54,10 @@ const chap_note_list = [
     subtopic_list: [
       {
         subtopic: 'If/when (stating strong logical/natural conclusion) ',
-        desc: 'NOT a way to list verbs/adjectives (use て form for that)'
+        desc: ['NOT a way to list verbs/adjectives (use て form for that)']
       },{
         subtopic: '（eg）：(verb/adj)と〜。',
-        desc: 'If/when verb/adj, then 〜。'
+        desc: ['If/when verb/adj, then 〜。']
       }
     ]
   },{
@@ -66,16 +66,16 @@ const chap_note_list = [
     subtopic_list: [
       {
         subtopic: '(Q word)か ',
-        desc: 'some-(where, thing, one, time, etc.)'
+        desc: ['some-(where, thing, one, time, etc.)']
       },{
         subtopic: '(Q word)も',
-        desc: 'no-(where, thing, one, time, etc.)'
+        desc: ['no-(where, thing, one, time, etc.)']
       },{
         subtopic: 'Particle placement:',
-        desc: '〜か＿　（eg: 何かに)'
+        desc: ['〜か＿　（eg: 何かに)']
       },{
         subtopic: '',
-        desc: '〜＿も　（eg: 何にも)'
+        desc: ['〜＿も　（eg: 何にも)']
       }
     ]
   },{
@@ -84,7 +84,7 @@ const chap_note_list = [
     subtopic_list: [
       {
         subtopic: 'To start doing verb.',
-        desc: '(But not necessarily finish it?)'
+        desc: ['(But not necessarily finish it?)']
       }
     ]
   },{
@@ -93,10 +93,10 @@ const chap_note_list = [
     subtopic_list: [
       {
         subtopic: 'Formation: ',
-        desc: '／う／　＝　／あ／れる'
+        desc: ['／う／　＝　／あ／れる']
       },{
         subtopic: '',
-        desc: '　　る　＝　られる'
+        desc: ['　　る　＝　られる']
       }
     ]
   }
