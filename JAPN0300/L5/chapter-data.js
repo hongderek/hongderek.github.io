@@ -30,12 +30,12 @@ const chap_note_list = [
       },{
         subtopic: 'The general pattern for forming the Honorific form is おverb(stem)になる ie: to become verbly.',
         desc: 
-          ['お verb(stem) に なる（My superior honorifically verbs)']
+          ['<b>『お verb(stem) に なる（My superior honorifically verbs)』</b>']
       },{
         subtopic: 'Another Honorific pattern is to conjugate by おverb(stem)です',
         desc: 
           [
-            '<b>『お verb(stem) です』</b>',
+            '<b>『お verb(stem) です（My superior honorifically verbs)』</b>',
             '帰る：お帰りです（「もうお帰りですか。」Are you going home already?)'
           ]
       },{
