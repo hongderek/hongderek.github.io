@@ -34,7 +34,7 @@ const chap_note_list = [
         subtopic: 'お腹がすいた',
         desc: 
         [
-          'but not one or the other, it sounds wierd otherwise.',
+          'ie: only use one or the other, it sounds wierd otherwise.',
           '(お腹がいっぱい is to say "I am full")'
         ]
       }

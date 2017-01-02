@@ -53,6 +53,34 @@ const chap_note_list = [
         desc: ['']
       }
     ]
+  },{
+    topic: '〜んです',
+    spec: '〜んです',
+    subtopic_list: [
+      {
+        subtopic: 'Because 〜んです is a shortening of 〜のです ("because", "it is the case that"), you cannot use the sentence conjunction 〜から ("because", "since") with a sentence ending in 〜んです',
+        desc: 
+          [
+            '◯　〜んですけど',
+            '◯　〜んですが',
+            '△　〜んですのに',
+            '×　〜んですから'
+          ]
+      }
+    ]
+  },{
+    topic: 'つれて行く　vs　もっていく',
+    spec: 'つれて行く　vs　もっていく',
+    subtopic_list: [
+      {
+        subtopic: '"To bring" for living/non-living things.',
+        desc: 
+          [
+            'つれていく：for living things',
+            'もっていく：for non-living things'
+          ]
+      }
+    ]
   }
 ];
 

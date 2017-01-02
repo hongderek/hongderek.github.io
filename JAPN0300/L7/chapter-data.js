@@ -47,12 +47,38 @@ const chap_note_list = [
         ]
       },{
         subtopic: '>>> 始：',
-        desc: 
-        [
+        desc: [
           '始める（はじ（める））：to begin something',
           '始まる（はじ（まる））：something begins',
           '始まり（はじ（まり））：the origin, beginning',
           '開始（かい・し）：the start, commencement, initiation'
+        ]
+      }
+    ]
+  },{
+    topic: 'Humble response to compliment',
+    spec: 'Humble response to compliment',
+    subtopic_list: [
+      {
+        subtopic: 'いいえ、たいしたことありません。',
+        desc: ['or「たいしたことない」"It\'s no big deal."']
+      }
+    ]
+  },{
+    topic: '誘うing others',
+    spec: '誘うing others',
+    subtopic_list: [
+      {
+        subtopic: '１）Introduce plan',
+        desc: [
+          'verb(volitional)と思います。',
+          'eg: 「映画を見に行こうと思います。」"I\'m thinking about going to see a movie,"'
+        ]
+      },{
+        subtopic: '２）Propose Invitation',
+        desc: [
+          'verb(volitional)と思います。',
+          'eg: 「映画を見に行こうと思います。」"I\'m thinking about going to see a movie,"'
         ]
       }
     ]

@@ -16,12 +16,51 @@ const chap_kanji_str = 'kanji,reading,meaning,kaku\n求める,もと（める）
 
 const chap_note_list = [
   {
-    topic: 'asdf',
-    spec: 'asdf',
+    topic: 'Humble and Honorific Patterns',
+    spec: 'Humble and Honorific Patterns',
     subtopic_list: [
       {
-        subtopic: 'asdf',
-        desc: ['asdf']
+        subtopic: 'There are ceratin verbs that have special forms in Humble and Honorific.  Besides these verbs, the pattern for forming the Humble form of verbs is おverb(stem)する。eg:',
+        desc: 
+          [
+            'お verb(stem) する（I humbly verb)',
+            '願う：お願いする（I request, ie: お願いします）',
+            '聞く：お聞きする (I ask)'
+          ]
+      },{
+        subtopic: 'The general pattern for forming the Honorific form is おverb(stem)になる ie: to become verbly.',
+        desc: 
+          ['お verb(stem) に なる（My superior honorifically verbs)']
+      },{
+        subtopic: 'Another Honorific pattern is to conjugate by おverb(stem)です',
+        desc: 
+          [
+            'お verb(stem) です',
+            '帰る：お帰りです（「もうお帰りですか。」Are you going home already?)'
+          ]
+      },{
+        subtopic: 'Making honorific requests for verbs without special conjugation uses the same おverb(stem) thing but with ください',
+        desc: 
+          [
+            'お verb(stem) ください（Please verb (polite))',
+            '待つ：お待ちください（Please wait.)'
+          ]
+      },{
+        subtopic: 'Forming Honorific requests using the verbs with special conjugations (eg: いらしゃる）involves taking the 〜ます conjugation and replacing す with せ。',
+        desc: 
+          [
+            'verb(stem) ませ（Pleae verb (polite))',
+            '（行く）：いらしゃる：いらしゃいます：いらしゃいませ（Please come in!)'
+          ]
+      },{
+        subtopic: 'Additionally, to make polite but firm requests, use the verb(stem) with なさい the stem of なさる which is the special Honorific conjugation of する。',
+        desc: 
+          [
+            'verb(stem) なさい（Pleae verb (polite))',
+            '聞く：聞きなさい（Please listen!)',
+            '座る：座りなさい（Please sit.)',
+            'する：しなさい（Please do.)'
+          ]
       }
     ]
   }
