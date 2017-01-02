@@ -23,7 +23,7 @@ const chap_note_list = [
         subtopic: 'There are ceratin verbs that have special forms in Humble and Honorific.  Besides these verbs, the pattern for forming the Humble form of verbs is おverb(stem)する。eg:',
         desc: 
           [
-            'お verb(stem) する（I humbly verb)',
+            '<b>『お verb(stem) する（I humbly verb)』</b>',
             '願う：お願いする（I request, ie: お願いします）',
             '聞く：お聞きする (I ask)'
           ]
@@ -35,28 +35,28 @@ const chap_note_list = [
         subtopic: 'Another Honorific pattern is to conjugate by おverb(stem)です',
         desc: 
           [
-            'お verb(stem) です',
+            '<b>『お verb(stem) です』</b>',
             '帰る：お帰りです（「もうお帰りですか。」Are you going home already?)'
           ]
       },{
         subtopic: 'Making honorific requests for verbs without special conjugation uses the same おverb(stem) thing but with ください',
         desc: 
           [
-            'お verb(stem) ください（Please verb (polite))',
+            '<b>『お verb(stem) ください（Please verb (polite))』</b>',
             '待つ：お待ちください（Please wait.)'
           ]
       },{
         subtopic: 'Forming Honorific requests using the verbs with special conjugations (eg: いらしゃる）involves taking the 〜ます conjugation and replacing す with せ。',
         desc: 
           [
-            'verb(stem) ませ（Pleae verb (polite))',
+            '<b>『verb(stem) ませ（Please verb (polite))』</b>',
             '（行く）：いらしゃる：いらしゃいます：いらしゃいませ（Please come in!)'
           ]
       },{
         subtopic: 'Additionally, to make polite but firm requests, use the verb(stem) with なさい the stem of なさる which is the special Honorific conjugation of する。',
         desc: 
           [
-            'verb(stem) なさい（Pleae verb (polite))',
+            '<b>『verb(stem) なさい（Please verb (polite))』</b>',
             '聞く：聞きなさい（Please listen!)',
             '座る：座りなさい（Please sit.)',
             'する：しなさい（Please do.)'
@@ -377,11 +377,20 @@ const chap_grammar_list = [
           jap: 'causative（する）：',
           eng: 'させる'
         },{
+          jap: 'causative（くる）：',
+          eng: 'こさす'
+        },{
           jap: 'passive（る）：',
           eng: 'verb[neg.](stem) + ら + れる (eg: 食べる：食べ：食べられる）'
         },{
           jap: 'passive（う）：',
           eng: 'verb[neg.](stem) + れる (eg: 読む：読ま：読まれる）'
+        },{
+          jap: 'passive（する）：',
+          eng: 'される'
+        },{
+          jap: 'passive（くる）：',
+          eng: 'こられる'
         },{
           jap: '／in general／',
           eng: ''
