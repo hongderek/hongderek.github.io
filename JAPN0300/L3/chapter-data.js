@@ -34,7 +34,7 @@ const chap_note_list = [
         desc: ['eg: 「お金を<b>貸して</b>いただけないでしょうか」pls lend monies']
       },{
         subtopic: 'In response, you muse use 貸す (to lend)',
-        desc: ['eg: 「貸して上げます。」I give to you.']
+        desc: ['eg: 「貸して上げます。」I lend to you.']
       }
     ]
   },{
@@ -217,28 +217,28 @@ const chap_grammar_list = [
       text: 'The same verb/adj/noun is used for both 〜, first in 〜ば form and then in plain form + ぼど。For nouns and なadj., であれば／ある will be suffixed.  Pos. constructions give the "more" meaning, neg. constructions give the "less" meaning.  The 〜 may be positive and the ＿＿ may be negative, in which case the translation would be "the more, the less", and vice versa, etc.  For nouns/adjな、ある will be negated and not the noun/adj.  I kind of like the literal translations, as un-English as they are.',
       species: [
         {
-          jap: 'verb[pos.]ばverb[pos.]ほど＿＿：',
+          jap: 'verb[pos.]ばverb[pos.]ほど＿[pos.]＿：',
           eng: 'The more verb, the more ＿＿。'
         },{
-          jap: 'verb[neg.]ばverb[neg.]ほど＿＿：',
+          jap: 'verb[neg.]ばverb[neg.]ほど＿[neg.]＿：',
           eng: 'The less verb, the less ＿＿。'
         },{
-          jap: '（adjい）[pos.]ば（adjい）[pos.]ほど＿＿：',
+          jap: '（adjい）[pos.]ば（adjい）[pos.]ほど＿[pos.]＿：',
           eng: 'The more adj, the more ＿＿。'
         },{
-          jap: '（adjい）[neg.]ば（adjい）[neg.]ほど＿＿：',
+          jap: '（adjい）[neg.]ば（adjい）[neg.]ほど＿[neg.]＿：',
           eng: 'The less adj, the less ＿＿。'
         },{
-          jap: '（adjな）であればあるほど＿＿：',
+          jap: '（adjな）であればあるほど＿[pos.]＿：',
           eng: 'The more adj, the more ＿＿。'
         },{
-          jap: '（adjな）でなければないほど＿＿：',
+          jap: '（adjな）でなければないほど＿[neg.]＿：',
           eng: 'The less adj, the less ＿＿。'
         },{
-          jap: 'nounであればあるほど＿＿：',
+          jap: 'nounであればあるほど＿[pos.]＿：',
           eng: 'The more noun, the more ＿＿。'
         },{
-          jap: 'nounでなければないほど＿＿：',
+          jap: 'nounでなければないほど＿[neg.]＿：',
           eng: 'The less noun, the less ＿＿。'
         }
       ]

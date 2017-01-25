@@ -181,10 +181,10 @@ const chap_grammar_list = [
       text: 'ため means "purpose" or "sake".  Literally, you might translate verb(pl, pres)ために as "verb-purpose-ly".  Verbための will modify a following noun.  This translation is more difficult, but the literal translation is also fun (lit. "the for-the-purpose-of-verb noun").',
       species: [
         {
-          jap: 'verbために',
+          jap: 'verbために：',
           eng: 'In order to verb.  (lit. verb-pupose-ly)'
         },{
-          jap: 'verbためのnoun',
+          jap: 'verbためのnoun：',
           eng: 'A noun to verb.  (lit. A for-the-purpose-of-verb noun)'
         }
       ]

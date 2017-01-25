@@ -106,8 +106,8 @@ const chap_grammar_list = [
     ],
     other: '...'
   },{
-    grammar_point: '〜だっけ／〜だっけ',
-    spec: '〜だっけ／〜だっけ',
+    grammar_point: '〜たっけ／〜だっけ',
+    spec: '〜たっけ／〜だっけ',
     meaning: '〜、if I remember correctly; 〜、what was it again?; 〜、if I am right',
     use: {
       text: 'A phrase used to indicate that the speaker does not remember or is unsure about certain information that was known or told previously; trying to jog one\'s memory to remember again.  As opposed to asking a question to find out information for the first time.  This is why the past form is usually used.  Is only used in casual speech.  Usually used with the past（〜たっけ）but can also be used with the present where だ is used（だっけ）.  ですっけ cannot be used.',
@@ -120,13 +120,13 @@ const chap_grammar_list = [
           eng: 'nounだっけ'
         },{
           jap: '',
-          eng: '（adjな）だっけ'
+          eng: '(adjな）だっけ'
         },{
           jap: '',
-          eng: 'ーーー (use with（adjい）いんだっけ）'
+          eng: 'Ｘ（instead use:（adjい）いんだっけ）'
         },{
           jap: '',
-          eng: 'ーーー (use with verb(plain, present)んだっけ）'
+          eng: 'Ｘ（instead use: verb(plain, present)んだっけ）'
         },{
           jap: '',
           eng: '〜んだっけ'
@@ -138,10 +138,10 @@ const chap_grammar_list = [
           eng: 'nounだったっけ'
         },{
           jap: '',
-          eng: '（adjな）だったっけ'
+          eng: '(adjな）だったっけ'
         },{
           jap: '',
-          eng: '（adjい）かったっけ'
+          eng: '(adjい）かったっけ'
         },{
           jap: '',
           eng: 'verb(plain, past)っけ'
@@ -156,10 +156,10 @@ const chap_grammar_list = [
           eng: 'nounでしたっけ'
         },{
           jap: '',
-          eng: '（adjな）でしたっけ'
+          eng: '(adjな）でしたっけ'
         },{
           jap: '',
-          eng: 'ーーー (use with （adjい）いんでしたっけ)'
+          eng: 'Ｘ（instead use:（adjい）いんでしたっけ)'
         },{
           jap: '',
           eng: 'verb(stem)ましたっけ'
