@@ -491,20 +491,20 @@ const chap_grammar_list = [
     spec: '〜以上',
     meaning: '（漢字：いじょう）More than 〜。(some quanitity)',
     use: {
-      text: 'Preceeded by some number and counter.  As a whole, the phrase indicates some quanitity of which there is more than.',
+      text: 'Preceeded by some number and counter.  If the counter is generic (ie: つ、本、枚), a noun can follow to further specify what is "more than".  As a whole, the phrase indicates some quanitity of which there is more than.  Sort of like a particle?  Specifically, 以上 means "more than and including #" meaning there could be some number of things or more.',
       species: []
     },
     example: [
       {
         sentence: {
-          ante: '『',
-          highlight: '飲みすぎる',
-          post: 'と、頭が痛くなります。』'
+          ante: '『一時間に１００枚',
+          highlight: '以上',
+          post: 'チーズを食べると大変だと思います。』'
         },
-        translation: 'If you drink too much, you will get a head ache.'
+        translation: 'I think it will be difficult to eat 100 slices of cheese in an hour.'
       }
     ],
-    other: '...'
+    other: '以下（漢字：いか）means "Less than 〜。" as in "up to and including #".'
   }
 ];
 

@@ -268,14 +268,14 @@ const chap_grammar_list = [
       },{
         sentence: {
           ante: '『',
-          highlight: '寒かなければ寒くないほど',
+          highlight: '寒くなければ寒くないほど',
           post: 'いい。』'
         },
         translation: 'The less cold it is the better. (I think...)'
       },{
         sentence: {
           ante: '『',
-          highlight: '寒かなければ寒くないほど',
+          highlight: '寒くなければ寒くないほど',
           post: 'よくない。』'
         },
         translation: 'The less cold it is the worse it is. (I think...)'
