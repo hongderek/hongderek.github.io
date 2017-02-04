@@ -16,7 +16,7 @@ $(window).on('load', function() {
 
     var chapter_entry = [
     '<div class="chapter-entry" id="course-chap-' + i + '">',
-    '  <chapter><a href="./' + cl_chap_path + '/">' + cl_chap_name + '</a></chapter>',
+    '  <chapter><a href="./' + cl_chap_path + '">' + cl_chap_name + '</a></chapter>',
     '</div>'
     ].join('\n');
     var chapter_nav_entry = [
