@@ -368,6 +368,9 @@ const chap_grammar_list = [
       text: 'Formed by conjugating a verb in the causative and then taking the passive of that form.  This ultimately ends up as ／あ／せられる which can be contracted to ／あ／される UNLESS such contraction would duplicate the さ。 Conjugation of the causative and passive:',
       species: [
         {
+          jap: '／Causative／',
+          eng: ''
+        },{
           jap: 'causative（る）：',
           eng: 'verb[neg.](stem) + さ + せる (eg: 食べる：食べ：食べさせる）'
         },{
@@ -379,6 +382,9 @@ const chap_grammar_list = [
         },{
           jap: 'causative（くる）：',
           eng: 'こさせる'
+        },{
+          jap: '／Passive／',
+          eng: ''
         },{
           jap: 'passive（る）：',
           eng: 'verb[neg.](stem) + ら + れる (eg: 食べる：食べ：食べられる）'
