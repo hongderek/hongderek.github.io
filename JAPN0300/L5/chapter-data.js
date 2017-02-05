@@ -365,7 +365,7 @@ const chap_grammar_list = [
     spec: 'Causative-Passive (verb(caus.))(pass.)',
     meaning: 'To be made to verb',
     use: {
-      text: 'Formed by conjugating a verb in the causative and then taking the passive of that form.  This ultimately ends up as ／あ／せられる which can be contracted to ／あ／される UNLESS such contraction would duplicate the さ。 Conjugation of the causative, passive, caus-pass, and contractions:',
+      text: 'Formed by conjugating a verb in the causative and then taking the passive of that form.  This ultimately ends up as ／あ／せられる which can be contracted to ／あ／される UNLESS such contraction would duplicate the さ。 Conjugation of the causative and passive:',
       species: [
         {
           jap: 'causative（る）：',
@@ -378,7 +378,7 @@ const chap_grammar_list = [
           eng: 'させる'
         },{
           jap: 'causative（くる）：',
-          eng: 'こさす'
+          eng: 'こさせる'
         },{
           jap: 'passive（る）：',
           eng: 'verb[neg.](stem) + ら + れる (eg: 食べる：食べ：食べられる）'
@@ -392,11 +392,23 @@ const chap_grammar_list = [
           jap: 'passive（くる）：',
           eng: 'こられる'
         },{
-          jap: '／in general／',
+          jap: '／Causative-Passive／',
           eng: ''
         },{
-          jap: 'verb／あ／せられる：',
-          eng: 'contracted to: verb／あ／される (unless it would duplicate a さ eg: 話させられる cannot become 話さされる)'
+          jap: 'caus-pass（する）：',
+          eng: 'させられる'
+        },{
+          jap: 'caus-pass（くる）：',
+          eng: 'こさせられる'
+        },{
+          jap: 'In general：',
+          eng: 'verb[neg.](stem) + (さ if [る]) + せられる（eg: 食べ・さ・せられる　or　読ま・せられる）'
+        },{
+          jap: '',
+          eng: '〜せられる can be contracted to 〜される unless it would duplicate a さ (eg: 話させられる cannot become 話さされる)'
+        },{
+          jap: '',
+          eng: 'Verbs are conjugated FIRST into causative, and NEXT into passive.  Causative conjugations are ichidan (る) verbs.'
         }
       ]
     },
@@ -410,7 +422,7 @@ const chap_grammar_list = [
         translation: 'In general, we are made to write at least one paper per semester.'
       }
     ],
-    other: 'LITERAL TRANSLATIONS YAY: "there is a causing done unto me".  Passive comes from the Latin "patior, pati, passus sum" meaning "to endure, to bear, to suffer".  Compare to "Passion of the Christ" (the suffering of Christ) or a doctor\'s "patient" (one who undergoes).  In Japanese, there is a direct and an indirect passive.  The direct passive is as it is in English, eg: "to be done".  There is a subject to which the action is done by an agent.  The indirect passive means something more like "There is an action done by an agent over which the subject".  In this case, the verb is used quite like the active voice, but the focus is on the fact that the subject could do nothing about the verb.  Compare: 『寿司が先生に作られる：The sushi is made by sensei.』 with 『寿司を先生に作られる：There is sushi is made by sensei (over which I or the sushi have no control, which may or may not infer negative context).』 The meanings are essentially the same, but using the particle が and を infers a different context.  I still don\'t really know how it exactly works.  BUT, this is all to clarify that the causative-passive has a meaning of "I am caused to verb outside of my control", per se.'
+    other: 'LITERAL TRANSLATIONS YAY: "there is a causing done unto me".  Passive comes from the Latin "patior, pati, passus sum" meaning "to endure, to bear, to suffer".  Compare to "Passion of the Christ" (the suffering of Christ) or a doctor\'s "patient" (one who undergoes).  In Japanese, there is a direct and an indirect passive.  The direct passive is as it is in English, eg: "to be done".  There is a subject to which the action is done by an agent.  The indirect passive means something more like "There is an action done by an agent (over which the subject or a third party has no control)".  In this case, the verb is used quite like the active voice, but the focus is on the fact that the subject could do nothing about the verb.  Compare: 『寿司が先生に作られる：The sushi is made by sensei.』 with 『寿司を先生に作られる：There is sushi is made by sensei (over which I or the sushi have no control, which may or may not infer negative context).』 The meanings are essentially the same, but using the particle が and を infers a different context.  I still don\'t really know how it exactly works.  BUT, this is all to clarify that the causative-passive has a meaning of "I am caused to verb outside of my control", per se.'
   }
 ];
 
