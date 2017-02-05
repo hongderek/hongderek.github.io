@@ -52,31 +52,31 @@ const chap_note_list = [
 
 const chap_grammar_list = [
   {
-    grammar_point: '別に（〜ない）',
-    spec: '別に（〜ない）',
-    meaning: '（漢字：べつ（に））Not particularly.',
+    grammar_point: 'ＸはＹくらいです',
+    spec: 'ＸはＹくらいです',
+    meaning: '"Y is about the only X"',
     use: {
-      text: 'Adverb.  Usually followed by a negative form of a verb.  Means that something is not particularly the case.',
+      text: 'This expression is used when Y is about the only case where X holds true.  X and Y can be nouns or noun phrases (ie: verbの・こと）.  です may be substituted for an appropriate sentence ending verb (like かもしれない、でしょう、etc.)',
       species: []
     },
     example: [
       {
         sentence: {
-          ante: '『いいえ、',
-          highlight: '別に',
-          post: '何でも<b>ありません</b>。』'
-        },
-        translation: 'No, there is nothing particularly wrong.'
-      },{
-        sentence: {
-          ante: '『ううん、',
-          highlight: '別に',
+          ante: '『日本人がのんびりできるの<b>は</b>、大学生の時',
+          highlight: 'くらいかもしれない',
           post: '。』'
         },
-        translation: 'No, not particularly.'
+        translation: 'College years might be the onyl time when Japanese people can relax.'
+      },{
+        sentence: {
+          ante: '『教えた経験<b>は</b>、ボランティアで子供に日本語を教えた',
+          highlight: 'くらいです',
+          post: '。』'
+        },
+        translation: 'About th eonly teaching experience (I have) is teaching Japanese to children as a volunteer.'
       }
     ],
-    other: '別 by itself means distinction, different, particular, seperate.'
+    other: '...'
   }
 ];
 
