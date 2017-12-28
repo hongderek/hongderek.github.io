@@ -1,20 +1,21 @@
 "use strict";
 
-const local_course_name = '日本語３００';
-const local_course_path = 'JAPN0300'
-const local_chap_name = '第３課';
+var local_course_name = '日本語３００';
+var local_course_path = 'JAPN0300'
+var local_chap_name = '第３課';
+var local_chap_path = 'L3';
 
 /**
 {
   kanji: '',
   reading: '',
-  meaning: '',
+  alt_def: '',
+    meaning: '',
   (opt)kaku: 'hai' or ''
 }
 */
-const chap_kanji_str = 'kanji,reading,meaning,kaku\n研究室,けんきゅうしつ,office (ie: professor\'s),\n授業,じゅぎょう,class (lecture),\n期末試験,きまつしけん,final exam,\n受ける,う（ける）,"to take (a class, test), to receive",hai\n推薦状,すいせんじょう,recommendation,\n留学,りゅうがく,study abroad,hai\n奨学金,しょうがくきん,scholarship,\n申し込む,もう（し）こ（む）,to apply,hai\n締め切り,し（め）き（り）,deadline,\n送る,おく（る）,to send,hai\n頼む,たの（む）,to ask a favor,hai\n痛い,いた（い）,painful,\n教室,きょうしつ,classroom,\n宿題,しゅくだい,homework,\n部屋,へや,room,hai\n寄る,よ（る）,to stop by,\n情報,じょうほう,information,\n交換,こうかん,exchange,\n利用する,りよう（する）,to use,hai\n授業料,じゅぎょうりょう,tuition,\n数,かず,number,hai\n同じ,おな（じ）,"same (noun/verb acting prenominally, cf. 似ている（似る）：to be similar)",\n選ぶ,えら（ぶ）,to choose,\n面接,めんせつ,interview,\n成績,せいせき,grade,\n性格,せいかく,character; personality,\n態度,だいど,attitude,\n目的,もくてき,aim; goal; purpose,hai\n優先,ゆうせん,priority,\n以外,いがい,other than; besides; excepting,\n場合,ばあい,case; situation,\n助ける,たす（ける）,"to help, to save/rescue",\n全部,ぜんぶ,all; entire (NB: only for inanimate objects) (cf. 全員),\n帰国,きこく,a return to one\'s home country (する：to return...),\n単位,たんい,credit (for a course),\n交渉,こうしょう,negotation,\n認める,みと（める）,"to approve, acknoledge, to admit, to recognize",\n国際学部,こくさいがくぶ,International Division (of University),\n文学,ぶんがく,Literature,hai\n歴史,れきし,History,hai\n経済,けいざい,Economics,hai\n政治,せいじ,Politics,hai\n宗教,しゅうきょう,Religion,hai\n音楽,おんがく,Music,hai\n普通,ふつう,"the common, usual, ordinary",hai\n活動,かつどう,activity,\n家庭,かてい,"home, household",\n特に,とく（に）,"particularlly, especially",\n希望,きぼう,wish; hope,\n者,もの,person,\n悪い,わる（い）,bad,\n住宅事情,じゅうたくじじょう,housing condition,\n留学希望者,りゅうがくきぼうしゃ,one who wishes to go study abroad,\n忘れる,わす（れる）,to forget,\n〜枚,〜まい,"counter for thin, flat objects",\nお願い,（お）ねが（い）,a request,\n伺う,うかが（う）,hum. form of 行く、来る、聞く,\n用紙,ようし,form,\n主（な）,おも（な）,"main (ie: the main ""topic"", etc)",\n行う,おこな（う）,"to carry out, to conduct (usually used in written lang.)",\n・,ほとんど〜ない,hardly,';
 
-const chap_note_list = [
+var chap_note_list = [
   {
     topic: '借りる　and　貸す',
     spec: '借りる　and　貸す',
@@ -115,17 +116,18 @@ const chap_note_list = [
   }
 ];
 
-const chap_grammar_list = [
+var chap_grammar_list = [
   {
     grammar_point: 'verb[neg]で',
     spec: 'verb[neg]で',
-    meaning: 'Don\'t (verb).',
+    alt_def: 'ないで',
+    meaning: '"Don\'t (verb)."',
     use: {
       text: 'A contraction of a request using the negative て form of verbs: verb[neg]でください。',
       species: [
         {
-          jap: 'verbないで：',
-          eng: 'don\'t verb'
+          jap: 'verbないで',
+          eng: '：don\'t verb'
         }
       ]
     },
@@ -143,19 +145,29 @@ const chap_grammar_list = [
   },{
     grammar_point: 'verb(causative, て)いただけないでしょうか',
     spec: 'verb(causative, て)いただけないでしょうか',
-    meaning: 'May I do ___?  Lit. "Could I not receive the favor of your letting me do 〜?".',
+    alt_def: 'せていただけないでしょうか',
+    meaning: '"May I do ___?" (lit. "Could I not receive the favor of your letting me do 〜?")',
     use: {
-      text: 'A very indirect way of asking for permission to do something.  Not to be confused with verb(て)いただけないでしょうか which means "Could you do ___?".',
+      text: 'A very indirect way of asking for permission to do something.  NOT to be confused with verb(て)いただけないでしょうか which means "Could you do ___?".',
       species: [
         {
-          jap: 'verb(causative, て)いただけないでしょうか：',
-          eng: 'May I do verb?'
+          jap: 'verb(causative, て) いただけないでしょうか',
+          eng: '：May I do verb?'
         },{
-          jap: 'verb(て)いただけないでしょうか：　　　　　',
-          eng: 'Could you do verb?'
+          jap: 'verb(て) いただけないでしょうか',
+          eng: '：Could you do verb?'
         },{
-          jap: '',
-          eng: 'This kind of construction (て + verb of giving/receiving) also works with くれる、あげる、もらう with expected results:'
+          jap: '<b>This kind of construction (て + verb of giving/receiving) also works with くれる、あげる、もらう with expected results.</b>',
+          eng: ''
+        },{
+          jap: 'verb(て) くれる',
+          eng: '：Someone did something for me (ie: Someone gave me the favor of 〜) (theyが meに)'
+        },{
+          jap: 'verb(て) あげる',
+          eng: '：I did something for someone (ie: I gave the favor of 〜) (meが theyに)'
+        },{
+          jap: 'verb(て) もらう',
+          eng: '：Someone did something for me (ie: I received the favor of 〜) (meが theyに)'
         }
       ]
     },
@@ -169,17 +181,18 @@ const chap_grammar_list = [
         translation: 'May I take the test one day early?'
       }
     ],
-    other: 'Formed from 「verb(caus.) + いただく(pot.)[neg.] + でしょうか」。  でしょう is a more indirect form of です、thus making the question more polite.'
+    other: 'Formed from 「verb(caus.) + いただく(pot.)[neg.] + でしょうか」。  でしょう is a more indirect form of です、thus making the question more polite.  ALSO: notice the difference in subject marker for 〜てくれる and 〜てもらう'
   },{
     grammar_point: '〜中に',
     spec: '〜中に',
-    meaning: 'Sometime during 〜。  By the end of 〜。',
+    alt_def: 'ちゅうに',
+    meaning: '"Sometime during 〜"; "By the end of 〜"',
     use: {
       text: 'Decribes a time frame (eg: by the end of this week, by the end of today, etc.).  The reading of 「中」 will be 「ちゅう」 or 「じゅう」 depending on the preceeding word.',
       species: [
         {
-          jap: '(time-frame)中に：',
-          eng: 'By the end of (time-frame).'
+          jap: '(time-frame)中に',
+          eng: '：By the end of (time-frame).'
         },{
           jap: '今週中に reading: ',
           eng: 'こんしゅう<b>ちゅう</b>に'
@@ -212,34 +225,35 @@ const chap_grammar_list = [
   },{
     grammar_point: '（〜[pos./neg.]ば）〜ほど＿＿',
     spec: '(〜ば)〜ほど',
+    alt_def: '',
     meaning: '"The more/less 〜 is so, the more/less ＿＿ is."',
     use: {
       text: 'The same verb/adj/noun is used for both 〜, first in 〜ば form and then in plain form + ぼど。For nouns and なadj., であれば／ある will be suffixed.  Pos. constructions give the "more" meaning, neg. constructions give the "less" meaning.  The 〜 may be positive and the ＿＿ may be negative, in which case the translation would be "the more, the less", and vice versa, etc.  For nouns/adjな、ある will be negated and not the noun/adj.  I kind of like the literal translations, as un-English as they are.',
       species: [
         {
-          jap: 'verb[pos.]ばverb[pos.]ほど＿[pos.]＿：',
-          eng: 'The more verb, the more ＿＿。'
+          jap: 'verb[pos.]ばverb[pos.]ほど ＿[pos.]＿',
+          eng: '：The more verb, the more ＿＿。'
         },{
-          jap: 'verb[neg.]ばverb[neg.]ほど＿[neg.]＿：',
-          eng: 'The less verb, the less ＿＿。'
+          jap: 'verb[neg.]ばverb[neg.]ほど ＿[neg.]＿',
+          eng: '：The less verb, the less ＿＿。'
         },{
-          jap: '（adjい）[pos.]ば（adjい）[pos.]ほど＿[pos.]＿：',
-          eng: 'The more adj, the more ＿＿。'
+          jap: '（adjい)[pos.]ば（adjい)[pos.]ほど ＿[pos.]＿',
+          eng: '：The more adj, the more ＿＿。'
         },{
-          jap: '（adjい）[neg.]ば（adjい）[neg.]ほど＿[neg.]＿：',
-          eng: 'The less adj, the less ＿＿。'
+          jap: '（adjい)[neg.]ば（adjい)[neg.]ほど ＿[neg.]＿',
+          eng: '：The less adj, the less ＿＿。'
         },{
-          jap: '（adjな）であればあるほど＿[pos.]＿：',
-          eng: 'The more adj, the more ＿＿。'
+          jap: '（adjな)であればあるほど ＿[pos.]＿',
+          eng: '：The more adj, the more ＿＿。'
         },{
-          jap: '（adjな）でなければないほど＿[neg.]＿：',
-          eng: 'The less adj, the less ＿＿。'
+          jap: '（adjな)ではなければないほど ＿[neg.]＿',
+          eng: '：The less adj, the less ＿＿。'
         },{
-          jap: 'nounであればあるほど＿[pos.]＿：',
-          eng: 'The more noun, the more ＿＿。'
+          jap: 'nounであればあるほど ＿[pos.]＿',
+          eng: '：The more noun, the more ＿＿。'
         },{
-          jap: 'nounでなければないほど＿[neg.]＿：',
-          eng: 'The less noun, the less ＿＿。'
+          jap: 'nounではなければないほど ＿[neg.]＿',
+          eng: '：The less noun, the less ＿＿。'
         }
       ]
     },
@@ -339,12 +353,21 @@ const chap_grammar_list = [
     ],
     other: 'ほど means "degree, extent of".  The literal translation might be "If there is 〜, then to the extent of 〜 there is ＿＿。" like the literal examples.  Think of it like a linear relationship, where "as much as there is 〜, there is ＿＿".  Meaning, "as 〜 increases, ＿＿ also increases to that extent", which is where the "the more, the more" meaning comes from.'
   },{
-    grammar_point: 'noun以外（に・の）',
-    spec: 'noun以外（の・に）',
-    meaning: '（漢字：いがい）Other than noun; besides noun.',
+    grammar_point: '(noun)以外（に・の）',
+    spec: '(noun)以外（の・に）',
+    alt_def: 'いじょう',
+    meaning: '（「以上」いがい：With the exception of）"Other than noun"; "Besides noun"',
     use: {
       text: '以外 literally just means "besides" or "excepting".  Using 以外に creates an adverbial phrase (try using noun-exceptingly, it\'s fun!), 以外の will preceed another noun and modify it.',
-      species: []
+      species: [
+        {
+          jap: '(noun)以外 に',
+          eng: '：noun-exceptingly'
+        },{
+          jap: '(noun A)以外 の(noun B)',
+          eng: '：a (noun A)-excepting (noun B)'
+        }
+      ]
     },
     example: [
       {
@@ -353,7 +376,7 @@ const chap_grammar_list = [
           highlight: '教科書以外に',
           post: 'いろいろ買うものがある。』'
         },
-        translation: 'At the beginning of the semester, there are varous things to buy "besides textbooks" (lit. textbook-exceptingly).'
+        translation: 'At the beginning of the semester, there are various things to buy "besides textbooks" (lit. textbook-exceptingly).'
       },{
         sentence: {
           ante: '『',
@@ -367,15 +390,11 @@ const chap_grammar_list = [
   },{
     grammar_point: '必ずしも（clause）というわけではない',
     spec: '必ずしも〜というわけではない',
-    meaning: '（漢字：かなら（ずしも））It does not necessarily mean that 〜。',
+    alt_def: 'かならずしも〜というわけではない',
+    meaning: '（「必ずしも」かなら(ずしも)：Not necessarily）"It does not necessarily mean that 〜"',
     use: {
-      text: 'What comes before という is a clause which gives detail to わけ。必ず means "always, without exception, invariably".  必ずしも is the negation of that: "not always, not necessarily" and acts adverbially.  わけ means "conclusion from reasoning".  The ではない is a double-negative in the sense of an intesifier, not in the sense of "not-not".',
-      species: [
-        {
-          jap: '',
-          eng: ''
-        }
-      ]
+      text: 'What comes before という is a clause which gives detail to わけ。必ず means "always, without exception, invariably".  必ずしも is the NEGATION of that: "not always, not necessarily" and acts adverbially.  わけ means "conclusion from reasoning".  The ではない is a double-negative in the sense of an intesifier, not in the sense of "not-not".',
+      species: []
     },
     example: [
       {
@@ -391,16 +410,17 @@ const chap_grammar_list = [
   },{
     grammar_point: '(noun/verbて)ばかり（だ）',
     spec: '(noun/verbて)ばかり（だ）',
-    meaning: 'Nothing but noun.  Do nothing but verb.',
+    alt_def: '',
+    meaning: '"Nothing but noun"; "Do nothing but verb"',
     use: {
-      text: 'Conveys a sense that there is so much X that it appears as if there is only X',
+      text: 'Conveys a sense that there is so much 〜 that it appears as if there is only 〜',
       species: [
         {
-          jap: 'nounばかり：',
-          eng: 'nothing but noun'
+          jap: '(noun) ばかり(だ)',
+          eng: '：nothing but noun'
         },{
-          jap: 'verbてばかりいる：',
-          eng: 'do nothing but verb.  NOTE: that ばかり is sandwiched between verbて and いる。'
+          jap: 'verb(て) ばかりいる',
+          eng: '：do nothing but verb.  NOTE: that ばかり is sandwiched between verbて and いる。'
         }
       ]
     },
@@ -425,9 +445,10 @@ const chap_grammar_list = [
   },{
     grammar_point: 'なるべく',
     spec: 'なるべく',
-    meaning: 'as (much, fast, ＿＿) as possible; if at all possible',
+    alt_def: '',
+    meaning: '"As (much, fast, etc.) as possible"; "If at all possible"',
     use: {
-      text: 'Usually followed by a phrase or action which should be "___ as much as possible".',
+      text: 'Usually followed by a phrase or action which should be "as 〜 as possible".',
       species: []
     },
     example: [
@@ -447,20 +468,21 @@ const chap_grammar_list = [
         translation: 'If possible, please hand in homework the next day.'
       }
     ],
-    other: 'I\'ve seen なるべく described as "preferably".  Like, "be as quiet as possible" = "be quiet, preferably".  なるべく + adverb conveys the meaning "as adverbially as possible".'
+    other: 'I\'ve seen なるべく described as "preferably".  Like, "be as quiet as possible" = "be quiet, preferably".  なるべく + adverb conveys the meaning "as adverbially as possible".  Also, for those who care, the dictionary gives kanji for「なるべく」as「成る可く」。 「成る」"To become" is the なる that we know and love.  I\'m not sure「可く」means exactly, but the kanji「可」means "can", "passable"; "mustn\'t", "should not".  It is related to べき／べし。'
   },{
     grammar_point: 'verb(plain)べき',
     spec: 'verb(plain)べき',
-    meaning: 'One should/ought to verb.  I should verb.',
+    alt_def: '',
+    meaning: '"One should/ought to verb"; "I should verb"',
     use: {
       text: 'べき is conjugated like a noun (followed by だ・です・etc).  Negation of べき is べきではない。  するべき may be contracted to すべき、but both are used.  Is a strong suggestion, maybe too strong to use casually directly to others; keep it to "I should" or "one should".',
       species: [
         {
-          jap: 'verb(plain)べきだ：',
-          eng: 'One should verb'
+          jap: 'verb(plain)べき だ：',
+          eng: '：[pos.] One should verb'
         },{
-          jap: 'verb(plain)べきではない：',
-          eng: 'One should not verb'
+          jap: 'verb(plain)べき ではない：',
+          eng: '：[neg.] One should not verb (note: that it is べき and not the verb which is negated)'
         }
       ]
     },
@@ -490,7 +512,8 @@ const chap_grammar_list = [
 {
   grammar_point: '',
   spec: '',
-  meaning: '',
+  alt_def: '',
+    meaning: '',
   use: {
     text: '',
     species: [

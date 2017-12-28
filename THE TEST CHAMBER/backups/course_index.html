@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+
+    <link rel="shortcut icon" href="/favicon.ico">
+    <link rel="stylesheet" href="/style/course.css">
+    <link rel="stylesheet" href="/style/page.css">
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <title>日本語</title>
+  </head>
+  <body>
+    <header class="page-header">
+      <nav id="page-header-nav"></nav>
+    </header>
+    
+    <section class="sidebar">
+      <nav>
+        <ul>
+          <li class="sidebar-topic"><a href="#content-chapter">Lesson Chapters</a></li>
+            <ul class="sidebar-subtopic-list" id="sidebar-chapter-list"></ul>
+        </ul>
+      </nav>
+    </section>
+    
+    <section class="content">
+      <section id="content-chapter">
+        <div class="content-topic eng">Lesson Chapters</div>
+      </section>
+    </section>
+    
+    <script src="/js/jquery-csv.js"></script>
+    <script src="/js/course-build.js"></script>
+    <script src="course-data.js"></script>
+    
+  </body>
+</html>

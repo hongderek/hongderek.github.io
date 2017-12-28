@@ -4,9 +4,10 @@
     <meta charset="utf-8">
 
     <link rel="shortcut icon" href="/favicon.ico">
-    <link rel="stylesheet" href="/style/page.css">
-    <link rel="stylesheet" href="/style/chapter.css">
+    <link rel="stylesheet" href="../../style/page.css">
+    <link rel="stylesheet" href="../../style/chapter.css">
     
+    <script src="../../js/require.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <title>日本語</title>
   </head>
@@ -25,6 +26,12 @@
           <li class="sidebar-topic"><a href="#content-kanji">漢字と単語</a></li>
         </ul>
       </nav>
+      <button type="button" class="kanji-toggle-button" id="toggle-kanji">Toggle Kanji</button>
+      <button type="button" class="kanji-toggle-button" id="toggle-reading">Toggle Reading</button>
+      <button type="button" class="kanji-toggle-button" id="toggle-meaning">Toggle Meaning</button>
+      <div class="nav-buffer"></div>
+      <button type="button" class="kanji-toggle-button" id="toggle-furigana">Toggle Furigana</button>
+      <div class="nav-buffer"></div>
     </section>
     
     <section class="content">
@@ -38,17 +45,12 @@
       
       <section id="content-kanji">
         <div class="content-topic">漢字と単語</div>
-        <button type="button" id="show-kanji">show kanji</button>
-        <button type="button" id="hide-kanji">hide kanji</button>
-        <button type="button" id="show-reading">show reading</button>
-        <button type="button" id="hide-reading">hide reading</button>
-        <button type="button" id="show-meaning">show meaning</button>
-        <button type="button" id="hide-meaning">hide meaning</button>
       </section>
+      
+      <section class="footer">Derek Hong（洪眞基）2017</section>
     </section>
     
-    <script src="/js/jquery-csv.js"></script>
-    <script src="/js/chapter-build.js"></script>
+    <script src="../../js/chapter-build.js"></script>
     <script src="chapter-data.js"></script>
     
   </body>

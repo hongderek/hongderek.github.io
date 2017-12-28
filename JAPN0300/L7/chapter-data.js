@@ -1,10 +1,9 @@
 "use strict";
 
-const local_course_name = '日本語３００';
-const local_course_path = 'JAPN0300'
-const local_chap_name = '第７課';
-
-const chap_kanji_str = 'kanji,reading,meaning,kaku\n誘う,さそ（う）,to invite (also: to seduce),hai\n試合,しあい,game,\n席,せき,seat,\n一緒,いっしょ,together,\n喜んで,よろこ（んで）,gladly,\n野球,やきゅう,baseball,\n古希,こき,seventy years of age,\nお祝い,（お）いわ（い）,celebration,hai\n〜歳,〜さい,〜 years old,\n秋葉原,あきはばら,Akihabara,\n部品,ぶひん,parts,hai\n組み立てる,く（み）た（てる）,to put together; to assemble,\n専門店,せんもんてん,specialist shops,hai\n電気街,でんきがい,electric store district,\n改札,かいさつ,ticket gate,\n出口,でぐち,exit,\n音,おと,sound,hai\n欲しい,ほ（しい）,to want (〜some noun),hai\n昔,むかし,the past; the olden days,hai\n映画監督,えいがかんとく,movie director,\n侍,さむらい,Samurai,hai\n徹夜する,てつや（する）,to stay up all night,\n・,きっと,"for sure, surely",\n盛ん（な）,さか（ん）（な）,popular (not for person),\n人気がある,にんき（がある）,popular (ie: has popularity),hai\n紹介,しょうかい,introduction (する：to introduce),\nその他,（その）た,And others (also read as （その）ほか）,hai\n訪問する,ほうもん（する）,to visit,\n３０年代,３０ねんだい,a 30 year old,\n前半,ぜんはん,first half,\n選手,せんしゅ,player,\n集める,あつ（める）,to gather (something) (transitive を),hai\n集まる,あつ（まる）,to gather (intransitive が),hai\n戦う,たたか（う）,to fight,\n簡単に,かんたん（に）,easily,\n負ける,ま（ける）,to lose,hai\n太平洋戦争,たいへいようせんそう,WWII,\n終わる,お（わる）,to end (intransitive が),hai\n始める,はじ（める）,to begin (transitive を),\n始まる,はじ（まる）,to begin (intransitive が）,hai\n戦死する,せんし（する）,to die in battle,\n活躍する,かつやく（する）,to play an active part in,\n増える,ふ（える）,to increase,hai\n優勝,ゆうしょう,"overall victory, championship",\n全国,ぜんこく,the entire nation,hai\n高校野球,こうこうやきゅう,high school baseball,\n県,けん,prefecture,hai\n地域,ちいき,region,hai\n予選,よせん,preliminary,\n大会,たいかい,(big) tournament,\n野球場,やきゅうじょう,baseball stadium,\n応援する,おうえん（する）,"to support, to cheer (transitive を)",\n私立,しりつ,"private (ie: founded with private fund, eg: private university, etc.)",hai\n観客,かんきゃく,spectator,\n欧米,おうべい,the West,hai\n伝統的（な）,でんとうてき（な）,traditional,hai\n名窯（な）,めいよ（な）,honorable,\n日本代表,にほんだいひょう,Japanese representative,\n相撲,すもう,Sumō wrestling,\n論文,ろんぶん,thesis,hai\n単語,たんご,"word, vocabulary",hai\n座る,すわ（る）,to sit,';
+var local_course_name = '日本語３００';
+var local_course_path = 'JAPN0300'
+var local_chap_name = '第７課';
+var local_chap_path = 'L7'
 
 
 /**
@@ -19,7 +18,7 @@ const chap_kanji_str = 'kanji,reading,meaning,kaku\n誘う,さそ（う）,to in
     ]
   }
 */
-const chap_note_list = [
+var chap_note_list = [
   {
     topic: '初めて　vs　始める',
     spec: '初めて　vs　始める',
@@ -85,11 +84,12 @@ const chap_note_list = [
   }
 ];
 
-const chap_grammar_list = [
+var chap_grammar_list = [
   {
     grammar_point: '何と言っても',
     spec: '何と言っても',
-    meaning: 'Undeniably; no doubt; by any account.  (lit. No matter what you say, lit.lit. Even if you say what/that)',
+    alt_def: 'なにといっても、なんといっても',
+    meaning: '"Undeniably"; "No doubt"; "By any account" (lit. "No matter what you say"; lit.lit. "Even if you say what/that")',
     use: {
       text: 'Pretty self explanitory phrase.',
       species: []
@@ -108,61 +108,62 @@ const chap_grammar_list = [
   },{
     grammar_point: '〜たっけ／〜だっけ',
     spec: '〜たっけ／〜だっけ',
-    meaning: '〜、if I remember correctly; 〜、what was it again?; 〜、if I am right',
+    alt_def: '',
+    meaning: '"〜、if I remember correctly"; "〜、what was it again?"; "〜、if I am right"',
     use: {
-      text: 'A phrase used to indicate that the speaker does not remember or is unsure about certain information that was known or told previously; trying to jog one\'s memory to remember again.  As opposed to asking a question to find out information for the first time.  This is why the past form is usually used.  Is only used in casual speech.  Usually used with the past（〜たっけ）but can also be used with the present where だ is used（だっけ）.  ですっけ cannot be used.',
+      text: 'A phrase used to indicate that the speaker does not remember or is unsure about certain information that was known or told previously; trying to jog one\'s memory to remember again.  As opposed to asking a question to find out information for the first time.  This is why the past form is usually used.  Is only used in casual speech.  Usually used with the past（〜たっけ）but can also be used with the present where だ is used（だっけ）.  ですっけ cannot be used.  Can be used with 〜ん formations of nouns, adjectives, and verbs.',
       species: [
         {
-          jap: 'Present tense + っけ',
+          jap: '<b>Present tense + っけ</b>',
           eng: ''
         },{
           jap: '',
-          eng: 'nounだっけ'
+          eng: '(noun) だっけ'
         },{
           jap: '',
-          eng: '(adjな）だっけ'
+          eng: '(adjな) だっけ'
         },{
           jap: '',
-          eng: 'Ｘ（instead use:（adjい）いんだっけ）'
+          eng: 'Ｘ（no (adjい) case; instead use:（adjい)い んだっけ）'
         },{
           jap: '',
-          eng: 'Ｘ（instead use: verb(plain, present)んだっけ）'
+          eng: 'Ｘ（no verb case; instead use: verb(plain)[pres] んだっけ）'
         },{
           jap: '',
           eng: '〜んだっけ'
         },{
-          jap: 'Plain past + っけ',
+          jap: '<b>Plain past + っけ</b>',
           eng: ''
         },{
           jap: '',
-          eng: 'nounだったっけ'
+          eng: '(noun) だったっけ'
         },{
           jap: '',
-          eng: '(adjな）だったっけ'
+          eng: '(adjな) だったっけ'
         },{
           jap: '',
-          eng: '(adjい）かったっけ'
+          eng: '(adjい) かったっけ'
         },{
           jap: '',
-          eng: 'verb(plain, past)っけ'
+          eng: 'verb(plain)[past] っけ'
         },{
           jap: '',
           eng: '〜んだったっけ'
         },{
-          jap: 'Polite past + っけ',
+          jap: '<b>Polite past + っけ</b>',
           eng: ''
         },{
           jap: '',
-          eng: 'nounでしたっけ'
+          eng: '(noun) でしたっけ'
         },{
           jap: '',
           eng: '(adjな）でしたっけ'
         },{
           jap: '',
-          eng: 'Ｘ（instead use:（adjい）いんでしたっけ)'
+          eng: 'Ｘ（no (adjい) case; instead use:（adjい)い んでしたっけ)'
         },{
           jap: '',
-          eng: 'verb(stem)ましたっけ'
+          eng: 'verb(stem) ましたっけ'
         },{
           jap: '',
           eng: '〜んでしたっけ'
@@ -204,6 +205,7 @@ const chap_grammar_list = [
   },{
     grammar_point: 'verb(plain)ようにする',
     spec: 'verb(plain)ようにする',
+    alt_def: '',
     meaning: 'To make an effort to do verb.  To make it a point to do verb.',
     use: {
       text: 'yup',
@@ -221,18 +223,19 @@ const chap_grammar_list = [
     ],
     other: 'cf. verb(plain)ようになる'
   },{
-    grammar_point: 'verb(stem)（始める・終わる）',
-    spec: 'verb(stem)始める',
-    meaning: '（始める：はじ（める））To begin verbing.  （終わる：お（わる））To finish verbing.',
+    grammar_point: 'verb(stem)(始める／終わる)',
+    spec: 'verb(stem)(始める／終わる)',
+    alt_def: 'verb(stem)はじめる、おわる',
+    meaning: '（「始める」はじ(める)：To begin）"To begin verbing"; (「終わる」お(わる)：To end）"To finish verbing"',
     use: {
-      text: 'Using the past forms of 始めろ・終わる means began/finished verbing.',
+      text: 'Using the past forms of 始めろ and 終わる means "began/finished verbing"',
       species: [
         {
-          jap: 'verb(stem)始める：',
-          eng: 'To begin verbing.'
+          jap: 'verb(stem) 始める',
+          eng: '：To begin verbing.'
         },{
-          jap: 'verb(stem)終わる：',
-          eng: 'To finish verbing.'
+          jap: 'verb(stem) 終わる',
+          eng: '：To finish verbing.'
         }
       ]
     },
@@ -257,6 +260,7 @@ const chap_grammar_list = [
   },{
     grammar_point: '(sentence）verb(stem)（sentence)',
     spec: '(sentence）verb(stem)（sentence)',
+    alt_def: '',
     meaning: 'The verb(stem) can be used as verb(て) to connect two sentences.',
     use: {
       text: 'This is generally restricted to written style.',
@@ -274,11 +278,12 @@ const chap_grammar_list = [
     ],
     other: '...'
   },{
-    grammar_point: 'Q word + verb(て）も',
-    spec: 'Q word + verb(て）も',
-    meaning: 'No matter what/when/who/where/many times/etc. one verbs...',
+    grammar_point: '(Q word) + verb(て)も',
+    spec: '(Q word) + verb(て)も',
+    alt_def: 'Q word + verbても',
+    meaning: '"No matter (what/when/who/where/how many times/etc) one verbs..."',
     use: {
-      text: 'Question words (eg: 何／いつ／だれ／どこ／何度／etc.) (with particles where needed) follwed by verb(て）も gives this meaning.',
+      text: 'Question words (eg: 何／いつ／だれ／どこ／何度／etc.) (with particles where needed) follwed by verb(て)も gives the meaning of "Even if one verbs (Q-word)..."',
       species: []
     },
     example: [
@@ -307,27 +312,28 @@ const chap_grammar_list = [
     ],
     other: '...'
   },{
-    grammar_point: 'Q word + で（ある）も',
-    spec: 'Q word + で（ある）も',
-    meaning: '"Every/any - one, thing, time, where, etc."',
+    grammar_point: '(Q word)で（ある）も',
+    spec: '(Q word)で（ある）も',
+    alt_def: '',
+    meaning: '"Every/any (one/thing/time/where/etc.)"',
     use: {
       text: 'であるも is usually contracted to でも。 This construction can also be used as 「どのnounでも」to mean "every noun" or "any noun".  For example:',
       species: [
         {
-          jap: '何でも：',
-          eng: 'everything, anything'
+          jap: '何 でも',
+          eng: '：everything, anything'
         },{
-          jap: 'いつでも：',
-          eng: 'every time, any time'
+          jap: 'いつ でも',
+          eng: '：every time, any time'
         },{
-          jap: 'どこでも：',
-          eng: 'everywhere, anywhere'
+          jap: 'どこ でも',
+          eng: '：everywhere, anywhere'
         },{
-          jap: 'どのnounでも：',
-          eng: 'every noun, any noun'
+          jap: 'どのnoun でも',
+          eng: '：every noun, any noun'
         },{
-          jap: 'etc。',
-          eng: ''
+          jap: '',
+          eng: 'etc.'
         }
       ]
     },
@@ -352,6 +358,7 @@ const chap_grammar_list = [
   },{
     grammar_point: '〜を始め',
     spec: '〜を始め',
+    alt_def: '〜をはじめ',
     meaning: '"Starting with 〜, "; "Including 〜, "',
     use: {
       text: 'When you want to give a list of items, this phrase will be used to introduce the most obvious example and is usually followed by more examples.',
@@ -369,8 +376,9 @@ const chap_grammar_list = [
     ],
     other: '始め is different than 初めて、see notes for explaination.'
   },{
-    grammar_point: 'nounにとって',
-    spec: 'nounにとって',
+    grammar_point: '(noun)にとって',
+    spec: '(noun)にとって',
+    alt_def: '',
     meaning: '"For noun"; "To noun"',
     use: {
       text: 'Also: "regarding noun, ", "concerning noun, ", "as far as noun is concerned".  Is usually used to mark a subject, thus は and も are usually used after 〜にとって。 とって comes from the verb 取る。',
@@ -397,7 +405,8 @@ const chap_grammar_list = [
   },{
     grammar_point: '〜的（な）',
     spec: '〜的（な）',
-    meaning: '（漢字：てき）"〜type"; "〜ic"; "〜ical"',
+    alt_def: '〜てきな、的な',
+    meaning: '（「的」てき）"〜type"; "〜ic"; "〜ical"',
     use: {
       text: 'Suffixing this to a noun makes it into an adjな and gives a meaning of "noun-ical".  Also gives a meaning of a "typical noun" or "noun-type".  Adding the particle に will adverbialize it, meaning "noun-ical-ly".',
       species: [
@@ -449,6 +458,7 @@ const chap_grammar_list = [
   {
     grammar_point: '',
     spec: '',
+    alt_def: '',
     meaning: '',
     use: {
       text: '',

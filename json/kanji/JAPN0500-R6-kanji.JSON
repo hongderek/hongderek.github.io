@@ -1,0 +1,326 @@
+[
+  {
+    "line": 0,
+    "kanji": "〜以上",
+    "reading": "〜いじょう",
+    "meaning": "greater than (inclusive)",
+    "suru": "",
+    "kaku": "hai",
+    "nooto": ""
+  },
+  {
+    "line": 0,
+    "kanji": "〜以下",
+    "reading": "〜いか",
+    "meaning": "less than (inclusive)",
+    "suru": "",
+    "kaku": "",
+    "nooto": "cf. 〜未満"
+  },
+  {
+    "line": 0,
+    "kanji": "家庭",
+    "reading": "かてい",
+    "meaning": "(n.) home, family, household",
+    "suru": "",
+    "kaku": "hai",
+    "nooto": ""
+  },
+  {
+    "line": 0,
+    "kanji": "割引",
+    "reading": "わりびき",
+    "meaning": "(n.) discount",
+    "suru": "",
+    "kaku": "",
+    "nooto": ""
+  },
+  {
+    "line": 1,
+    "kanji": "県",
+    "reading": "けん",
+    "meaning": "(n.) prefecture",
+    "suru": "",
+    "kaku": "hai",
+    "nooto": ""
+  },
+  {
+    "line": 1,
+    "kanji": "知事",
+    "reading": "ちじ",
+    "meaning": "(n.) governor",
+    "suru": "",
+    "kaku": "",
+    "nooto": ""
+  },
+  {
+    "line": 1,
+    "kanji": "〜歳",
+    "reading": "〜さい",
+    "meaning": "(counter) # years old",
+    "suru": "",
+    "kaku": "",
+    "nooto": "also 〜才"
+  },
+  {
+    "line": 1,
+    "kanji": "〜未満",
+    "reading": "〜みまん",
+    "meaning": "less than (exclusive)",
+    "suru": "",
+    "kaku": "",
+    "nooto": "cf. 〜以下"
+  },
+  {
+    "line": 2,
+    "kanji": "優待カード",
+    "reading": "ゆうたい（カード）",
+    "meaning": "(n.) complimentary card",
+    "suru": "",
+    "kaku": "",
+    "nooto": ""
+  },
+  {
+    "line": 2,
+    "kanji": "配る",
+    "reading": "くば（る）",
+    "meaning": "(godan v. t.) to distribute",
+    "suru": "",
+    "kaku": "hai",
+    "nooto": ""
+  },
+  {
+    "line": 2,
+    "kanji": "考え",
+    "reading": "かんが（え）",
+    "meaning": "(n.) intent",
+    "suru": "",
+    "kaku": "hai",
+    "nooto": "from 考える"
+  },
+  {
+    "line": 2,
+    "kanji": "示す",
+    "reading": "しめ（す）",
+    "meaning": "(godan v. t.) to show, to indicate",
+    "suru": "",
+    "kaku": "hai",
+    "nooto": ""
+  },
+  {
+    "line": 2,
+    "kanji": "少子化",
+    "reading": "しょうしか",
+    "meaning": "(n.) decreasing population due to declining birth rate",
+    "suru": "",
+    "kaku": "",
+    "nooto": ""
+  },
+  {
+    "line": 2,
+    "kanji": "対策",
+    "reading": "たいさく",
+    "meaning": "(n.) countermeasure",
+    "suru": "",
+    "kaku": "",
+    "nooto": ""
+  },
+  {
+    "line": 2,
+    "kanji": "子育て",
+    "reading": "こそだ（て）",
+    "meaning": "(n.) raising children",
+    "suru": "hai",
+    "kaku": "hai",
+    "nooto": "te?"
+  },
+  {
+    "line": 2,
+    "kanji": "支援",
+    "reading": "しえん",
+    "meaning": "(n.) support",
+    "suru": "hai",
+    "kaku": "",
+    "nooto": ""
+  },
+  {
+    "line": 3,
+    "kanji": "子供服店",
+    "reading": "こどもふくてん",
+    "meaning": "(n.) children's clothing store",
+    "suru": "",
+    "kaku": "",
+    "nooto": ""
+  },
+  {
+    "line": 3,
+    "kanji": "料金",
+    "reading": "りょうきん",
+    "meaning": "(n.) charge, fee, fare",
+    "suru": "",
+    "kaku": "hai",
+    "nooto": ""
+  },
+  {
+    "line": 3,
+    "kanji": "県内",
+    "reading": "けんない",
+    "meaning": "(n.) within(内) the prefecture(県)",
+    "suru": "",
+    "kaku": "hai",
+    "nooto": ""
+  },
+  {
+    "line": 3,
+    "kanji": "世帯",
+    "reading": "せたい",
+    "meaning": "(n.) households",
+    "suru": "",
+    "kaku": "",
+    "nooto": ""
+  },
+  {
+    "line": 4,
+    "kanji": "対象",
+    "reading": "たいしょう",
+    "meaning": "(n.) target, object of study",
+    "suru": "",
+    "kaku": "",
+    "nooto": ""
+  },
+  {
+    "line": 4,
+    "kanji": "〜分",
+    "reading": "〜ぶん",
+    "meaning": "portion",
+    "suru": "",
+    "kaku": "",
+    "nooto": ""
+  },
+  {
+    "line": 4,
+    "kanji": "負担",
+    "reading": "ふたん",
+    "meaning": "(n.) burden",
+    "suru": "hai",
+    "kaku": "",
+    "nooto": ""
+  },
+  {
+    "line": 4,
+    "kanji": "参加",
+    "reading": "さんか",
+    "meaning": "(n.) participation",
+    "suru": "hai",
+    "kaku": "",
+    "nooto": ""
+  },
+  {
+    "line": 5,
+    "kanji": "企業",
+    "reading": "きぎょう",
+    "meaning": "(n.) business",
+    "suru": "",
+    "kaku": "hai",
+    "nooto": ""
+  },
+  {
+    "line": 5,
+    "kanji": "店",
+    "reading": "みせ",
+    "meaning": "(n.) store",
+    "suru": "",
+    "kaku": "hai",
+    "nooto": ""
+  },
+  {
+    "line": 5,
+    "kanji": "広告",
+    "reading": "こうこく",
+    "meaning": "(n.) advertisement",
+    "suru": "hai",
+    "kaku": "",
+    "nooto": ""
+  },
+  {
+    "line": 5,
+    "kanji": "表示",
+    "reading": "ひょうじ",
+    "meaning": "(n.) indication, demonstration, showing",
+    "suru": "hai",
+    "kaku": "hai",
+    "nooto": ""
+  },
+  {
+    "line": 6,
+    "kanji": "新聞",
+    "reading": "しんぶん",
+    "meaning": "(n.) newspaper",
+    "suru": "",
+    "kaku": "",
+    "nooto": ""
+  },
+  {
+    "line": 6,
+    "kanji": "広報誌",
+    "reading": "こうほうし",
+    "meaning": "(n.) PR pamphlet",
+    "suru": "",
+    "kaku": "",
+    "nooto": ""
+  },
+  {
+    "line": 6,
+    "kanji": "全国",
+    "reading": "ぜんこく",
+    "meaning": "(n.) nation-wide",
+    "suru": "",
+    "kaku": "hai",
+    "nooto": ""
+  },
+  {
+    "line": 6,
+    "kanji": "初めて",
+    "reading": "はじ（めて）",
+    "meaning": "(adv; n.w/の) first",
+    "suru": "",
+    "kaku": "hai",
+    "nooto": ""
+  },
+  {
+    "line": 6,
+    "kanji": "試みる",
+    "reading": "こころ（みる）",
+    "meaning": "(ichidan v.t.) to try, to test",
+    "suru": "",
+    "kaku": "hai",
+    "nooto": ""
+  },
+  {
+    "line": 6,
+    "kanji": "今年",
+    "reading": "ことし",
+    "meaning": "(temp. n.) this year",
+    "suru": "",
+    "kaku": "",
+    "nooto": ""
+  },
+  {
+    "line": 6,
+    "kanji": "秋",
+    "reading": "あき",
+    "meaning": "(n.) autumn",
+    "suru": "",
+    "kaku": "hai",
+    "nooto": ""
+  },
+  {
+    "line": 7,
+    "kanji": "始める",
+    "reading": "はじ（める）",
+    "meaning": "(ichidan v.t.) to start something",
+    "suru": "",
+    "kaku": "hai",
+    "nooto": ""
+  }
+]

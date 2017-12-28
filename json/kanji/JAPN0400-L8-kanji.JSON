@@ -1,0 +1,530 @@
+[
+  {
+    "kanji": "教師",
+    "reading": "きょうし",
+    "meaning": "teacher",
+    "kaku": ""
+  },
+  {
+    "kanji": "係の者",
+    "reading": "かかり（の）もの",
+    "meaning": "person who handles a particular matter",
+    "kaku": ""
+  },
+  {
+    "kanji": "（〜と）代わる",
+    "reading": "か（わる）",
+    "meaning": "to replace someone",
+    "kaku": ""
+  },
+  {
+    "kanji": "対象",
+    "reading": "たいしょう",
+    "meaning": "target",
+    "kaku": ""
+  },
+  {
+    "kanji": "詳しい",
+    "reading": "くわ（しい）",
+    "meaning": "detailed",
+    "kaku": "hai"
+  },
+  {
+    "kanji": "以後",
+    "reading": "いご",
+    "meaning": "after",
+    "kaku": ""
+  },
+  {
+    "kanji": "個人",
+    "reading": "こじん",
+    "meaning": "individual, private, personal",
+    "kaku": "hai"
+  },
+  {
+    "kanji": "会社員",
+    "reading": "かいしゃいん",
+    "meaning": "company employee",
+    "kaku": ""
+  },
+  {
+    "kanji": "主婦",
+    "reading": "しゅふ",
+    "meaning": "housewife",
+    "kaku": ""
+  },
+  {
+    "kanji": "家庭教師",
+    "reading": "かていきょうし",
+    "meaning": "private tutor",
+    "kaku": ""
+  },
+  {
+    "kanji": "相手をする",
+    "reading": "あいて（をする）",
+    "meaning": "to keep company with",
+    "kaku": "hai"
+  },
+  {
+    "kanji": "親類",
+    "reading": "しんるい",
+    "meaning": "relatives",
+    "kaku": ""
+  },
+  {
+    "kanji": "翻訳",
+    "reading": "ほんやく",
+    "meaning": "translation",
+    "kaku": ""
+  },
+  {
+    "kanji": "特技",
+    "reading": "とくぎ",
+    "meaning": "special talent, skill",
+    "kaku": "hai"
+  },
+  {
+    "kanji": "雇う",
+    "reading": "やと（う）",
+    "meaning": "to hire",
+    "kaku": "hai"
+  },
+  {
+    "kanji": "漂流者",
+    "reading": "ひょうりゅうしゃ",
+    "meaning": "a person who goes adrift in the ocean",
+    "kaku": ""
+  },
+  {
+    "kanji": "大陸",
+    "reading": "たいりく",
+    "meaning": "continent",
+    "kaku": "hai"
+  },
+  {
+    "kanji": "（〜に）流れ着く",
+    "reading": "なが（れ）つ（く）",
+    "meaning": "to drift ashore",
+    "kaku": ""
+  },
+  {
+    "kanji": "感動する",
+    "reading": "かんどう（する）",
+    "meaning": "to be impressed, touched, moved",
+    "kaku": ""
+  },
+  {
+    "kanji": "祖先",
+    "reading": "そせん",
+    "meaning": "ancestor",
+    "kaku": ""
+  },
+  {
+    "kanji": "伝説",
+    "reading": "でんせつ",
+    "meaning": "legend",
+    "kaku": "hai"
+  },
+  {
+    "kanji": "憧れ",
+    "reading": "あこが（れ）",
+    "meaning": "a longing",
+    "kaku": ""
+  },
+  {
+    "kanji": "鎖国",
+    "reading": "さこく",
+    "meaning": "national isolation",
+    "kaku": "hai"
+  },
+  {
+    "kanji": "開国",
+    "reading": "さいこく",
+    "meaning": "to open the country (する）",
+    "kaku": "hai"
+  },
+  {
+    "kanji": "白人",
+    "reading": "はくじん",
+    "meaning": "White person",
+    "kaku": ""
+  },
+  {
+    "kanji": "入国",
+    "reading": "にゅうこく",
+    "meaning": "to enter a country (する)",
+    "kaku": "hai"
+  },
+  {
+    "kanji": "許す",
+    "reading": "ゆる（す）",
+    "meaning": "to permit, forgive",
+    "kaku": "hai"
+  },
+  {
+    "kanji": "決心する",
+    "reading": "けっしん（する）",
+    "meaning": "to be determined, decide (ie: 決める)",
+    "kaku": ""
+  },
+  {
+    "kanji": "日本近海",
+    "reading": "にほんきんかい",
+    "meaning": "off the coast of Japan",
+    "kaku": "hai"
+  },
+  {
+    "kanji": "捕鯨船",
+    "reading": "ほげいせん",
+    "meaning": "whaling vessel",
+    "kaku": ""
+  },
+  {
+    "kanji": "方法",
+    "reading": "ほうほう",
+    "meaning": "method",
+    "kaku": "hai"
+  },
+  {
+    "kanji": "幸い",
+    "reading": "さいわ（い）",
+    "meaning": "fortunately",
+    "kaku": ""
+  },
+  {
+    "kanji": "（〜へ）向かう",
+    "reading": "む（かう）",
+    "meaning": "to head twoard",
+    "kaku": ""
+  },
+  {
+    "kanji": "船長",
+    "reading": "せんちょう",
+    "meaning": "ship captain",
+    "kaku": ""
+  },
+  {
+    "kanji": "陸地",
+    "reading": "りくち",
+    "meaning": "land",
+    "kaku": ""
+  },
+  {
+    "kanji": "上陸",
+    "reading": "じょうりく",
+    "meaning": "to land (する）",
+    "kaku": ""
+  },
+  {
+    "kanji": "幕府",
+    "reading": "ばくふ",
+    "meaning": "the ＳＨＯＧＵＮＡＴＥ",
+    "kaku": ""
+  },
+  {
+    "kanji": "決定する",
+    "reading": "けってい（する）",
+    "meaning": "to be determined, decide (ie: 決める)",
+    "kaku": ""
+  },
+  {
+    "kanji": "難破する",
+    "reading": "なんぱ（する）",
+    "meaning": "to be ship wrecked",
+    "kaku": ""
+  },
+  {
+    "kanji": "現れる",
+    "reading": "あらわ（れる）",
+    "meaning": "to appear (not \"to seem\"), to turn up (not \"to get lit\")",
+    "kaku": ""
+  },
+  {
+    "kanji": "感じる",
+    "reading": "かん（じる）",
+    "meaning": "to feel (eg: that, a feeling, etc)",
+    "kaku": ""
+  },
+  {
+    "kanji": "通訳",
+    "reading": "つうやく",
+    "meaning": "an interpreter",
+    "kaku": "hai"
+  },
+  {
+    "kanji": "不便（な）",
+    "reading": "ふべん（な）",
+    "meaning": "inconvenient",
+    "kaku": "hai"
+  },
+  {
+    "kanji": "選ぶ",
+    "reading": "えら（ぶ）",
+    "meaning": "to choose, to select",
+    "kaku": ""
+  },
+  {
+    "kanji": "侍",
+    "reading": "さむらい",
+    "meaning": "a ＳＡＭＵＲＡＩ",
+    "kaku": "hai"
+  },
+  {
+    "kanji": "学ぶ",
+    "reading": "まな（ぶ）",
+    "meaning": "to learn, to study",
+    "kaku": "hai"
+  },
+  {
+    "kanji": "送り返す",
+    "reading": "おく（り）かえ（す）",
+    "meaning": "to send back, to deport",
+    "kaku": ""
+  },
+  {
+    "kanji": "一生",
+    "reading": "いっしょう",
+    "meaning": "throughout one's life",
+    "kaku": ""
+  },
+  {
+    "kanji": "死ぬ",
+    "reading": "し（ぬ）",
+    "meaning": "to die",
+    "kaku": "hai"
+  },
+  {
+    "kanji": "病死する",
+    "reading": "びょうし（する）",
+    "meaning": "to die from an illness",
+    "kaku": ""
+  },
+  {
+    "kanji": "語学",
+    "reading": "ごがく",
+    "meaning": "language study",
+    "kaku": "hai"
+  },
+  {
+    "kanji": "天才",
+    "reading": "てんさい",
+    "meaning": "genius",
+    "kaku": "hai"
+  },
+  {
+    "kanji": "求める",
+    "reading": "もと（める）",
+    "meaning": "to ask, to seek",
+    "kaku": ""
+  },
+  {
+    "kanji": "戻る",
+    "reading": "もど（る）",
+    "meaning": "to return (ie: to come back)",
+    "kaku": "hai"
+  },
+  {
+    "kanji": "江戸",
+    "reading": "えど",
+    "meaning": "Edo (historic Tōkyō)",
+    "kaku": "hai"
+  },
+  {
+    "kanji": "条約",
+    "reading": "じょうやく",
+    "meaning": "a treaty",
+    "kaku": ""
+  },
+  {
+    "kanji": "日米",
+    "reading": "にちべい",
+    "meaning": "Japan-US",
+    "kaku": "hai"
+  },
+  {
+    "kanji": "交渉",
+    "reading": "こうしょう",
+    "meaning": "negotiation",
+    "kaku": "hai"
+  },
+  {
+    "kanji": "立派に",
+    "reading": "りっぱ（に）",
+    "meaning": "splendidly",
+    "kaku": ""
+  },
+  {
+    "kanji": "役立つ",
+    "reading": "やくだ（つ）",
+    "meaning": "to be useful",
+    "kaku": "hai"
+  },
+  {
+    "kanji": "・",
+    "reading": "〜のことで",
+    "meaning": "(polite) 〜について",
+    "kaku": ""
+  },
+  {
+    "kanji": "・",
+    "reading": "そちら",
+    "meaning": "(polite) \"on your side\" (そこ）",
+    "kaku": ""
+  },
+  {
+    "kanji": "・",
+    "reading": "おります",
+    "meaning": "(humble) います (ie: 〜ています）",
+    "kaku": ""
+  },
+  {
+    "kanji": "・",
+    "reading": "なんか",
+    "meaning": "(at the end of lists) \"like\" or \"etc.",
+    "kaku": ""
+  },
+  {
+    "kanji": "・",
+    "reading": "ちょうど",
+    "meaning": "right, just, exactly",
+    "kaku": ""
+  },
+  {
+    "kanji": "翌〜",
+    "reading": "よく〜",
+    "meaning": "the next 〜 (eg: year, day, month, etc.)",
+    "kaku": ""
+  },
+  {
+    "kanji": "足りる",
+    "reading": "た（りる）",
+    "meaning": "to be sufficient",
+    "kaku": ""
+  },
+  {
+    "kanji": "・",
+    "reading": "そのころ",
+    "meaning": "then, at that time",
+    "kaku": ""
+  },
+  {
+    "kanji": "探す",
+    "reading": "さが（す）",
+    "meaning": "to look for",
+    "kaku": ""
+  },
+  {
+    "kanji": "受付",
+    "reading": "うけつけ",
+    "meaning": "receptionist",
+    "kaku": ""
+  },
+  {
+    "kanji": "少々",
+    "reading": "しょうしょう",
+    "meaning": "a little, a short while (formal 少し）",
+    "kaku": ""
+  },
+  {
+    "kanji": "主任",
+    "reading": "しゅにん",
+    "meaning": "person in charge",
+    "kaku": ""
+  },
+  {
+    "kanji": "手っ取り早い",
+    "reading": "て（っ）と（り）はや（い）",
+    "meaning": "quick and simple",
+    "kaku": ""
+  },
+  {
+    "kanji": "・",
+    "reading": "しゃべる",
+    "meaning": "more casual 話す",
+    "kaku": ""
+  },
+  {
+    "kanji": "・",
+    "reading": "ＯＬ",
+    "meaning": "office lady",
+    "kaku": ""
+  },
+  {
+    "kanji": "掲示板",
+    "reading": "けいじばん",
+    "meaning": "bulletin board",
+    "kaku": ""
+  },
+  {
+    "kanji": "口",
+    "reading": "くち",
+    "meaning": "(in context) job opening",
+    "kaku": ""
+  },
+  {
+    "kanji": "偏集",
+    "reading": "へんしゅう",
+    "meaning": "editing (eg: a magazine)",
+    "kaku": ""
+  },
+  {
+    "kanji": "早速〜する",
+    "reading": "さっそく（〜する）",
+    "meaning": "to lost no time in 〜ing",
+    "kaku": ""
+  },
+  {
+    "kanji": "ぴったり（な）",
+    "reading": "ぴったり（な）",
+    "meaning": "perfect fit",
+    "kaku": ""
+  },
+  {
+    "kanji": "思い出す",
+    "reading": "おも（い）だ（す）",
+    "meaning": "to recall, to remember (but not as in 覚える）",
+    "kaku": ""
+  },
+  {
+    "kanji": "（〜に）対す",
+    "reading": "たい（す）",
+    "meaning": "towards 〜",
+    "kaku": ""
+  },
+  {
+    "kanji": "抱く",
+    "reading": "いだ（く）",
+    "meaning": "to hold (transitive) (written expression)",
+    "kaku": ""
+  },
+  {
+    "kanji": "・",
+    "reading": "やがて",
+    "meaning": "before long, soon",
+    "kaku": ""
+  },
+  {
+    "kanji": "方面",
+    "reading": "ほうめん",
+    "meaning": "direction, area",
+    "kaku": ""
+  },
+  {
+    "kanji": "驚く",
+    "reading": "おどろ（く）",
+    "meaning": "to be surprised",
+    "kaku": ""
+  },
+  {
+    "kanji": "彼",
+    "reading": "かれ",
+    "meaning": "3rd person male pronoun",
+    "kaku": ""
+  },
+  {
+    "kanji": "軍権",
+    "reading": "ぐんけん",
+    "meaning": "warship",
+    "kaku": ""
+  }
+]

@@ -1,0 +1,398 @@
+[
+  {
+    "kanji": "家族",
+    "reading": "かぞく",
+    "meaning": "family",
+    "kaku": "hai"
+  },
+  {
+    "kanji": "背が高い",
+    "reading": "せ（が）たか（い）",
+    "meaning": "tall (ie: person's height) (が：topic particle)",
+    "kaku": ""
+  },
+  {
+    "kanji": "お兄さん",
+    "reading": "（お）にい（さん）",
+    "meaning": "older brother (other)",
+    "kaku": ""
+  },
+  {
+    "kanji": "兄",
+    "reading": "あに",
+    "meaning": "older brother (own)",
+    "kaku": ""
+  },
+  {
+    "kanji": "お姉さん",
+    "reading": "（お）ねえ（さん）",
+    "meaning": "older sister(other)",
+    "kaku": ""
+  },
+  {
+    "kanji": "姉",
+    "reading": "あね",
+    "meaning": "older sister (own)",
+    "kaku": ""
+  },
+  {
+    "kanji": "妹",
+    "reading": "いもうと",
+    "meaning": "younger sister (other/own)",
+    "kaku": ""
+  },
+  {
+    "kanji": "弟",
+    "reading": "おとうと",
+    "meaning": "younger brother (other/own)",
+    "kaku": ""
+  },
+  {
+    "kanji": "お父さん",
+    "reading": "（お）とう（さん）",
+    "meaning": "father (other)",
+    "kaku": ""
+  },
+  {
+    "kanji": "父",
+    "reading": "ちち",
+    "meaning": "father (own)",
+    "kaku": ""
+  },
+  {
+    "kanji": "お母さん",
+    "reading": "（お）かあ（さん）",
+    "meaning": "mother (other)",
+    "kaku": ""
+  },
+  {
+    "kanji": "母",
+    "reading": "はは",
+    "meaning": "mother (own",
+    "kaku": ""
+  },
+  {
+    "kanji": "州都",
+    "reading": "しゅうと",
+    "meaning": "state capital",
+    "kaku": "hai"
+  },
+  {
+    "kanji": "人口",
+    "reading": "じんこう",
+    "meaning": "population",
+    "kaku": "hai"
+  },
+  {
+    "kanji": "有名（な）",
+    "reading": "ゆうめい（な）",
+    "meaning": "famous",
+    "kaku": ""
+  },
+  {
+    "kanji": "二番目",
+    "reading": "にばんめ",
+    "meaning": "second (cf. 一番目、二番目、など)",
+    "kaku": ""
+  },
+  {
+    "kanji": "引っ越す",
+    "reading": "ひ（っ）こ（す）",
+    "meaning": "to move (ie: residence)",
+    "kaku": ""
+  },
+  {
+    "kanji": "春",
+    "reading": "はる",
+    "meaning": "spring",
+    "kaku": "hai"
+  },
+  {
+    "kanji": "夏",
+    "reading": "なつ",
+    "meaning": "summer",
+    "kaku": "hai"
+  },
+  {
+    "kanji": "秋",
+    "reading": "あき",
+    "meaning": "autumn",
+    "kaku": "hai"
+  },
+  {
+    "kanji": "冬",
+    "reading": "ふゆ",
+    "meaning": "winter",
+    "kaku": "hai"
+  },
+  {
+    "kanji": "許可",
+    "reading": "きょか",
+    "meaning": "permission",
+    "kaku": "hai"
+  },
+  {
+    "kanji": "求める",
+    "reading": "もと（める）",
+    "meaning": "to request; to ask for",
+    "kaku": ""
+  },
+  {
+    "kanji": "両親",
+    "reading": "りょうしん",
+    "meaning": "parents",
+    "kaku": ""
+  },
+  {
+    "kanji": "借りる",
+    "reading": "か（りる）",
+    "meaning": "to borrow",
+    "kaku": "hai"
+  },
+  {
+    "kanji": "偶然",
+    "reading": "ぐうぜん",
+    "meaning": "by chance",
+    "kaku": ""
+  },
+  {
+    "kanji": "時々",
+    "reading": "ときどき",
+    "meaning": "sometimes (々：repeat the preceeding kanji)",
+    "kaku": ""
+  },
+  {
+    "kanji": "長い",
+    "reading": "なが（い）",
+    "meaning": "long",
+    "kaku": ""
+  },
+  {
+    "kanji": "面白い",
+    "reading": "おもしろ（い）",
+    "meaning": "interesting",
+    "kaku": ""
+  },
+  {
+    "kanji": "経験",
+    "reading": "けいけん",
+    "meaning": "experience",
+    "kaku": ""
+  },
+  {
+    "kanji": "今学期",
+    "reading": "こんがっき",
+    "meaning": "this semester",
+    "kaku": "hai"
+  },
+  {
+    "kanji": "先学期",
+    "reading": "せんがっき",
+    "meaning": "last semester",
+    "kaku": ""
+  },
+  {
+    "kanji": "役に立つ",
+    "reading": "やく（に）た（つ）",
+    "meaning": "to be useful",
+    "kaku": ""
+  },
+  {
+    "kanji": "打つ",
+    "reading": "う（つ）",
+    "meaning": "to type (on keyboard, phone); to hit",
+    "kaku": ""
+  },
+  {
+    "kanji": "熱心に",
+    "reading": "ねっしん（に）",
+    "meaning": "intensely; eagerly",
+    "kaku": ""
+  },
+  {
+    "kanji": "紅葉",
+    "reading": "こうよう",
+    "meaning": "red leaves (fall leaves)",
+    "kaku": ""
+  },
+  {
+    "kanji": "生活",
+    "reading": "せいかつ",
+    "meaning": "life; living",
+    "kaku": ""
+  },
+  {
+    "kanji": "料理",
+    "reading": "りょうり",
+    "meaning": "cooking",
+    "kaku": ""
+  },
+  {
+    "kanji": "助かる",
+    "reading": "たす（かる）",
+    "meaning": "to be saved",
+    "kaku": "hai"
+  },
+  {
+    "kanji": "体重",
+    "reading": "たいじゅう",
+    "meaning": "weight",
+    "kaku": "hai"
+  },
+  {
+    "kanji": "変わる",
+    "reading": "か（わる）",
+    "meaning": "to change (intransitive)",
+    "kaku": ""
+  },
+  {
+    "kanji": "日本史",
+    "reading": "にほんし",
+    "meaning": "Japanese history",
+    "kaku": "hai"
+  },
+  {
+    "kanji": "日本経済",
+    "reading": "にほんけいざい",
+    "meaning": "Japanese economy",
+    "kaku": "hai"
+  },
+  {
+    "kanji": "仏教",
+    "reading": "ぶっきょう",
+    "meaning": "Buddhism",
+    "kaku": ""
+  },
+  {
+    "kanji": "取る",
+    "reading": "と（る）",
+    "meaning": "to take (a class); to grab",
+    "kaku": ""
+  },
+  {
+    "kanji": "一回",
+    "reading": "いっかい",
+    "meaning": "one time",
+    "kaku": "hai"
+  },
+  {
+    "kanji": "足りる",
+    "reading": "た（りる）",
+    "meaning": "to be sufficient",
+    "kaku": "hai"
+  },
+  {
+    "kanji": "体",
+    "reading": "からだ",
+    "meaning": "body",
+    "kaku": ""
+  },
+  {
+    "kanji": "新聞記事",
+    "reading": "しんぶんきじ",
+    "meaning": "newspaper article",
+    "kaku": ""
+  },
+  {
+    "kanji": "覚える",
+    "reading": "おぼ（える）",
+    "meaning": "to memorize",
+    "kaku": ""
+  },
+  {
+    "kanji": "写真",
+    "reading": "しゃしん",
+    "meaning": "photograph",
+    "kaku": ""
+  },
+  {
+    "kanji": "財布",
+    "reading": "さいふ",
+    "meaning": "wallet",
+    "kaku": ""
+  },
+  {
+    "kanji": "珍しい",
+    "reading": "めずら（しい）",
+    "meaning": "rare",
+    "kaku": ""
+  },
+  {
+    "kanji": "間違える",
+    "reading": "まちが（える）",
+    "meaning": "\bto make a mistake",
+    "kaku": ""
+  },
+  {
+    "kanji": "湖",
+    "reading": "みずうみ",
+    "meaning": "lake",
+    "kaku": ""
+  },
+  {
+    "kanji": "・",
+    "reading": "すばらしい",
+    "meaning": "wonderful; terrific",
+    "kaku": ""
+  },
+  {
+    "kanji": "遠い",
+    "reading": "とお（い）",
+    "meaning": "far",
+    "kaku": ""
+  },
+  {
+    "kanji": "駅",
+    "reading": "えき",
+    "meaning": "train station",
+    "kaku": ""
+  },
+  {
+    "kanji": "自転車",
+    "reading": "じてんしゃ",
+    "meaning": "bicycle",
+    "kaku": ""
+  },
+  {
+    "kanji": "夕食",
+    "reading": "ゆうしょく",
+    "meaning": "dinner",
+    "kaku": ""
+  },
+  {
+    "kanji": "本当に",
+    "reading": "ほんとう（に）",
+    "meaning": "really, truly",
+    "kaku": ""
+  },
+  {
+    "kanji": "・",
+    "reading": "たつ",
+    "meaning": "(time) passes",
+    "kaku": ""
+  },
+  {
+    "kanji": "速い",
+    "reading": "はや（い）",
+    "meaning": "fast (cf. 早い：fast)",
+    "kaku": ""
+  },
+  {
+    "kanji": "・",
+    "reading": "だいぶ",
+    "meaning": "fairly well, to a large extent, pretty much",
+    "kaku": ""
+  },
+  {
+    "kanji": "・",
+    "reading": "ひどい",
+    "meaning": "terrible; awful",
+    "kaku": ""
+  },
+  {
+    "kanji": "乗る",
+    "reading": "の（る）",
+    "meaning": "to ride (intransitive 〜に to ride on ~)",
+    "kaku": ""
+  }
+]

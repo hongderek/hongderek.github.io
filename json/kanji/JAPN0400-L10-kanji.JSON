@@ -1,0 +1,482 @@
+[
+  {
+    "kanji": "机",
+    "reading": "つくえ",
+    "meaning": "ticket",
+    "kaku": ""
+  },
+  {
+    "kanji": "切符",
+    "reading": "きっぷ",
+    "meaning": "(train) schedule",
+    "kaku": ""
+  },
+  {
+    "kanji": "座席",
+    "reading": "ざせき",
+    "meaning": "seat",
+    "kaku": ""
+  },
+  {
+    "kanji": "〜号車",
+    "reading": "〜ごうしゃ",
+    "meaning": "traincar number (#)",
+    "kaku": ""
+  },
+  {
+    "kanji": "乗車券",
+    "reading": "じょうしゃけん",
+    "meaning": "passenger ticket",
+    "kaku": ""
+  },
+  {
+    "kanji": "指定席券",
+    "reading": "していせきけん",
+    "meaning": "reserved-seat ticket",
+    "kaku": ""
+  },
+  {
+    "kanji": "特急料金",
+    "reading": "とっきゅうりょうきん",
+    "meaning": "special express fare",
+    "kaku": ""
+  },
+  {
+    "kanji": "預かる",
+    "reading": "あず（かる）",
+    "meaning": "to keep (something)",
+    "kaku": ""
+  },
+  {
+    "kanji": "予約",
+    "reading": "よやく",
+    "meaning": "reservation（する：to make a reservation)",
+    "kaku": "hai"
+  },
+  {
+    "kanji": "一泊",
+    "reading": "いっぱく",
+    "meaning": "one night's stay",
+    "kaku": "hai"
+  },
+  {
+    "kanji": "〜泊",
+    "reading": "〜ぱく",
+    "meaning": "counter for nights",
+    "kaku": ""
+  },
+  {
+    "kanji": "旅館",
+    "reading": "りょかん",
+    "meaning": "Japanese style inn",
+    "kaku": ""
+  },
+  {
+    "kanji": "二食付き",
+    "reading": "にしょくつ（き）",
+    "meaning": "two meals included",
+    "kaku": ""
+  },
+  {
+    "kanji": "〜付き",
+    "reading": "〜つ（き）",
+    "meaning": "included with 〜",
+    "kaku": ""
+  },
+  {
+    "kanji": "静かな",
+    "reading": "しず（かな）",
+    "meaning": "quiet",
+    "kaku": ""
+  },
+  {
+    "kanji": "眺め",
+    "reading": "なが（め）",
+    "meaning": "a view (eg: room with a view)",
+    "kaku": ""
+  },
+  {
+    "kanji": "和室",
+    "reading": "わしつ",
+    "meaning": "Japanese-sytle room",
+    "kaku": "hai"
+  },
+  {
+    "kanji": "住所",
+    "reading": "じゅうしょ",
+    "meaning": "house address, residence, domicle",
+    "kaku": "hai"
+  },
+  {
+    "kanji": "お風呂",
+    "reading": "（お）ふろ",
+    "meaning": "bath",
+    "kaku": ""
+  },
+  {
+    "kanji": "夕食",
+    "reading": "ゆうしょく",
+    "meaning": "dinner",
+    "kaku": ""
+  },
+  {
+    "kanji": "男湯",
+    "reading": "おとこゆ",
+    "meaning": "men's bath",
+    "kaku": ""
+  },
+  {
+    "kanji": "女湯",
+    "reading": "おんなゆ",
+    "meaning": "women's bath",
+    "kaku": ""
+  },
+  {
+    "kanji": "見物",
+    "reading": "けんぶつ",
+    "meaning": "a sightseeing, \"to see the sights of",
+    "kaku": ""
+  },
+  {
+    "kanji": "冗談",
+    "reading": "じょうだん",
+    "meaning": "a joke",
+    "kaku": ""
+  },
+  {
+    "kanji": "民宿",
+    "reading": "みんしゅく",
+    "meaning": "bed and breakfast and dinner",
+    "kaku": "hai"
+  },
+  {
+    "kanji": "浴衣",
+    "reading": "ゆかた",
+    "meaning": "informal cotton kimono",
+    "kaku": ""
+  },
+  {
+    "kanji": "体",
+    "reading": "からだ",
+    "meaning": "body",
+    "kaku": "hai"
+  },
+  {
+    "kanji": "洗う",
+    "reading": "あら（う）",
+    "meaning": "to wash",
+    "kaku": ""
+  },
+  {
+    "kanji": "国内",
+    "reading": "こくない",
+    "meaning": "domestic",
+    "kaku": "hai"
+  },
+  {
+    "kanji": "旅行者",
+    "reading": "りょこうしゃ",
+    "meaning": "travel agency",
+    "kaku": "hai"
+  },
+  {
+    "kanji": "都市",
+    "reading": "とし",
+    "meaning": "city",
+    "kaku": "hai"
+  },
+  {
+    "kanji": "有効な",
+    "reading": "ゆうこう（な）",
+    "meaning": "valid",
+    "kaku": "hai"
+  },
+  {
+    "kanji": "期間",
+    "reading": "きかん",
+    "meaning": "period",
+    "kaku": "hai"
+  },
+  {
+    "kanji": "鉄道",
+    "reading": "てつどう",
+    "meaning": "railway",
+    "kaku": ""
+  },
+  {
+    "kanji": "北海道",
+    "reading": "ほっかいどう",
+    "meaning": "northern island of Japan",
+    "kaku": ""
+  },
+  {
+    "kanji": "本州",
+    "reading": "ほんしゅう",
+    "meaning": "main island of Japan",
+    "kaku": ""
+  },
+  {
+    "kanji": "九州",
+    "reading": "きゅうしゅう",
+    "meaning": "southern island of Japan",
+    "kaku": ""
+  },
+  {
+    "kanji": "自然",
+    "reading": "しぜん",
+    "meaning": "nature, spontaneity",
+    "kaku": "hai"
+  },
+  {
+    "kanji": "自然な",
+    "reading": "しぜん（な）",
+    "meaning": "natural, spontaneous",
+    "kaku": ""
+  },
+  {
+    "kanji": "自然に",
+    "reading": "しぜん（に）",
+    "meaning": "naturally, spontaneously",
+    "kaku": ""
+  },
+  {
+    "kanji": "農業",
+    "reading": "のうぎょう",
+    "meaning": "agriculture",
+    "kaku": "hai"
+  },
+  {
+    "kanji": "動物",
+    "reading": "どうぶつ",
+    "meaning": "animal",
+    "kaku": ""
+  },
+  {
+    "kanji": "珍しい",
+    "reading": "めずら（しい）",
+    "meaning": "rare",
+    "kaku": ""
+  },
+  {
+    "kanji": "先住民",
+    "reading": "せんじゅうみん",
+    "meaning": "people native to the land",
+    "kaku": ""
+  },
+  {
+    "kanji": "村",
+    "reading": "むら",
+    "meaning": "village",
+    "kaku": ""
+  },
+  {
+    "kanji": "景色",
+    "reading": "けしき",
+    "meaning": "scenery, landscape",
+    "kaku": ""
+  },
+  {
+    "kanji": "国際的な",
+    "reading": "こくさいてき（な）",
+    "meaning": "international",
+    "kaku": "hai"
+  },
+  {
+    "kanji": "大都市",
+    "reading": "だいとし",
+    "meaning": "ＢＩＧ　city",
+    "kaku": ""
+  },
+  {
+    "kanji": "世界",
+    "reading": "せかい",
+    "meaning": "world",
+    "kaku": "hai"
+  },
+  {
+    "kanji": "最大",
+    "reading": "さいだい",
+    "meaning": "largest",
+    "kaku": "hai"
+  },
+  {
+    "kanji": "政治",
+    "reading": "せいじ",
+    "meaning": "politics",
+    "kaku": ""
+  },
+  {
+    "kanji": "経済",
+    "reading": "けいざい",
+    "meaning": "economy",
+    "kaku": ""
+  },
+  {
+    "kanji": "商業",
+    "reading": "しょうぎょう",
+    "meaning": "commerce",
+    "kaku": ""
+  },
+  {
+    "kanji": "教育",
+    "reading": "きょういく",
+    "meaning": "education",
+    "kaku": ""
+  },
+  {
+    "kanji": "芸術",
+    "reading": "げいじゅつ",
+    "meaning": "art",
+    "kaku": "hai"
+  },
+  {
+    "kanji": "中心",
+    "reading": "ちゅうしん",
+    "meaning": "center",
+    "kaku": ""
+  },
+  {
+    "kanji": "醜い",
+    "reading": "みにく（い）",
+    "meaning": "ugly",
+    "kaku": ""
+  },
+  {
+    "kanji": "混雑",
+    "reading": "こんざつ",
+    "meaning": "confusion, congenstion (混雑した：crowded)",
+    "kaku": ""
+  },
+  {
+    "kanji": "物価",
+    "reading": "ぶっか",
+    "meaning": "commodity prices",
+    "kaku": "hai"
+  },
+  {
+    "kanji": "批判",
+    "reading": "ひはん",
+    "meaning": "criticism（する：to criticize)",
+    "kaku": "hai"
+  },
+  {
+    "kanji": "秩序",
+    "reading": "ちつじょ",
+    "meaning": "order (ie: everything in order)",
+    "kaku": ""
+  },
+  {
+    "kanji": "特徴",
+    "reading": "とくちょう",
+    "meaning": "a characteristic",
+    "kaku": "hai"
+  },
+  {
+    "kanji": "集まる",
+    "reading": "あつ（まる）",
+    "meaning": "something gathers (intrans.)",
+    "kaku": ""
+  },
+  {
+    "kanji": "比べる",
+    "reading": "くら（べる）",
+    "meaning": "to compare (〜と：with 〜）",
+    "kaku": "hai"
+  },
+  {
+    "kanji": "犯罪",
+    "reading": "はんざい",
+    "meaning": "crime",
+    "kaku": "hai"
+  },
+  {
+    "kanji": "活気",
+    "reading": "かっき",
+    "meaning": "liveliness, vitality, energy",
+    "kaku": ""
+  },
+  {
+    "kanji": "絶えず",
+    "reading": "た（えず）",
+    "meaning": "constantly",
+    "kaku": ""
+  },
+  {
+    "kanji": "変化",
+    "reading": "へんか",
+    "meaning": "a change（変化した：changed)",
+    "kaku": ""
+  },
+  {
+    "kanji": "魅力的な",
+    "reading": "みりょくてき（な）",
+    "meaning": "charming, attractive",
+    "kaku": ""
+  },
+  {
+    "kanji": "都",
+    "reading": "みやこ",
+    "meaning": "old city / capital",
+    "kaku": ""
+  },
+  {
+    "kanji": "第二次大戦",
+    "reading": "だいにじたいせん",
+    "meaning": "WWII",
+    "kaku": ""
+  },
+  {
+    "kanji": "被害",
+    "reading": "ひがい",
+    "meaning": "damage",
+    "kaku": "hai"
+  },
+  {
+    "kanji": "昔",
+    "reading": "むかし",
+    "meaning": "olden days",
+    "kaku": ""
+  },
+  {
+    "kanji": "神社",
+    "reading": "じんじゃ",
+    "meaning": "shrine",
+    "kaku": ""
+  },
+  {
+    "kanji": "大仏",
+    "reading": "だいぶつ",
+    "meaning": "big statue of Buddha",
+    "kaku": ""
+  },
+  {
+    "kanji": "お城",
+    "reading": "（お）しろ",
+    "meaning": "castle",
+    "kaku": ""
+  },
+  {
+    "kanji": "火山",
+    "reading": "かざん",
+    "meaning": "volcano",
+    "kaku": ""
+  },
+  {
+    "kanji": "温泉",
+    "reading": "おんせん",
+    "meaning": "hot spring",
+    "kaku": ""
+  },
+  {
+    "kanji": "小説家",
+    "reading": "しょうせつか",
+    "meaning": "novelist",
+    "kaku": ""
+  },
+  {
+    "kanji": "怒る",
+    "reading": "おこ（る）",
+    "meaning": "to get ａｎｇｅｒｙ",
+    "kaku": ""
+  }
+]

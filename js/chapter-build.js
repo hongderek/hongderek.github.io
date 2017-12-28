@@ -8,17 +8,113 @@ const misc_id = "#content-misc";
 const misc_nav_id = "#sidebar-misc-list"
 const kanji_id = "#content-kanji";
 
+const initURL = 'https://shinzo-abes-dank-meme-emporium.github.io'
+
+let wanakana;
+
+function cutReading(reading) {
+  let cutup = [];
+  let inParens = false;
+
+  for (var i=0; i<reading.length; i++) {
+    let reading_token = reading[i];
+
+    if (!inParens) {
+      if (reading_token.charAt(0) === '（') { inParens = true; }
+      else if (reading_token !== '〜') { cutup.push(reading_token); }
+    }
+    else if (inParens) {
+      if (reading_token.charAt(0) === '）') { inParens = false; }
+    }
+  }
+
+  return cutup
+}
+
+// kanji_list is a JSON of kanji
+function prepareKanji(kanji_list) {
+  for (var i=0; i<kanji_list.length; i++) {
+    var kl_kanji = kanji_list[i].kanji;
+    var kl_reading = kanji_list[i].reading;
+    var kl_meaning = kanji_list[i].meaning;
+
+    var kl_suru = (kanji_list[i].suru == 'hai');
+    var kl_kaku = (kanji_list[i].kaku == 'hai');
+
+    var kl_class = '"kanji-entry';
+    if(kl_kaku) { kl_class +=  ' kaku"'; }
+    else if(kl_suru) { kl_class += ' suru"'; }
+    else { kl_class += '"'; }
+
+    var ruby_block = '';
+    var burst_kanji = wanakana.tokenize(kl_kanji); //[]
+
+    var burst_reading = wanakana.tokenize(kl_reading); //[]
+    var cut_reading = cutReading(burst_reading);
+
+    for (var j=0; j<burst_kanji.length; j++) {
+      var kanji_token = burst_kanji[j];
+      var furigana = '';
+
+      if (wanakana.isKanji(kanji_token)) {
+        furigana = cut_reading.splice(0,1)[0];
+      }
+
+      ruby_block = ruby_block.concat('<rb>', kanji_token, '</rb><rt>', furigana, '</rt>');
+    }
+
+    var kanji_entry = [
+    '<div class=' + kl_class + ' id="kanji-entry-' + i + '">',
+    '  <kanji class="kanji"><ruby>' + ruby_block + '</ruby></kanji>',
+    '  <kanji class="reading">' + kl_reading + '</kanji>',
+    '  <kanji class="meaning">' + kl_meaning + '</kanji>',
+    '</div>'
+    ].join('\n');
+
+    $(kanji_id).append(kanji_entry);
+  }
+}
+
 
 $(window).on('load', function() {
+  if (screen.width <= 950) {
+    var course_path = local_course_path;
+    var chap_path = local_chap_path;
+    var redirect = './m.html' + location.hash;
+    window.location = redirect;
+  }
+  else {
+    require([initURL + '/js/wanakana.min.js'], function(script) {
+      wanakana = script;
+      postWanakanaLoad();
+    });
+  }
+});
 
+function postWanakanaLoad() {
   var course_name = local_course_name;
   var course_path = local_course_path;
   var chap_name = local_chap_name;
-  var kanji_list = $.csv.toObjects(chap_kanji_str);
+  var chap_path = local_chap_path;
+
+  var kanji_JSONpath = initURL + "/json/kanji/" + course_path + "-" + chap_path + "-kanji.JSON";
+
+
+  $.getJSON(kanji_JSONpath, function(json) {
+    prepareKanji(json)
+  })
   var grammar_list = chap_grammar_list;
   var note_list = chap_note_list;
 
   $(header_id).append('／<a href="/">日本語</a>／<a href="/' + local_course_path + '">' + local_course_name + '</a>／' + chap_name);
+
+  //fix navbars and top bar
+  $(".sidebar").css("margin-top", $(".page-header").outerHeight());
+  $(".sidebar").css("padding-bottom", $(".page-header").outerHeight());
+  $(".content").css("margin-top", $(".page-header").outerHeight());
+
+  $(".anchor:before").css("margin-top", -$(".page-header").outerHeight());
+  $(".anchor:before").css("height", $(".page-header").outerHeight());
 
 
   /**
@@ -28,7 +124,7 @@ $(window).on('load', function() {
       subtopic_list: [
         {
           subtopic: '',
-          desc: ''
+          desc: ['']
         }
       ]
     }
@@ -51,32 +147,19 @@ $(window).on('load', function() {
 
     var note_entry = [
     '<div class="note-entry">',
-    '  <section class="note-topic">' + nl_topic + '</section>',
+    '  <section class="note-topic anchor" id="content-note-' + i + '">' + nl_topic + '</section>',
     '  <section class="note-expo">',
          note_expo,
     '  </section>',
     '</div>'
     ].join('\n');
 
-    $(misc_id).append(note_entry);
-  }
-
-  for (var i=0; i<kanji_list.length; i++) {
-    var kl_kanji = kanji_list[i].kanji;
-    var kl_reading = kanji_list[i].reading;
-    var kl_meaning = kanji_list[i].meaning;
-    var kl_class = '';
-    if(kanji_list[i].kaku == 'hai') { kl_class =  '"kanji-entry kaku"'; }
-    else { kl_class =  '"kanji-entry"'; }
-    var kanji_entry = [
-    '<div class=' + kl_class + ' id="kanji-entry-' + i + '">',
-    '  <kanji class="kanji">' + kl_kanji + '</kanji>',
-    '  <kanji class="reading">' + kl_reading + '</kanji>',
-    '  <kanji class="meaning">' + kl_meaning + '</kanji>',
-    '</div>'
+    var note_nav_entry = [
+    '  <li class="sidebar-subtopic"><a href="#content-note-' + i + '">' + nl_spec + '</a></li>'
     ].join('\n');
 
-    $(kanji_id).append(kanji_entry);
+    $(misc_nav_id).append(note_nav_entry);
+    $(misc_id).append(note_entry);
   }
 
   for(var i=0; i<grammar_list.length; i++) {
@@ -129,7 +212,7 @@ $(window).on('load', function() {
     }
 
     var grammar_entry = [ 
-    '<div class="grammar-entry" id="content-grammar-point-' + i + '">',
+    '<div class="grammar-entry anchor" id="content-grammar-point-' + i + '">',
     '  <section class="grammar-point">' + gl_grammar_point + '</section>',
     '  <section class="grammar-meaning bg-grey-light"><grammar class="prepend">Meaning: </grammar><grammar>' + gl_meaning + '</grammar></section>',
     '  <section class="grammar-use bg-grey-dark"><grammar class="prepend">Use: </grammar><grammar>' + gl_use + '</grammar></section>',
@@ -145,28 +228,35 @@ $(window).on('load', function() {
     $(grammar_nav_id).append(grammar_nav_entry);
     $(grammar_id).append(grammar_entry);
   }
+
+  // V IMPORTANTE MY FRIENDERINOS
+  if (location.hash) {
+    var anchor = $(location.hash);
+    window.scrollTo(0, anchor.offset().top);
+  }
   
+}
+
+
+$( "#toggle-kanji" ).on( "click", function() {
+  $("kanji.kanji").toggle();
+});
+$( "#toggle-meaning" ).on( "click", function() {
+  $("kanji.meaning").toggle();
+});
+$( "#toggle-reading" ).on( "click", function() {
+  $("kanji.reading").toggle();
+});
+$("#toggle-furigana").click(function() {
+  $("rt").toggle();
 });
 
 
-$( "#show-kanji" ).on( "click", function() {
-  $("kanji.kanji").show();
-});
-$( "#hide-kanji" ).on( "click", function() {
-  $("kanji.kanji").hide();
-});
-$( "#show-reading" ).on( "click", function() {
-  $("kanji.reading").show();
-});
-$( "#hide-reading" ).on( "click", function() {
-  $("kanji.reading").hide();
-});
-$( "#show-meaning" ).on( "click", function() {
-  $("kanji.meaning").show();
-});
-$( "#hide-meaning" ).on( "click", function() {
-  $("kanji.meaning").hide();
-});
+
+
+
+
+
 
 // $( "#foo" ).on( "click", function() {
 //   alert( $( this ).text() );

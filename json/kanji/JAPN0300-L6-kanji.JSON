@@ -1,0 +1,446 @@
+[
+  {
+    "kanji": "店",
+    "reading": "みせ",
+    "meaning": "shop; store; restaurant",
+    "kaku": "hai"
+  },
+  {
+    "kanji": "注文する",
+    "reading": "ちゅうもん（する）",
+    "meaning": "to order",
+    "kaku": "hai"
+  },
+  {
+    "kanji": "引用する",
+    "reading": "いんよう（する）",
+    "meaning": "to quote",
+    "kaku": "hai"
+  },
+  {
+    "kanji": "以上",
+    "reading": "いじょう",
+    "meaning": "more than",
+    "kaku": "hai"
+  },
+  {
+    "kanji": "勤める",
+    "reading": "つと（める）",
+    "meaning": "to work for",
+    "kaku": ""
+  },
+  {
+    "kanji": "同僚",
+    "reading": "どうりょう",
+    "meaning": "colleague",
+    "kaku": "hai"
+  },
+  {
+    "kanji": "ご飯",
+    "reading": "（ご）はん",
+    "meaning": "rice",
+    "kaku": ""
+  },
+  {
+    "kanji": "丼",
+    "reading": "どんぶり",
+    "meaning": "you know what it is boi",
+    "kaku": ""
+  },
+  {
+    "kanji": "実物",
+    "reading": "じつぶつ",
+    "meaning": "actual thing",
+    "kaku": ""
+  },
+  {
+    "kanji": "卵",
+    "reading": "たまご",
+    "meaning": "egg",
+    "kaku": ""
+  },
+  {
+    "kanji": "店員",
+    "reading": "てんいん",
+    "meaning": "clerk; shop employee",
+    "kaku": "hai"
+  },
+  {
+    "kanji": "親子",
+    "reading": "おやこ",
+    "meaning": "parent and child",
+    "kaku": "hai"
+  },
+  {
+    "kanji": "生む",
+    "reading": "う（む）",
+    "meaning": "to lay (an egg); to give birth",
+    "kaku": ""
+  },
+  {
+    "kanji": "昼食",
+    "reading": "ちゅうしょく",
+    "meaning": "lunch (more polite)",
+    "kaku": ""
+  },
+  {
+    "kanji": "五十代",
+    "reading": "ごじゅうだい",
+    "meaning": "In one's fifties (age wise)",
+    "kaku": "hai"
+  },
+  {
+    "kanji": "１９９０年代",
+    "reading": "（１９９０）ねんだい",
+    "meaning": "Nineties (year wise ie: 1990s)",
+    "kaku": ""
+  },
+  {
+    "kanji": "込む",
+    "reading": "こ（む）",
+    "meaning": "to be crowded",
+    "kaku": ""
+  },
+  {
+    "kanji": "腰をかける",
+    "reading": "こし（をかける）",
+    "meaning": "to sit (hum. of 座る）",
+    "kaku": ""
+  },
+  {
+    "kanji": "座る",
+    "reading": "すわ（る）",
+    "meaning": "to sit",
+    "kaku": ""
+  },
+  {
+    "kanji": "お茶",
+    "reading": "（お）ちゃ",
+    "meaning": "green tea",
+    "kaku": ""
+  },
+  {
+    "kanji": "召し上がる",
+    "reading": "め（し）あ（がる）",
+    "meaning": "to eat/drink (hon. of 食べる・飲む)",
+    "kaku": ""
+  },
+  {
+    "kanji": "参る",
+    "reading": "まい（る）",
+    "meaning": "to come/go (hum. (courteous) of 行く・来る)",
+    "kaku": ""
+  },
+  {
+    "kanji": "請求書",
+    "reading": "せいきゅうしょ",
+    "meaning": "bill; invoice",
+    "kaku": ""
+  },
+  {
+    "kanji": "払う",
+    "reading": "はら（う）",
+    "meaning": "to pay",
+    "kaku": ""
+  },
+  {
+    "kanji": "全部",
+    "reading": "ぜんぶ",
+    "meaning": "all; entire (NB: only for inanimate objects) (cf. 全員)",
+    "kaku": "hai"
+  },
+  {
+    "kanji": "席に着く",
+    "reading": "せき（に）つ（く）",
+    "meaning": "to seat oneself (lit. \"to arrive at a seat\")",
+    "kaku": ""
+  },
+  {
+    "kanji": "辺り",
+    "reading": "あた（り）",
+    "meaning": "vicinity",
+    "kaku": ""
+  },
+  {
+    "kanji": "腹がへる",
+    "reading": "はら（がへる）",
+    "meaning": "to be hungry",
+    "kaku": ""
+  },
+  {
+    "kanji": "お腹がへる",
+    "reading": "（お）なか（がへる）",
+    "meaning": "to be hungry (more polite, note reading change)",
+    "kaku": ""
+  },
+  {
+    "kanji": "売る",
+    "reading": "う（る）",
+    "meaning": "to sell",
+    "kaku": ""
+  },
+  {
+    "kanji": "外国",
+    "reading": "がいこく",
+    "meaning": "foreign country",
+    "kaku": "hai"
+  },
+  {
+    "kanji": "日本化する",
+    "reading": "にほんか（する）",
+    "meaning": "to Japanize (日本化 \"Japanization\")",
+    "kaku": ""
+  },
+  {
+    "kanji": "旅行",
+    "reading": "りょこう",
+    "meaning": "travel",
+    "kaku": "hai"
+  },
+  {
+    "kanji": "習慣",
+    "reading": "しゅうかん",
+    "meaning": "custom",
+    "kaku": "hai"
+  },
+  {
+    "kanji": "面倒（な）",
+    "reading": "めんどう（な）",
+    "meaning": "troublesome",
+    "kaku": ""
+  },
+  {
+    "kanji": "（〜と）感じる",
+    "reading": "（〜と）かん（じる）",
+    "meaning": "to feel (that ~)",
+    "kaku": ""
+  },
+  {
+    "kanji": "例",
+    "reading": "れい",
+    "meaning": "example",
+    "kaku": "hai"
+  },
+  {
+    "kanji": "運転手",
+    "reading": "うんてんしゅ",
+    "meaning": "driver, chauffeur",
+    "kaku": ""
+  },
+  {
+    "kanji": "渡す",
+    "reading": "わた（す）",
+    "meaning": "to hand to someone",
+    "kaku": ""
+  },
+  {
+    "kanji": "荷物",
+    "reading": "にもつ",
+    "meaning": "luggage; baggage",
+    "kaku": ""
+  },
+  {
+    "kanji": "運ぶ",
+    "reading": "はこ（ぶ）",
+    "meaning": "to carry",
+    "kaku": "hai"
+  },
+  {
+    "kanji": "片付ける",
+    "reading": "かたづ（ける）",
+    "meaning": "to clean; to tidy up",
+    "kaku": ""
+  },
+  {
+    "kanji": "何度も",
+    "reading": "なんど（も）",
+    "meaning": "many times",
+    "kaku": "hai"
+  },
+  {
+    "kanji": "旅館",
+    "reading": "りょかん",
+    "meaning": "Japanese-style inn",
+    "kaku": ""
+  },
+  {
+    "kanji": "泊まる",
+    "reading": "と（まる）",
+    "meaning": "to stay (ie: hotel, 旅館 for a short time)",
+    "kaku": "hai"
+  },
+  {
+    "kanji": "決まる",
+    "reading": "き（まる）",
+    "meaning": "to be decided, fixed, arraged",
+    "kaku": ""
+  },
+  {
+    "kanji": "宿泊料",
+    "reading": "しゅくはくりょう",
+    "meaning": "hotel charges",
+    "kaku": ""
+  },
+  {
+    "kanji": "簡単",
+    "reading": "かんたん",
+    "meaning": "simple; easy",
+    "kaku": ""
+  },
+  {
+    "kanji": "（〜に）含まれる",
+    "reading": "（〜に）ふく（まれる）",
+    "meaning": "to be include (in 〜) (pass. 含む)",
+    "kaku": ""
+  },
+  {
+    "kanji": "含む",
+    "reading": "ふく（む）",
+    "meaning": "to include",
+    "kaku": ""
+  },
+  {
+    "kanji": "計算する",
+    "reading": "けいさん（する）",
+    "meaning": "to calculate",
+    "kaku": ""
+  },
+  {
+    "kanji": "美容院",
+    "reading": "びよういん",
+    "meaning": "beauty salon",
+    "kaku": ""
+  },
+  {
+    "kanji": "床屋",
+    "reading": "とこや",
+    "meaning": "barber shop",
+    "kaku": ""
+  },
+  {
+    "kanji": "（〜と／に）比べる",
+    "reading": "（〜と／に）くら（べる）",
+    "meaning": "to compare (with ~)",
+    "kaku": "hai"
+  },
+  {
+    "kanji": "高級（な）",
+    "reading": "こうきゅう（な）",
+    "meaning": "high class; first rate",
+    "kaku": "hai"
+  },
+  {
+    "kanji": "料理屋",
+    "reading": "りょうりや",
+    "meaning": "Japanese-style restaurant",
+    "kaku": ""
+  },
+  {
+    "kanji": "普通",
+    "reading": "るつう",
+    "meaning": "normal; ordinary; usual",
+    "kaku": "hai"
+  },
+  {
+    "kanji": "必要（な）",
+    "reading": "ひつよう（な）",
+    "meaning": "necessary",
+    "kaku": "hai"
+  },
+  {
+    "kanji": "必要ない",
+    "reading": "ひつよう（ない）",
+    "meaning": "not necessary",
+    "kaku": ""
+  },
+  {
+    "kanji": "物価",
+    "reading": "ぶっか",
+    "meaning": "prices (of commodities)",
+    "kaku": "hai"
+  },
+  {
+    "kanji": "意外に",
+    "reading": "いがい（に）",
+    "meaning": "expectedly; unexpectedly",
+    "kaku": ""
+  },
+  {
+    "kanji": "宣伝",
+    "reading": "せんでん",
+    "meaning": "advertisement",
+    "kaku": ""
+  },
+  {
+    "kanji": "・",
+    "reading": "なるほど",
+    "meaning": "(phrase)",
+    "kaku": ""
+  },
+  {
+    "kanji": "・",
+    "reading": "やめる",
+    "meaning": "to refrain (from), stop (something) (transitive, 〜を)",
+    "kaku": ""
+  },
+  {
+    "kanji": "・",
+    "reading": "おごる",
+    "meaning": "to treat (someone to food/drink) (don't use to superiors)",
+    "kaku": ""
+  },
+  {
+    "kanji": "・",
+    "reading": "ごちそうになる",
+    "meaning": "to be treated by someone",
+    "kaku": ""
+  },
+  {
+    "kanji": "（〜を）降りる",
+    "reading": "（〜を）お（りる）",
+    "meaning": "to get off 〜; to get out of (a vehicle)",
+    "kaku": ""
+  },
+  {
+    "kanji": "食堂",
+    "reading": "しょくどう",
+    "meaning": "dining room",
+    "kaku": ""
+  },
+  {
+    "kanji": "・",
+    "reading": "（〜が）いる",
+    "meaning": "to need 〜",
+    "kaku": ""
+  },
+  {
+    "kanji": "心配",
+    "reading": "しんぱい",
+    "meaning": "worry (する：to worry)",
+    "kaku": ""
+  },
+  {
+    "kanji": "・",
+    "reading": "むしろ",
+    "meaning": "rather",
+    "kaku": ""
+  },
+  {
+    "kanji": "この間",
+    "reading": "（この）あいだ",
+    "meaning": "the other day, recently",
+    "kaku": ""
+  },
+  {
+    "kanji": "訪ねる",
+    "reading": "たず（ねる）",
+    "meaning": "to visit",
+    "kaku": ""
+  },
+  {
+    "kanji": "様",
+    "reading": "さま",
+    "meaning": "hon. of さん",
+    "kaku": ""
+  }
+]

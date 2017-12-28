@@ -1,0 +1,368 @@
+[
+  {
+    "kanji": "研究室",
+    "reading": "けんきゅうしつ",
+    "meaning": "office (ie: professor's)",
+    "kaku": ""
+  },
+  {
+    "kanji": "授業",
+    "reading": "じゅぎょう",
+    "meaning": "class (lecture)",
+    "kaku": ""
+  },
+  {
+    "kanji": "期末試験",
+    "reading": "きまつしけん",
+    "meaning": "final exam",
+    "kaku": ""
+  },
+  {
+    "kanji": "受ける",
+    "reading": "う（ける）",
+    "meaning": "to take (a class, test), to receive",
+    "kaku": "hai"
+  },
+  {
+    "kanji": "推薦状",
+    "reading": "すいせんじょう",
+    "meaning": "recommendation",
+    "kaku": ""
+  },
+  {
+    "kanji": "留学",
+    "reading": "りゅうがく",
+    "meaning": "study abroad",
+    "kaku": "hai"
+  },
+  {
+    "kanji": "奨学金",
+    "reading": "しょうがくきん",
+    "meaning": "scholarship",
+    "kaku": ""
+  },
+  {
+    "kanji": "申し込む",
+    "reading": "もう（し）こ（む）",
+    "meaning": "to apply",
+    "kaku": "hai"
+  },
+  {
+    "kanji": "締め切り",
+    "reading": "し（め）き（り）",
+    "meaning": "deadline",
+    "kaku": ""
+  },
+  {
+    "kanji": "送る",
+    "reading": "おく（る）",
+    "meaning": "to send",
+    "kaku": "hai"
+  },
+  {
+    "kanji": "頼む",
+    "reading": "たの（む）",
+    "meaning": "to ask a favor",
+    "kaku": "hai"
+  },
+  {
+    "kanji": "痛い",
+    "reading": "いた（い）",
+    "meaning": "painful",
+    "kaku": ""
+  },
+  {
+    "kanji": "教室",
+    "reading": "きょうしつ",
+    "meaning": "classroom",
+    "kaku": ""
+  },
+  {
+    "kanji": "宿題",
+    "reading": "しゅくだい",
+    "meaning": "homework",
+    "kaku": ""
+  },
+  {
+    "kanji": "部屋",
+    "reading": "へや",
+    "meaning": "room",
+    "kaku": "hai"
+  },
+  {
+    "kanji": "寄る",
+    "reading": "よ（る）",
+    "meaning": "to stop by",
+    "kaku": ""
+  },
+  {
+    "kanji": "情報",
+    "reading": "じょうほう",
+    "meaning": "information",
+    "kaku": ""
+  },
+  {
+    "kanji": "交換",
+    "reading": "こうかん",
+    "meaning": "exchange",
+    "kaku": ""
+  },
+  {
+    "kanji": "利用する",
+    "reading": "りよう（する）",
+    "meaning": "to use",
+    "kaku": "hai"
+  },
+  {
+    "kanji": "授業料",
+    "reading": "じゅぎょうりょう",
+    "meaning": "tuition",
+    "kaku": ""
+  },
+  {
+    "kanji": "数",
+    "reading": "かず",
+    "meaning": "number",
+    "kaku": "hai"
+  },
+  {
+    "kanji": "同じ",
+    "reading": "おな（じ）",
+    "meaning": "same (noun/verb acting prenominally, cf. 似ている（似る）：to be similar)",
+    "kaku": ""
+  },
+  {
+    "kanji": "選ぶ",
+    "reading": "えら（ぶ）",
+    "meaning": "to choose",
+    "kaku": ""
+  },
+  {
+    "kanji": "面接",
+    "reading": "めんせつ",
+    "meaning": "interview",
+    "kaku": ""
+  },
+  {
+    "kanji": "成績",
+    "reading": "せいせき",
+    "meaning": "grade",
+    "kaku": ""
+  },
+  {
+    "kanji": "性格",
+    "reading": "せいかく",
+    "meaning": "character; personality",
+    "kaku": ""
+  },
+  {
+    "kanji": "態度",
+    "reading": "だいど",
+    "meaning": "attitude",
+    "kaku": ""
+  },
+  {
+    "kanji": "目的",
+    "reading": "もくてき",
+    "meaning": "aim; goal; purpose",
+    "kaku": "hai"
+  },
+  {
+    "kanji": "優先",
+    "reading": "ゆうせん",
+    "meaning": "priority",
+    "kaku": ""
+  },
+  {
+    "kanji": "以外",
+    "reading": "いがい",
+    "meaning": "other than; besides; excepting",
+    "kaku": ""
+  },
+  {
+    "kanji": "場合",
+    "reading": "ばあい",
+    "meaning": "case; situation",
+    "kaku": ""
+  },
+  {
+    "kanji": "助ける",
+    "reading": "たす（ける）",
+    "meaning": "to help, to save/rescue",
+    "kaku": ""
+  },
+  {
+    "kanji": "全部",
+    "reading": "ぜんぶ",
+    "meaning": "all; entire (NB: only for inanimate objects) (cf. 全員)",
+    "kaku": ""
+  },
+  {
+    "kanji": "帰国",
+    "reading": "きこく",
+    "meaning": "a return to one's home country (する：to return...)",
+    "kaku": ""
+  },
+  {
+    "kanji": "単位",
+    "reading": "たんい",
+    "meaning": "credit (for a course)",
+    "kaku": ""
+  },
+  {
+    "kanji": "交渉",
+    "reading": "こうしょう",
+    "meaning": "negotation",
+    "kaku": ""
+  },
+  {
+    "kanji": "認める",
+    "reading": "みと（める）",
+    "meaning": "to approve, acknoledge, to admit, to recognize",
+    "kaku": ""
+  },
+  {
+    "kanji": "国際学部",
+    "reading": "こくさいがくぶ",
+    "meaning": "International Division (of University)",
+    "kaku": ""
+  },
+  {
+    "kanji": "文学",
+    "reading": "ぶんがく",
+    "meaning": "Literature",
+    "kaku": "hai"
+  },
+  {
+    "kanji": "歴史",
+    "reading": "れきし",
+    "meaning": "History",
+    "kaku": "hai"
+  },
+  {
+    "kanji": "経済",
+    "reading": "けいざい",
+    "meaning": "Economics",
+    "kaku": "hai"
+  },
+  {
+    "kanji": "政治",
+    "reading": "せいじ",
+    "meaning": "Politics",
+    "kaku": "hai"
+  },
+  {
+    "kanji": "宗教",
+    "reading": "しゅうきょう",
+    "meaning": "Religion",
+    "kaku": "hai"
+  },
+  {
+    "kanji": "音楽",
+    "reading": "おんがく",
+    "meaning": "Music",
+    "kaku": "hai"
+  },
+  {
+    "kanji": "普通",
+    "reading": "ふつう",
+    "meaning": "the common, usual, ordinary",
+    "kaku": "hai"
+  },
+  {
+    "kanji": "活動",
+    "reading": "かつどう",
+    "meaning": "activity",
+    "kaku": ""
+  },
+  {
+    "kanji": "家庭",
+    "reading": "かてい",
+    "meaning": "home, household",
+    "kaku": ""
+  },
+  {
+    "kanji": "特に",
+    "reading": "とく（に）",
+    "meaning": "particularlly, especially",
+    "kaku": ""
+  },
+  {
+    "kanji": "希望",
+    "reading": "きぼう",
+    "meaning": "wish; hope",
+    "kaku": ""
+  },
+  {
+    "kanji": "者",
+    "reading": "もの",
+    "meaning": "person",
+    "kaku": ""
+  },
+  {
+    "kanji": "悪い",
+    "reading": "わる（い）",
+    "meaning": "bad",
+    "kaku": ""
+  },
+  {
+    "kanji": "住宅事情",
+    "reading": "じゅうたくじじょう",
+    "meaning": "housing condition",
+    "kaku": ""
+  },
+  {
+    "kanji": "留学希望者",
+    "reading": "りゅうがくきぼうしゃ",
+    "meaning": "one who wishes to go study abroad",
+    "kaku": ""
+  },
+  {
+    "kanji": "忘れる",
+    "reading": "わす（れる）",
+    "meaning": "to forget",
+    "kaku": ""
+  },
+  {
+    "kanji": "〜枚",
+    "reading": "〜まい",
+    "meaning": "counter for thin, flat objects",
+    "kaku": ""
+  },
+  {
+    "kanji": "お願い",
+    "reading": "（お）ねが（い）",
+    "meaning": "a request",
+    "kaku": ""
+  },
+  {
+    "kanji": "伺う",
+    "reading": "うかが（う）",
+    "meaning": "hum. form of 行く、来る、聞く",
+    "kaku": ""
+  },
+  {
+    "kanji": "用紙",
+    "reading": "ようし",
+    "meaning": "form",
+    "kaku": ""
+  },
+  {
+    "kanji": "主（な）",
+    "reading": "おも（な）",
+    "meaning": "main (ie: the main \"topic\", etc)",
+    "kaku": ""
+  },
+  {
+    "kanji": "行う",
+    "reading": "おこな（う）",
+    "meaning": "to carry out, to conduct (usually used in written lang.)",
+    "kaku": ""
+  },
+  {
+    "kanji": "・",
+    "reading": "ほとんど〜ない",
+    "meaning": "hardly",
+    "kaku": ""
+  }
+]

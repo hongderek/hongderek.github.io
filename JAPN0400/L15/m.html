@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+
+    <link rel="shortcut icon" href="/favicon.ico">
+    <link rel="stylesheet" href="../../m/style/page.css">
+    <link rel="stylesheet" href="../../m/style/chapter.css">
+    
+    <script src="../../js/require.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <title>日本語 (small-format)</title>
+  </head>
+  <body>
+    <header class="page-header">
+      <nav id="page-header-nav"></nav>
+    </header>
+
+    <section class="content">
+      <section id="content-grammar">
+        <div class="content-topic">文法</div>
+        <div class="content-wrapper" id="grammar-entry-wrapper"></div>
+      </section>
+      
+      <section id="content-misc">
+        <div class="content-topic">注釈</div>
+      </section>
+      
+      <section id="content-kanji">
+        <div class="content-topic">漢字と単語</div>
+        <button type="button" class="kanji-toggle-button" id="toggle-kanji">Toggle Kanji</button>
+      <button type="button" class="kanji-toggle-button" id="toggle-reading">Toggle Reading</button>
+      <button type="button" class="kanji-toggle-button" id="toggle-meaning">Toggle Meaning</button>
+      <button type="button" class="kanji-toggle-button" id="toggle-furigana">Toggle Furigana</button>
+        <div class="content-wrapper" id="kanji-entry-wrapper"></div>
+      </section>
+      
+      <section class="footer">Derek Hong（洪眞基）2017</section>
+    </section>
+    
+    <script src="../../m/js/chapter-build.js"></script>
+    <script src="chapter-data.js"></script>
+    
+  </body>
+</html>

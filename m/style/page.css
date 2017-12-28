@@ -1,0 +1,168 @@
+/*
+  ========================================
+  Grid
+  ========================================
+*/
+
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+/*unfortunately, :before elements cannot be modified by javascript.  The height of the topbar should usually be 62px, so idk if it's reallya huge problem to have magic numbers...*/
+/*
+.anchor:before { 
+  display: block; 
+  content: " "; 
+  visibility: hidden; 
+  margin-top: -62px;
+  height: 62px;
+}
+*/
+
+body {
+  margin: 0;
+  font-family: sans-serif;
+  font-size: 13px;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+b.eg-highlight {
+  font-weigth: bold;
+}
+
+.page-header {
+  font-size: 3em;
+  border-bottom-style: solid;
+  padding: 5px;
+/*  position: fixed;*/
+  width: 100%;
+  background-color: white;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.sidebar {
+  float: left;
+  padding: 10px;
+  width: 20%;
+  overflow-y: scroll;
+  position: fixed;
+  height: 100%;
+  background-color: white;
+}
+
+.sidebar-topic {
+  list-style-type: none;
+  font-size: 1.7em;
+  padding-bottom: 5px;
+}
+
+.sidebar-subtopic {
+  font-size: 1em;
+  padding: 3px 0 3px 0;
+  border-bottom-style: solid;
+  border-width: 1px;
+}
+
+.sidebar-subtopic-list {
+  list-style-type: square;
+  padding: 0 0 10px 20px;
+}
+
+.content {
+/*  float: right;*/
+/*  width: 80%;*/
+/*  border-left-style: solid;*/
+  width: auto;
+  margin-bottom: 4.5em;
+  background-color: white;
+}
+
+.content-topic {
+  font-size: 8em;
+  text-align: center;
+  background-color: crimson;
+  margin: 20px 0 20px 0;
+}
+
+.content-wrapper {
+  display: none;
+}
+
+/*
+.content-topic:before { 
+  display: block; 
+  content: " "; 
+  visibility: hidden; 
+  margin-top: -62px;
+  height: 62px;
+}
+*/
+
+.content-topic.eng {
+  padding: 0 10px 20px 10px;
+}
+
+/* default is jap */
+.content-topic.jap {
+  padding: 0;
+}
+
+.bg-grey-light {
+  background-color: #F3F3F3;
+}
+
+.bg-grey-dark {
+  background-color: #E5E5E5;
+}
+
+.nav-buffer {
+  height: 5%;
+  width: 100%;
+}
+
+.kanji-toggle-button {
+  display: none;
+  width: 90%;
+  font-size: 5em;
+  margin: 1% 5%;
+  border: none;
+  background-color: lightgrey;
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  background-color: #ffdbe2;
+  padding: 0.5em;
+  width: 100%;
+  text-align: center;
+  font-size: 2em;
+  z-index: -1;
+}
+
+rt {
+  color: darkorange;
+}
+
+
+
+
+
+
+
+

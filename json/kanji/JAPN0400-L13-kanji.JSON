@@ -1,0 +1,530 @@
+[
+  {
+    "kanji": "外来語",
+    "reading": "がいらいご",
+    "meaning": "loan word",
+    "kaku": "hai"
+  },
+  {
+    "kanji": "体験",
+    "reading": "たいけん",
+    "meaning": "personal experience",
+    "kaku": ""
+  },
+  {
+    "kanji": "過去",
+    "reading": "かこ",
+    "meaning": "the past",
+    "kaku": "hai"
+  },
+  {
+    "kanji": "述べる",
+    "reading": "の（べる）",
+    "meaning": "to state",
+    "kaku": ""
+  },
+  {
+    "kanji": "紹介する",
+    "reading": "しょうかい（する）",
+    "meaning": "to introduce",
+    "kaku": ""
+  },
+  {
+    "kanji": "お手洗い",
+    "reading": "（お）てあら（い）",
+    "meaning": "toilet, WC, washroom",
+    "kaku": ""
+  },
+  {
+    "kanji": "困る",
+    "reading": "こま（る）",
+    "meaning": "to be in trouble, to be troubled",
+    "kaku": ""
+  },
+  {
+    "kanji": "一生懸命",
+    "reading": "いっしょうけんめい",
+    "meaning": "as hard as one can",
+    "kaku": ""
+  },
+  {
+    "kanji": "発音",
+    "reading": "はつおん",
+    "meaning": "pronunciation",
+    "kaku": "hai"
+  },
+  {
+    "kanji": "楽な",
+    "reading": "らく（な）",
+    "meaning": "easy, comfortable",
+    "kaku": ""
+  },
+  {
+    "kanji": "暮らし",
+    "reading": "く（らし）",
+    "meaning": "living, life style",
+    "kaku": ""
+  },
+  {
+    "kanji": "俳優",
+    "reading": "はいゆう",
+    "meaning": "actor / actress",
+    "kaku": ""
+  },
+  {
+    "kanji": "立派な",
+    "reading": "りっぱ（な）",
+    "meaning": "splendid",
+    "kaku": ""
+  },
+  {
+    "kanji": "普通",
+    "reading": "ふつう",
+    "meaning": "common; usual; ordinary (uses の）",
+    "kaku": ""
+  },
+  {
+    "kanji": "運転手",
+    "reading": "うんてんしゅ",
+    "meaning": "driver",
+    "kaku": ""
+  },
+  {
+    "kanji": "笑う",
+    "reading": "わら（う）",
+    "meaning": "to laugh",
+    "kaku": "hai"
+  },
+  {
+    "kanji": "謙遜する",
+    "reading": "けんそん（する）",
+    "meaning": "to be modest",
+    "kaku": ""
+  },
+  {
+    "kanji": "助詞",
+    "reading": "じょし",
+    "meaning": "particle (grammar)",
+    "kaku": "hai"
+  },
+  {
+    "kanji": "反対",
+    "reading": "はんたい",
+    "meaning": "the opposite, oposition（する：to oppose)",
+    "kaku": "hai"
+  },
+  {
+    "kanji": "直す",
+    "reading": "なお（す）",
+    "meaning": "to fix, correct",
+    "kaku": ""
+  },
+  {
+    "kanji": "複雑な",
+    "reading": "ふくざつ（な）",
+    "meaning": "complicated",
+    "kaku": ""
+  },
+  {
+    "kanji": "敬語",
+    "reading": "けいご",
+    "meaning": "honorific expression",
+    "kaku": "hai"
+  },
+  {
+    "kanji": "正式に",
+    "reading": "せいしき（に）",
+    "meaning": "formally, officially",
+    "kaku": ""
+  },
+  {
+    "kanji": "決める",
+    "reading": "き（める）",
+    "meaning": "to decide",
+    "kaku": ""
+  },
+  {
+    "kanji": "極めて",
+    "reading": "きわ（めて）",
+    "meaning": "extremely",
+    "kaku": ""
+  },
+  {
+    "kanji": "大半",
+    "reading": "だいはん",
+    "meaning": "most of",
+    "kaku": "hai"
+  },
+  {
+    "kanji": "中年婦人",
+    "reading": "ちゅうねんふじん",
+    "meaning": "middle aged woman",
+    "kaku": ""
+  },
+  {
+    "kanji": "暇な",
+    "reading": "ひま（な）",
+    "meaning": "free (in schedule)",
+    "kaku": ""
+  },
+  {
+    "kanji": "文",
+    "reading": "ぶん",
+    "meaning": "sentence",
+    "kaku": "hai"
+  },
+  {
+    "kanji": "授業",
+    "reading": "じゅぎょう",
+    "meaning": "class",
+    "kaku": ""
+  },
+  {
+    "kanji": "黒板",
+    "reading": "こくばん",
+    "meaning": "blackboard",
+    "kaku": ""
+  },
+  {
+    "kanji": "写す",
+    "reading": "うつ（す）",
+    "meaning": "to copy",
+    "kaku": ""
+  },
+  {
+    "kanji": "進歩",
+    "reading": "しんぽ",
+    "meaning": "progress, advancement",
+    "kaku": "hai"
+  },
+  {
+    "kanji": "認める",
+    "reading": "みと（める）",
+    "meaning": "to notice, to recognize",
+    "kaku": "hai"
+  },
+  {
+    "kanji": "唐",
+    "reading": "とう",
+    "meaning": "Tang Dynasty",
+    "kaku": ""
+  },
+  {
+    "kanji": "時代",
+    "reading": "じだい",
+    "meaning": "era",
+    "kaku": "hai"
+  },
+  {
+    "kanji": "詩",
+    "reading": "し",
+    "meaning": "poem; poetry",
+    "kaku": "hai"
+  },
+  {
+    "kanji": "自習",
+    "reading": "じしゅう",
+    "meaning": "self-study",
+    "kaku": "hai"
+  },
+  {
+    "kanji": "定食",
+    "reading": "ていしょく",
+    "meaning": "fixed price lunch",
+    "kaku": ""
+  },
+  {
+    "kanji": "大学院生",
+    "reading": "だいがくいんせい",
+    "meaning": "graduate student",
+    "kaku": ""
+  },
+  {
+    "kanji": "中華料理",
+    "reading": "ちゅうかりょうり",
+    "meaning": "Chinese food",
+    "kaku": ""
+  },
+  {
+    "kanji": "誘う",
+    "reading": "さそ（う）",
+    "meaning": "to invite",
+    "kaku": ""
+  },
+  {
+    "kanji": "喜んで",
+    "reading": "よろこ（んで）",
+    "meaning": "delightedly, gladly",
+    "kaku": ""
+  },
+  {
+    "kanji": "応じる",
+    "reading": "おう（じる）",
+    "meaning": "to respond, to aggree, to accept",
+    "kaku": "hai"
+  },
+  {
+    "kanji": "誘いに応じる",
+    "reading": "さそ（いに）おう（じる）",
+    "meaning": "to accept someone's invitation",
+    "kaku": ""
+  },
+  {
+    "kanji": "ご馳走になる",
+    "reading": "（ご）ちそう（になる）",
+    "meaning": "to be treated (eg: to a meal)",
+    "kaku": ""
+  },
+  {
+    "kanji": "片言",
+    "reading": "かたこと",
+    "meaning": "broken (ie: broken language, English, Japanese, etc.)",
+    "kaku": ""
+  },
+  {
+    "kanji": "別荘",
+    "reading": "べっそう",
+    "meaning": "summer house",
+    "kaku": ""
+  },
+  {
+    "kanji": "家庭教師",
+    "reading": "かていきょうし",
+    "meaning": "private tutor",
+    "kaku": ""
+  },
+  {
+    "kanji": "・",
+    "reading": "サボる",
+    "meaning": "to loaf (on the job); to skip (school)",
+    "kaku": ""
+  },
+  {
+    "kanji": "励ます",
+    "reading": "はげ（ます）",
+    "meaning": "to encourage",
+    "kaku": "hai"
+  },
+  {
+    "kanji": "勧める",
+    "reading": "すす（める）",
+    "meaning": "to urge someone (に) to do something (を）",
+    "kaku": "hai"
+  },
+  {
+    "kanji": "反日感情",
+    "reading": "はんにちかんじょう",
+    "meaning": "anti-Japanese sentiment",
+    "kaku": "hai"
+  },
+  {
+    "kanji": "恥ずかしい",
+    "reading": "は（ずかしい）",
+    "meaning": "embarassing; to be embarrassed",
+    "kaku": ""
+  },
+  {
+    "kanji": "人並み",
+    "reading": "ひとな（み）",
+    "meaning": "being average, ordinary",
+    "kaku": ""
+  },
+  {
+    "kanji": "欲望",
+    "reading": "よくぼう",
+    "meaning": "desire",
+    "kaku": ""
+  },
+  {
+    "kanji": "アメリカ合衆国",
+    "reading": "（アメリカ）がっしゅうこく",
+    "meaning": "The United States of America",
+    "kaku": "hai"
+  },
+  {
+    "kanji": "南部",
+    "reading": "なんぶ",
+    "meaning": "the southern parts (of a region)",
+    "kaku": "hai"
+  },
+  {
+    "kanji": "既に",
+    "reading": "すで（に）",
+    "meaning": "already",
+    "kaku": ""
+  },
+  {
+    "kanji": "果樹園",
+    "reading": "かじゅえん",
+    "meaning": "orchard",
+    "kaku": ""
+  },
+  {
+    "kanji": "果物",
+    "reading": "くだもの",
+    "meaning": "fruit",
+    "kaku": ""
+  },
+  {
+    "kanji": "折る",
+    "reading": "お（る）",
+    "meaning": "to snap",
+    "kaku": ""
+  },
+  {
+    "kanji": "指差す",
+    "reading": "ゆびさ（す）",
+    "meaning": "to point",
+    "kaku": ""
+  },
+  {
+    "kanji": "最初に",
+    "reading": "さいしょ（に）",
+    "meaning": "firstly",
+    "kaku": "hai"
+  },
+  {
+    "kanji": "記念する",
+    "reading": "きねん（する）",
+    "meaning": "to commemorate",
+    "kaku": ""
+  },
+  {
+    "kanji": "小学校",
+    "reading": "しょうがっこう",
+    "meaning": "elementary school",
+    "kaku": ""
+  },
+  {
+    "kanji": "教科書",
+    "reading": "きょうかしょ",
+    "meaning": "textbook",
+    "kaku": "hai"
+  },
+  {
+    "kanji": "齢",
+    "reading": "よわい・とし",
+    "meaning": "age",
+    "kaku": ""
+  },
+  {
+    "kanji": "趣味",
+    "reading": "しゅみ",
+    "meaning": "hobby",
+    "kaku": ""
+  },
+  {
+    "kanji": "異なる",
+    "reading": "こと（なる）",
+    "meaning": "to be different from",
+    "kaku": ""
+  },
+  {
+    "kanji": "終身",
+    "reading": "しゅうしん",
+    "meaning": "moral education",
+    "kaku": ""
+  },
+  {
+    "kanji": "読本",
+    "reading": "どくほん",
+    "meaning": "a reading book",
+    "kaku": ""
+  },
+  {
+    "kanji": "道徳観",
+    "reading": "どうとくかん",
+    "meaning": "view of morality",
+    "kaku": "hai"
+  },
+  {
+    "kanji": "〜観",
+    "reading": "〜かん",
+    "meaning": "view of 〜",
+    "kaku": ""
+  },
+  {
+    "kanji": "矛盾",
+    "reading": "むじゅん",
+    "meaning": "contradiction",
+    "kaku": ""
+  },
+  {
+    "kanji": "難解さ",
+    "reading": "なんかい（さ）",
+    "meaning": "difficulty of understanding",
+    "kaku": ""
+  },
+  {
+    "kanji": "自体",
+    "reading": "じたい",
+    "meaning": "itself",
+    "kaku": ""
+  },
+  {
+    "kanji": "興味",
+    "reading": "きょうみ",
+    "meaning": "interest",
+    "kaku": ""
+  },
+  {
+    "kanji": "克服する",
+    "reading": "こくふく（する）",
+    "meaning": "to overcome",
+    "kaku": "hai"
+  },
+  {
+    "kanji": "戻る",
+    "reading": "もど（る）",
+    "meaning": "to return",
+    "kaku": ""
+  },
+  {
+    "kanji": "習う",
+    "reading": "なら（う）",
+    "meaning": "to learn",
+    "kaku": ""
+  },
+  {
+    "kanji": "再び",
+    "reading": "ふたた（び）",
+    "meaning": "again",
+    "kaku": ""
+  },
+  {
+    "kanji": "国籍",
+    "reading": "こくせき",
+    "meaning": "nationalitiy",
+    "kaku": ""
+  },
+  {
+    "kanji": "山荘",
+    "reading": "さんそう",
+    "meaning": "mountain cottage",
+    "kaku": ""
+  },
+  {
+    "kanji": "主",
+    "reading": "ぬし",
+    "meaning": "owner",
+    "kaku": ""
+  },
+  {
+    "kanji": "脱落する",
+    "reading": "だつらく（する）",
+    "meaning": "to drop out",
+    "kaku": ""
+  },
+  {
+    "kanji": "頑張る",
+    "reading": "がんば（る）",
+    "meaning": "to try as hard as one can",
+    "kaku": ""
+  },
+  {
+    "kanji": "理解",
+    "reading": "りかい",
+    "meaning": "an understanding（する：to understand)",
+    "kaku": ""
+  }
+]

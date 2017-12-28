@@ -4,9 +4,54 @@
     <meta charset="utf-8">
 
     <link rel="shortcut icon" href="/favicon.ico">
+    <link rel="stylesheet" href="/style/page.css">
+    <link rel="stylesheet" href="/style/chapter.css">
+    
+    <script src="/js/require.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <title>日本語</title>
   </head>
   <body>
-    <p style="text-align:center; font-family:sans-serif; font-size:100px">無</p>
+    <header class="page-header">
+      <nav id="page-header-nav"></nav>
+    </header>
+    
+    <section class="sidebar">
+      <nav>
+        <ul>
+          <li class="sidebar-topic"><a href="#content-grammar">文法</a></li>
+            <ul class="sidebar-subtopic-list" id="sidebar-grammar-list"></ul>
+          <li class="sidebar-topic"><a href="#content-misc">注釈</a></li>
+            <ul class="sidebar-subtopic-list" id="sidebar-misc-list"></ul>
+          <li class="sidebar-topic"><a href="#content-kanji">漢字と単語</a></li>
+        </ul>
+      </nav>
+      <button type="button" class="kanji-toggle-button" id="toggle-kanji">Toggle Kanji</button>
+      <button type="button" class="kanji-toggle-button" id="toggle-reading">Toggle Reading</button>
+      <button type="button" class="kanji-toggle-button" id="toggle-meaning">Toggle Meaning</button>
+      <div class="nav-buffer"></div>
+      <button type="button" class="kanji-toggle-button" id="toggle-furigana">Toggle Furigana</button>
+      <div class="nav-buffer"></div>
+    </section>
+    
+    <section class="content">
+      <section id="content-grammar">
+        <div class="content-topic">文法</div>
+      </section>
+      
+      <section id="content-misc">
+        <div class="content-topic">注釈</div>
+      </section>
+      
+      <section id="content-kanji">
+        <div class="content-topic">漢字と単語</div>
+      </section>
+      
+      <section class="footer">Derek Hong（洪眞基）2017</section>
+    </section>
+    
+    <script src="/js/chapter-build.js"></script>
+    <script src="chapter-data.js"></script>
+    
   </body>
 </html>

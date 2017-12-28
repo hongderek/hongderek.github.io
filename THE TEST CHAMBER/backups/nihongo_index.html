@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+
+    <link rel="shortcut icon" href="/favicon.ico">
+    <link rel="stylesheet" href="./style/page.css">
+    <link rel="stylesheet" href="./style/nihongo.css">
+    <link rel="stylesheet" href="./style/chapter.css">
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="./js/require.js"></script>
+<!--    <script src="./js/wanakana.min.js"></script>-->
+    <title>日本語</title>
+  </head>
+  <body>
+    <header class="page-header">
+      <nav id="page-header-nav">／日本語／</nav>
+    </header>
+    
+    <section class="sidebar">
+      <nav>
+        <ul>
+          <li class="sidebar-topic"><a href="#content-course">Courses</a></li>
+            <ul class="sidebar-subtopic-list" id="sidebar-course-list"></ul>
+          <li class="sidebar-topic">
+            <a href="#grammar-search">文法 Search</a>
+            <div class="nav-disclaimer">
+              Searches grammar in all courses.  Valid search terms, where applicable, include: kanji or hiragana readings, hiragana, and english grammar terms (eg: noun, verb, stem, plain, pres., past, potential, causative).  Searches for exact match, so if you get no results try a more general search term.  Not all grammar entries match what are in the textbook.
+            </div>
+          </li>
+          <li class="sidebar-topic">
+            <a href="#kanji-search">漢字 Search</a>
+            <div class="nav-disclaimer">
+              Searches kanji in all courses.  Valid search terms are kanji and hiragana readings.  You cannot search through meanings.  Yellow highlights indicate a kanji we should know how to write.
+            </div>
+          </li>
+          <li class="sidebar-topic"><a href="./jisho">Jisho Search (experimental)</a></li>
+        </ul>
+      </nav>
+    </section>
+    
+    <section class="content">
+      <section id="content-course">
+        <div class="content-topic eng">Courses</div>
+      </section>
+      <section id="content-course">
+        <div class="content-topic eng" id="grammar-search">文法 Search</div>
+        <div class="search-bar">
+          <input id="grammar-search-input" type="text">
+          <button id="grammar-submit-button">Search</button>
+          <button id="grammar-clear-button">Clear</button>
+        </div>
+        <div class="loading-text" id="grammar-loading-text">Loading...</div>
+        <div class="no-results-text" id="grammar-no-results">No Results</div>
+        <section id="grammar-search-results"></section>
+      </section>
+      <section id="content-course">
+        <div class="content-topic eng" id="kanji-search">漢字 Search</div>
+        <div class="search-bar">
+          <input id="kanji-search-input" type="text">
+          <button id="kanji-submit-button">Search</button>
+          <button id="kanji-clear-button">Clear</button>
+          <button id="furigana-showhide-button">Show/Hide Furigana</button>
+        </div>
+        <div class="loading-text" id="kanji-loading-text">Loading...</div>
+        <div class="no-results-text" id="kanji-no-results">No Results</div>
+        <section id="kanji-search-results"></section>
+      </section>
+    </section>
+    
+    <script src="./js/nihongo-build.js"></script>
+    <script src="nihongo-data.js"></script>
+    <script src="./js/search.js"></script>
+    
+  </body>
+</html>

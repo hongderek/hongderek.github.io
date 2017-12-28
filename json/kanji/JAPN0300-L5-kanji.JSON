@@ -1,0 +1,422 @@
+[
+  {
+    "kanji": "求める",
+    "reading": "もと（める）",
+    "meaning": "to seek (ie: advice アドバイスを)",
+    "kaku": "hai"
+  },
+  {
+    "kanji": "与える",
+    "reading": "あた（える）",
+    "meaning": "to give, to bestow (ie: advice アドバイスを)",
+    "kaku": "hai"
+  },
+  {
+    "kanji": "指導教授",
+    "reading": "しどうきょうじゅ",
+    "meaning": "academic advisor",
+    "kaku": ""
+  },
+  {
+    "kanji": "発表",
+    "reading": "はっぴょう",
+    "meaning": "announcement (する：to announce)",
+    "kaku": "hai"
+  },
+  {
+    "kanji": "建物",
+    "reading": "たてもの",
+    "meaning": "building",
+    "kaku": ""
+  },
+  {
+    "kanji": "〜号室",
+    "reading": "〜ごうしつ",
+    "meaning": "counter for room number",
+    "kaku": ""
+  },
+  {
+    "kanji": "場所",
+    "reading": "ばしょ",
+    "meaning": "place",
+    "kaku": ""
+  },
+  {
+    "kanji": "相談",
+    "reading": "そうだん",
+    "meaning": "a consultation, discussion (する：to consult)",
+    "kaku": ""
+  },
+  {
+    "kanji": "移る",
+    "reading": "うつ（る）",
+    "meaning": "to move, transfer (in general) (cf. 引っ越す：to move (residence))",
+    "kaku": "hai"
+  },
+  {
+    "kanji": "成績",
+    "reading": "せいせき",
+    "meaning": "grade",
+    "kaku": ""
+  },
+  {
+    "kanji": "予習",
+    "reading": "よしゅう",
+    "meaning": "to prepare for class",
+    "kaku": "hai"
+  },
+  {
+    "kanji": "・",
+    "reading": "ほかに",
+    "meaning": "In addition, besides",
+    "kaku": ""
+  },
+  {
+    "kanji": "現代史",
+    "reading": "げんだいし",
+    "meaning": "Contemporary history",
+    "kaku": "hai"
+  },
+  {
+    "kanji": "社会学",
+    "reading": "しゃかいがく",
+    "meaning": "Sociology",
+    "kaku": "hai"
+  },
+  {
+    "kanji": "学期末",
+    "reading": "がっきまつ",
+    "meaning": "the end of semester",
+    "kaku": "hai"
+  },
+  {
+    "kanji": "様子",
+    "reading": "ようす",
+    "meaning": "condition; circumstance; situation",
+    "kaku": ""
+  },
+  {
+    "kanji": "部員",
+    "reading": "ぶいん",
+    "meaning": "member; staff",
+    "kaku": "hai"
+  },
+  {
+    "kanji": "勧誘",
+    "reading": "かんゆう",
+    "meaning": "invitation, solicitation (する：to invite, solicit (eg: to join a club))",
+    "kaku": ""
+  },
+  {
+    "kanji": "新入生",
+    "reading": "しんにゅうせい",
+    "meaning": "new student",
+    "kaku": ""
+  },
+  {
+    "kanji": "居酒屋",
+    "reading": "いざかや",
+    "meaning": "Japanese-style pub",
+    "kaku": ""
+  },
+  {
+    "kanji": "歓迎会",
+    "reading": "かんげいかい",
+    "meaning": "welcome party",
+    "kaku": ""
+  },
+  {
+    "kanji": "一生けんめい",
+    "reading": "いっしょう（けんめい）",
+    "meaning": "very hard, with utmost effort, for dear life (一生懸命)",
+    "kaku": ""
+  },
+  {
+    "kanji": "将来",
+    "reading": "しょうらい",
+    "meaning": "in the future",
+    "kaku": ""
+  },
+  {
+    "kanji": "一流（の）",
+    "reading": "いちりゅう（の）",
+    "meaning": "first-rate, foremost (noun with gen. case particle の)",
+    "kaku": ""
+  },
+  {
+    "kanji": "就職する",
+    "reading": "しゅうしょく（する）",
+    "meaning": "to get a job",
+    "kaku": ""
+  },
+  {
+    "kanji": "部活動",
+    "reading": "ぶかつどう",
+    "meaning": "club activities",
+    "kaku": "hai"
+  },
+  {
+    "kanji": "生徒",
+    "reading": "せいと",
+    "meaning": "student; pupil",
+    "kaku": "hai"
+  },
+  {
+    "kanji": "増える",
+    "reading": "ふ（える）",
+    "meaning": "to increase (intransitive: 〜が増える)",
+    "kaku": "hai"
+  },
+  {
+    "kanji": "減る",
+    "reading": "へ（る）",
+    "meaning": "to decrease (intransitive: 〜が減る)",
+    "kaku": ""
+  },
+  {
+    "kanji": "授業",
+    "reading": "じゅぎょう",
+    "meaning": "class (lecture)",
+    "kaku": ""
+  },
+  {
+    "kanji": "塾",
+    "reading": "じゅく",
+    "meaning": "cram school",
+    "kaku": ""
+  },
+  {
+    "kanji": "予備校",
+    "reading": "よびこう",
+    "meaning": "prep-school (rōnin year)",
+    "kaku": ""
+  },
+  {
+    "kanji": "落ちる",
+    "reading": "お（ちる）",
+    "meaning": "to fail (intransitive 〜に落ちる)",
+    "kaku": "hai"
+  },
+  {
+    "kanji": "希望",
+    "reading": "きぼう",
+    "meaning": "a hope (する：to hope for)",
+    "kaku": ""
+  },
+  {
+    "kanji": "浪人",
+    "reading": "ろうにん",
+    "meaning": "a masterless samurai; student who studies for a year after failing college entrance exam",
+    "kaku": ""
+  },
+  {
+    "kanji": "次の年",
+    "reading": "つぎ（の）とし",
+    "meaning": "next year",
+    "kaku": ""
+  },
+  {
+    "kanji": "次（の）",
+    "reading": "つぎ（の）",
+    "meaning": "next (noun w/gen. case particle の)",
+    "kaku": ""
+  },
+  {
+    "kanji": "次（に）",
+    "reading": "つぎ（に）",
+    "meaning": "next, then, after that (conj.)",
+    "kaku": ""
+  },
+  {
+    "kanji": "傾向",
+    "reading": "けいこう",
+    "meaning": "tendency",
+    "kaku": "hai"
+  },
+  {
+    "kanji": "最近",
+    "reading": "さいきん",
+    "meaning": "recently, these days",
+    "kaku": ""
+  },
+  {
+    "kanji": "変わる",
+    "reading": "か（わる）",
+    "meaning": "to change (intransitive) (〜が）",
+    "kaku": ""
+  },
+  {
+    "kanji": "変える",
+    "reading": "か（える）",
+    "meaning": "to change (transitive) (〜を)",
+    "kaku": ""
+  },
+  {
+    "kanji": "確かに",
+    "reading": "たし（かに）",
+    "meaning": "certainly",
+    "kaku": ""
+  },
+  {
+    "kanji": "大切（な）",
+    "reading": "たいせつ（な）",
+    "meaning": "important",
+    "kaku": "hai"
+  },
+  {
+    "kanji": "調査",
+    "reading": "ちょうさ",
+    "meaning": "survey, inquiry, research",
+    "kaku": ""
+  },
+  {
+    "kanji": "理由",
+    "reading": "りゆう",
+    "meaning": "reason",
+    "kaku": "hai"
+  },
+  {
+    "kanji": "少子化",
+    "reading": "しょうしか",
+    "meaning": "decrease in number of children due to low birth rate",
+    "kaku": "hai"
+  },
+  {
+    "kanji": "子供",
+    "reading": "こども",
+    "meaning": "child",
+    "kaku": ""
+  },
+  {
+    "kanji": "必ずしも",
+    "reading": "かなら（ずしも）",
+    "meaning": "not necessarily",
+    "kaku": ""
+  },
+  {
+    "kanji": "強い",
+    "reading": "つよ（い）",
+    "meaning": "strong",
+    "kaku": ""
+  },
+  {
+    "kanji": "関して",
+    "reading": "かん（して）",
+    "meaning": "about; concerning",
+    "kaku": "hai"
+  },
+  {
+    "kanji": "一般的（に）",
+    "reading": "いっぱんてき（に）",
+    "meaning": "generally",
+    "kaku": "hai"
+  },
+  {
+    "kanji": "楽（な）",
+    "reading": "らく（な）",
+    "meaning": "easy, comfortable",
+    "kaku": ""
+  },
+  {
+    "kanji": "講義",
+    "reading": "こうぎ",
+    "meaning": "lecture",
+    "kaku": ""
+  },
+  {
+    "kanji": "点",
+    "reading": "てん",
+    "meaning": "point (mark, score, grade, point; also of an argument)",
+    "kaku": "hai"
+  },
+  {
+    "kanji": "重要（な）",
+    "reading": "じゅうよう（な）",
+    "meaning": "important, principal, essential",
+    "kaku": "hai"
+  },
+  {
+    "kanji": "第一",
+    "reading": "だいいち",
+    "meaning": "first, foremost, number one",
+    "kaku": "hai"
+  },
+  {
+    "kanji": "年々",
+    "reading": "ねんねん",
+    "meaning": "every year",
+    "kaku": ""
+  },
+  {
+    "kanji": "付き合い",
+    "reading": "つ（き）あ（い）",
+    "meaning": "socialization; association",
+    "kaku": ""
+  },
+  {
+    "kanji": "時代",
+    "reading": "じだい",
+    "meaning": "age; period; era",
+    "kaku": "hai"
+  },
+  {
+    "kanji": "伺う",
+    "reading": "うかが（う）",
+    "meaning": "to ask (hum. 聞く)",
+    "kaku": ""
+  },
+  {
+    "kanji": "玄関",
+    "reading": "げんかん",
+    "meaning": "entrance (to house or building)",
+    "kaku": ""
+  },
+  {
+    "kanji": "もう一歩",
+    "reading": "（もう）いっぽ",
+    "meaning": "just one more step (ie: just a bit more improvement)",
+    "kaku": ""
+  },
+  {
+    "kanji": "島",
+    "reading": "しま",
+    "meaning": "island",
+    "kaku": ""
+  },
+  {
+    "kanji": "・",
+    "reading": "ため",
+    "meaning": "sake, purpose, objective",
+    "kaku": ""
+  },
+  {
+    "kanji": "・",
+    "reading": "もちろん",
+    "meaning": "definitely, certainly, naturally",
+    "kaku": ""
+  },
+  {
+    "kanji": "好く",
+    "reading": "す（く）",
+    "meaning": "to like (transitive を)",
+    "kaku": ""
+  },
+  {
+    "kanji": "少ない",
+    "reading": "すく（ない）",
+    "meaning": "few, low in number",
+    "kaku": ""
+  },
+  {
+    "kanji": "・",
+    "reading": "また",
+    "meaning": "also",
+    "kaku": ""
+  },
+  {
+    "kanji": "場合",
+    "reading": "ばあい",
+    "meaning": "case, situation",
+    "kaku": ""
+  }
+]

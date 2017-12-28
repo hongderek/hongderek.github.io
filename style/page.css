@@ -12,6 +12,15 @@
           box-sizing: border-box;
 }
 
+/*unfortunately, :before elements cannot be modified by javascript.  The height of the topbar should usually be 62px, so idk if it's reallya huge problem to have magic numbers...*/
+.anchor:before { 
+  display: block; 
+  content: " "; 
+  visibility: hidden; 
+  margin-top: -62px;
+  height: 62px;
+}
+
 body {
   margin: 0;
   font-family: sans-serif;
@@ -31,6 +40,9 @@ b.eg-highlight {
   font-size: 2.5em;
   border-bottom-style: solid;
   padding: 5px;
+  position: fixed;
+  width: 100%;
+  background-color: white;
 }
 
 a:link {
@@ -45,6 +57,11 @@ a:hover {
   float: left;
   padding: 10px;
   width: 20%;
+  overflow-y: scroll;
+  position: fixed;
+  height: 100%;
+  background-color: white;
+  border-right-style: solid;
 }
 
 .sidebar-topic {
@@ -55,6 +72,9 @@ a:hover {
 
 .sidebar-subtopic {
   font-size: 1em;
+  padding: 3px 0 3px 0;
+  border-bottom-style: solid;
+  border-width: 1px;
 }
 
 .sidebar-subtopic-list {
@@ -65,7 +85,9 @@ a:hover {
 .content {
   float: right;
   width: 80%;
-  border-left-style: solid;
+/*  border-left-style: solid;*/
+  margin-bottom: 1.8em;
+  background-color: white;
 }
 
 .content-topic {
@@ -73,8 +95,16 @@ a:hover {
   text-align: center;
 }
 
+.content-topic:before { 
+  display: block; 
+  content: " "; 
+  visibility: hidden; 
+  margin-top: -62px;
+  height: 62px;
+}
+
 .content-topic.eng {
-  padding: 10px;
+  padding: 0 10px 20px 10px;
 }
 
 /* default is jap */
@@ -89,3 +119,41 @@ a:hover {
 .bg-grey-dark {
   background-color: #E5E5E5;
 }
+
+.nav-buffer {
+  height: 5%;
+  width: 100%;
+}
+.kanji-toggle-button {
+  display: block;
+  width: 100%;
+  font-size: 1.5em;
+  margin: 10px 0 30px 0;
+  padding: 5px 0 5px 0;
+  border: none;
+  background-color: lightgrey;
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  background-color: #ffdbe2;
+  padding: 0.5em;
+  width: 80%;
+  text-align: center;
+  font-size: 0.8em;
+  z-index: -1;
+}
+
+rt {
+  display: none;
+  color: darkorange;
+}
+
+
+
+
+
+
+
+

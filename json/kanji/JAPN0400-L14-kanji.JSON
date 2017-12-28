@@ -1,0 +1,506 @@
+[
+  {
+    "kanji": "意見",
+    "reading": "いけん",
+    "meaning": "opinion",
+    "kaku": "hai"
+  },
+  {
+    "kanji": "平気な",
+    "reading": "へいき（な）",
+    "meaning": "unperturbed, calm",
+    "kaku": ""
+  },
+  {
+    "kanji": "我慢",
+    "reading": "がまん",
+    "meaning": "patience, tolerance（する：to put up with)",
+    "kaku": ""
+  },
+  {
+    "kanji": "勝手なことをする",
+    "reading": "かって（なことをする）",
+    "meaning": "to have one's own way",
+    "kaku": ""
+  },
+  {
+    "kanji": "昼間",
+    "reading": "ひるま",
+    "meaning": "daytime",
+    "kaku": ""
+  },
+  {
+    "kanji": "寂しい",
+    "reading": "さび（しい）",
+    "meaning": "lonely",
+    "kaku": ""
+  },
+  {
+    "kanji": "付き合う",
+    "reading": "つ（き）あ（う）",
+    "meaning": "to keep (someone) company, to go out",
+    "kaku": "hai"
+  },
+  {
+    "kanji": "アメリカ式",
+    "reading": "（アメリカ）しき",
+    "meaning": "American style",
+    "kaku": ""
+  },
+  {
+    "kanji": "・",
+    "reading": "ひどい",
+    "meaning": "unfair; cruel; savage",
+    "kaku": ""
+  },
+  {
+    "kanji": "・",
+    "reading": "おとなしい",
+    "meaning": "quiet; submissive",
+    "kaku": ""
+  },
+  {
+    "kanji": "先輩",
+    "reading": "せんぱい",
+    "meaning": "senpai",
+    "kaku": ""
+  },
+  {
+    "kanji": "お弁当",
+    "reading": "（お）べんとう",
+    "meaning": "bento",
+    "kaku": ""
+  },
+  {
+    "kanji": "厚焼き卵",
+    "reading": "あつや（き）たまご",
+    "meaning": "thick Japanese-style omlet",
+    "kaku": ""
+  },
+  {
+    "kanji": "理想",
+    "reading": "りそう",
+    "meaning": "ideal",
+    "kaku": "hai"
+  },
+  {
+    "kanji": "３高",
+    "reading": "さんこう",
+    "meaning": "the 3 \"highs",
+    "kaku": ""
+  },
+  {
+    "kanji": "身長",
+    "reading": "しんちょう",
+    "meaning": "height",
+    "kaku": ""
+  },
+  {
+    "kanji": "収入",
+    "reading": "しゅうにゅう",
+    "meaning": "income",
+    "kaku": ""
+  },
+  {
+    "kanji": "学歴",
+    "reading": "がくれき",
+    "meaning": "level of education",
+    "kaku": "hai"
+  },
+  {
+    "kanji": "性格",
+    "reading": "せいかく",
+    "meaning": "character; personality",
+    "kaku": ""
+  },
+  {
+    "kanji": "家事",
+    "reading": "かじ",
+    "meaning": "housework",
+    "kaku": "hai"
+  },
+  {
+    "kanji": "育児",
+    "reading": "いくじ",
+    "meaning": "child-rearing",
+    "kaku": "hai"
+  },
+  {
+    "kanji": "望む",
+    "reading": "のぞ（む）",
+    "meaning": "to desire; to hope",
+    "kaku": ""
+  },
+  {
+    "kanji": "縁",
+    "reading": "えん",
+    "meaning": "fate; karma",
+    "kaku": ""
+  },
+  {
+    "kanji": "入力",
+    "reading": "にゅうりょく",
+    "meaning": "a data entry（する：to input data)",
+    "kaku": ""
+  },
+  {
+    "kanji": "書類",
+    "reading": "しょるい",
+    "meaning": "a document",
+    "kaku": "hai"
+  },
+  {
+    "kanji": "お茶くみ",
+    "reading": "（お）ちゃ（くみ）",
+    "meaning": "serving tea",
+    "kaku": ""
+  },
+  {
+    "kanji": "順番に",
+    "reading": "じゅんばん（に）",
+    "meaning": "taking turns",
+    "kaku": ""
+  },
+  {
+    "kanji": "課長",
+    "reading": "かちょう",
+    "meaning": "section chief",
+    "kaku": ""
+  },
+  {
+    "kanji": "雇う",
+    "reading": "やと（う）",
+    "meaning": "to hire",
+    "kaku": "hai"
+  },
+  {
+    "kanji": "一般職",
+    "reading": "いっぱんしょく",
+    "meaning": "clerical job",
+    "kaku": ""
+  },
+  {
+    "kanji": "総合職",
+    "reading": "そうごうしょく",
+    "meaning": "regular position",
+    "kaku": "hai"
+  },
+  {
+    "kanji": "企画",
+    "reading": "きかく",
+    "meaning": "planning",
+    "kaku": ""
+  },
+  {
+    "kanji": "機械",
+    "reading": "きかい",
+    "meaning": "machine",
+    "kaku": ""
+  },
+  {
+    "kanji": "自身",
+    "reading": "じしん",
+    "meaning": "self",
+    "kaku": ""
+  },
+  {
+    "kanji": "続ける",
+    "reading": "つづ（ける）",
+    "meaning": "to continue",
+    "kaku": ""
+  },
+  {
+    "kanji": "悩む",
+    "reading": "なや（む）",
+    "meaning": "to agonize",
+    "kaku": ""
+  },
+  {
+    "kanji": "三重苦",
+    "reading": "さんじゅうく",
+    "meaning": "the triple afflictions",
+    "kaku": ""
+  },
+  {
+    "kanji": "世の中",
+    "reading": "よ（の）なか",
+    "meaning": "society; world",
+    "kaku": ""
+  },
+  {
+    "kanji": "企業",
+    "reading": "きぎょう",
+    "meaning": "industry, business",
+    "kaku": "hai"
+  },
+  {
+    "kanji": "戦後",
+    "reading": "せんご",
+    "meaning": "post-war",
+    "kaku": "hai"
+  },
+  {
+    "kanji": "共働き",
+    "reading": "ともばたら（き）",
+    "meaning": "husband and wife both working (dual-income)",
+    "kaku": "hai"
+  },
+  {
+    "kanji": "変身",
+    "reading": "へんしん",
+    "meaning": "self-transformation（する：to change oneself)",
+    "kaku": ""
+  },
+  {
+    "kanji": "応じる",
+    "reading": "おう（じる）",
+    "meaning": "to satisfy, to reply",
+    "kaku": ""
+  },
+  {
+    "kanji": "産む",
+    "reading": "う（む）",
+    "meaning": "to give birth, to deliver, to produce",
+    "kaku": ""
+  },
+  {
+    "kanji": "育てる",
+    "reading": "そだ（てる）",
+    "meaning": "to raise (a child)",
+    "kaku": ""
+  },
+  {
+    "kanji": "妻",
+    "reading": "つま",
+    "meaning": "one's wife",
+    "kaku": ""
+  },
+  {
+    "kanji": "奥さん",
+    "reading": "おく（さん）",
+    "meaning": "somebody's wife",
+    "kaku": ""
+  },
+  {
+    "kanji": "ご主人",
+    "reading": "（ご）しゅじん",
+    "meaning": "somebody's husband",
+    "kaku": ""
+  },
+  {
+    "kanji": "夫",
+    "reading": "おっと",
+    "meaning": "one's husband",
+    "kaku": ""
+  },
+  {
+    "kanji": "夫婦",
+    "reading": "ふうふ",
+    "meaning": "husband and wife",
+    "kaku": "hai"
+  },
+  {
+    "kanji": "専業主婦",
+    "reading": "せんぎょうしゅふ",
+    "meaning": "housewife",
+    "kaku": ""
+  },
+  {
+    "kanji": "〜に適応する",
+    "reading": "（〜に）てきおう（する）",
+    "meaning": "to adapt",
+    "kaku": ""
+  },
+  {
+    "kanji": "一部",
+    "reading": "いちぶ",
+    "meaning": "a part of; some",
+    "kaku": ""
+  },
+  {
+    "kanji": "相棒",
+    "reading": "あいぼう",
+    "meaning": "one's partner",
+    "kaku": ""
+  },
+  {
+    "kanji": "身の回りの世話",
+    "reading": "み（の）まわ（りの）せわ",
+    "meaning": "care in one's home life",
+    "kaku": ""
+  },
+  {
+    "kanji": "兼業",
+    "reading": "けんぎょう",
+    "meaning": "holding to jobs at the same time",
+    "kaku": ""
+  },
+  {
+    "kanji": "苦しみ",
+    "reading": "くる（しみ）",
+    "meaning": "suffering",
+    "kaku": ""
+  },
+  {
+    "kanji": "重荷",
+    "reading": "おもに",
+    "meaning": "burden",
+    "kaku": ""
+  },
+  {
+    "kanji": "下積み",
+    "reading": "したづ（み）",
+    "meaning": "holding a lower position",
+    "kaku": ""
+  },
+  {
+    "kanji": "苦労",
+    "reading": "くろう",
+    "meaning": "hardship; suffering",
+    "kaku": ""
+  },
+  {
+    "kanji": "〜に耐える",
+    "reading": "（〜に）た（える）",
+    "meaning": "to endure something (に）",
+    "kaku": ""
+  },
+  {
+    "kanji": "超人的に",
+    "reading": "ちょうじんてき（に）",
+    "meaning": "superhumanly",
+    "kaku": ""
+  },
+  {
+    "kanji": "超人ぶり",
+    "reading": "ちょうじん（ぶり）",
+    "meaning": "being like a superhuman",
+    "kaku": ""
+  },
+  {
+    "kanji": "尊敬する",
+    "reading": "そんけい（する）",
+    "meaning": "to respect",
+    "kaku": ""
+  },
+  {
+    "kanji": "努力",
+    "reading": "どりょく",
+    "meaning": "effort",
+    "kaku": "hai"
+  },
+  {
+    "kanji": "〜力",
+    "reading": "〜りょく",
+    "meaning": "ability of / power to 〜",
+    "kaku": ""
+  },
+  {
+    "kanji": "負ける",
+    "reading": "ま（ける）",
+    "meaning": "to lose",
+    "kaku": ""
+  },
+  {
+    "kanji": "〜に賛成する",
+    "reading": "（〜に）さんせい（する）",
+    "meaning": "to agree",
+    "kaku": "hai"
+  },
+  {
+    "kanji": "理解する",
+    "reading": "りかい（する）",
+    "meaning": "to understand",
+    "kaku": "hai"
+  },
+  {
+    "kanji": "力",
+    "reading": "ちから",
+    "meaning": "strength",
+    "kaku": ""
+  },
+  {
+    "kanji": "〜に合わせる",
+    "reading": "（〜に）あ（わせる）",
+    "meaning": "to adapt to (〜に）",
+    "kaku": ""
+  },
+  {
+    "kanji": "不公平な",
+    "reading": "ふこうへい（な）",
+    "meaning": "unfair (from unfairness)",
+    "kaku": "hai"
+  },
+  {
+    "kanji": "戸籍",
+    "reading": "こせき",
+    "meaning": "family register",
+    "kaku": ""
+  },
+  {
+    "kanji": "否定する",
+    "reading": "ひてい（する）",
+    "meaning": "to reject; to deny",
+    "kaku": ""
+  },
+  {
+    "kanji": "入籍する",
+    "reading": "にゅうせき（する）",
+    "meaning": "to enter one's name into the family registry",
+    "kaku": ""
+  },
+  {
+    "kanji": "同棲する",
+    "reading": "どうせい（する）",
+    "meaning": "living together in a defacto relationship",
+    "kaku": ""
+  },
+  {
+    "kanji": "〜組",
+    "reading": "〜ぐみ・くみ",
+    "meaning": "a group of people doing the same thing",
+    "kaku": ""
+  },
+  {
+    "kanji": "破綻する",
+    "reading": "はたん（する）",
+    "meaning": "to break up",
+    "kaku": ""
+  },
+  {
+    "kanji": "損をする",
+    "reading": "そん（をする）",
+    "meaning": "to be at a disadvantage",
+    "kaku": ""
+  },
+  {
+    "kanji": "生き方",
+    "reading": "い（き）かた",
+    "meaning": "way of living",
+    "kaku": ""
+  },
+  {
+    "kanji": "個人",
+    "reading": "こじん",
+    "meaning": "individual",
+    "kaku": "hai"
+  },
+  {
+    "kanji": "自由",
+    "reading": "じゆう",
+    "meaning": "freedom",
+    "kaku": "hai"
+  },
+  {
+    "kanji": "期待する",
+    "reading": "きたい（する）",
+    "meaning": "to expect, to count on",
+    "kaku": ""
+  },
+  {
+    "kanji": "反対する",
+    "reading": "はんたい（する）",
+    "meaning": "to oppose",
+    "kaku": "hai"
+  }
+]

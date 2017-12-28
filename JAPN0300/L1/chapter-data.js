@@ -1,20 +1,21 @@
 "use strict";
 
-const local_course_name = '日本語３００';
-const local_course_path = 'JAPN0300'
-const local_chap_name = '第１課';
+var local_course_name = '日本語３００';
+var local_course_path = 'JAPN0300'
+var local_chap_name = '第１課';
+var local_chap_path = 'L1';
 
 /**
 {
   kanji: '',
   reading: '',
-  meaning: '',
+  alt_def: '',
+    meaning: '',
   (opt)kaku: 'hai' or ''
 }
 */
-const chap_kanji_str = 'kanji,reading,meaning,kaku\n・,おじぎ,bow,\n敬語,けいご,honorific expression,\n初めて,はじ（めて）,for the first time,\n留学する,りゅうがく（する）,to study abroad,hai\n高校,こうこう,high school,hai\n宿題,しゅくだい,homework,\n教える,おし（える）,"to teach, to tell",hai\n友達,ともだち,friend,\n大学院,だいがくいん,graduate school,hai\n電気工学,でんきこうがく,electrical engineering,\n専攻,せんこう,major (する：to major),hai\n学部,がくぶ,department (education),hai\n好き,す（き）,"a fondness, a liking",\n趣味,しゅみ,hobby,\n一度,いちど,once,\n〜に興味を持つ,（〜に）きょうみ（を）も（つ）,to have an interest in ~,\n中学,ちゅうがく,middle school (junior high),hai\n家族,かぞく,"family, family members",\n遊ぶ,あそ（ぶ）,"to play, to have fun",hai\n文化,ぶんか,culture,hai\n知識,ちしき,knowledge,\n豊富（な）,ほうふ（な）,plenty,\n卒業する,そつぎょう（する）,to graduage,hai\n勤める,つと（める）,"to work (for), be employed (at)",\n休暇,きゅうか,vacation,\n取る,と（る）,to take (ie: a class) (撮る：to take a picture),hai\n生まれる,う（まれる）,to be born,hai\n育つ,そだ（つ）,to grow up,hai\n名刺,めいし,business card,\n所,ところ,place,\n泊まる,と（まる）,"to stay (ie: a hotel, 旅館)",\n泊める,と（める）,to have 〜 stay (over night) (transitive),\n・,ていねい（な）,polite,\n迎えに来る,むか（えに）く（る）,to go and get (ie: to pick up),\n見つかる,みつかる,to be found (intransitive),\n見つける,みつける,to find (transitive),\n呼ぶ,よ（ぶ）,to call (ie: call by name),\n自分,じぶん,oneself,hai\n年上,としうえ,older,hai\n年下,としした,younger,hai\n時差ぼけ,じさ（ぼけ）,jet lag,\n眠る,ねむ（る）,"to sleep, to be asleep (vs 寝る：go to bed)",\n連れて行く,つ（れて）い（く）,to take someone (along),\n結局,けっきょく,in the end,\n適当（な）,てきとう（な）,appropriate,\n引っ越す,ひっこ（す）,to move,\n知人,ちじん,acquaintance,hai\n若い,わかい,younger,hai\n男性,だんせい,man,hai\n自己紹介,じこしょうかい,self-introduction,\n仕方,しかた,way of doing (something),\n習う,なら（う）,to learn,\n中年,ちゅうねん,middle-aged,\n女性,じょせい,woman,hai\nお互いの,（お）たが（いの）,each other,\n美しい,うつく（しい）,beautiful,\n娘,むすめ,daughter,\n考える,かんが（える）,"to think about, to consider",hai\n違う,ちが（う）,to differ (ie: is different),\n文法,ぶんぽう,grammar,hai\n両親,りょうしん,parents,\n・,ぜひ,"by all means,...",\n・,ところで,by the way,\n飛行機,ひこうき,airplane,\n（〜に）座る,（〜に）すわ（る）,to sit (in/on ~),\n空港,くうこう,airport,\n迎える,むか（える）,to greet,\n・,どうも,somehow; no matter how hard one may try,\n歩く,ある（く）,to walk,\n・,ずいぶん,quite a lot,';
 
-const chap_note_list = [
+var chap_note_list = [
   {
     topic: '初めて　vs　始める',
     spec: '初めて　vs　始める',
@@ -88,11 +89,12 @@ const chap_note_list = [
   }
 ];
 
-const chap_grammar_list = [
+var chap_grammar_list = [
   {
-    grammar_point: 'verb(plain, past)ばかり',
-    spec: 'verb(plain, past)ばかり',
-    meaning: 'Have just (verb)ed, have just finished (verb)ing.',
+    grammar_point: 'verb(plain)[past]ばかり',
+    spec: 'verb(plain)[past]ばかり',
+    alt_def: 'たばかり',
+    meaning: '"Have just verb-ed"; "Have just finsished verb-ing"',
     use: {
       text: 'ばかり can end a sentence (ばかり（だ・です)）and preceed conjunctions (ばかりだから) and other nouns (ばかりのnoun).',
       species: []
@@ -107,14 +109,15 @@ const chap_grammar_list = [
         translation: 'I have just finished my homework.'
       }
     ],
-    other: '...'
+    other: 'ie: 〜たばかり'
   },
   {
     grammar_point: 'あの',
     spec: 'あの',
-    meaning: 'あの refers to a noun that is not in sight.  あの is used when both the speaker and listener are familiar with the person or thing.',
+    alt_def: '',
+    meaning: '"That 〜"',
     use: {
-      text: 'あの preceeds a noun.',
+      text: 'あの preceeds a noun.  あの refers to a noun that is not in sight.  あの is used when both the speaker and listener are familiar with the person or thing.',
       species: []
     },
     example: [
@@ -130,19 +133,20 @@ const chap_grammar_list = [
     other: 'あの differs from その in that その refers to a noun with which only one person is familiar.'
   },
   {
-    grammar_point: 'verb(plain)ようになる',
-    spec: 'verb(plain)ようになる',
-    meaning: 'Such (verb)ing has become (or came to be) [past] or will become (or will be) [present] (or take place, etc.).  (ie: using なる with verbs)',
+    grammar_point: 'verb(plain)ようになる[past, pres.]',
+    spec: 'verb(plain)ようになる[past, pres.]',
+    alt_def: 'ようになった、なった',
+    meaning: '"Such verb has become/came to be" (なる[past]); "Such verb will become/will be/will take place" (なる[present])',
     use: {
-      text: 'Conjugate なる in the [past] for verbing that has become.  Conjugate なる in the [present] for verbing that will become.',
+      text: 'In other words, how to use なる with verbs.  Conjugate なる in the [past] for verbing that has become.  Conjugate なる in the [present] for verbing that will become.',
       species: [
         {
-          jap: 'verb(plain)ようになる：',
-          eng: 'Such verb will become (or will be) (or take place, etc.)'
+          jap: 'verb(plain)ように なる',
+          eng: '：Such verb will become (or will be) (or take place, etc.)'
         },
         {
-          jap: 'verb(plain)ようになった：',
-          eng: 'Such verb has become (or came to be) (or took place, etc.)'
+          jap: 'verb(plain)ように なった',
+          eng: '：Such verb has become (or came to be) (or took place, etc.)'
         }
       ]
     },
@@ -169,6 +173,7 @@ const chap_grammar_list = [
   {
     grammar_point: '(sentence)なあ',
     spec: '(sentence)なあ',
+    alt_def: '',
     meaning: 'Emphatic exclaimation of one\'s feeling or wish.  Implies self dialogue.',
     use: {
       text: 'Sentence final particle.  Can be used to elicit response (id. 〜ね), which tends to be masculine.',
@@ -187,23 +192,24 @@ const chap_grammar_list = [
     other: '...'
   },
   {
-    grammar_point: 'verb(plain)ところ',
-    spec: 'verb(plain)ところ',
-    meaning: 'Is about to verb [present]; is currently (verb)ing [ている]; has just (verb)ed [past].',
+    grammar_point: 'verb(plain)[pres., prog., past]ところ',
+    spec: 'verb(plain)[pres., prog., past]ところ',
+    alt_def: 'ているところ、たところ、ったところ',
+    meaning: '"Is about to verb" [pres.]ところ; "Is currently verb-ing" [ている]ところ; "Has just verb-ed" [past]ところ.',
     use: {
       text: 'The meaning changes based on tense of verb(plain).  ところ usually written with kana alone.  ところ declines as a noun.',
       species: [
         {
-          jap: 'verb(present)ところ：',
-          eng: 'Just about to verb.'
+          jap: 'verb(present) ところ',
+          eng: '：Just about to verb.'
         },
         {
-          jap: 'verb(ている)ところ：',
-          eng: 'Currently/in the middle of verb(ing).'
+          jap: 'verb(ている) ところ',
+          eng: '：Currently/in the middle of verb(ing).'
         },
         {
-          jap: 'verb(past)ところ：',
-          eng: 'Just finished verb(ing).'
+          jap: 'verb(past) ところ',
+          eng: '：Just finished verb(ing).'
         }
       ]
     },
@@ -220,19 +226,20 @@ const chap_grammar_list = [
     other: 'Verb(plain past)ばかり can imply longer times of "just" (ie: I just moved here a week ago).  Verbところ carries a more immediate temporal definition.'
   },
   {
-    grammar_point: 'verb(plain)ことに（なっている・なった）',
-    spec: 'verb(plain)ことに（なっている・なった）',
-    meaning: 'It has been decided that–.  Expresses that a decision has been made for the speaker outside of their control.',
+    grammar_point: 'verb(plain)ことになる[prog., past]',
+    spec: 'verb(plain)ことになる[prog., past]',
+    alt_def: 'なっている、なった、ことになっている、ことになった',
+    meaning: '"It has been decided that 〜"',
     use: {
-      text: 'Using なった implies that such decisions have been made.  Using なっている reports that future plans have been decided.',
+      text: 'Expresses that a decision has been made for the speaker outside of their control.  Using なる[past] implies that such decisions have been made.  Using なる[ている] reports that future plans have been decided.',
       species: [
         {
-          jap: 'verb(plain)ことになっている：',
-          eng: 'Such decision has been made (outside of one\'s control).  This construction is also used to convey rules, regulations, and social customs.'
+          jap: 'verb(plain)ことに なっている',
+          eng: '：Such decision has been made (outside of one\'s control).  This construction is also used to convey rules, regulations, and social customs.'
         },
         {
-          jap: 'verb(plain)ことになった：',
-          eng: 'Such future plans have been decided (outside of one\'s control).'
+          jap: 'verb(plain)こと になった',
+          eng: '：Such future plans have been decided (outside of one\'s control).'
         }
       ]
     },
@@ -249,11 +256,12 @@ const chap_grammar_list = [
     other: '...'
   },
   {
-    grammar_point: 'noun(OR verb phraseの)は初めてです',
-    spec: 'noun(OR verb phraseの)は初めてです',
-    meaning: 'The subject\'s first noun (or (verb)ing).  Implies that it is the first time doing something.',
+    grammar_point: '(noun／nominalized verb)は初めてです',
+    spec: '(noun／nominalized verb)は初めてです',
+    alt_def: 'verbの、はじめて、はじめてです',
+    meaning: '"The first time of noun"; "The first time doing something".',
     use: {
-      text: 'You can only use this phrase in situations where the topic at hand is relevant to the situation you are in.',
+      text: 'Implies that it is the first time doing something.  You can only use this phrase in situations where the topic at hand is relevant to the situation you are in.',
       species: []
     },
     example: [
@@ -271,17 +279,18 @@ const chap_grammar_list = [
   {
     grammar_point: 'verb(stem)（にくい・やすい）',
     spec: 'verb(stem)（にくい・やすい）',
-    meaning: 'Something is difficult to verb (にくい).  Something is easy to verb (やすい).',
+    alt_def: '',
+    meaning: '"Something is difficult to do" (にくい); "Something is easy to do" (やすい).',
     use: {
-      text: 'にくい・やすい are い auxilliary adjectives attached to verb(stem)s.  These conjugate as い adjectives.  Usually, the something is marked with ~は。',
+      text: 'にくい and やすい are い auxilliary adjectives attached to verb(stem)s.  These conjugate as い adjectives.  Usually, the "something" is marked with ~は。',
       species: [
         {
-          jap: 'verb(stem)にくい：',
-          eng: '~ is difficult to do'
+          jap: 'verb(stem) にくい',
+          eng: '：〜 is difficult to do'
         },
         {
-          jap: 'verb(stem)やすい：',
-          eng: '~ is easy to do'
+          jap: 'verb(stem) やすい',
+          eng: '：〜 is easy to do'
         }
       ]
     },
@@ -300,10 +309,19 @@ const chap_grammar_list = [
   {
     grammar_point: 'verb(plain)ことにする',
     spec: 'verb(plain)ことにする',
-    meaning: 'Decide to do –.  Implies active decision making by the subject.',
+    alt_def: 'ことにした',
+    meaning: '"Decide to do 〜"',
     use: {
-      text: 'Usually, する will be [past] to say that such decisions have been made.',
-      species: []
+      text: 'Implies active decision making by the subject.  Usually, する will be する[past] to say that such decisions have been made.',
+      species: [
+        {
+          jap: 'verb(plain)ことに する',
+          eng: '：I decide to do'
+        },{
+          jap: 'verb(plain)ことに した',
+          eng: '：I decided to do'
+        }
+      ]
     },
     example: [
       {
@@ -319,10 +337,11 @@ const chap_grammar_list = [
   },
   {
     grammar_point: '(verb A)[past]ら、(verb B)[past]',
-    spec: '(verbA)[past]ら、(verbB)[past]',
-    meaning: 'When such A occured, then such B happened.  Expresses causal relationship between A and B.  It is implied that the event or outome in sentence B is unexpected.',
+    spec: '(verb A)[past]ら、(verb B)[past]',
+    alt_def: 'たら、ったら',
+    meaning: '"When such A occured, then such B happened"',
     use: {
-      text: 'Used to express causal relationship between events.',
+      text: 'Expresses causal relationship between A and B.  It is implied that the event or outome in sentence B is unexpected.',
       species: []
     },
     example: [
@@ -335,14 +354,15 @@ const chap_grammar_list = [
         translation: 'When I went to Starbucks, I met 先生。'
       },
     ],
-    other: 'cf: 「(verb A)[past]ら、(verb B)[present]」is the /conditional/ use of [past]ら (ie: 〜たら).  It means "IF A, then B".  Note in difference of tense.'
+    other: 'cf: 「(verb A)[past]ら、(verb B)[present]」is the <b>conditional</b> use of [past]ら (ie: 〜たら).  It means "If A, then B".  Note in difference of tense.'
   },
   {
-    grammar_point: 'とてもverb(OR verb phrase)[neg]',
-    spec: 'とてもverb(OR verb phrase)[neg]',
-    meaning: 'Can\'t verb (at all).  Expresses strong sense of impossibility.',
+    grammar_point: 'とても(verb/nominalized verb)[neg.]',
+    spec: 'とても(verb/nominalized verb)[neg.]',
+    alt_def: 'とても〜ない',
+    meaning: '"Can\'t verb (at all)"; "Can\'t possibly verb"',
     use: {
-      text: 'Usually used with verb(potential)[neg] ("can\'t possibly verb").',
+      text: 'Expresses strong sense of impossibility.  Usually used with verb(potential)[neg.] (ie: "not able to verb at all").',
       species: []
     },
     example: [
@@ -360,19 +380,11 @@ const chap_grammar_list = [
   {
     grammar_point: 'verb(stem)方',
     spec: 'verb(stem)方',
-    meaning: 'The way of (verb)ing.  How to verb.  (lit. the verb way)',
+    alt_def: 'かた',
+    meaning: '（「方」かた：way）"The way of verb-ing"; "How to verb"; (lit. the verb way)',
     use: {
-      text: '方 in this case is a nounal suffix attached to verb(stem)s.  Verb(stem)方 is declined as a noun.  する＋方 is usually written as 仕方 and not し方。',
-      species: [
-        {
-          jap: '',
-          eng: 'Since verb(stem)方 is a noun phrase, you must use の (not を) to connect preceeding nouns to the verb(stem) (see eg1)'
-        },
-        {
-          jap: '',
-          eng: 'Additionally, adjectives describing verb(stem)方 are in plain form (ie: not adverbial).  However, in translation, such adjectives will end up acting adverbially (as in eg2).'
-        }
-      ]
+      text: '方 in this case is a nounal suffix attached to verb(stem)s.  Verb(stem)方 is declined as a noun.  する＋方 is usually written as 仕方 and not し方。 Since verb(stem)方 is a noun phrase, you MUST use の (not を) to connect preceeding nouns to the verb(stem) (see eg1).  Additionally, adjectives describing verb(stem)方 are in PLAIN form (ie: not adverbial).  HOWEVER, in translation, such adjectives will end up acting adverbially (as in eg2).',
+      species: []
     },
     example: [
       {
@@ -397,30 +409,27 @@ const chap_grammar_list = [
   {
     grammar_point: '〜らしい',
     spec: '〜らしい',
-    meaning: 'It seems that–.  Evidently, –.  Based on what one has heard.  Implies uncertainty about statement.',
+    alt_def: '',
+    meaning: '"It seems that 〜"; "Evidently, 〜"',
     use: {
-      text: 'らしい in this case is an auxilliary adjective that can be used after noun, adjective, or verb phrases.  らしい ends the sentence in casual speech, らしいです in formal speech.',
+      text: 'Expresses opinion ased on what one has heard.  Implies uncertainty about the statement.  らしい in this case is an auxilliary adjective that can be used after noun, adjective, or verb phrases.  らしい ends the sentence in casual speech, らしいです in formal speech.',
       species: [
         {
-          jap: 'nounらしい',
+          jap: 'noun らしい',
           eng: ''
         },
         {
-          jap: '（adjい）いらしい',
+          jap: '(adjい)い らしい',
           eng: ''
         },
         {
-          jap: '（adjな）らしい',
+          jap: '(adjな) らしい',
           eng: ''
         },
         {
-          jap: '（verbる)[plain]らしい',
+          jap: 'verb(plain) らしい',
           eng: ''
-        },
-        {
-          jap: '（verbう）[plain]らしい',
-          eng: ''
-        },
+        }
       ]
     },
     example: [
@@ -438,7 +447,8 @@ const chap_grammar_list = [
   {
     grammar_point: 'verb(て)初めてのnoun',
     spec: 'verb(て)初めてのnoun',
-    meaning: 'The first noun after verb(ing);  The "first, after-(verb)ing" noun;  When/after verb phrase, there was noun for the first time.',
+    alt_def: 'て初めて、てはじめて',
+    meaning: '"The first noun after verb-ing"; "The "first, after-verbing" noun"; "When/after verb, there was noun for the first time"',
     use: {
       text: 'Use the て form of the verb.',
       species: []
@@ -458,7 +468,8 @@ const chap_grammar_list = [
   {
     grammar_point: '(verb A(て))初めて(verb B)',
     spec: '(verb A(て))初めて(verb B)',
-    meaning: 'The first (verb phrase B) when/after (verb phrase A);  When (verb A) happened, (verb B) occured for the first time.',
+    alt_def: 'て初めて、てはじめて',
+    meaning: '"The first (verb phrase B) when/after (verb phrase A)"; "When (verb A) happened, (verb B) occured for the first time"',
     use: {
       text: 'I think て implies sequence.  ie: When (verb phrase A), then for the first time (verb phrase B)',
       species: []
@@ -482,7 +493,8 @@ const chap_grammar_list = [
 {
   grammar_point: '',
   spec: '',
-  meaning: '',
+  alt_def: '',
+    meaning: '',
   use: {
     text: '',
     species: [
@@ -505,8 +517,6 @@ const chap_grammar_list = [
   other: ''
 }
 */
-
-
 
 
 

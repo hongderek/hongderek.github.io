@@ -1,0 +1,136 @@
+.kanji-entry {
+  border-top: solid 1px;
+  padding-left: 10px;
+}
+
+.kanji-entry.kaku {
+  background-color: #FFFFCC;
+}
+
+kanji {
+/*  display: table-cell;*/
+  word-wrap: break-word;
+  vertical-align: middle;
+  padding: 0 10px;
+}
+
+kanji.kanji {
+  font-size: 5em;
+  width: 10em;
+}
+
+kanji.reading { 
+  font-size: 2em;
+  width: 20em;
+  display: none;
+}
+
+kanji.meaning {
+  font-size: 2em;
+  width: auto;
+}
+
+.grammar-entry {
+/*  padding: 0 10px 20px 10px;*/
+/*  display: none;*/
+  border: solid 3px black;
+  font-size: 2em;
+  margin-bottom: 30px;
+}
+
+.grammar-entry section {
+  padding: 1% 2%;
+}
+
+.grammar-point {
+  font-size: 1.5em;
+  background-color: #ffdbe2;
+  font-weight: bold;
+}
+
+.grammar-example, .grammar-use, .grammar-other {
+  display: none;
+}
+
+/*.grammar-meaning,use,example,other*/
+
+grammar {
+  word-wrap: break-word;
+  overflow: hidden;
+  display: block;
+  padding: 0 5px 0 0;
+}
+
+grammar.prepend {
+  font-size: 0.8em;
+  width: 5em;
+  color: red;
+  vertical-align: top;
+  float: left;
+  padding: 0 0 0 5px;
+  display: none;
+}
+
+species {
+  overflow: hidden;
+}
+
+species.combo {
+  display: block;
+}
+
+species.jap {
+  background-color: #bedfe2;
+/*  float: left;*/
+}
+
+species.eng {
+  
+}
+
+
+
+.note-entry {
+  padding: 0 10px 20px 10px;
+  display: none;
+}
+
+/*
+.note-entry section {
+  padding: 3px 0 3px 0;
+}
+*/
+
+.note-topic {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.note-expo {
+  border-left: solid 5px red;
+}
+
+note {
+  padding-left: 5px;
+  display: block;
+}
+
+note.subtopic {
+  font-size: 1.3em;
+  padding-top: 5px;
+}
+
+note.desc {
+  padding-left: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+

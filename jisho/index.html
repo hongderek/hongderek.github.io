@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+
+    <link rel="shortcut icon" href="/favicon.ico">
+    <link rel="stylesheet" href="../style/page.css">
+    <link rel="stylesheet" href="../style/jisho.css">
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <title>日本語</title>
+  </head>
+  <body>
+    <header class="page-header">
+      <nav id="page-header-nav">／<a href="/">日本語</a>／Jisho Search</nav>
+    </header>
+    
+    <section class="sidebar search">
+      <nav>
+        <div class="search-bar">
+          <input id="jisho-search-input" type="text">
+          <button class="search-button" id="jisho-submit-button">Search</button>
+          <div class="jisho-results-loading-text">Loading...</div>
+        </div>
+        <section class="jisho-search" id="jisho-search-results"></section>
+        <section class="jisho-end">End of Results</section>
+      </nav>
+      <section class="jisho-disclaimer">
+        Intended use: To curate deck of definitions to help with reading Japanese text using a simple search for unknown words.  Works best with kanji.  English words are non-searchable.  Intended for copy-pastable text.
+      </section>
+      </br>
+      <section class="jisho-disclaimer">
+      Search using search bar.  Add definitions to feed by clicking on desired definition.  Remove from feed by clicking [X].
+      </section>
+      </br>
+      <section class="jisho-disclaimer">
+        Note: This search uses the Jisho API from jisho.org which is still in development.  As such, this search is experimental.  The search is run through a free Heroku webserver, so it may take a while to show results when you search for the first time.
+      </section>
+    </section>
+    
+    <section class="content">
+      <section class="content-deck">
+        <section class="result-deck" id="jisho-deck"></section>
+      </section>
+      <section class="footer">Derek Hong（洪眞基）2017</section>
+    </section>
+    
+    <script src="jisho-build.js"></script>
+    <script src="../js/jisho.js"></script>
+    
+  </body>
+</html>

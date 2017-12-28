@@ -1,0 +1,141 @@
+.content {
+  float: none;
+  display: inline-block;
+  width: 100%;
+  border: none;
+}
+
+.content-deck {
+  padding-left: 20em;
+  width: 100%;
+}
+
+.result-deck {
+/*  border-left: solid black;*/
+}
+
+input[type="text"] {
+  font-size: 1.5em;
+  width: 7.5em
+}
+
+button.search-button {
+  font-size: 1.5em;
+  border: 2px solid black;
+}
+
+.search {
+  width: 20em;
+}
+
+.search-result {
+  padding: 0 0 10px 10px;
+  border-bottom: 1px solid black;
+}
+
+.jisho-kanji {
+  font-size: 2em;
+}
+
+.jisho-reading {
+  font-size: 1.2em;
+}
+
+.jisho-meaning {
+  font-size: 1em;
+}
+
+.meaning-entry {
+  padding: 10px;
+}
+
+.jisho-pos {
+  font-style: italic;
+}
+
+.jisho-eng_def {
+  font-size: 1.2;
+  font-weight: bold;
+}
+
+.jisho-info {
+  font-style: italic;
+}
+
+.add-result:hover {
+  background-color: #ffbaba;
+  cursor: pointer;
+}
+
+.jisho-card-container {
+  border-bottom: 1px solid black;
+  width: 100%;
+  overflow: auto;
+  display: table;
+}
+
+.jisho-card {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.jisho-card.query {
+  font-size: 2.2em;
+  width: 6em;
+  padding: 2px 10px;
+  background-color: azure;
+}
+
+.jisho-card.japanese {
+  width: 8em;
+  background-color: beige;
+  padding: 0 3px;
+}
+
+.jisho-card.reading {
+  display: block;
+}
+
+.jisho-card.eng_def {
+  overflow: hidden;
+  font-size: 1.3em;
+  padding: 5px 10px;
+}
+
+.jisho-card.pos {
+  overflow: hidden;
+  font-size: 0.5em;
+  padding: 2px 0;
+}
+
+.jisho-results-loading-text {
+  padding-left: 10px;
+  font-size: 1.5em;
+  display: none;
+}
+
+.remove-button {
+  margin: 5px;
+  margin-right: 20px;
+  font-size: 1.5em;
+  float: right;
+  font-weight: bold;
+  overflow: auto;
+  color: red;
+  border: 1px dashed;
+  cursor: pointer;
+}
+
+.jisho-end {
+  font-size: 2em;
+  padding: 30px 0 30px 0;
+  text-align: center;
+}
+
+.jisho-disclaimer {
+  font-size: 0.8em;
+}
+
+.footer {
+  margin-left: 20%;
+}

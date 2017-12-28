@@ -10,12 +10,19 @@ $(window).on('load', function() {
   var course_name = local_course_name;
   var chap_list = local_chap_list;
 
+  $(header_id).append('／<a href="/">日本語</a>／' + local_course_name);
+
+  //fix navbars and top bar
+  $(".sidebar").css("margin-top", $(".page-header").outerHeight());
+  $(".sidebar").css("padding-bottom", $(".page-header").outerHeight());
+  $(".content").css("margin-top", $(".page-header").outerHeight());
+
   for(var i=0; i<chap_list.length; i++) {
     var cl_chap_name = chap_list[i].name;
     var cl_chap_path = chap_list[i].path;
 
     var chapter_entry = [
-    '<div class="chapter-entry" id="course-chap-' + i + '">',
+    '<div class="chapter-entry anchor" id="course-chap-' + i + '">',
     '  <chapter><a href="./' + cl_chap_path + '/">' + cl_chap_name + '</a></chapter>',
     '</div>'
     ].join('\n');
@@ -26,8 +33,5 @@ $(window).on('load', function() {
     $(chapter_nav_id).append(chapter_nav_entry);
     $(chapter_id).append(chapter_entry);
   }
-
-  $(header_id).append('／<a href="/">日本語</a>／' + local_course_name);
-  
 });
 

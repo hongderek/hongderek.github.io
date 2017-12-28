@@ -1,0 +1,344 @@
+[
+  {
+    "line": 0,
+    "kanji": "少子高齢化",
+    "reading": "しょうしこうれいか",
+    "meaning": "(n.) \"fewer children, more senior citizens",
+    "suru": "",
+    "kaku": "",
+    "nooto": ""
+  },
+  {
+    "line": 0,
+    "kanji": "社会",
+    "reading": "しゃかい",
+    "meaning": "(n.) society",
+    "suru": "",
+    "kaku": "hai",
+    "nooto": ""
+  },
+  {
+    "line": 0,
+    "kanji": "共同研究",
+    "reading": "きょうどうけんきゅう",
+    "meaning": "(n.) joint research",
+    "suru": "",
+    "kaku": "hai",
+    "nooto": ""
+  },
+  {
+    "line": 0,
+    "kanji": "始まる",
+    "reading": "はじ（まる）",
+    "meaning": "(godan v. intrans) something starts",
+    "suru": "",
+    "kaku": "hai",
+    "nooto": ""
+  },
+  {
+    "line": 1,
+    "kanji": "大学",
+    "reading": "だいがく",
+    "meaning": "(n.) university",
+    "suru": "",
+    "kaku": "",
+    "nooto": ""
+  },
+  {
+    "line": 1,
+    "kanji": "トヨタ自動車",
+    "reading": "（トヨタ）じどうしゃ",
+    "meaning": "(n.) Toyota Motor Corp.",
+    "suru": "",
+    "kaku": "hai",
+    "nooto": ""
+  },
+  {
+    "line": 1,
+    "kanji": "〜社",
+    "reading": "〜しゃ",
+    "meaning": "(counter) # companies",
+    "suru": "",
+    "kaku": "",
+    "nooto": ""
+  },
+  {
+    "line": 2,
+    "kanji": "情報",
+    "reading": "じょうほう",
+    "meaning": "(n.) information",
+    "suru": "",
+    "kaku": "",
+    "nooto": ""
+  },
+  {
+    "line": 2,
+    "kanji": "技術",
+    "reading": "ぎじゅつ",
+    "meaning": "(n.) technology",
+    "suru": "",
+    "kaku": "",
+    "nooto": ""
+  },
+  {
+    "line": 2,
+    "kanji": "労働",
+    "reading": "ろうどう",
+    "meaning": "(n.) manual labour, toil",
+    "suru": "",
+    "kaku": "",
+    "nooto": "〜力：manpower"
+  },
+  {
+    "line": 2,
+    "kanji": "減る",
+    "reading": "へ（る）",
+    "meaning": "(godan v.) to decrease",
+    "suru": "",
+    "kaku": "hai",
+    "nooto": ""
+  },
+  {
+    "line": 2,
+    "kanji": "お年寄り",
+    "reading": "（お）としよ（り）",
+    "meaning": "(n.) the elderly",
+    "suru": "",
+    "kaku": "",
+    "nooto": ""
+  },
+  {
+    "line": 2,
+    "kanji": "快適",
+    "reading": "かいてき",
+    "meaning": "(adj.al n.) comfortable",
+    "suru": "",
+    "kaku": "",
+    "nooto": ""
+  },
+  {
+    "line": 2,
+    "kanji": "暮らす",
+    "reading": "く（らす）",
+    "meaning": "(godan v.) to live, to get along",
+    "suru": "",
+    "kaku": "",
+    "nooto": ""
+  },
+  {
+    "line": 3,
+    "kanji": "工場",
+    "reading": "こうじょう",
+    "meaning": "(n.) factory",
+    "suru": "",
+    "kaku": "hai",
+    "nooto": ""
+  },
+  {
+    "line": 3,
+    "kanji": "生産",
+    "reading": "せいさん",
+    "meaning": "(n.) production, manufature",
+    "suru": "",
+    "kaku": "hai",
+    "nooto": "〜力：productivity"
+  },
+  {
+    "line": 3,
+    "kanji": "実現",
+    "reading": "じつげん",
+    "meaning": "(n.) implementation, materialization, realization",
+    "suru": "hai",
+    "kaku": "hai",
+    "nooto": "〜する"
+  },
+  {
+    "line": 3,
+    "kanji": "・",
+    "reading": "めざす",
+    "meaning": "(godan v. trans) to aim at",
+    "suru": "",
+    "kaku": "",
+    "nooto": ""
+  },
+  {
+    "line": 3,
+    "kanji": "今後",
+    "reading": "こんご",
+    "meaning": "(adv) from now",
+    "suru": "",
+    "kaku": "hai",
+    "nooto": ""
+  },
+  {
+    "line": 4,
+    "kanji": "前後",
+    "reading": "ぜんご",
+    "meaning": "(adv) around, approximately",
+    "suru": "",
+    "kaku": "hai",
+    "nooto": ""
+  },
+  {
+    "line": 4,
+    "kanji": "個人",
+    "reading": "こじん",
+    "meaning": "(n.) individual",
+    "suru": "",
+    "kaku": "hai",
+    "nooto": ""
+  },
+  {
+    "line": 4,
+    "kanji": "移動手段",
+    "reading": "いどうしゅだん",
+    "meaning": "(n.) transportation device",
+    "suru": "",
+    "kaku": "",
+    "nooto": ""
+  },
+  {
+    "line": 4,
+    "kanji": "使う",
+    "reading": "つか（う）",
+    "meaning": "(godan v.t.) to use",
+    "suru": "",
+    "kaku": "hai",
+    "nooto": ""
+  },
+  {
+    "line": 5,
+    "kanji": "開発",
+    "reading": "かいはつ",
+    "meaning": "(n.) development",
+    "suru": "hai",
+    "kaku": "hai",
+    "nooto": ""
+  },
+  {
+    "line": 5,
+    "kanji": "・",
+    "reading": "ノウハウ",
+    "meaning": "(n.) know how",
+    "suru": "",
+    "kaku": "",
+    "nooto": ""
+  },
+  {
+    "line": 5,
+    "kanji": "人間",
+    "reading": "にんげん",
+    "meaning": "(n.) human being",
+    "suru": "",
+    "kaku": "hai",
+    "nooto": ""
+  },
+  {
+    "line": 5,
+    "kanji": "意図",
+    "reading": "いと",
+    "meaning": "(n.) intention",
+    "suru": "hai",
+    "kaku": "",
+    "nooto": ""
+  },
+  {
+    "line": 5,
+    "kanji": "察する",
+    "reading": "さっ（する）",
+    "meaning": "(する v.) to sense, to judge",
+    "suru": "",
+    "kaku": "",
+    "nooto": ""
+  },
+  {
+    "line": 5,
+    "kanji": "組み合わせる",
+    "reading": "く（み）あ（わせる）",
+    "meaning": "(ichidan v. trans) to join together, to combine",
+    "suru": "",
+    "kaku": "hai",
+    "nooto": ""
+  },
+  {
+    "line": 6,
+    "kanji": "機械",
+    "reading": "きかい",
+    "meaning": "(n.) machine",
+    "suru": "",
+    "kaku": "",
+    "nooto": ""
+  },
+  {
+    "line": 6,
+    "kanji": "自律",
+    "reading": "じりつ",
+    "meaning": "(n.) autonomy",
+    "suru": "",
+    "kaku": "",
+    "nooto": "〜的"
+  },
+  {
+    "line": 6,
+    "kanji": "判断",
+    "reading": "はんだん",
+    "meaning": "(n.) judgement, decision",
+    "suru": "hai",
+    "kaku": "hai",
+    "nooto": "〜する"
+  },
+  {
+    "line": 6,
+    "kanji": "横断歩道",
+    "reading": "おうだんほどう",
+    "meaning": "(n.) pedestrian crossing",
+    "suru": "",
+    "kaku": "",
+    "nooto": ""
+  },
+  {
+    "line": 6,
+    "kanji": "安全",
+    "reading": "あんぜん",
+    "meaning": "(adj.al n.) safety, security",
+    "suru": "",
+    "kaku": "hai",
+    "nooto": "〜に"
+  },
+  {
+    "line": 6,
+    "kanji": "渡る",
+    "reading": "わた（る）",
+    "meaning": "(godan v. intrans) to cross over, to go across",
+    "suru": "",
+    "kaku": "hai",
+    "nooto": "渡れる：v.pot"
+  },
+  {
+    "line": 7,
+    "kanji": "抱きかかえる",
+    "reading": "だ（きかかえる）",
+    "meaning": "(ichidan v. trans) to hold, to carry, to embrace",
+    "suru": "",
+    "kaku": "",
+    "nooto": "or: 抱き抱える。given as 抱きかかえ in text."
+  },
+  {
+    "line": 7,
+    "kanji": "介助",
+    "reading": "かいじょ",
+    "meaning": "(n.) help, assistance",
+    "suru": "hai",
+    "kaku": "",
+    "nooto": ""
+  },
+  {
+    "line": 7,
+    "kanji": "考える",
+    "reading": "かんが（える）",
+    "meaning": "(ichidan v. trans) to consider, to think about",
+    "suru": "",
+    "kaku": "",
+    "nooto": ""
+  }
+]

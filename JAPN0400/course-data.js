@@ -19,5 +19,11 @@ const local_chap_list = [
 },{
   name: '第１３課',
   path: 'L13'
+},{
+  name: '第１４課',
+  path: 'L14'
+},{
+  name: '第１５課',
+  path: 'L15'
 }
 ];

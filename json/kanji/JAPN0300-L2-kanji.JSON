@@ -1,0 +1,392 @@
+[
+  {
+    "kanji": "会釈",
+    "reading": "えしゃく",
+    "meaning": "to greet by bowing slightly",
+    "kaku": ""
+  },
+  {
+    "kanji": "意味",
+    "reading": "いみ",
+    "meaning": "the meaning",
+    "kaku": "hai"
+  },
+  {
+    "kanji": "天気",
+    "reading": "てんき",
+    "meaning": "weather",
+    "kaku": ""
+  },
+  {
+    "kanji": "失礼します",
+    "reading": "しつれい（します）",
+    "meaning": "excuse me, (goodbye)",
+    "kaku": ""
+  },
+  {
+    "kanji": "目覚まし時計",
+    "reading": "めざ（まし）どけい",
+    "meaning": "alarm clock",
+    "kaku": ""
+  },
+  {
+    "kanji": "寮",
+    "reading": "りょう",
+    "meaning": "dorm",
+    "kaku": ""
+  },
+  {
+    "kanji": "部屋",
+    "reading": "へや",
+    "meaning": "room",
+    "kaku": "hai"
+  },
+  {
+    "kanji": "同室",
+    "reading": "どうしつ",
+    "meaning": "the same room",
+    "kaku": ""
+  },
+  {
+    "kanji": "声",
+    "reading": "こえ",
+    "meaning": "voice",
+    "kaku": ""
+  },
+  {
+    "kanji": "寝る",
+    "reading": "ね（る）",
+    "meaning": "to go to bed (vs 眠る：to sleep, to be asleep)",
+    "kaku": ""
+  },
+  {
+    "kanji": "眠い",
+    "reading": "ねむ（い）",
+    "meaning": "sleepy",
+    "kaku": ""
+  },
+  {
+    "kanji": "終わる",
+    "reading": "お（わる）",
+    "meaning": "to end",
+    "kaku": "hai"
+  },
+  {
+    "kanji": "大変（な）",
+    "reading": "たいへん（な）",
+    "meaning": "class (lecture)",
+    "kaku": ""
+  },
+  {
+    "kanji": "授業",
+    "reading": "じゅぎょう",
+    "meaning": "to be late",
+    "kaku": ""
+  },
+  {
+    "kanji": "遅れる",
+    "reading": "おく（れる）",
+    "meaning": "to fall",
+    "kaku": ""
+  },
+  {
+    "kanji": "降る",
+    "reading": "ふ（る）",
+    "meaning": "to hurry",
+    "kaku": ""
+  },
+  {
+    "kanji": "急ぐ",
+    "reading": "いそ（ぐ）",
+    "meaning": "to invite",
+    "kaku": ""
+  },
+  {
+    "kanji": "誘う",
+    "reading": "さそ（う）",
+    "meaning": "high school days",
+    "kaku": ""
+  },
+  {
+    "kanji": "高校時代",
+    "reading": "こうこうじだい",
+    "meaning": "classmate",
+    "kaku": "hai"
+  },
+  {
+    "kanji": "手紙",
+    "reading": "てがみ",
+    "meaning": "handwritten letter",
+    "kaku": ""
+  },
+  {
+    "kanji": "〜号室",
+    "reading": "〜ごうしつ",
+    "meaning": "counter for room number",
+    "kaku": ""
+  },
+  {
+    "kanji": "質問",
+    "reading": "しつもん",
+    "meaning": "question",
+    "kaku": ""
+  },
+  {
+    "kanji": "言葉",
+    "reading": "ことば",
+    "meaning": "a word; language",
+    "kaku": "hai"
+  },
+  {
+    "kanji": "多分",
+    "reading": "たぶん",
+    "meaning": "probably",
+    "kaku": "hai"
+  },
+  {
+    "kanji": "病気",
+    "reading": "びょうき",
+    "meaning": "sickness; illness",
+    "kaku": ""
+  },
+  {
+    "kanji": "非常に",
+    "reading": "ひじょう（に）",
+    "meaning": "extremely",
+    "kaku": ""
+  },
+  {
+    "kanji": "代わりに",
+    "reading": "か（わりに）",
+    "meaning": "instead of",
+    "kaku": "hai"
+  },
+  {
+    "kanji": "寒い",
+    "reading": "さむ（い）",
+    "meaning": "cold",
+    "kaku": ""
+  },
+  {
+    "kanji": "当たる",
+    "reading": "あ（たる）",
+    "meaning": "to correspond (to)",
+    "kaku": ""
+  },
+  {
+    "kanji": "別れる",
+    "reading": "わか（れる）",
+    "meaning": "to part; to say farewell",
+    "kaku": "hai"
+  },
+  {
+    "kanji": "相手",
+    "reading": "あいて",
+    "meaning": "a partner; an opponent; the other party; the person you are talking to",
+    "kaku": "hai"
+  },
+  {
+    "kanji": "目上",
+    "reading": "めうえ",
+    "meaning": "one's superior (older person)",
+    "kaku": "hai"
+  },
+  {
+    "kanji": "目下",
+    "reading": "めした",
+    "meaning": "one's inferior (younger person)",
+    "kaku": ""
+  },
+  {
+    "kanji": "訳す",
+    "reading": "やく（す）",
+    "meaning": "to translate",
+    "kaku": "hai"
+  },
+  {
+    "kanji": "説明",
+    "reading": "せつめい",
+    "meaning": "explanation (する：to explain)",
+    "kaku": "hai"
+  },
+  {
+    "kanji": "顔",
+    "reading": "かお",
+    "meaning": "face",
+    "kaku": ""
+  },
+  {
+    "kanji": "実は",
+    "reading": "じつ（は）",
+    "meaning": "actually... (は topic particle)",
+    "kaku": ""
+  },
+  {
+    "kanji": "例えば",
+    "reading": "たと（えば）",
+    "meaning": "for example...",
+    "kaku": "hai"
+  },
+  {
+    "kanji": "例",
+    "reading": "れい",
+    "meaning": "example",
+    "kaku": "hai"
+  },
+  {
+    "kanji": "それに対して",
+    "reading": "（それに）たい（して）",
+    "meaning": "in response to that...",
+    "kaku": ""
+  },
+  {
+    "kanji": "数日前",
+    "reading": "すうじつまえ",
+    "meaning": "a few days ago",
+    "kaku": ""
+  },
+  {
+    "kanji": "先日",
+    "reading": "せんじつ",
+    "meaning": "the other day",
+    "kaku": ""
+  },
+  {
+    "kanji": "覚える",
+    "reading": "おぼ（える）",
+    "meaning": "to remember",
+    "kaku": "hai"
+  },
+  {
+    "kanji": "決まる",
+    "reading": "き（まる）",
+    "meaning": "to be decided",
+    "kaku": "hai"
+  },
+  {
+    "kanji": "文句",
+    "reading": "もんく",
+    "meaning": "phrase; remark; expression",
+    "kaku": ""
+  },
+  {
+    "kanji": "決まり文句",
+    "reading": "き（まり）もんく",
+    "meaning": "set phrase",
+    "kaku": ""
+  },
+  {
+    "kanji": "用語",
+    "reading": "ようご",
+    "meaning": "terms",
+    "kaku": ""
+  },
+  {
+    "kanji": "一般的に",
+    "reading": "いっぱんてき（に）",
+    "meaning": "generally",
+    "kaku": "hai"
+  },
+  {
+    "kanji": "客",
+    "reading": "きゃく",
+    "meaning": "guest",
+    "kaku": ""
+  },
+  {
+    "kanji": "食事",
+    "reading": "しょくじ",
+    "meaning": "meal",
+    "kaku": ""
+  },
+  {
+    "kanji": "大事（な）",
+    "reading": "だいじ（な）",
+    "meaning": "important",
+    "kaku": "hai"
+  },
+  {
+    "kanji": "社会",
+    "reading": "しゃかい",
+    "meaning": "a society",
+    "kaku": "hai"
+  },
+  {
+    "kanji": "教育",
+    "reading": "きょういく",
+    "meaning": "education",
+    "kaku": "hai"
+  },
+  {
+    "kanji": "・",
+    "reading": "あいさつ",
+    "meaning": "greeting",
+    "kaku": ""
+  },
+  {
+    "kanji": "朝",
+    "reading": "あさ",
+    "meaning": "morning",
+    "kaku": ""
+  },
+  {
+    "kanji": "・",
+    "reading": "けさ",
+    "meaning": "this morning",
+    "kaku": ""
+  },
+  {
+    "kanji": "・",
+    "reading": "おかしい",
+    "meaning": "strange; odd; funny",
+    "kaku": ""
+  },
+  {
+    "kanji": "頭",
+    "reading": "あたま",
+    "meaning": "head",
+    "kaku": ""
+  },
+  {
+    "kanji": "外",
+    "reading": "そと",
+    "meaning": "outside",
+    "kaku": ""
+  },
+  {
+    "kanji": "大雨",
+    "reading": "おおあめ",
+    "meaning": "pouring rain",
+    "kaku": ""
+  },
+  {
+    "kanji": "先に",
+    "reading": "さき（に）",
+    "meaning": "to be ahead (of someone)",
+    "kaku": ""
+  },
+  {
+    "kanji": "同級生",
+    "reading": "こうきゅうせい",
+    "meaning": "classmate",
+    "kaku": ""
+  },
+  {
+    "kanji": "日米",
+    "reading": "にちべい",
+    "meaning": "Japan and the US",
+    "kaku": ""
+  },
+  {
+    "kanji": "（〜に）困る",
+    "reading": "（〜に）こま（る）",
+    "meaning": "to have difficulty (with ~)",
+    "kaku": ""
+  },
+  {
+    "kanji": "友人",
+    "reading": "ゆうじん",
+    "meaning": "friend",
+    "kaku": ""
+  }
+]

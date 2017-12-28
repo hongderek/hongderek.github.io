@@ -1,0 +1,404 @@
+[
+  {
+    "kanji": "問題",
+    "reading": "もんだい",
+    "meaning": "problem",
+    "kaku": ""
+  },
+  {
+    "kanji": "遅い",
+    "reading": "おそ（い）",
+    "meaning": "late",
+    "kaku": ""
+  },
+  {
+    "kanji": "文句",
+    "reading": "もんく",
+    "meaning": "a complaint",
+    "kaku": ""
+  },
+  {
+    "kanji": "文句を言う",
+    "reading": "もんく（を）い（う）",
+    "meaning": "to complain (always use 言う）",
+    "kaku": ""
+  },
+  {
+    "kanji": "街",
+    "reading": "まち",
+    "meaning": "in town",
+    "kaku": ""
+  },
+  {
+    "kanji": "時間が経つ",
+    "reading": "じかん（が）た（つ）",
+    "meaning": "(time) passes",
+    "kaku": ""
+  },
+  {
+    "kanji": "必ず",
+    "reading": "かなら（ず）",
+    "meaning": "surely, in every case",
+    "kaku": "hai"
+  },
+  {
+    "kanji": "関係",
+    "reading": "かんけい",
+    "meaning": "relationship",
+    "kaku": "hai"
+  },
+  {
+    "kanji": "独立",
+    "reading": "どくりつ",
+    "meaning": "independence（する：to be independent)",
+    "kaku": "hai"
+  },
+  {
+    "kanji": "人間",
+    "reading": "にんげん",
+    "meaning": "person, human being",
+    "kaku": "hai"
+  },
+  {
+    "kanji": "寝坊する",
+    "reading": "ねぼう（する）",
+    "meaning": "to oversleep",
+    "kaku": ""
+  },
+  {
+    "kanji": "怒る",
+    "reading": "おこ（る）",
+    "meaning": "to get ａｎｇｅｒｙ",
+    "kaku": "hai"
+  },
+  {
+    "kanji": "我慢",
+    "reading": "がまん",
+    "meaning": "patience（する：to endure, put up with)",
+    "kaku": ""
+  },
+  {
+    "kanji": "暮らす",
+    "reading": "く（らす）",
+    "meaning": "to live",
+    "kaku": ""
+  },
+  {
+    "kanji": "長い",
+    "reading": "なが（い）",
+    "meaning": "long",
+    "kaku": "hai"
+  },
+  {
+    "kanji": "短い",
+    "reading": "みじか（い）",
+    "meaning": "short",
+    "kaku": "hai"
+  },
+  {
+    "kanji": "過ごす",
+    "reading": "す（ごす）",
+    "meaning": "to spend time",
+    "kaku": ""
+  },
+  {
+    "kanji": "得る",
+    "reading": "え（る）",
+    "meaning": "to obtain",
+    "kaku": "hai"
+  },
+  {
+    "kanji": "笑顔",
+    "reading": "えがお",
+    "meaning": "smile, a smiling face",
+    "kaku": ""
+  },
+  {
+    "kanji": "似合う",
+    "reading": "にあ（う）",
+    "meaning": "to suit / to be becoming (of a person)",
+    "kaku": ""
+  },
+  {
+    "kanji": "気遣う",
+    "reading": "きづか（う）",
+    "meaning": "to be concerned about",
+    "kaku": ""
+  },
+  {
+    "kanji": "形容する",
+    "reading": "けいよう（する）",
+    "meaning": "to express figuratively",
+    "kaku": ""
+  },
+  {
+    "kanji": "溶け込む",
+    "reading": "と（け）こ（む）",
+    "meaning": "to melt into; to become a part of",
+    "kaku": "hai"
+  },
+  {
+    "kanji": "身振り",
+    "reading": "みぶ（り）",
+    "meaning": "gesture",
+    "kaku": ""
+  },
+  {
+    "kanji": "相違",
+    "reading": "そうい",
+    "meaning": "difference",
+    "kaku": "hai"
+  },
+  {
+    "kanji": "積極的に",
+    "reading": "せっきょくてき（に）",
+    "meaning": "actively",
+    "kaku": "hai"
+  },
+  {
+    "kanji": "参加する",
+    "reading": "さんか（する）",
+    "meaning": "to participate",
+    "kaku": "hai"
+  },
+  {
+    "kanji": "尋ねる",
+    "reading": "たず（ねる）",
+    "meaning": "to inquire",
+    "kaku": ""
+  },
+  {
+    "kanji": "求める",
+    "reading": "もと（める）",
+    "meaning": "to seek, to look for",
+    "kaku": ""
+  },
+  {
+    "kanji": "彼女",
+    "reading": "かのじょ",
+    "meaning": "she; one's girlfriend",
+    "kaku": ""
+  },
+  {
+    "kanji": "アメリカ流",
+    "reading": "（アメリカ）りゅう",
+    "meaning": "the ＡＭＥＲＩＣＡＮ way",
+    "kaku": "hai"
+  },
+  {
+    "kanji": "常に",
+    "reading": "つね（に）",
+    "meaning": "always",
+    "kaku": "hai"
+  },
+  {
+    "kanji": "仕方",
+    "reading": "しかた",
+    "meaning": "way, method",
+    "kaku": ""
+  },
+  {
+    "kanji": "単語",
+    "reading": "たんご",
+    "meaning": "word, vocabulary",
+    "kaku": ""
+  },
+  {
+    "kanji": "納得する",
+    "reading": "なっとく（する）",
+    "meaning": "to be convinced",
+    "kaku": ""
+  },
+  {
+    "kanji": "先手を打つ",
+    "reading": "せんて（を）う（つ）",
+    "meaning": "to make a move before the other person",
+    "kaku": ""
+  },
+  {
+    "kanji": "異文化",
+    "reading": "いぶんか",
+    "meaning": "differnt culture",
+    "kaku": "hai"
+  },
+  {
+    "kanji": "圏",
+    "reading": "けん",
+    "meaning": "ken, sphere (of knowledge)",
+    "kaku": ""
+  },
+  {
+    "kanji": "身を以て",
+    "reading": "み（を）もっ（て）",
+    "meaning": "personally",
+    "kaku": ""
+  },
+  {
+    "kanji": "目に余る",
+    "reading": "め（に）あま（る）",
+    "meaning": "to be too much (to tolerate)",
+    "kaku": ""
+  },
+  {
+    "kanji": "遠慮",
+    "reading": "えんりょ",
+    "meaning": "reserve, restraint（する：to reserve onself)",
+    "kaku": ""
+  },
+  {
+    "kanji": "遠慮なく",
+    "reading": "えんりょ（なく）",
+    "meaning": "(when opening gifts) \"I do not reserve myself",
+    "kaku": ""
+  },
+  {
+    "kanji": "注意",
+    "reading": "ちゅうい",
+    "meaning": "the state of caution（する：being careful)",
+    "kaku": "hai"
+  },
+  {
+    "kanji": "助言",
+    "reading": "じょげん",
+    "meaning": "advice",
+    "kaku": ""
+  },
+  {
+    "kanji": "与える",
+    "reading": "あた（える）",
+    "meaning": "to give (advice)",
+    "kaku": ""
+  },
+  {
+    "kanji": "口喧しい",
+    "reading": "くちやかま（しい）",
+    "meaning": "critical (ie: of criticism)",
+    "kaku": ""
+  },
+  {
+    "kanji": "陰で",
+    "reading": "かげ（で）",
+    "meaning": "behind someone's back",
+    "kaku": ""
+  },
+  {
+    "kanji": "悪口を言う",
+    "reading": "わるくち（を）い（う）",
+    "meaning": "to speak ill of",
+    "kaku": ""
+  },
+  {
+    "kanji": "甘い",
+    "reading": "あま（い）",
+    "meaning": "sweet, delicious; lenient",
+    "kaku": ""
+  },
+  {
+    "kanji": "甘くする",
+    "reading": "あま（くする）",
+    "meaning": "to be lenient",
+    "kaku": ""
+  },
+  {
+    "kanji": "失敗する",
+    "reading": "しっぱい（する）",
+    "meaning": "to fail",
+    "kaku": ""
+  },
+  {
+    "kanji": "使用",
+    "reading": "しよう",
+    "meaning": "the use",
+    "kaku": ""
+  },
+  {
+    "kanji": "許す",
+    "reading": "ゆる（す）",
+    "meaning": "to allow, to permit, to forgive",
+    "kaku": "hai"
+  },
+  {
+    "kanji": "無限",
+    "reading": "むげん",
+    "meaning": "that which is infinite",
+    "kaku": "hai"
+  },
+  {
+    "kanji": "無限に",
+    "reading": "むげん（に）",
+    "meaning": "without limit",
+    "kaku": ""
+  },
+  {
+    "kanji": "結果",
+    "reading": "けっか",
+    "meaning": "result",
+    "kaku": "hai"
+  },
+  {
+    "kanji": "最後に",
+    "reading": "さいご（に）",
+    "meaning": "at the end",
+    "kaku": ""
+  },
+  {
+    "kanji": "洗濯",
+    "reading": "せんたく",
+    "meaning": "laundry",
+    "kaku": ""
+  },
+  {
+    "kanji": "精神",
+    "reading": "せいしん",
+    "meaning": "spirit",
+    "kaku": "hai"
+  },
+  {
+    "kanji": "薄らぐ",
+    "reading": "うす（らぐ）",
+    "meaning": "to fade, to decrease",
+    "kaku": ""
+  },
+  {
+    "kanji": "悔やむ",
+    "reading": "く（やむ）",
+    "meaning": "to regret",
+    "kaku": ""
+  },
+  {
+    "kanji": "真の",
+    "reading": "しん（の）",
+    "meaning": "true",
+    "kaku": ""
+  },
+  {
+    "kanji": "妨げる",
+    "reading": "さまた（げる）",
+    "meaning": "to prevent",
+    "kaku": "hai"
+  },
+  {
+    "kanji": "涙を流す",
+    "reading": "なみだ（を）なが（す）",
+    "meaning": "to weep, to shed tears",
+    "kaku": "hai"
+  },
+  {
+    "kanji": "決して（ない）",
+    "reading": "けっ（して）（ない）",
+    "meaning": "by no means; never",
+    "kaku": "hai"
+  },
+  {
+    "kanji": "無駄な",
+    "reading": "むだ（な）",
+    "meaning": "wasteful",
+    "kaku": ""
+  },
+  {
+    "kanji": "感想",
+    "reading": "かんそう",
+    "meaning": "one's thoughts / impression",
+    "kaku": ""
+  }
+]
