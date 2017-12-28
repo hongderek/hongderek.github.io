@@ -8,7 +8,7 @@ const misc_id = "#content-misc";
 const misc_nav_id = "#sidebar-misc-list"
 const kanji_id = "#content-kanji";
 
-const initURL = 'https://shinzo-abes-dank-meme-emporium.github.io'
+const initURL = 'https://hongderek.github.io'
 
 let wanakana;
 

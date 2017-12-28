@@ -1,7 +1,7 @@
 'use strict'
 
 const dataFilename = 'chapter-data.js'
-const initURL = 'https://shinzo-abes-dank-meme-emporium.github.io'
+const initURL = 'https://hongderek.github.io'
 
 const grammar_results_ID = "#grammar-search-results";
 const kanji_results_ID = "#kanji-search-results";
@@ -19,8 +19,8 @@ const database = [
   }
 ]
 
-// this is kind of fucked up but whatever
-// require([]) is async call, probably needed because of circular dependency?  Shit.  Maybe put search.js to load after require in head <script> tag?
+// does not work as intended
+// require([]) is async call, probably needed because of circular dependency?  Maybe put search.js to load after require in head <script> tag?
 let wanakana;
 require(['./js/wanakana.min.js'], function(script) {
   wanakana = script;
